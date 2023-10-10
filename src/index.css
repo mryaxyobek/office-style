@@ -1,19 +1,62 @@
-/* font  */
-@import url('https://fonts.googleapis.com/css2?family=Onest:wght@400;500;600;700&display=swap');
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* font */
+@font-face {
+  font-family: formular-regular;
+  src: url(../src/assets/fonts/formular-regular-trial.otf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: formular-medium;
+  src: url(../src/assets/fonts/formular-medium-trial.otf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: formular-semibold;
+  src: url(../src/assets/fonts/formular-light-trial.otf);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: formular-bold;
+  src: url(../src/assets/fonts/formular-bold-trial.otf);
+  font-weight: 700;
+}
+
+.text-normal {
+  font-family: 'formular-regular', sans-serif;
+  font-weight: 400;
+}
+
+.text-medium {
+  font-family: 'formular-medium', sans-serif;
+  font-weight: 500;
+}
+
+.text-semibold {
+  font-family: 'formular-semibold', sans-serif;
+  font-weight: 600;
+}
+
+.text-bold {
+  font-family: 'formular-bold', sans-serif;
+  font-weight: 700;
+}
+
 /* components  */
 @layer components {
   .container {
-    @apply max-w-7xl w-full mx-auto px-5;
+    @apply max-w-1800px w-full mx-auto px-5;
   }
 }
 
 /* other class name  */
 .body {
   background: #fff;
-  font-family: 'Onest', sans-serif;
+  font-family: 'formular-regular', sans-serif;
+  font-weight: 400;
 }
