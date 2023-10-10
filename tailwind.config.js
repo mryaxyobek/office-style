@@ -37,9 +37,6 @@ export default {
       },
       spacing: {
         '186px': '186px',
-        '60px': '60px',
-        '60px': '60px',
-        '60px': '60px',
       },
 
       rotate: {
