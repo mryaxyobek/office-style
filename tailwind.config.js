@@ -9,7 +9,7 @@ export default {
       colors: {
         primary: {
           'red-60': '#AE0712',
-          'red-20': '#DA0916',
+          'red-50': '#DA0916',
           'red-opacity-20': '#F20C0C',
           'gray-90': '#222',
           'gray-80': '#333',
@@ -20,6 +20,31 @@ export default {
           'success-50': '#32D583',
           'warning-50': '#FFA800',
         },
+      },
+      maxWidth: {
+        '1800px': '1800px',
+      },
+      fontSize: {
+        '20px': '20px',
+        '14px': '14px',
+      },
+      lineHeight: {
+        '25px': '25px',
+        '17.5px': '17.5px',
+      },
+      margin: {
+        '60px': '60px',
+      },
+      spacing: {
+        '186px': '186px',
+        '60px': '60px',
+        '60px': '60px',
+        '60px': '60px',
+      },
+
+      rotate: {
+        '129deg': '129deg',
+        '83deg': '83deg',
       },
     },
   },
