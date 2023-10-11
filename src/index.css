@@ -56,7 +56,7 @@
     @apply max-w-1800px w-full mx-auto px-5;
   }
 
-  /* flex & grid  */
+  /* flex */
   .flex-center {
     @apply flex items-center;
   }
@@ -65,13 +65,160 @@
     @apply flex items-center justify-between;
   }
 
+  /* buttons  */
+  .small-red-btn {
+    @apply p-5px rounded bg-primary-red-60;
+  }
+
+  .red-btn {
+    @apply rounded-lg bg-primary-red-60 text-regular-14 text-white;
+  }
+
+  .red-btn-14 {
+    @apply py-3.5 px-6 red-btn;
+  }
+
+  .red-btn-10 {
+    @apply py-2.5 px-6 red-btn;
+  }
+
+  .gray-btn {
+    @apply py-2.5 px-4 bg-primary-gray-70 text-regular-14 text-white;
+  }
+
+  .transparent-border-btn {
+    @apply py-3.5 px-6 text-regular-14 text-primary-gray-90 rounded-lg border border-primary-gray-50;
+  }
+
 }
 
-/* other class name  */
+/* text medium  */
+.text-medium-28,
+.text-medium-24,
+.text-medium-20,
+.h2-medium,
+h3 {
+  font-family: 'formular-medium', sans-serif;
+  font-weight: 500;
+}
+
+.h2-medium {
+  font-size: 48px;
+  line-height: 60px;
+}
+
+.text-medium-28 {
+  font-size: 28px;
+  line-height: 35px;
+}
+
+.text-medium-24 {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.text-medium-20 {
+  font-size: 20px;
+  line-height: 35px;
+}
+
+/* text regular  */
+h1,
+h2,
+p,
+.text-regular-36,
+.text-regular-32,
+.text-regular-24,
+.text-regular-20,
+.text-regular-18,
+.text-regular-16,
+.text-regular-14,
+input,
+label {
+  font-family: 'formular-regular', sans-serif;
+  font-weight: 400;
+  color: #000;
+}
+
+h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+h2 {
+  font-size: 48px;
+  line-height: 60px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 22.5px;
+}
+
+.text-regular-36 {
+  font-size: 36px;
+  line-height: 45px;
+}
+
+.text-regular-32 {
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.text-regular-24 {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.text-regular-20 {
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.text-regular-18 {
+  font-size: 18px;
+  line-height: 22.5px;
+}
+
+.text-regular-16 {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.text-regular-14,
+input {
+  font-size: 14px;
+  line-height: 17.5px;
+}
+
+/* text bold  */
+.h1-bold {
+  font-family: 'formular-bold', sans-serif;
+  font-weight: 700;
+}
+
+/* form elements */
+input {
+  width: 100%;
+  color: #4D4D4D;
+  padding: 16px 20px;
+  border-radius: 8px;
+  border: 1px solid #CCC;
+}
+
+input::placeholder {
+  color: #B3B3B3;
+}
+
+label {
+  color: #4D4D4D;
+}
+
+/* other class name */
 .body {
   background: #fff;
   font-family: 'formular-regular', sans-serif;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 17.5px;
+  font-size: 18px;
+  line-height: 22.5px;
 }

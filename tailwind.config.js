@@ -14,6 +14,7 @@ export default {
           'gray-90': '#222',
           'gray-80': '#333',
           'gray-70': '#4D4D4D',
+          'gray-50': '#808080',
           'gray-20': '#CCCCCC',
           'gray-04': '#F5F5F5',
           'success-70': '#039855',
@@ -21,7 +22,7 @@ export default {
           'warning-50': '#FFA800',
         },
       },
-      
+
       maxWidth: {
         '1800px': '1800px',
       },
@@ -42,6 +43,12 @@ export default {
         '60px': '60px',
       },
 
+      padding: {
+        '152px': '152px',
+        '18px': '18px',
+        '5px': '5px',
+      },
+
       spacing: {
         '186px': '186px',
       },
@@ -49,6 +56,14 @@ export default {
       rotate: {
         '129deg': '129deg',
         '83deg': '83deg',
+      },
+
+      zIndex: {
+        '1': '1',
+        '2': '2',
+        '3': '3',
+        '4': '4',
+        '5': '5',
       },
     },
   },
