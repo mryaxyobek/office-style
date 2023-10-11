@@ -21,20 +21,27 @@ export default {
           'warning-50': '#FFA800',
         },
       },
+      
       maxWidth: {
         '1800px': '1800px',
       },
+
       fontSize: {
         '20px': '20px',
         '14px': '14px',
       },
+
       lineHeight: {
         '25px': '25px',
+        '21px': '21px',
+        '19px': '19px',
         '17.5px': '17.5px',
       },
+
       margin: {
         '60px': '60px',
       },
+
       spacing: {
         '186px': '186px',
       },
