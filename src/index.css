@@ -133,11 +133,11 @@ p,
 .text-regular-18,
 .text-regular-16,
 .text-regular-14,
+.text-regular-12,
 input,
 label {
   font-family: 'formular-regular', sans-serif;
   font-weight: 400;
-  color: #000;
 }
 
 h1 {
@@ -191,10 +191,26 @@ input {
   line-height: 17.5px;
 }
 
+.text-regular-12 {
+  font-size: 12px;
+  line-height: 16.2px;
+}
+
 /* text bold  */
-.h1-bold {
+.h1-bold,
+.text-bold-24 {
   font-family: 'formular-bold', sans-serif;
   font-weight: 700;
+}
+
+.h1-bold {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.text-bold-24 {
+  font-size: 24px;
+  line-height: 30px;
 }
 
 /* form elements */
