@@ -238,3 +238,24 @@ label {
   font-size: 18px;
   line-height: 22.5px;
 }
+
+/* transition  */
+.transition-colors-2 {
+  transition: background-color 0.3s linear, color 0.3s linear, border-color 0.3s linear, text-decoration-color 0.3s linear;
+}
+
+.transition-transform-2 {
+  transition: transform 0.3s linear;
+}
+
+.transition-opacity-2 {
+  transition: opacity 0.3s linear;
+}
+
+.transition-spacing {
+  transition: top 0.3s linear, bottom 0.3s linear, right 0.3s linear, left 0.3s linear;
+}
+
+.transition-sizing-and-transfrom {
+  transition: width 0.3s linear, height 0.3s linear, transform 0.3s linear;
+}
