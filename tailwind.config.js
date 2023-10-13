@@ -27,6 +27,16 @@ export default {
         '1800px': '1800px',
       },
 
+      width: {
+        '394px': '394px',
+        '41px': '41px',
+        '18px': '18px',
+      },
+
+      height: {
+        '18px': '18px',
+      },
+
       fontSize: {
         '20px': '20px',
         '14px': '14px',
@@ -38,6 +48,7 @@ export default {
         '21.6px': '21.6px',
         '19px': '19px',
         '17.5px': '17.5px',
+        '17px': '17px',
       },
 
       margin: {
@@ -47,16 +58,23 @@ export default {
       padding: {
         '152px': '152px',
         '18px': '18px',
+        '11px': '11px',
         '5px': '5px',
       },
 
       spacing: {
         '186px': '186px',
+        'auto': 'auto',
+        '3px': '3px',
       },
 
       rotate: {
         '129deg': '129deg',
         '83deg': '83deg',
+      },
+
+      borderRadius: {
+        '100%': '100%',
       },
 
       zIndex: {
@@ -65,6 +83,12 @@ export default {
         '3': '3',
         '4': '4',
         '5': '5',
+      },
+      rotate: {
+        '360': '360deg',
+      },
+      translate: {
+        '5px': '5px',
       },
     },
   },
