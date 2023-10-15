@@ -125,6 +125,7 @@
     margin-right: 8px;
   }
 
+  /* product hover  */
   .product :is(.swiper-pagination, .swiper-button-prev, .swiper-button-next) {
     opacity: 0;
   }
@@ -135,6 +136,10 @@
 
   .active-hover .tabs-wrapper {
     opacity: 0;
+  }
+
+  .active-hover .img {
+    transform: scale(1.1);
   }
 }
 

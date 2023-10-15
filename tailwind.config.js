@@ -39,6 +39,7 @@ export default {
       },
 
       height: {
+        '310px': '310px',
         '18px': '18px',
       },
 

@@ -13,7 +13,7 @@ import '../css/styles.css';
 import { EffectFade, Navigation, Pagination } from 'swiper/modules';
 
 // btns 
-import { products, tabButtonsGroup } from '../assets/data';
+import { newProducts, tabButtonsGroup } from '../assets/data';
 
 const HomePageNewProducts = () => {
     const [Position, setPosition] = useState(4);
@@ -35,7 +35,7 @@ const HomePageNewProducts = () => {
         <section className='pt-100px pb-60px'>
             <div className="container">
                 {/* title  */}
-                <h2 className="text-center mb-60px">Лидеры продаж</h2>
+                <h2 className="text-center mb-60px">Новинки каталога</h2>
 
                 {/* tab */}
                 <div className="flex-center mb-8 bg-primary-gray-04 p-1 relative rounded-lg mx-auto max-w-max">
@@ -52,7 +52,7 @@ const HomePageNewProducts = () => {
 
                 {/* products  */}
                 <ul className="flex gap-8 w-full overflow-auto pb-60px gray-scroll">
-                    {products.map((e) => {
+                    {newProducts.map((e) => {
                         return (
                             <li key={e.id} className="w-416px product hover:active-hover">
                                 <Swiper className="product-img-swiper relative rounded-lg w-full mb-4 h-310px"
