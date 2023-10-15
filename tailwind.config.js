@@ -14,8 +14,9 @@ export default {
           'gray-90': '#222',
           'gray-80': '#333',
           'gray-70': '#4D4D4D',
+          'gray-60': '#666',
           'gray-50': '#808080',
-          'gray-20': '#CCCCCC',
+          'gray-20': '#CCC',
           'gray-04': '#F5F5F5',
           'success-70': '#039855',
           'success-50': '#32D583',
@@ -29,6 +30,7 @@ export default {
 
       width: {
         '394px': '394px',
+        '416px': '416px',
         '41px': '41px',
         '18px': '18px',
       },
@@ -57,6 +59,9 @@ export default {
 
       padding: {
         '152px': '152px',
+        '120px': '120px',
+        '100px': '100px',
+        '60px': '60px',
         '18px': '18px',
         '11px': '11px',
         '5px': '5px',
