@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -15,7 +15,7 @@ import { Link } from 'react-router-dom';
 
 const HomePageHero = () => {
     return (
-        <div className='absolute w-full left-0 t-[57px]'>
+        <>
             {/* swiper  */}
             <Swiper className="homepage-swiper relative"
                 effect={'fade'}
@@ -68,7 +68,7 @@ const HomePageHero = () => {
                     </ul>
                 </div>
             </Swiper>
-        </div>
+        </>
     )
 }
 
