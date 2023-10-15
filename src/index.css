@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+*:focus {
+  outline: none;
+}
+
 /* font */
 @font-face {
   font-family: formular-regular;
@@ -90,12 +94,55 @@
     @apply py-3.5 px-6 text-regular-14 text-primary-gray-90 rounded-lg border border-primary-gray-50;
   }
 
+  /* tab */
+  .tab {
+    @apply flex-center py-1 px-2 rounded-md text-medium-12 uppercase;
+  }
+
+  .green-tab {
+    @apply tab text-white bg-primary-success-50;
+  }
+
+  .red-tab {
+    @apply tab text-primary-red-60 bg-white;
+  }
+
+  .gray-tab {
+    @apply tab text-primary-gray-60 bg-white;
+  }
+
+  .white-tab {
+    @apply tab text-primary-success-70 bg-white;
+  }
+
+  .white-tab::before {
+    display: inline-block;
+    content: '';
+    width: 5px;
+    height: 5px;
+    border-radius: 100px;
+    background: #039855;
+    margin-right: 8px;
+  }
+
+  .product :is(.swiper-pagination, .swiper-button-prev, .swiper-button-next) {
+    opacity: 0;
+  }
+
+  .active-hover :is(.swiper-pagination, .swiper-button-prev, .swiper-button-next) {
+    opacity: 1;
+  }
+
+  .active-hover .tabs-wrapper {
+    opacity: 0;
+  }
 }
 
 /* text medium  */
 .text-medium-28,
 .text-medium-24,
 .text-medium-20,
+.text-medium-12,
 .h2-medium,
 h3 {
   font-family: 'formular-medium', sans-serif;
@@ -120,6 +167,11 @@ h3 {
 .text-medium-20 {
   font-size: 20px;
   line-height: 35px;
+}
+
+.text-medium-12 {
+  font-size: 12px;
+  line-height: 15px;
 }
 
 /* text regular  */
@@ -241,7 +293,7 @@ label {
 
 /* transition  */
 .transition-colors-2 {
-  transition: background-color 0.3s linear, color 0.3s linear, border-color 0.3s linear, text-decoration-color 0.3s linear;
+  transition: background-color 0.3s linear, color 0.3s linear, border-color 0.3s linear, text-decoration-color 0.3s linear, fill 0.3s linear;
 }
 
 .transition-transform-2 {
@@ -258,4 +310,29 @@ label {
 
 .transition-sizing-and-transfrom {
   transition: width 0.3s linear, height 0.3s linear, transform 0.3s linear;
+}
+
+/* search */
+.search-btn {
+  outline-width: 1px;
+  outline-offset: -1px;
+  border-radius: 0 8px 8px 0;
+}
+
+.search-input {
+  border-radius: 8px 0 0 8px;
+  border: 1px solid white;
+}
+
+/* scroll  */
+.gray-scroll::-webkit-scrollbar-thumb {
+  background: #808080;
+}
+
+.gray-scroll::-webkit-scrollbar-track {
+  background: #EDEDED;
+}
+
+.gray-scroll::-webkit-scrollbar {
+  height: 2px;
 }
