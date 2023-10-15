@@ -26,6 +26,9 @@ export default {
 
       maxWidth: {
         '1800px': '1800px',
+        '217px': '217px',
+        '260px': '260px',
+        '200px': '200px',
       },
 
       width: {
@@ -89,12 +92,33 @@ export default {
         '4': '4',
         '5': '5',
       },
+
       rotate: {
         '360': '360deg',
       },
+
       translate: {
         '5px': '5px',
       },
+
+      borderRadius: {
+        '2.5xl': '20px',
+      },
+
+      // grid 
+      gridTemplateColumns: {
+        '16': 'repeat(16, 1fr)',
+      },
+
+      gridColumnStart: {
+        '14': '14',
+      },
+
+      gridColumnEnd: {
+        '17': '17',
+        '14': '14',
+      },
+
     },
   },
   plugins: [],

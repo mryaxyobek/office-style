@@ -139,6 +139,7 @@
 }
 
 /* text medium  */
+.text-medium-36,
 .text-medium-28,
 .text-medium-24,
 .text-medium-20,
@@ -152,6 +153,11 @@ h3 {
 .h2-medium {
   font-size: 48px;
   line-height: 60px;
+}
+
+.text-medium-36 {
+  font-size: 36px;
+  line-height: 45px;
 }
 
 .text-medium-28 {
