@@ -30,10 +30,12 @@ export default {
         '260px': '260px',
         '200px': '200px',
       },
-
+      
       width: {
         '394px': '394px',
         '416px': '416px',
+        '190px': '190px',
+        '147px': '147px',
         '41px': '41px',
         '18px': '18px',
       },
@@ -72,7 +74,14 @@ export default {
       },
 
       spacing: {
+        '556px': '556px',
+        '411px': '411px',
+        '223px': '223px',
+        '198px': '198px',
         '186px': '186px',
+        '153px': '153px',
+        '104px': '104px',
+        '70px': '70px',
         'auto': 'auto',
         '3px': '3px',
       },
