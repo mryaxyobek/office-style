@@ -141,6 +141,33 @@
   .active-hover .img {
     transform: scale(1.1);
   }
+
+  /* homepage plus btn  */
+  @keyframes redShadow {
+    0% {
+      box-shadow: 0 0 0 0 #f20c0c66;
+    }
+
+    100% {
+      box-shadow: 0 0 0 30px transparent;
+    }
+  }
+
+  .plus-btn {
+    animation: redShadow 1.4s linear infinite;
+    box-shadow: 0 0 0 0 #f20c0c66;
+  }
+
+  .active-text {
+    opacity: 1 !important;
+  }
+
+  .triangle-shape {
+    position: absolute;
+    bottom: -13px;
+    left: calc(50% - 9px);
+  }
+
 }
 
 /* text medium  */
