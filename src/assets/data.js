@@ -1,3 +1,7 @@
+// images 
+// akciya(stock) products
+import paymentPlanImg from '../assets/images/other/payment-plan.jpg';
+
 // buttons 
 export const tabButtonsGroup = [
     {
@@ -575,5 +579,37 @@ export const newProducts = [
                 img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
             },
         ]
+    },
+]
+
+// akciya (stock) products
+export const akciyaProducts = [
+    {
+        id: 1,
+        date: '22 июня 2023',
+        description: 'Успейте приобрести кабинет для руководителя Onix Direct со скидкой',
+        idName: '#exampleid1',
+        img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+    },
+    {
+        id: 2,
+        date: '16 июля 2023',
+        description: 'Успейте приобрести кабинет для руководителя Onix Direct со скидкой',
+        idName: '#exampleid2',
+        img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+    },
+    {
+        id: 3,
+        date: '20 августа 2023',
+        description: 'Бесплатная доставка до офиса',
+        idName: '#exampleid3',
+        img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+    },
+    {
+        id: 4,
+        date: '22 июня 2023',
+        description: '0-0-24 на всё',
+        idName: '#',
+        img: paymentPlanImg,
     },
 ]
