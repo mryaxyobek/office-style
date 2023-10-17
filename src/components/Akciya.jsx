@@ -21,9 +21,9 @@ const Akciya = () => {
                                     <img width={416} height={260} src={e.img} alt="furniture image" className="mb-6 rounded-2.5xl h-260px" />
 
                                     {/* date */}
-                                    <span className="flex-c-b mb-2 text-regular-14 text-primary-gray-70">{e.date}</span>
+                                    <span className="flex-c-b mb-3 text-regular-14 text-primary-gray-70">{e.date}</span>
                                     {/* title  */}
-                                    <p className="mb-4 text-regular-20">{e.description}</p>
+                                    <p className="text-medium-20 leading-25px!">{e.description}</p>
                                 </Link>
                             </li>
                         )
