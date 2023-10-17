@@ -4,6 +4,7 @@ import LeadingProducts from '../components/LeadingProducts';
 import AboutOfficeFurniture from '../components/AboutOfficeFurniture';
 import HomePageNewProducts from '../components/HomePageNewProducts';
 import AboutFurnitureSize from '../components/AboutFurnitureSize';
+import Akciya from '../components/Akciya';
 
 const Home = () => {
     return (
@@ -12,9 +13,10 @@ const Home = () => {
             <LeadingProducts />
             <AboutOfficeFurniture />
             <HomePageNewProducts />
+            <Akciya />
             <AboutFurnitureSize />
         </div>
     )
-}
+};
 
 export default Home;

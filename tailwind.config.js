@@ -42,6 +42,7 @@ export default {
 
       height: {
         '310px': '310px',
+        '260px': '260px',
         '18px': '18px',
       },
 
