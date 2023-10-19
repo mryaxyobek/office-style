@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import furnituresBg from '../assets/images/other/drawing-furnitures.png';
 
 const RedCta = () => {
     const [phoneNumber, setPhoneNumber] = useState('');
