@@ -8,7 +8,7 @@ const AboutCompany = () => {
     };
 
     return (
-        <section className="py-60px">
+        <section className="pt-60px pb-130px">
             <div className="container">
                 <div className="border border-primary-gray-20 rounded-2.5xl p-10">
                     <h2 className="mb-7">Мебель для офиса</h2>
@@ -39,13 +39,14 @@ const AboutCompany = () => {
 
                         {/* toggle btn  */}
                         <button onClick={toogleShowTextFunc} className={`${toggleShowText ? 'bottom-0' : 'bottom-0'} absolute text-regular-16 left-0 text-primary-red-60`}>
-                            <span className={`${toggleShowText ? 'hidden' : 'inline-block'}`}>Свернуть</span>
-                            <span className={`${toggleShowText ? 'inline-block' : 'hidden'}`}>Развернуть текст</span>
+                            <span className={`${toggleShowText ? 'inline-block' : 'hidden'}`}>Свернуть</span>
+                            <span className={`${toggleShowText ? 'hidden' : 'inline-block'}`}>Развернуть текст</span>
                         </button>
                     </div>
                 </div>
             </div>
-        </section>)
+        </section>
+    )
 };
 
 export default AboutCompany;

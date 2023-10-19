@@ -17,11 +17,16 @@ export default {
           'gray-70': '#4D4D4D',
           'gray-60': '#666',
           'gray-50': '#808080',
+          'gray-30': '#B3B3B3',
           'gray-20': '#CCC',
           'gray-04': '#F5F5F5',
           'success-70': '#039855',
           'success-50': '#32D583',
           'warning-50': '#FFA800',
+        },
+        secondary: {
+          'whatsapp': '#26D366',
+          'vk': '#0277FF',
         },
       },
 
@@ -30,6 +35,7 @@ export default {
         '1800px': '1800px',
         '800px': '800px',
         '352px': '352px',
+        '336px': '336px',
         '217px': '217px',
         '260px': '260px',
         '200px': '200px',
@@ -58,6 +64,7 @@ export default {
 
       // text 
       fontSize: {
+        '29px': '29px',
         '20px': '20px',
         '14px': '14px',
       },
@@ -86,6 +93,7 @@ export default {
 
       padding: {
         '152px': '152px',
+        '130px': '130px',
         '120px': '120px',
         '100px': '100px',
         '60px': '60px',

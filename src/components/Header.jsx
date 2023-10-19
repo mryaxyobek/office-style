@@ -50,7 +50,7 @@ const Header = () => {
                     </select>
                 </div>
 
-                {/* navbar  */}
+                {/* nav */}
                 <nav>
                     <ul className="flex-center space-x-6 text-regular-14">
                         <li>
