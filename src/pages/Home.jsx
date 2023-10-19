@@ -6,6 +6,7 @@ import HomePageNewProducts from '../components/HomePageNewProducts';
 import Akciya from '../components/Akciya';
 import AboutFurnitureSize from '../components/AboutFurnitureSize';
 import RedCta from '../components/RedCta';
+import HomePageReviews from '../components/HomePageReviews';
 
 const Home = () => {
     return (
@@ -17,6 +18,7 @@ const Home = () => {
             <Akciya />
             <AboutFurnitureSize />
             <RedCta />
+            <HomePageReviews />
         </div>
     )
 };

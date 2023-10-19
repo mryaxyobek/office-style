@@ -615,33 +615,33 @@ export const akciyaProducts = [
 ]
 
 // reviews
-export const dhb = [
+export const reviewsData = [
     {
         id: 1,
         userName: 'Мацко Диана Сергеевна',
         comment: 'Выражаю свою благодарность сотрудникам компании "Территория Офиса" за помощь в выборе качественней мебели.Спасибо за оперативную доставку кабинета руководителя "Time.S", я очень довольна качеством мебели и сервиса. Желаю дальнейшего процветания и успешного развития компании!!!',
-        productImg: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+        productImg: 'https://s3-alpha-sig.figma.com/img/e364/f875/391d14395325556967c60a0b8c3f5f85?Expires=1698624000&Signature=V0qUcgFjKyKjQ8MGBz-vSbBsA6HA8FjI1Mf0eLKBeImafLa30u6sETDkZx1ITW0p26fixDvdNfE1zXaStu8s~tX7d7u0Umwc5Pt00Q8PS9ZALUWH3hVYK-h928o82YsQz2UaVupOtTIGn-nVQ-Mfr6ZAHAkEnCerDTZzLYvSWOtgYWqj1TPDspdzhsAcrqbivnXLWG3gDBpY1ruhCifb5XekUpHgZms1NsT3IK3993SK-mJPG9KtyE0iHOmwMrIfYZ0yQh3CFM6xnKHuaZF2tAKmH8vMTOL3TaRa6-1GsBlnvo777GgSN6rKawzkyAR0HnAa4c1aZW7uiw1FhbnlHg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4',
         rating: 5,
     },
     {
         id: 2,
         userName: 'Мацко Диана Сергеевна',
         comment: 'Выражаю свою благодарность сотрудникам компании "Территория Офиса" за помощь в выборе качественней мебели.Спасибо за оперативную доставку кабинета руководителя "Time.S", я очень довольна качеством мебели и сервиса. Желаю дальнейшего процветания и успешного развития компании!!!',
-        productImg: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
-        rating: 5,
+        productImg: 'https://s3-alpha-sig.figma.com/img/13f5/4b31/e9532f8cfd31a32e44a5b64cb49ed25a?Expires=1698624000&Signature=L~RONRWePrK8j2XMWLRhrmPtOTcGqDKbWSgGjQ40~ZEwa5sn-XJDgZPhrpJZoFVgCpY5gG-mP-6ggytUzTnFn3BAhG58fH7sELTOoujwLCMRtWwwn09BPMuw7u2AVlw~kCoa-8XGPVuaCbmpIWEgfuszgNNpGQP0tdfNN3K7SLJR7PLyR7wOVgA0FpP7qU5LSwwr160rTxKUyZV8LN4j4BPnb09b54Tx8YrMHGdhiivNsi5ZOMVpZQgD4Gw-mNjhVouLLQTiSpySRMs1WmcEYL67NE2oCQkdncEsNtY4Dj4-Me289OBYV4aEqajLEbDZeZbuW3x4C1lizSV1SqQ5wA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4',
+        rating: 4,
     },
     {
         id: 3,
         userName: 'Мацко Диана Сергеевна',
         comment: 'Выражаю свою благодарность сотрудникам компании "Территория Офиса" за помощь в выборе качественней мебели.Спасибо за оперативную доставку кабинета руководителя "Time.S", я очень довольна качеством мебели и сервиса. Желаю дальнейшего процветания и успешного развития компании!!!',
-        productImg: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+        productImg: 'https://s3-alpha-sig.figma.com/img/13f5/4b31/e9532f8cfd31a32e44a5b64cb49ed25a?Expires=1698624000&Signature=L~RONRWePrK8j2XMWLRhrmPtOTcGqDKbWSgGjQ40~ZEwa5sn-XJDgZPhrpJZoFVgCpY5gG-mP-6ggytUzTnFn3BAhG58fH7sELTOoujwLCMRtWwwn09BPMuw7u2AVlw~kCoa-8XGPVuaCbmpIWEgfuszgNNpGQP0tdfNN3K7SLJR7PLyR7wOVgA0FpP7qU5LSwwr160rTxKUyZV8LN4j4BPnb09b54Tx8YrMHGdhiivNsi5ZOMVpZQgD4Gw-mNjhVouLLQTiSpySRMs1WmcEYL67NE2oCQkdncEsNtY4Dj4-Me289OBYV4aEqajLEbDZeZbuW3x4C1lizSV1SqQ5wA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4',
         rating: 5,
     },
     {
         id: 4,
         userName: 'Мацко Диана Сергеевна',
         comment: 'Выражаю свою благодарность сотрудникам компании "Территория Офиса" за помощь в выборе качественней мебели.Спасибо за оперативную доставку кабинета руководителя "Time.S", я очень довольна качеством мебели и сервиса. Желаю дальнейшего процветания и успешного развития компании!!!',
-        productImg: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
-        rating: 5,
+        productImg: 'https://s3-alpha-sig.figma.com/img/e364/f875/391d14395325556967c60a0b8c3f5f85?Expires=1698624000&Signature=V0qUcgFjKyKjQ8MGBz-vSbBsA6HA8FjI1Mf0eLKBeImafLa30u6sETDkZx1ITW0p26fixDvdNfE1zXaStu8s~tX7d7u0Umwc5Pt00Q8PS9ZALUWH3hVYK-h928o82YsQz2UaVupOtTIGn-nVQ-Mfr6ZAHAkEnCerDTZzLYvSWOtgYWqj1TPDspdzhsAcrqbivnXLWG3gDBpY1ruhCifb5XekUpHgZms1NsT3IK3993SK-mJPG9KtyE0iHOmwMrIfYZ0yQh3CFM6xnKHuaZF2tAKmH8vMTOL3TaRa6-1GsBlnvo777GgSN6rKawzkyAR0HnAa4c1aZW7uiw1FhbnlHg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4',
+        rating: 2,
     },
 ]
