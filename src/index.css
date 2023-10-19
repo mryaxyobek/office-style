@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  scroll-behavior: smooth;
+}
+
+.body {
+  background: #fff;
+  font-family: 'formular-regular', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22.5px;
+}
+
 *:focus {
   outline: none;
 }
@@ -326,13 +338,6 @@ label {
 }
 
 /* other class name */
-.body {
-  background: #fff;
-  font-family: 'formular-regular', sans-serif;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22.5px;
-}
 
 /* transition  */
 .transition-colors-2 {

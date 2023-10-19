@@ -6,6 +6,7 @@ export default {
   ],
   theme: {
     extend: {
+      // colors 
       colors: {
         primary: {
           'red-60': '#AE0712',
@@ -24,13 +25,16 @@ export default {
         },
       },
 
+      // w, h 
       maxWidth: {
         '1800px': '1800px',
+        '800px': '800px',
+        '352px': '352px',
         '217px': '217px',
         '260px': '260px',
         '200px': '200px',
       },
-      
+
       width: {
         '394px': '394px',
         '416px': '416px',
@@ -46,6 +50,7 @@ export default {
         '18px': '18px',
       },
 
+      // text 
       fontSize: {
         '20px': '20px',
         '14px': '14px',
@@ -57,10 +62,17 @@ export default {
         '22.5px': '22.5px',
         '21.6px': '21.6px',
         '19px': '19px',
+        '15px!': '15px !important',
         '17.5px': '17.5px',
         '17px': '17px',
       },
 
+      // background 
+      backgroundImage: {
+        'furnituresBg': 'url(./assets/images/other/drawing-furnitures.png)',
+      },
+
+      // position 
       margin: {
         '60px': '60px',
       },
@@ -88,11 +100,6 @@ export default {
         '3px': '3px',
       },
 
-      rotate: {
-        '129deg': '129deg',
-        '83deg': '83deg',
-      },
-
       borderRadius: {
         '100%': '100%',
       },
@@ -105,16 +112,19 @@ export default {
         '5': '5',
       },
 
+      borderRadius: {
+        '2.5xl': '20px',
+      },
+
+      // transfrom 
       rotate: {
         '360': '360deg',
+        '129deg': '129deg',
+        '83deg': '83deg',
       },
 
       translate: {
         '5px': '5px',
-      },
-
-      borderRadius: {
-        '2.5xl': '20px',
       },
 
       // grid 
