@@ -76,6 +76,7 @@ export default {
       // background 
       backgroundImage: {
         'furnituresBg': 'url(./assets/images/other/drawing-furnitures.png)',
+        'whiteLinear': ' linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #FFF 86.46%)',
       },
 
       // position 

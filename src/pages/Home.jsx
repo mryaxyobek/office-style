@@ -8,6 +8,7 @@ import AboutFurnitureSize from '../components/AboutFurnitureSize';
 import RedCta from '../components/RedCta';
 import HomePageReviews from '../components/HomePageReviews';
 import Partners from '../components/Partners';
+import AboutCompany from '../components/AboutCompany';
 
 const Home = () => {
     return (
@@ -21,6 +22,7 @@ const Home = () => {
             <RedCta />
             <HomePageReviews />
             <Partners />
+            <AboutCompany />
         </div>
     )
 };
