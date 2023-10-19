@@ -7,6 +7,7 @@ import Akciya from '../components/Akciya';
 import AboutFurnitureSize from '../components/AboutFurnitureSize';
 import RedCta from '../components/RedCta';
 import HomePageReviews from '../components/HomePageReviews';
+import Partners from '../components/Partners';
 
 const Home = () => {
     return (
@@ -19,6 +20,7 @@ const Home = () => {
             <AboutFurnitureSize />
             <RedCta />
             <HomePageReviews />
+            <Partners />
         </div>
     )
 };

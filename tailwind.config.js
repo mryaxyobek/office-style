@@ -35,9 +35,14 @@ export default {
         '200px': '200px',
       },
 
+      minWidth: {
+        '864px': '864px',
+      },
+
       width: {
         '394px': '394px',
         '416px': '416px',
+        '224px': '224px',
         '190px': '190px',
         '147px': '147px',
         '41px': '41px',
@@ -45,6 +50,7 @@ export default {
       },
 
       height: {
+        '359px': '359px',
         '310px': '310px',
         '260px': '260px',
         '18px': '18px',

@@ -7,8 +7,8 @@ const Reviews = () => {
             {
                 reviewsData.map((e) => {
                     return (
-                        <li key={e.id} className="flex gap-8 min-w-[864px] bg-primary-gray-04 rounded-2.5xl">
-                            <img width={416} height={359} src={e.productImg} alt="user product image" className="rounded-2.5xl object-cover object-left w-[416px] h-[359px]" />
+                        <li key={e.id} className="flex gap-8 min-w-864px bg-primary-gray-04 rounded-2.5xl">
+                            <img width={416} height={359} src={e.productImg} alt="user product image" className="rounded-2.5xl object-cover object-left w-416px h-359px" />
 
                             <div className='flex flex-col p-8 pl-0'>
                                 <blockquote
