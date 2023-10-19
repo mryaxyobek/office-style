@@ -22,6 +22,7 @@ const Akciya = () => {
 
                                     {/* date */}
                                     <span className="flex-c-b mb-3 text-regular-14 text-primary-gray-70">{e.date}</span>
+
                                     {/* title  */}
                                     <p className="text-medium-20 leading-25px!">{e.description}</p>
                                 </Link>
@@ -29,8 +30,6 @@ const Akciya = () => {
                         )
                     })}
                 </ul>
-
-
             </div>
         </section>
     )
