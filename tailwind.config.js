@@ -34,7 +34,9 @@ export default {
       // w, h 
       maxWidth: {
         '1800px': '1800px',
+        '976px': '976px',
         '800px': '800px',
+        '745px': '745px',
         '352px': '352px',
         '336px': '336px',
         '217px': '217px',
