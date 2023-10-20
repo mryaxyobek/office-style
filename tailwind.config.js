@@ -111,14 +111,11 @@ export default {
         '153px': '153px',
         '104px': '104px',
         '70px': '70px',
+        '62px': '62px',
         'auto': 'auto',
         '3px': '3px',
       },
-
-      borderRadius: {
-        '100%': '100%',
-      },
-
+      
       zIndex: {
         '1': '1',
         '2': '2',
@@ -126,8 +123,9 @@ export default {
         '4': '4',
         '5': '5',
       },
-
+      
       borderRadius: {
+        '100%': '100%',
         '2.5xl': '20px',
       },
 
