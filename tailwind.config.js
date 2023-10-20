@@ -27,6 +27,7 @@ export default {
         secondary: {
           'whatsapp': '#26D366',
           'vk': '#0277FF',
+          'gray-50': '#B5CBEB',
         },
       },
 
