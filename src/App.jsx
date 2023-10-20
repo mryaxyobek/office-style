@@ -8,6 +8,7 @@ import Home from './pages/Home';
 // layouts 
 import MainRoot from './layouts/MainRoot';
 import AboutPayment from './pages/AboutPayment';
+import ContactPage from './pages/ContactPage';
 
 const App = () => {
   const router = createBrowserRouter(
@@ -15,6 +16,7 @@ const App = () => {
       <Route path='/' element={<MainRoot />}>
         <Route index element={<Home />} />
         <Route path='/about-payment' element={<AboutPayment />} />
+        <Route path='/contact' element={<ContactPage />} />
       </Route>
     )
   )

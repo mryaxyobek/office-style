@@ -2,7 +2,7 @@ import React from 'react';
 
 const DeliveryAndPayment = () => {
   return (
-    <section className='pb-60px pt-36'>
+    <div className='pb-60px pt-36'>
       <div className="container">
         {/* title  */}
         <h1 className="mb-60px">Доставка и оплата</h1>
@@ -86,7 +86,7 @@ const DeliveryAndPayment = () => {
           </li>
         </ul>
       </div>
-    </section>
+    </div>
   )
 };
 
