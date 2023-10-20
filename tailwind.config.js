@@ -19,6 +19,7 @@ export default {
           'gray-50': '#808080',
           'gray-30': '#B3B3B3',
           'gray-20': '#CCC',
+          'gray-10': '#EDEDED',
           'gray-04': '#F5F5F5',
           'success-70': '#039855',
           'success-50': '#32D583',
