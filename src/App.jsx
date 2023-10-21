@@ -8,6 +8,7 @@ import MainRoot from './layouts/MainRoot';
 // pages 
 import Home from './pages/Home';
 import AboutPayment from './pages/AboutPayment';
+import ReviewsPage from './pages/ReviewsPage';
 import ContactPage from './pages/ContactPage';
 import AboutCompanyPage from './pages/AboutCompanyPage';
 
@@ -17,6 +18,7 @@ const App = () => {
       <Route path='/' element={<MainRoot />}>
         <Route index element={<Home />} />
         <Route path='/about-company' element={<AboutCompanyPage />} />
+        <Route path='/reviews' element={<ReviewsPage />} />
         <Route path='/about-payment' element={<AboutPayment />} />
         <Route path='/contact' element={<ContactPage />} />
       </Route>
