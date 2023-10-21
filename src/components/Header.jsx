@@ -53,7 +53,7 @@ const Header = () => {
                 <nav>
                     <ul className="flex-center space-x-6 text-regular-14">
                         <li>
-                            <Link className="text-primary-gray-70" to='/'>О компании</Link>
+                            <Link className="text-primary-gray-70" to='/about-company'>О компании</Link>
                         </li>
                         <li>
                             <Link className="text-primary-gray-70" to='/'>Выполненные проекты</Link>

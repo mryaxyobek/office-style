@@ -183,8 +183,6 @@ html {
   .active-hover .img {
     transform: scale(1.1);
   }
-  
-
 }
 
 /* text medium  */
@@ -384,4 +382,8 @@ label {
 
 .gray-scroll::-webkit-scrollbar {
   height: 2px;
+}
+
+.red-cta-wrapper section {
+  padding-bottom: 130px;
 }
