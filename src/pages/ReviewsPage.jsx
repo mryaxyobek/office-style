@@ -3,6 +3,7 @@ import React from 'react';
 // components(section)
 import Reviews from '../components/Reviews';
 import Contracts from '../components/Contracts';
+import AddComment from '../components/AddComment';
 
 const ReviewsPage = () => {
     return (
@@ -16,6 +17,7 @@ const ReviewsPage = () => {
                 </div>
             </section>
             <Contracts />
+            <AddComment />
         </>
     )
 };
