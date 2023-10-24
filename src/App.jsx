@@ -7,6 +7,7 @@ import MainRoot from './layouts/MainRoot';
 
 // pages 
 import Home from './pages/Home';
+import Catalog from './pages/Catalog';
 import AboutPayment from './pages/AboutPayment';
 import ReviewsPage from './pages/ReviewsPage';
 import ContactPage from './pages/ContactPage';
@@ -17,6 +18,7 @@ const App = () => {
     createRoutesFromElements(
       <Route path='/' element={<MainRoot />}>
         <Route index element={<Home />} />
+        <Route path='/catalog' element={<Catalog />} />
         <Route path='/about-company' element={<AboutCompanyPage />} />
         <Route path='/reviews' element={<ReviewsPage />} />
         <Route path='/about-payment' element={<AboutPayment />} />

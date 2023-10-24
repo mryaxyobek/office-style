@@ -59,7 +59,7 @@ const Header = () => {
                             <Link className="text-primary-gray-70" to='/'>Выполненные проекты</Link>
                         </li>
                         <li>
-                            <Link className="text-primary-gray-70" to='/'>Отзывы</Link>
+                            <Link className="text-primary-gray-70" to='/reviews'>Отзывы</Link>
                         </li>
                         <li>
                             <Link className="text-primary-gray-70" to='/about-payment'>Доставка и оплата</Link>
