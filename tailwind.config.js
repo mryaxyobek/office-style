@@ -43,6 +43,7 @@ export default {
         '745px': '745px',
         '763px': '763px',
         '639px': '639px',
+        '620px': '620px',
         '352px': '352px',
         '336px': '336px',
         '326px': '326px',
@@ -97,6 +98,7 @@ export default {
       backgroundImage: {
         'furnituresBg': 'url(./assets/images/other/drawing-furnitures.png)',
         'whiteLinear': ' linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #FFF 86.46%)',
+        'furniture-book': 'url(./assets/images/other/furniture-book.png)',
 
         // for catalog page 
         'catalog-img1': 'url(./assets/images/other/img-for-catalog1.jpg)',

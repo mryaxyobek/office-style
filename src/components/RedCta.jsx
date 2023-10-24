@@ -33,6 +33,6 @@ const RedCta = () => {
             </div>
         </section>
     )
-}
+};
 
-export default RedCta
+export default RedCta;
