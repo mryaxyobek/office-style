@@ -12,13 +12,21 @@ import AboutPayment from './pages/AboutPayment';
 import ReviewsPage from './pages/ReviewsPage';
 import ContactPage from './pages/ContactPage';
 import AboutCompanyPage from './pages/AboutCompanyPage';
+import FurnitureForStaff from './pages/FurnitureForStaff';
+import CatalogRoot from './layouts/CatalogRoot';
 
 const App = () => {
   const router = createBrowserRouter(
     createRoutesFromElements(
       <Route path='/' element={<MainRoot />}>
         <Route index element={<Home />} />
-        <Route path='/catalog' element={<Catalog />} />
+
+        <Route path='/catalog' element={<CatalogRoot />}>
+          <Route index element={<Catalog />} />
+          <Route index path='/catalog' element={<Catalog />} />
+          <Route path='furniture-for-staff' element={<FurnitureForStaff />} />
+        </Route>
+
         <Route path='/about-company' element={<AboutCompanyPage />} />
         <Route path='/reviews' element={<ReviewsPage />} />
         <Route path='/about-payment' element={<AboutPayment />} />
