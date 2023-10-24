@@ -45,6 +45,7 @@ export default {
         '639px': '639px',
         '352px': '352px',
         '336px': '336px',
+        '326px': '326px',
         '217px': '217px',
         '260px': '260px',
         '200px': '200px',
@@ -70,6 +71,7 @@ export default {
         '310px': '310px',
         '260px': '260px',
         '254px': '254px',
+        '214px': '214px',
         '18px': '18px',
       },
 
@@ -95,6 +97,18 @@ export default {
       backgroundImage: {
         'furnituresBg': 'url(./assets/images/other/drawing-furnitures.png)',
         'whiteLinear': ' linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #FFF 86.46%)',
+
+        // for catalog page 
+        'catalog-img1': 'url(./assets/images/other/img-for-catalog1.jpg)',
+        'catalog-img2': 'url(./assets/images/other/img-for-catalog2.jpg)',
+        'catalog-img3': 'url(./assets/images/other/img-for-catalog3.jpg)',
+        'catalog-img4': 'url(./assets/images/other/img-for-catalog4.jpg)',
+        'catalog-img5': 'url(./assets/images/other/img-for-catalog5.jpg)',
+        'catalog-img6': 'url(./assets/images/other/img-for-catalog6.jpg)',
+        'catalog-img7': 'url(./assets/images/other/img-for-catalog7.jpg)',
+        'catalog-img8': 'url(./assets/images/other/img-for-catalog8.jpg)',
+        'catalog-img9': 'url(./assets/images/other/img-for-catalog9.jpg)',
+        'catalog-img10': 'url(./assets/images/other/img-for-catalog10.jpg)',
       },
 
       // position 
