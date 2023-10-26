@@ -42,13 +42,17 @@ export default {
         '800px': '800px',
         '745px': '745px',
         '763px': '763px',
+        '687px': '687px',
         '639px': '639px',
         '620px': '620px',
+        '528px': '528px',
         '352px': '352px',
         '336px': '336px',
         '326px': '326px',
-        '217px': '217px',
+        '305px': '305px',
         '260px': '260px',
+        '245px': '245px',
+        '217px': '217px',
         '200px': '200px',
       },
 
@@ -111,6 +115,9 @@ export default {
         'catalog-img8': 'url(./assets/images/other/img-for-catalog8.jpg)',
         'catalog-img9': 'url(./assets/images/other/img-for-catalog9.jpg)',
         'catalog-img10': 'url(./assets/images/other/img-for-catalog10.jpg)',
+
+        // catalog category hero 
+        'category-hero': 'url(./assets/images/other/gray-furnitures.jpg)',
       },
 
       // position 

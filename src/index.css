@@ -183,6 +183,25 @@ html {
   .active-hover .img {
     transform: scale(1.1);
   }
+
+  /* breadcrumb */
+  .breadcrumb {
+    @apply flex-center space-x-4 text-regular-16 text-primary-gray-50 py-8
+  }
+
+  .breadcrumb li {
+    display: flex;
+    align-items: center;
+  }
+
+  .breadcrumb li:not(:last-child)::after {
+    display: inline-block;
+    content: '';
+    width: 3px;
+    height: 3px;
+    background: url(../src/assets/images/svg/small-circle-shape.svg) center;
+    margin-left: 16px;
+  }
 }
 
 /* text medium  */
