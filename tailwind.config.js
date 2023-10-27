@@ -29,6 +29,7 @@ export default {
           'whatsapp': '#26D366',
           'vk': '#0277FF',
           'gray-50': '#B5CBEB',
+          'blue-70': '#778FB3',
         },
       },
 
@@ -72,6 +73,7 @@ export default {
       },
 
       height: {
+        '550px': '550px',
         '359px': '359px',
         '310px': '310px',
         '260px': '260px',

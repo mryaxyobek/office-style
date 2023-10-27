@@ -76,9 +76,17 @@ html {
   .flex-center {
     @apply flex items-center;
   }
+  
+    .flex-start {
+      @apply flex items-start;
+    }
 
   .flex-c-b {
     @apply flex items-center justify-between;
+  }
+
+  .flex-e-b {
+    @apply flex items-end justify-between;
   }
 
   /* buttons  */
