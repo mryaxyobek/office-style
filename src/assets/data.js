@@ -744,3 +744,157 @@ export const articles = [
         imgName: 'Messay office room image',
     },
 ]
+
+// new products
+export const completedProjectsData = [
+    {
+        id: 1,
+        title: "Кабинет руководителя для компании РЕСО-ГАРАНТИЯ",
+        details: [
+            {
+                id: 1,
+                text: 'Стол руководителя, TS 180, 180х95х75',
+                price: '11 690',
+            },
+            {
+                id: 2,
+                text: 'Декоративный траверс TS 100.2',
+                price: '11 690',
+            },
+            {
+                id: 3,
+                text: 'Тумба сервисная, мобильная 106x45x65 см',
+                price: '11 690',
+            },
+            {
+                id: 4,
+                text: 'Стол руководителя 180x97x75 см',
+                price: '11 690',
+            },
+            {
+                id: 5,
+                text: 'Стол руководителя 180x97x75 см',
+                price: '11 690',
+            },
+        ],
+        images: [
+            {
+                id: 1,
+                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+            },
+            {
+                id: 2,
+                img: 'https://www.shutterstock.com/image-photo/office-furniture-on-white-background-260nw-390277798.jpg',
+            },
+            {
+                id: 3,
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
+            },
+
+            {
+                id: 4,
+                img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmhV2y9Ejt8c7oajXsGr01kmhiSuEYNJkzd3Lc6EXW6D_ZPmgI4gQayMgbLrdjnhn9NDY&usqp=CAU',
+            }
+        ]
+    },
+    {
+        id: 2,
+        title: "Кабинет руководителя для компании РЕСО-ГАРАНТИЯ",
+        details: [
+            {
+                id: 1,
+                text: 'Стол руководителя, TS 180, 180х95х75',
+                price: '11 690',
+            },
+            {
+                id: 2,
+                text: 'Декоративный траверс TS 100.2',
+                price: '11 690',
+            },
+            {
+                id: 3,
+                text: 'Тумба сервисная, мобильная 106x45x65 см',
+                price: '11 690',
+            },
+            {
+                id: 4,
+                text: 'Стол руководителя 180x97x75 см',
+                price: '11 690',
+            },
+            {
+                id: 5,
+                text: 'Стол руководителя 180x97x75 см',
+                price: '11 690',
+            },
+        ],
+        images: [
+            {
+                id: 1,
+                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+            },
+            {
+                id: 2,
+                img: 'https://www.shutterstock.com/image-photo/office-furniture-on-white-background-260nw-390277798.jpg',
+            },
+            {
+                id: 3,
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
+            },
+
+            {
+                id: 4,
+                img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmhV2y9Ejt8c7oajXsGr01kmhiSuEYNJkzd3Lc6EXW6D_ZPmgI4gQayMgbLrdjnhn9NDY&usqp=CAU',
+            }
+        ]
+    },
+    {
+        id: 3,
+        title: "Кабинет руководителя для компании РЕСО-ГАРАНТИЯ",
+        details: [
+            {
+                id: 1,
+                text: 'Стол руководителя, TS 180, 180х95х75',
+                price: '11 690',
+            },
+            {
+                id: 2,
+                text: 'Декоративный траверс TS 100.2',
+                price: '11 690',
+            },
+            {
+                id: 3,
+                text: 'Тумба сервисная, мобильная 106x45x65 см',
+                price: '11 690',
+            },
+            {
+                id: 4,
+                text: 'Стол руководителя 180x97x75 см',
+                price: '11 690',
+            },
+            {
+                id: 5,
+                text: 'Стол руководителя 180x97x75 см',
+                price: '11 690',
+            },
+        ],
+        images: [
+            {
+                id: 1,
+                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+            },
+            {
+                id: 2,
+                img: 'https://www.shutterstock.com/image-photo/office-furniture-on-white-background-260nw-390277798.jpg',
+            },
+            {
+                id: 3,
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
+            },
+
+            {
+                id: 4,
+                img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmhV2y9Ejt8c7oajXsGr01kmhiSuEYNJkzd3Lc6EXW6D_ZPmgI4gQayMgbLrdjnhn9NDY&usqp=CAU',
+            }
+        ]
+    },
+]
