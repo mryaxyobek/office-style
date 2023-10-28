@@ -16,6 +16,7 @@ import ContactPage from './pages/ContactPage';
 import AboutCompanyPage from './pages/AboutCompanyPage';
 import FurnitureForStaff from './pages/FurnitureForStaff';
 import CreateProductDesign from './pages/CreateProductDesign';
+import Portfolio from './pages/Portfolio';
 
 const App = () => {
   const router = createBrowserRouter(
@@ -39,6 +40,7 @@ const App = () => {
         </Route>
 
         <Route path='/about-company' element={<AboutCompanyPage />} />
+        <Route path='/portfolio' element={<Portfolio />} />
         <Route path='/reviews' element={<ReviewsPage />} />
         <Route path='/about-payment' element={<AboutPayment />} />
         <Route path='/contact' element={<ContactPage />} />

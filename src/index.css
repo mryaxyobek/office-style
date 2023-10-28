@@ -76,10 +76,10 @@ html {
   .flex-center {
     @apply flex items-center;
   }
-  
-    .flex-start {
-      @apply flex items-start;
-    }
+
+  .flex-start {
+    @apply flex items-start;
+  }
 
   .flex-c-b {
     @apply flex items-center justify-between;
@@ -415,4 +415,13 @@ label {
 
 .red-cta-wrapper section {
   padding-bottom: 130px;
+}
+
+/* completed projects section */
+.completed-products-list li:nth-child(even) div:first-child {
+  order: 2;
+}
+
+.completed-products-list li:nth-child(even) div:last-child {
+  order: 1;
 }

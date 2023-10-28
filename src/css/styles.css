@@ -106,3 +106,26 @@
         padding: 0 20px;
     }
 }
+
+/* completed projects & swiper */
+.completed-projects-swiper :is(.swiper-button-prev, .swiper-button-next) {
+    width: 36px;
+    height: 36px;
+    opacity: 0.8;
+}
+
+.completed-projects-swiper .swiper-button-prev {
+    background: url(../assets/images/svg/swiper-left-button.svg) center;
+    left: 16px;
+}
+
+.completed-projects-swiper .swiper-button-next {
+    background: url(../assets/images/svg/swiper-right-button.svg) center;
+    right: 16px;
+}
+
+.completed-projects-swiper .swiper-pagination,
+.completed-projects-swiper :is(.swiper-button-prev, .swiper-button-next)::after {
+    display: none;
+    content: '';
+}
