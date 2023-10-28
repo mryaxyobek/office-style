@@ -11,7 +11,7 @@ import image from '../assets/images/other/homepage-hero-bg1.jpg';
 
 const ProductDesignHero = () => {
     return (
-        <section className='pt-20'>
+        <section className='pt-20 pb-60px'>
             <div className="container">
 
                 {/* breadcrumb */}
