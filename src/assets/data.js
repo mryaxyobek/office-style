@@ -37,6 +37,37 @@ export const tabButtonsGroup = [
         text: 'Еще',
     }
 ]
+// product tabbuttons 
+export const productTabButtonsGroup = [
+    {
+        id: 1,
+        text: 'Характеристики',
+    },
+    {
+        id: 2,
+        text: 'Описание',
+    },
+    {
+        id: 3,
+        text: 'Примеры выполненных проектов',
+    },
+    {
+        id: 4,
+        text: 'Отзывы',
+    },
+    {
+        id: 5,
+        text: 'Доставка',
+    },
+    {
+        id: 6,
+        text: 'Оплата',
+    },
+    {
+        id: 7,
+        text: 'Сборка',
+    },
+]
 
 // products
 export const products = [

@@ -91,11 +91,11 @@ html {
 
   /* buttons  */
   .small-red-btn {
-    @apply p-5px rounded bg-primary-red-60;
+    @apply p-5px rounded bg-primary-red-50;
   }
 
   .red-btn {
-    @apply rounded-lg bg-primary-red-60 text-regular-14 text-white;
+    @apply rounded-lg bg-primary-red-50 text-regular-14 text-white;
   }
 
   .red-btn-14 {
