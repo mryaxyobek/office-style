@@ -6,6 +6,7 @@ import { Route } from 'react-router-dom';
 import MainRoot from './layouts/MainRoot';
 import CatalogRoot from './layouts/CatalogRoot';
 import FurnitureForStaffRoot from './layouts/FurnitureForStaffRoot';
+import ArticleRoot from './layouts/ArticleRoot';
 
 // pages 
 import Home from './pages/Home';
@@ -18,6 +19,7 @@ import FurnitureForStaff from './pages/FurnitureForStaff';
 import ArticlesPage from './pages/ArticlesPage';
 import CreateProductDesign from './pages/CreateProductDesign';
 import Portfolio from './pages/Portfolio';
+import Article from './pages/Article';
 
 const App = () => {
   const router = createBrowserRouter(
@@ -34,7 +36,7 @@ const App = () => {
           <Route path='furniture-for-staff' element={<FurnitureForStaffRoot />} >
             <Route index element={<FurnitureForStaff />} />
             <Route index path='furniture-for-staff' element={<FurnitureForStaff />} />
-            {/* create product design  */}  
+            {/* create product design  */}
             <Route index path='product-name' element={<CreateProductDesign />} />
           </Route >
 
@@ -43,7 +45,13 @@ const App = () => {
         <Route path='/about-company' element={<AboutCompanyPage />} />
         <Route path='/portfolio' element={<Portfolio />} />
         <Route path='/reviews' element={<ReviewsPage />} />
-        <Route path='/articles' element={<ArticlesPage />} />
+
+        <Route path='/articles' element={<ArticleRoot />} >
+          <Route index element={<ArticlesPage />} />
+          <Route index path='/articles' element={<ArticlesPage />} />
+          <Route path='article-name' element={<Article />} />
+        </Route>
+
         <Route path='/about-payment' element={<AboutPayment />} />
         <Route path='/contact' element={<ContactPage />} />
       </Route>

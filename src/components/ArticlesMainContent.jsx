@@ -25,7 +25,7 @@ const ArticlesMainContent = () => {
                         articles.map((e) => {
                             return (
                                 <li key={e.id}>
-                                    <Link to='#' rel='noopener'>
+                                    <Link to='article-name' rel='noopener'>
                                         <img width={416} height={260} src={e.img} alt={e.imgName} className="w-416px h-260px object-cover object-center mb-6 rounded-2.5xl" />
                                         <div className="space-y-3">
                                             <span className="text-regular-14 text-primary-gray-70">{e.date}</span>

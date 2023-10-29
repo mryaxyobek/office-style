@@ -36,6 +36,7 @@ export default {
       // w, h 
       maxWidth: {
         '1800px': '1800px',
+        '1312px': '1312px',
         '1088px': '1088px',
         '976px': '976px',
         '935px': '935px',
@@ -75,6 +76,7 @@ export default {
 
       height: {
         '550px': '550px',
+        '513px': '513px',
         '359px': '359px',
         '340px': '340px',
         '310px': '310px',

@@ -264,6 +264,7 @@ h2,
 p,
 .text-regular-36,
 .text-regular-32,
+.text-regular-28,
 .text-regular-24,
 .text-regular-20,
 .text-regular-18,
@@ -299,6 +300,11 @@ p {
 .text-regular-32 {
   font-size: 32px;
   line-height: 40px;
+}
+
+.text-regular-28 {
+  font-size: 28px;
+  line-height: 35px;
 }
 
 .text-regular-24 {
