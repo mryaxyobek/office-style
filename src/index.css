@@ -81,6 +81,10 @@ html {
     @apply flex items-start;
   }
 
+  .flex-end {
+    @apply flex items-end;
+  }
+
   .flex-c-b {
     @apply flex items-center justify-between;
   }
