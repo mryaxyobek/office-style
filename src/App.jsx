@@ -15,6 +15,7 @@ import ReviewsPage from './pages/ReviewsPage';
 import ContactPage from './pages/ContactPage';
 import AboutCompanyPage from './pages/AboutCompanyPage';
 import FurnitureForStaff from './pages/FurnitureForStaff';
+import ArticlesPage from './pages/ArticlesPage';
 import CreateProductDesign from './pages/CreateProductDesign';
 import Portfolio from './pages/Portfolio';
 
@@ -42,6 +43,7 @@ const App = () => {
         <Route path='/about-company' element={<AboutCompanyPage />} />
         <Route path='/portfolio' element={<Portfolio />} />
         <Route path='/reviews' element={<ReviewsPage />} />
+        <Route path='/articles' element={<ArticlesPage />} />
         <Route path='/about-payment' element={<AboutPayment />} />
         <Route path='/contact' element={<ContactPage />} />
       </Route>
