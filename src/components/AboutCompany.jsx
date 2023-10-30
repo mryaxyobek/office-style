@@ -8,11 +8,11 @@ const AboutCompany = () => {
     };
 
     return (
-        <section className="pt-60px pb-130px">
+        <section className="py-60r">
             <div className="container">
-                <div className="border border-primary-gray-20 rounded-2.5xl p-10">
-                    <h2 className="mb-7">Мебель для офиса</h2>
-                    <div className={`${toggleShowText ? 'max-h-max pb-10' : 'max-h-223px'} grid grid-cols-2 gap-8 relative overflow-hidden`}>
+                <div className="border border-primary-gray-20 rounded-2.5xl p-10 max-730:p-8 max-640:p-7 max-470:p-5">
+                    <h2 className="mb-7 text-normal">Мебель для офиса</h2>
+                    <div className={`${toggleShowText ? 'max-h-max pb-10' : 'max-h-223px'} grid grid-cols-2 gap-8 relative overflow-hidden max-580:grid-cols-1`}>
                         <p className="text-regular-16 text-primary-gray-60">Представляем вашему вниманию каталог офисной мебели с ценами, в котором найдется все необходимое для создания стильных, эргономичных и при этом максимально функциональных офисных интерьеров. С нашей помощью вы легко оснастите любой офис, каким бы большим он не был, создав комфортные условия работы для руководителей и персонала.
                             Диапазон цен на представленные у нас мебельные изделия широк – в наличии как недорогая мебель для офиса российского производства, так и элитные модели из Италии, Испании, Германии, США и Китая.
                             <br /><br />
