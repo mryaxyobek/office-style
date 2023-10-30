@@ -29,14 +29,13 @@ const Header = () => {
 
     // close search 
     document.addEventListener('keyup', function (e) {
-        e.key == 'Escape' && setOpenSearchInput(false);
+        e.key == 'Escape' && setOpenSearchInput(false); setOpenCatalog(false);
     });
 
     // prevent default 
     const preventdefault = (e) => {
         e.preventDefault();
     };
-    // openCatalog ? document.body.classList.add('overflow-hidden') : document.body.classList.remove('overflow-hidden');
     return (
         <header className={`py-4 bg-primary-gray-04 relative`}>
             <div className="flex-c-b container">
@@ -158,7 +157,7 @@ const Header = () => {
                 </div>
             </div>
 
-            <div style={{ transform: openCatalog ? `translateX(0vw)` : `translateX(-100vw)`, top: '157px', height: '864px' }} className='absolute -top-1 z-30 max-h-max w-full bg-slate-400 transition-transform-2'>
+            <div style={{ transform: openCatalog ? `translateX(0vw)` : `translateX(-100vw)`, top: '157px' }} className='absolute -top-1 z-30 max-h-max w-full bg-slate-400 transition-transform-2'>
                 <Menu />
             </div>
         </header>
