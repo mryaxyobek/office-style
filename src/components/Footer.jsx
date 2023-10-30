@@ -6,12 +6,12 @@ import vk from '../assets/images/svg/vk-logo.svg';
 
 const Footer = () => {
     return (
-        <footer className='pt-20 pb-8 bg-primary-gray-90'>
+        <footer className='pt-20 pb-8 bg-primary-gray-90 max-580:py-16'>
             <div className="container">
                 {/* main  */}
-                <div className="grid grid-cols-4 gap-8 pb-20">
+                <div className="grid grid-cols-4 gap-8 pb-20 max-1150:grid-cols-2 max-580:grid-cols-1 max-730:pb-14 max-360:pb-8">
                     {/* logo  */}
-                    <div className='space-y-8'>
+                    <div className='space-y-8 max-580:hidden'>
                         <Link to='/' className='text-white leading-8 text-29px textblack'>ОФИС-СТИЛЬ.</Link>
                         <p className="text-primary-gray-30 text-regular-14 max-w-336px">Информация на сайте, носит ознакомительный характер и ни при каких условиях не является публичной офертой, определяемой положениями Статьи 437 Гражданского кодекса РФ.</p>
                     </div>
@@ -107,13 +107,15 @@ const Footer = () => {
                                 <a href="mailto:info@territory-office.ru" target='_blank' className="inline-block">info@territory-office.ru</a>
                             </div>
                             {/* social  */}
-                            <div className="flex-center space-x-4">
-                                <a href="https://example.com" target='_blank' className="flex-center justify-center rounded-lg w-12 h-12 bg-secondary-whatsapp">
-                                    <img width={32} height={32} src={whatsapp} alt="" className="" />
-                                </a>
-                                <a href="https://example.com" target='_blank' className="flex-center justify-center rounded-lg w-12 h-12 bg-secondary-vk">
-                                    <img width={26} height={17} src={vk} alt="" className="" />
-                                </a>
+                            <div className="flex-start space-x-4 max-1400:flex-col max-1400:space-x-0 max-1400:space-y-4 max-1150:flex-row max-1150:space-y-0 max-1150:space-x-4 max-730:space-x-0 max-730:space-y-4 max-730:flex-col max-580:flex-row max-580:space-x-4 max-580:space-y-0 max-360:flex-col max-360:space-x-0 max-360:space-y-4">
+                                <div className="flex space-x-4">
+                                    <a href="https://example.com" target='_blank' className="flex-center justify-center rounded-lg w-12 h-12 bg-secondary-whatsapp">
+                                        <img width={32} height={32} src={whatsapp} alt="" className="" />
+                                    </a>
+                                    <a href="https://example.com" target='_blank' className="flex-center justify-center rounded-lg w-12 h-12 bg-secondary-vk">
+                                        <img width={26} height={17} src={vk} alt="" className="" />
+                                    </a>
+                                </div>
                                 <a href="https://example.com" target='_blank' className="red-btn py-3.5 px-6 text-regular-16">Связаться с нами</a>
                             </div>
                         </div>
@@ -121,10 +123,10 @@ const Footer = () => {
                 </div>
 
                 {/* bottom  */}
-                <div className="flex-c-b pt-8 text-regular-16 text-primary-gray-30 border-t border-primary-gray-70">
-                    <p>© «Офис-стиль», 2023</p>
-                    <p>Политика конфиденциальности</p>
-                    <p>Разработка - Алина Колос</p>
+                <div className="flex-c-b pt-8 text-primary-gray-30 border-t border-primary-gray-70 max-730:flex-col max-730:space-y-2.5 max-580:items-start">
+                    <p className='text-regular-16'>© «Офис-стиль», 2023</p>
+                    <p className='text-regular-16'>Политика конфиденциальности</p>
+                    <p className='text-regular-16'>Разработка - Алина Колос</p>
                 </div>
             </div>
         </footer>
