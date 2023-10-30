@@ -530,6 +530,18 @@ label {
 
 
 /* responsive  */
+@media only screen and (max-width:1050px) {
+  h1 {
+    font-size: 60px;
+    line-height: 72px;
+  }
+
+  h2 {
+    font-size: 46px;
+    line-height: 54px;
+  }
+}
+
 @media only screen and (max-width:900px) {
   h1 {
     font-size: 54px;

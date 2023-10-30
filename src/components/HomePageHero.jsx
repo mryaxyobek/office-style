@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -11,7 +12,6 @@ import '../css/styles.css';
 
 // import required modules
 import { Autoplay, EffectFade, Navigation, Pagination } from 'swiper/modules';
-import { Link } from 'react-router-dom';
 
 const HomePageHero = () => {
     return (
@@ -51,12 +51,12 @@ const HomePageHero = () => {
                 <div className="bg-black bg-opacity-40 absolute top-0 left-0 w-full z-0 h-full"></div>
 
                 {/* main content  */}
-                <div className="flex justify-between items-start container text-white pt-[447px] z-1 pb-152px">
+                <div className="flex justify-between items-start container text-white pt-447px z-1 pb-152px max-730:pb-32 max-540:pb-28 max-440:pb-24">
                     <div className='z-1'>
-                        <h1 className="mb-12 max-w-4xl">Офисная мебель <br /> В краснодаре</h1>
+                        <h1 className="mb-12 max-w-4xl max-640:mb-10 max-440:mb-8 text-normal">Офисная мебель <br /> В краснодаре</h1>
                         <Link to='/' className='red-btn-14 text-regular-16'>Заказать дизайн-проект</Link>
                     </div>
-                    <ul className="z-1 max-w-[304px] space-y-8 mt-3">
+                    <ul className="z-1 max-w-305px space-y-8 mt-3 max-640:hidden">
                         <li className="text-white">
                             <h3 className="mb-4 text-bold-24">18 лет</h3>
                             <p className="text-regular-16">обустраиваем офисы от эконом <br />до премиум «под ключ»</p>
@@ -68,8 +68,21 @@ const HomePageHero = () => {
                     </ul>
                 </div>
             </Swiper>
+
+            <div className="container pt-16 pb-12 max-440:pb-30px">
+                <ul className="hidden max-w-305px space-y-8 max-640:block">
+                    <li className="text-black">
+                        <h3 className="mb-4 text-bold-24">18 лет</h3>
+                        <p className="text-regular-16">обустраиваем офисы от эконом <br />до премиум «под ключ»</p>
+                    </li>
+                    <li className="text-black">
+                        <h3 className="mb-4 text-bold-24">1 час</h3>
+                        <p className="text-regular-16">экспресс-доставка товара <br />в наличии</p>
+                    </li>
+                </ul>
+            </div>
         </>
     )
-}
+};
 
 export default HomePageHero;

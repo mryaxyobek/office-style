@@ -141,6 +141,7 @@ export default {
       },
 
       padding: {
+        '447px': '447px',
         '152px': '152px',
         '130px': '130px',
         '120px': '120px',
