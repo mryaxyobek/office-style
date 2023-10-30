@@ -66,6 +66,7 @@ export default {
         '416px': '416px',
         '224px': '224px',
         '300px': '300px',
+        '280px': '280px',
       },
 
       width: {
@@ -90,6 +91,7 @@ export default {
         '254px': '254px',
         '214px': '214px',
         '210px': '210px',
+        '175px': '175px',
         '18px': '18px',
       },
 
