@@ -9,21 +9,21 @@ import furniture from '../assets/images/other/office-furnitures.png';
 const AboutFurnitureSize = () => {
 
     return (
-        <section className='py-60px'>
+        <section className='py-60r'>
             <div className="container">
-                <h2 className="mb-60px">Мебель по вашим размерам</h2>
-                <div className="grid grid-cols-16 gap-10">
+                <h2 className="mb-60px max-1350:mb-8">Мебель по вашим размерам</h2>
+                <div className="grid grid-cols-16 gap-10 max-1350:grid-cols-1 max-1350:gap-8">
 
                     {/* img parent  */}
-                    <div className="furniture-imgs col-span-11 relative">
-                        <img width={1200} height={596} src={furniture} alt="office furniture image" className="rounded-2.5xl" />
+                    <div className="furniture-imgs col-span-11 relative max-1350:col-span-1">
+                        <img width={1200} height={596} src={furniture} alt="office furniture image" className="rounded-2.5xl max-1350:w-full max-360:h-40 object-cover" />
                         {/* buttons  */}
-                        <div className="absolute left-153px bottom-198px">
+                        <div className="absolute left-153px bottom-198px max-1500:left-24 max-1500:bottom-36 max-1050:hidden">
                             <div className="flex-center flex-col relative">
                                 {/* button  */}
-                                <button className="plus-btn red-btn p-3.5 rounded-full">
+                                <div className="plus-btn red-btn p-3.5 rounded-full">
                                     <img width={24} height={24} src={plusImg} alt="plus icon image" className="" />
-                                </button>
+                                </div>
 
                                 {/* text  */}
                                 <div className={`hidden-text opacity-0 absolute bottom-full pb-5 transition-opacity-2`}>
@@ -41,12 +41,12 @@ const AboutFurnitureSize = () => {
                             </div>
                         </div>
 
-                        <div className="absolute top-153px left-223px">
+                        <div className="absolute top-153px left-223px max-1500:top-20 max-1500:left-40 max-1050:hidden">
                             <div className="flex-center flex-col relative">
                                 {/* button  */}
-                                <button className="plus-btn red-btn p-3.5 rounded-full">
+                                <div className="plus-btn red-btn p-3.5 rounded-full">
                                     <img width={24} height={24} src={plusImg} alt="plus icon image" className="" />
-                                </button>
+                                </div>
                                 
                                 {/* text  */}
                                 <div className={`hidden-text opacity-0 absolute bottom-full pb-5 transition-opacity-2`}>
@@ -63,12 +63,12 @@ const AboutFurnitureSize = () => {
                             </div>
                         </div>
 
-                        <div className="absolute bottom-52 left-96">
+                        <div className="absolute bottom-52 left-96 max-1500:bottom-40 max-1500:left-80 max-1350:left-96 max-1350:bottom-60 max-1200:bottom-48 max-1050:hidden">
                             <div className="flex-center flex-col relative">
                                 {/* button  */}
-                                <button className="plus-btn red-btn p-3.5 rounded-full">
+                                <div className="plus-btn red-btn p-3.5 rounded-full">
                                     <img width={24} height={24} src={plusImg} alt="plus icon image" className="" />
-                                </button>
+                                </div>
 
                                 {/* text  */}
                                 <div className={`hidden-text opacity-0 absolute bottom-full pb-5 transition-opacity-2`}>
@@ -86,12 +86,12 @@ const AboutFurnitureSize = () => {
                             </div>
                         </div>
 
-                        <div className="absolute bottom-104px left-556px">
+                        <div className="absolute bottom-104px left-556px max-1500:bottom-16 max-1500:left-96 max-1350:left-556px max-1200:left-96 max-1050:hidden">
                             <div className="flex-center flex-col relative">
                                 {/* button  */}
-                                <button className="plus-btn red-btn p-3.5 rounded-full">
+                                <div className="plus-btn red-btn p-3.5 rounded-full">
                                     <img width={24} height={24} src={plusImg} alt="plus icon image" className="" />
-                                </button>
+                                </div>
 
                                 {/* text  */}
                                 <div className={`hidden-text opacity-0 absolute bottom-full pb-5 transition-opacity-2`}>
@@ -108,12 +108,12 @@ const AboutFurnitureSize = () => {
                             </div>
                         </div>
 
-                        <div className="absolute top-104px left-411px">
+                        <div className="absolute top-104px left-411px max-1500:left-80 max-1350:left-411px max-1050:hidden">
                             <div className="flex-center flex-col relative">
                                 {/* button  */}
-                                <button className="plus-btn red-btn p-3.5 rounded-full">
+                                <div className="plus-btn red-btn p-3.5 rounded-full">
                                     <img width={24} height={24} src={plusImg} alt="plus icon image" className="" />
-                                </button>
+                                </div>
 
                                 {/* text  */}
                                 <div className={`hidden-text opacity-0 absolute bottom-full pb-5 transition-opacity-2`}>
@@ -130,12 +130,12 @@ const AboutFurnitureSize = () => {
                             </div>
                         </div>
 
-                        <div className="absolute bottom-48 right-70px">
+                        <div className="absolute bottom-48 right-70px max-1500:bottom-40 max-1500:right-12 max-1050:hidden">
                             <div className="flex-center flex-col relative">
                                 {/* button  */}
-                                <button className="plus-btn red-btn p-3.5 rounded-full">
+                                <div className="plus-btn red-btn p-3.5 rounded-full">
                                     <img width={24} height={24} src={plusImg} alt="plus icon image" className="" />
-                                </button>
+                                </div>
 
                                 {/* text  */}
                                 <div className={`hidden-text opacity-0 absolute bottom-full pb-5 transition-opacity-2`}>
@@ -153,29 +153,29 @@ const AboutFurnitureSize = () => {
                         </div>
                     </div>
 
-                    {/* left conent  */}
-                    <div className='flex flex-col items-start col-start-12 col-end-17'>
+                    {/* right conent  */}
+                    <div className='flex flex-col items-start col-start-12 col-end-17 max-1350:col-start-1 max-1350:col-end-2'>
                         {/* list  */}
-                        <ul className="space-y-8 mb-auto">
-                            <li className="flex-center">
-                                <img className='p-2 mr-6' width={80} height={80} src={calendarImg} alt="calendar image" />
-                                <p className="max-w-sm">18 лет обустраиваем офисы от эконом до премиум «под ключ»</p>
+                        <ul className="space-y-8 mb-auto max-1500:space-y-4 max-1350:mb-8">
+                            <li className="flex-start">
+                                <img className='p-2 mr-6 w-20 h-20 max-800:w-16 max-800:h-16 max-470:w-12 max-470:h-12 max-470:p-1' width={80} height={80} src={calendarImg} alt="calendar image" />
+                                <p className="max-w-sm max-470:text-regular-16">18 лет обустраиваем офисы от эконом до премиум «под ключ»</p>
                             </li>
-                            <li className="flex-center">
-                                <img className='p-2 mr-6' width={80} height={80} src={toolsImg} alt="tools image" />
-                                <p className="max-w-sm">Бесплатно делаем эскиз-проект дизайна офиса с 3Д-визуализацией</p>
+                            <li className="flex-start">
+                                <img className='p-2 mr-6 w-20 h-20 max-800:w-16 max-800:h-16 max-470:w-12 max-470:h-12 max-470:p-1' width={80} height={80} src={toolsImg} alt="tools image" />
+                                <p className="max-w-sm max-470:text-regular-16">Бесплатно делаем эскиз-проект дизайна офиса с 3Д-визуализацией</p>
                             </li>
-                            <li className="flex-center">
-                                <img className='p-2 mr-6' width={80} height={80} src={parameterImg} alt="[parameter image" />
-                                <p className="max-w-sm">Монтаж и клининг. Аккуратно и оперативно соберем мебель и оставим после себя чистоту</p>
+                            <li className="flex-start">
+                                <img className='p-2 mr-6 w-20 h-20 max-800:w-16 max-800:h-16 max-470:w-12 max-470:h-12 max-470:p-1' width={80} height={80} src={parameterImg} alt="parameter image" />
+                                <p className="max-w-sm max-470:text-regular-16">Монтаж и клининг. Аккуратно и оперативно соберем мебель и оставим после себя чистоту</p>
                             </li>
-                            <li className="flex-center">
-                                <img className='p-2 mr-6' width={80} height={80} src={shieldImg} alt="shield image" />
-                                <p className="max-w-sm">Гарантийное обслуживание. Бесплатное сервисное обслуживание в течение 24 месяцев. </p>
+                            <li className="flex-start">
+                                <img className='p-2 mr-6 w-20 h-20 max-800:w-16 max-800:h-16 max-470:w-12 max-470:h-12 max-470:p-1.5' width={80} height={80} src={shieldImg} alt="shield image" />
+                                <p className="max-w-sm max-470:text-regular-16">Гарантийное обслуживание. Бесплатное сервисное обслуживание в течение 24 месяцев. </p>
                             </li>
                         </ul>
                         {/* btn  */}
-                        <button className="red-btn py-3.5 px-6 text-regular-16 ">Больше о компании</button>
+                        <button className="red-btn py-3.5 px-6 text-regular-16 max-470:w-full">Больше о компании</button>
                     </div>
                 </div>
             </div>

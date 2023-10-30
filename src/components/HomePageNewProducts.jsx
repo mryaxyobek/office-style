@@ -33,12 +33,12 @@ const HomePageNewProducts = () => {
     }
     return (
         <section className='pt-100px pb-60px'>
-            <div className="container">
+            <div className="container overflow-x-auto">
                 {/* title  */}
                 <h2 className="text-center mb-60px">Новинки каталога</h2>
 
                 {/* tab */}
-                <div className="flex-center mb-8 bg-primary-gray-04 p-1 relative rounded-lg mx-auto max-w-max">
+                <div className="flex-center mb-8 bg-primary-gray-04 p-1 relative rounded-lg mx-auto m-in-w-max">
                     {/* shape  */}
                     <div style={{ left: Position + 'px', width: Width + 'px' }} className={`transition-all duration-300 absolute left-1 top-1 h-10 w-14 rounded-lg bg-primary-gray-70 z-1`}></div>
 

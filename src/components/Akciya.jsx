@@ -13,11 +13,11 @@ const Akciya = () => {
                 </div>
 
                 {/* products  */}
-                <ul className="grid grid-cols-4 gap-8">
+                <ul className="flex w-full gap-8 overflow-x-auto gray-scroll">
                     {akciyaProducts.map((e) => {
                         return (
-                            <li key={e.id} className="w-416px product hover:active-hover">
-                                <Link to={`/${e.idName}`}>
+                            <li key={e.id} className="min-w-416px product hover:active-hover">
+                                <Link rel='noopener' to={`/${e.idName}`}>
                                     <img width={416} height={260} src={e.img} alt="furniture image" className="mb-6 rounded-2.5xl h-260px" />
 
                                     {/* date */}
