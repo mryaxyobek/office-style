@@ -32,30 +32,32 @@ const HomePageNewProducts = () => {
         setButtonId(e.target.id);
     }
     return (
-        <section className='pt-100px pb-60px'>
-            <div className="container overflow-x-auto">
+        <section className='py-60r'>
+            <div className="container">
                 {/* title  */}
-                <h2 className="text-center mb-60px">Новинки каталога</h2>
+                <h2 className="text-center mb-60r">Новинки каталога</h2>
 
                 {/* tab */}
-                <div className="flex-center mb-8 bg-primary-gray-04 p-1 relative rounded-lg mx-auto m-in-w-max">
-                    {/* shape  */}
-                    <div style={{ left: Position + 'px', width: Width + 'px' }} className={`transition-all duration-300 absolute left-1 top-1 h-10 w-14 rounded-lg bg-primary-gray-70 z-1`}></div>
+                <div className="flex w-full overflow-x-auto hidden-scroll mb-8">
+                    <div className="flex-center bg-primary-gray-04 p-1 relative rounded-lg mx-auto min-w-max">
+                        {/* shape  */}
+                        <div style={{ left: Position + 'px', width: Width + 'px' }} className={`transition-all duration-300 absolute left-1 top-1 h-10 w-14 rounded-lg bg-primary-gray-70 z-1`}></div>
 
-                    {/* buttons  */}
-                    {tabButtonsGroup.map((button) => {
-                        return (
-                            <button style={{ color: buttonId == button.id ? 'white' : '#4D4D4D' }} key={button.id} onClick={func} className="relative px-4 pt-2.5 pb-3 transition-colors-2 text-regular-14 z-2" id={button.id}>{button.text}</button>
-                        )
-                    })}
+                        {/* buttons  */}
+                        {tabButtonsGroup.map((button) => {
+                            return (
+                                <button style={{ color: buttonId == button.id ? 'white' : '#4D4D4D' }} key={button.id} onClick={func} className="relative px-4 pt-2.5 pb-3 transition-colors-2 text-regular-14 z-2" id={button.id}>{button.text}</button>
+                            )
+                        })}
+                    </div>
                 </div>
 
                 {/* products  */}
-                <ul className="flex gap-8 w-full overflow-auto pb-60px gray-scroll">
+                <ul className="flex gap-8 w-full overflow-x-auto pb-60px gray-scroll max-580:gap-6 max-440:gap-4">
                     {newProducts.map((e) => {
                         return (
-                            <li key={e.id} className="w-416px product hover:active-hover">
-                                <Swiper className="product-img-swiper relative rounded-lg w-full mb-4 h-310px"
+                            <li key={e.id} className="w-416px product hover:active-hover max-470:w-full max-360:min-w-280px max-360:w-full">
+                                <Swiper className="product-img-swiper relative rounded-lg w-full mb-4 h-310px max-470:h-56 max-360:h-175px"
                                     effect={'fade'}
                                     slidesPerView={1}
                                     spaceBetween={30}
@@ -100,8 +102,8 @@ const HomePageNewProducts = () => {
 
                                 {/* top  */}
                                 <div className="flex-c-b mb-2 text-regular-14 text-primary-gray-70">
-                                    <span className="">{e.type}</span>
-                                    <span className="">ID:{e.productId}</span>
+                                    <span>{e.type}</span>
+                                    <span>ID:{e.productId}</span>
                                 </div>
 
                                 {/* title  */}
@@ -110,24 +112,24 @@ const HomePageNewProducts = () => {
                                 {/* list  */}
                                 <ul className="text-regular-14 text-primary-gray-70 space-y-2.5 mb-4">
                                     <li className="flex items-end">
-                                        <span className="">Страна производитель</span>
+                                        <span>Страна производитель</span>
                                         <div className="grow border-t-2 mx-1 mb-0.5 border-primary-gray-70 border-dotted"></div>
-                                        <span className="">{e.country}</span>
+                                        <span>{e.country}</span>
                                     </li>
                                     <li className="flex items-end">
-                                        <span className="">Материал столешницы</span>
+                                        <span>Материал столешницы</span>
                                         <div className="grow border-t-2 mx-1 mb-0.5 border-primary-gray-70 border-dotted"></div>
-                                        <span className="">{e.tableMaterial}</span>
+                                        <span>{e.tableMaterial}</span>
                                     </li>
                                     <li className="flex items-end">
-                                        <span className="">Толщина столешницы</span>
+                                        <span>Толщина столешницы</span>
                                         <div className="grow border-t-2 mx-1 mb-0.5 border-primary-gray-70 border-dotted"></div>
-                                        <span className="">{e.tableThicknessn}</span>
+                                        <span>{e.tableThicknessn}</span>
                                     </li>
                                 </ul>
 
                                 {/*  */}
-                                <div className="flex-c-b">
+                                <div className="flex-c-b max-440:flex-col max-440:items-start max-440:gap-6">
                                     {/* price  */}
                                     <div className="flex items-end">
                                         <span className="inline-block text-regular-16 text-primary-gray-70 mr-1" >от</span>
@@ -138,7 +140,7 @@ const HomePageNewProducts = () => {
                                     </div>
 
                                     {/* btn  */}
-                                    <button className="red-btn py-2.5 px-5">Заказать в 1 клик</button>
+                                    <button className="red-btn py-2.5 px-5 max-440:w-full bg-primary-red-60">Заказать в 1 клик</button>
                                 </div>
                             </li>
                         )

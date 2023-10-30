@@ -363,15 +363,19 @@ html {
 
   /* section responsive padding (r = responsive) */
   .py-60r {
-    @apply py-60px max-900:py-12 max-360:py-30px;
+    @apply py-60px max-900:py-12 max-440:py-30px;
   }
 
   .pt-60r {
-    @apply pt-60px max-900:pt-12 max-360:pt-30px;
+    @apply pt-60px max-900:pt-12 max-440:pt-30px;
   }
 
   .pb-60r {
-    @apply pb-60px max-900:pb-12 max-360:pb-30px;
+    @apply pb-60px max-900:pb-12 max-440:pb-30px;
+  }
+
+  .mb-60r {
+    @apply mb-60px max-900:mb-12 max-440:mb-8;
   }
 
 }
