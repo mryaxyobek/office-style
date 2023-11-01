@@ -380,10 +380,13 @@ html {
     @apply pb-60px max-900:pb-12 max-440:pb-30px;
   }
 
+  .pt-36r {
+    @apply pt-36 max-1050:pt-28 max-900:pt-12 max-440:pt-8;
+  }
+
   .mb-60r {
     @apply mb-60px max-900:mb-12 max-440:mb-8;
   }
-
 }
 
 /* form elements */
@@ -603,6 +606,14 @@ label {
     line-height: 40px;
   }
 }
+
+@media only screen and (max-width:440px) {
+  .body {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
 
 @media only screen and (max-width:360px) {
   h1 {
