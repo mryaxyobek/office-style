@@ -4,37 +4,85 @@ import { Link } from 'react-router-dom';
 function QuestionAnswer() {
     const [showText, setShowText] = useState(false);
     const titleH = useRef(35);
-    useEffect(() => { titleH.current.parentElement.style.maxHeight = `${titleH.current.clientHeight}px`; }, []);
+    useEffect(() => {
+        const handleResize = () => {
+            titleH.current.parentElement.style.maxHeight = `${titleH.current.clientHeight}px`;
+        };
+        titleH.current.parentElement.style.maxHeight = `${titleH.current.clientHeight}px`;
+        window.addEventListener("resize", handleResize); return () => { window.removeEventListener("resize", handleResize); };
+    }, []);
 
     const [showText2, setShowText2] = useState(false);
     const titleH2 = useRef(35);
-    useEffect(() => { titleH2.current.parentElement.style.maxHeight = `${titleH2.current.clientHeight}px`; }, []);
+    useEffect(() => {
+        const handleResize = () => {
+            titleH2.current.parentElement.style.maxHeight = `${titleH2.current.clientHeight}px`;
+        };
+        titleH2.current.parentElement.style.maxHeight = `${titleH2.current.clientHeight}px`;
+        window.addEventListener("resize", handleResize); return () => { window.removeEventListener("resize", handleResize); };
+    }, []);
 
     const [showText3, setShowText3] = useState(false);
     const titleH3 = useRef(35);
-    useEffect(() => { titleH3.current.parentElement.style.maxHeight = `${titleH3.current.clientHeight}px`; }, []);
+    useEffect(() => {
+        const handleResize = () => {
+            titleH3.current.parentElement.style.maxHeight = `${titleH3.current.clientHeight}px`;
+        };
+        titleH3.current.parentElement.style.maxHeight = `${titleH3.current.clientHeight}px`;
+        window.addEventListener("resize", handleResize); return () => { window.removeEventListener("resize", handleResize); };
+    }, []);
 
     const [showText4, setShowText4] = useState(false);
     const titleH4 = useRef(35);
-    useEffect(() => { titleH4.current.parentElement.style.maxHeight = `${titleH4.current.clientHeight}px`; }, []);
+    useEffect(() => {
+        const handleResize = () => {
+            titleH4.current.parentElement.style.maxHeight = `${titleH4.current.clientHeight}px`;
+        };
+        titleH4.current.parentElement.style.maxHeight = `${titleH4.current.clientHeight}px`;
+        window.addEventListener("resize", handleResize); return () => { window.removeEventListener("resize", handleResize); };
+    }, []);
 
     const [showText5, setShowText5] = useState(false);
     const titleH5 = useRef(35);
-    useEffect(() => { titleH5.current.parentElement.style.maxHeight = `${titleH5.current.clientHeight}px`; }, []);
+    useEffect(() => {
+        const handleResize = () => {
+            titleH5.current.parentElement.style.maxHeight = `${titleH5.current.clientHeight}px`;
+        };
+        titleH5.current.parentElement.style.maxHeight = `${titleH5.current.clientHeight}px`;
+        window.addEventListener("resize", handleResize); return () => { window.removeEventListener("resize", handleResize); };
+    }, []);
 
     const [showText6, setShowText6] = useState(false);
     const titleH6 = useRef(35);
-    useEffect(() => { titleH6.current.parentElement.style.maxHeight = `${titleH6.current.clientHeight}px`; }, []);
+    useEffect(() => {
+        const handleResize = () => {
+            titleH6.current.parentElement.style.maxHeight = `${titleH6.current.clientHeight}px`;
+        };
+        titleH6.current.parentElement.style.maxHeight = `${titleH6.current.clientHeight}px`;
+        window.addEventListener("resize", handleResize); return () => { window.removeEventListener("resize", handleResize); };
+    }, []);
 
     const [showText7, setShowText7] = useState(false);
     const titleH7 = useRef(35);
-    useEffect(() => { titleH7.current.parentElement.style.maxHeight = `${titleH7.current.clientHeight}px`; }, []);
+    useEffect(() => {
+        const handleResize = () => {
+            titleH7.current.parentElement.style.maxHeight = `${titleH7.current.clientHeight}px`;
+        };
+        titleH7.current.parentElement.style.maxHeight = `${titleH7.current.clientHeight}px`;
+        window.addEventListener("resize", handleResize); return () => { window.removeEventListener("resize", handleResize); };
+    }, []);
 
     const [showText8, setShowText8] = useState(false);
     const titleH8 = useRef(35);
-    useEffect(() => { titleH8.current.parentElement.style.maxHeight = `${titleH8.current.clientHeight}px`; }, []);
+    useEffect(() => {
+        const handleResize = () => {
+            titleH8.current.parentElement.style.maxHeight = `${titleH8.current.clientHeight}px`;
+        };
+        titleH8.current.parentElement.style.maxHeight = `${titleH8.current.clientHeight}px`;
+        window.addEventListener("resize", handleResize); return () => { window.removeEventListener("resize", handleResize); };
+    }, []);
 
-    // 
+    //
     const [phoneNumber, setPhoneNumber] = useState('');
 
     const handlePhoneNumberChange = (event) => {
@@ -43,17 +91,17 @@ function QuestionAnswer() {
         setPhoneNumber(formattedPhoneNumber);
     };
     return (
-        <section className=''>
-            <div className="container">
-                <h2 className="mb-60px">Отвечаем на ваши вопросы</h2>
+        <section className='py-60r'>
+            <div className="container max-470:px-0">
+                <h2 className="mb-60r max-470:px-5">Отвечаем на ваши вопросы</h2>
 
                 {/* main content wrapper */}
-                <div className="grid grid-cols-16 gap-8 items-start">
+                <div className="grid grid-cols-16 gap-8 items-start max-1150:grid-cols-1 max-1150:max-w-5xl max-1150:mx-auto">
                     {/* QuestionAnswer  */}
-                    <ul className="space-y-2 col-start-1 col-end-12">
+                    <ul className="space-y-2 col-start-1 col-end-12 max-1150:col-end-2 max-470:px-5">
                         <li className="flex items-start justify-between gap-8 p-6 rounded-xl border border-primary-gray-10">
                             <div className={`${showText ? '!max-h-max' : ''} overflow-y-hidden`}>
-                                <h3 key={1} ref={titleH} className="text-medium-20 mb-3 !leading-25px">Сборка осуществляется в день доставки и сколько стоит сборка?</h3>
+                                <h3 key={1} ref={titleH} className="text-medium-20 mb-3 !leading-25px max-580:text-medium-18 max-440:text-medium-16">Сборка осуществляется в день доставки и сколько стоит сборка?</h3>
                                 <p className="text-primary-gray-70 text-regular-16 max-w-4xl">Сборка заказа осуществляется в день доставки (согласовывается с логистом дополнительно). Тарифы по стоимости сборки Вы можете увидеть в разделе: <Link to='/about-payment' className='text-primary-red-50'>«Доставка»</Link></p>
                             </div>
                             {/* button  */}
@@ -65,7 +113,7 @@ function QuestionAnswer() {
                         </li>
                         <li className="flex items-start justify-between gap-8 p-6 rounded-xl border border-primary-gray-10">
                             <div className={`${showText2 ? '!max-h-max' : ''} overflow-y-hidden`}>
-                                <h3 key={2} ref={titleH2} className="text-medium-20 mb-3 !leading-25px">Могу ли я вернуть или обменять приобретенную мебель?</h3>
+                                <h3 key={2} ref={titleH2} className="text-medium-20 mb-3 !leading-25px max-580:text-medium-18 max-440:text-medium-16">Могу ли я вернуть или обменять приобретенную мебель?</h3>
                                 <p className="text-primary-gray-70 text-regular-16 max-w-4xl">Условия возврата или обмена обсуждаются индивидуально с менеджером (доплата за иную модель, возврат разницы, сроки, и т.д.).</p>
                             </div>
                             {/* button  */}
@@ -77,7 +125,7 @@ function QuestionAnswer() {
                         </li>
                         <li className="flex items-start justify-between gap-8 p-6 rounded-xl border border-primary-gray-10">
                             <div className={`${showText3 ? '!max-h-max' : ''} overflow-y-hidden`}>
-                                <h3 key={3} ref={titleH3} className="text-medium-20 mb-3 !leading-25px">Какие сроки производства или поставки кабинета?</h3>
+                                <h3 key={3} ref={titleH3} className="text-medium-20 mb-3 !leading-25px max-580:text-medium-18 max-440:text-medium-16">Какие сроки производства или поставки кабинета?</h3>
                                 <p className="text-primary-gray-70 text-regular-16 max-w-4xl">Поставки кабинета который в наличии в шоуруме от 1 дня.  Кабинеты под заказ от 20 дней до 6 месяцев.</p>
                             </div>
                             {/* button  */}
@@ -89,7 +137,7 @@ function QuestionAnswer() {
                         </li>
                         <li className="flex items-start justify-between gap-8 p-6 rounded-xl border border-primary-gray-10">
                             <div className={`${showText4 ? '!max-h-max' : ''} overflow-y-hidden`}>
-                                <h3 key={4} ref={titleH4} className="text-medium-20 mb-3 !leading-25px">Как заказать проект кабинета?</h3>
+                                <h3 key={4} ref={titleH4} className="text-medium-20 mb-3 !leading-25px max-580:text-medium-18 max-440:text-medium-16">Как заказать проект кабинета?</h3>
                                 <p className="text-primary-gray-70 text-regular-16 max-w-4xl">Вы можете оставить заявку на разработку индивидуального проекта перейдя на сайт или по телефону <a href="tel:+79385000541" className="text-primary-red-50">+7 (938) 500 05-41</a> Ваша заявка будет направлен менеджеру, который в кратчайшие сроки согласует с вами все детали заказа  и создаст проект.</p>
                             </div>
                             {/* button  */}
@@ -101,7 +149,7 @@ function QuestionAnswer() {
                         </li>
                         <li className="flex items-start justify-between gap-8 p-6 rounded-xl border border-primary-gray-10">
                             <div className={`${showText5 ? '!max-h-max' : ''} overflow-y-hidden`}>
-                                <h3 key={5} ref={titleH5} className="text-medium-20 mb-3 !leading-25px">Сборка осуществляется в день доставки и сколько стоит сборка?</h3>
+                                <h3 key={5} ref={titleH5} className="text-medium-20 mb-3 !leading-25px max-580:text-medium-18 max-440:text-medium-16">Сборка осуществляется в день доставки и сколько стоит сборка?</h3>
                                 <p className="text-primary-gray-70 text-regular-16 max-w-4xl">Сборка осуществляется в день доставки и сколько стоит сборка?</p>
                             </div>
                             {/* button  */}
@@ -113,7 +161,7 @@ function QuestionAnswer() {
                         </li>
                         <li className="flex items-start justify-between gap-8 p-6 rounded-xl border border-primary-gray-10">
                             <div className={`${showText6 ? '!max-h-max' : ''} overflow-y-hidden`}>
-                                <h3 key={6} ref={titleH6} className="text-medium-20 mb-3 !leading-25px">Могу ли я купить и забрать кабинет из шоу-рума?</h3>
+                                <h3 key={6} ref={titleH6} className="text-medium-20 mb-3 !leading-25px max-580:text-medium-18 max-440:text-medium-16">Могу ли я купить и забрать кабинет из шоу-рума?</h3>
                                 <p className="text-primary-gray-70 text-regular-16 max-w-4xl">Кабинет можно забрать с шоурума при полном осмотре на повреждения. Гарантии на сохранность изделия  при собственной перевозки нет.</p>
                             </div>
                             {/* button  */}
@@ -125,7 +173,7 @@ function QuestionAnswer() {
                         </li>
                         <li className="flex items-start justify-between gap-8 p-6 rounded-xl border border-primary-gray-10">
                             <div className={`${showText7 ? '!max-h-max' : ''} overflow-y-hidden`}>
-                                <h3 key={7} ref={titleH7} className="text-medium-20 mb-3 !leading-25px">Адрес, телефон, режим работы шоу-рума?</h3>
+                                <h3 key={7} ref={titleH7} className="text-medium-20 mb-3 !leading-25px max-580:text-medium-18 max-440:text-medium-16">Адрес, телефон, режим работы шоу-рума?</h3>
                                 <p className="text-primary-gray-70 text-regular-16 max-w-4xl">Все зависит от типа серии мебели  и фабрики производителя. Все индивидуально вам объяснит менеджер.</p>
                             </div>
                             {/* button  */}
@@ -137,7 +185,7 @@ function QuestionAnswer() {
                         </li>
                         <li className="flex items-start justify-between gap-8 p-6 rounded-xl border border-primary-gray-10">
                             <div className={`${showText8 ? '!max-h-max' : ''} overflow-y-hidden`}>
-                                <h3 key={8} ref={titleH8} className="text-medium-20 mb-3 !leading-25px">Какие модели представлены в шоу-руме?</h3>
+                                <h3 key={8} ref={titleH8} className="text-medium-20 mb-3 !leading-25px max-580:text-medium-18 max-440:text-medium-16">Какие модели представлены в шоу-руме?</h3>
                                 <p className="text-primary-gray-70 text-regular-16 max-w-4xl">Сборка заказа осуществляется в день доставки (согласовывается с логистом дополнительно). Тарифы по стоимости сборки Вы можете увидеть в разделе: <Link to='/about-payment' className='text-primary-red-50'>«Доставка»</Link></p>
                             </div>
                             {/* button  */}
@@ -150,10 +198,10 @@ function QuestionAnswer() {
                     </ul>
 
                     {/* form  */}
-                    <form action="https://echo.htmlacademy.ru" className="bg-primary-gray-10 rounded-2.5xl p-8 col-start-12 col-end-17">
+                    <form action="https://echo.htmlacademy.ru" className="bg-primary-gray-10 rounded-2.5xl p-8 col-start-12 col-end-17 min-w-500px max-1150:col-start-1 max-1150:col-end-2 max-1150:min-w-0 max-470:px-5">
                         {/* title  */}
                         <h3 className="text-center max-w-md mx-auto text-medium-28 mb-3">Остались вопросы?</h3>
-                        <p className="text-center text-primary-gray-70 mb-8">Мы перезвоним, внимательно выслушаем Ваши задачи и потребности, предложим оптимальные варианты и бесплатно разработаем эскизный проект будущего кабинета или офиса.</p>
+                        <p className="text-center text-primary-gray-70 mb-8 max-440:text-regular-16">Мы перезвоним, внимательно выслушаем Ваши задачи и потребности, предложим оптимальные варианты и бесплатно разработаем эскизный проект будущего кабинета или офиса.</p>
                         {/* main  */}
                         <div className="space-y-6 mb-8">
                             <div>
