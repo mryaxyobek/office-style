@@ -2,6 +2,9 @@
 // akciya(stock) products
 import paymentPlanImg from '../assets/images/other/payment-plan.jpg';
 
+// for articles 
+import messayOffice from '../assets/images/other/messy-office.jpg';
+
 // buttons 
 export const tabButtonsGroup = [
     {
@@ -683,7 +686,7 @@ export const articles = [
         id: 1,
         date: '18 декабря 2022',
         description: `Как обустроить рабочее место: 6 практичных идей`,
-        img: 'https://s3-alpha-sig.figma.com/img/3f31/c5b7/2bd953043038bd1e90219a99cd06eb52?Expires=1698624000&Signature=YnG3O3qJTtbkgIrxLPYTJjkxMQcAvsf1aLUxE1hleCkR3vg8ZeBUGTk37IKw0aE1SOwLybD1GVeUDhgJIK2j0TLhx02FUS2apXovil7uc9D-NajuuhJhPVncKGjVt7SkXFBrLUXOakmlQeXUr5qiZgoj7Todk1K5JpvvXhi1lORY5mIOdVsSaEVnkutxhi~4I8hdQX6~R-DS4C0vZUDKOaxOb4mAs-akgB4cqjZvSgQekFn5Yx7cpsmuPuxtMa1Fl-YztCD~DW1UfCmoOujAWZsJLqnd3lVQX~cKJ6WdWNQdXAgvJtY1ipa9dUU4eC9P2pii4xgQdjby8E9FU4sWTg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4',
+        img: messayOffice,
         hashtags: ['#Идеи', '#Тренды'],
         imgName: 'Messay office room image',
     },
@@ -691,7 +694,7 @@ export const articles = [
         id: 2,
         date: '18 декабря 2022',
         description: `Как обустроить рабочее место: 6 практичных идей`,
-        img: 'https://s3-alpha-sig.figma.com/img/5159/e564/ce60913ae0419798422e7639c8247004?Expires=1698624000&Signature=gGxUetvZPI2lJkNEVDV5XDa7hFgREx-PkW7YSGCmS-deUwR~YK8p7io~2c2dVbxmtgGh-BAgcoVuiQP6SZkE-wIy16xCIblPfhCvc9gQVOmz7IKLowqTAyxLUdip7Ry2FXJIb9Cfk47gXPS868ydy0pyIuWVttHXm7qBSUwD6QYkjqSyYms7rj2fSqqp6Ol1Mjj~7WN3s1hiVwr1oOkTf5cmmeAjbNOarfJliECBXydSCXBEcIlxEHYit0nF08K6NNbqIYTxv7NOKiRa7F96JoOPLh6QdbxSFWUkKP6mNDisaMRbqaoMyGva4k~HGbcIpwXVlxW7K8-jWhfTu5opqw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4',
+        img: messayOffice,
         hashtags: ['#Идеи', '#Тренды'],
         imgName: 'Messay office room image',
     },
@@ -699,7 +702,7 @@ export const articles = [
         id: 3,
         date: '18 декабря 2022',
         description: 'Бесплатная доставка до офиса',
-        img: 'https://s3-alpha-sig.figma.com/img/3f31/c5b7/2bd953043038bd1e90219a99cd06eb52?Expires=1698624000&Signature=YnG3O3qJTtbkgIrxLPYTJjkxMQcAvsf1aLUxE1hleCkR3vg8ZeBUGTk37IKw0aE1SOwLybD1GVeUDhgJIK2j0TLhx02FUS2apXovil7uc9D-NajuuhJhPVncKGjVt7SkXFBrLUXOakmlQeXUr5qiZgoj7Todk1K5JpvvXhi1lORY5mIOdVsSaEVnkutxhi~4I8hdQX6~R-DS4C0vZUDKOaxOb4mAs-akgB4cqjZvSgQekFn5Yx7cpsmuPuxtMa1Fl-YztCD~DW1UfCmoOujAWZsJLqnd3lVQX~cKJ6WdWNQdXAgvJtY1ipa9dUU4eC9P2pii4xgQdjby8E9FU4sWTg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4',
+        img: messayOffice,
         hashtags: ['#Идеи', '#Тренды'],
         imgName: 'Messay office room image',
     },
@@ -707,7 +710,7 @@ export const articles = [
         id: 4,
         date: '18 декабря 2022',
         description: '0-0-24 на всё',
-        img: 'https://s3-alpha-sig.figma.com/img/b69f/ae96/477eac75c8edc4169de411dd2f217698?Expires=1698624000&Signature=XbP4iHMHKJDZ2TUBySVQf1vag-XEOkAkDYfY4gfg5tVE-E-E9HJ7LgRLk2WAW15r0Xn5j9peYvI~RjGZ0AWN0a~JUn4~MGqR5kgEQWEdlPv4hYTYHfRXzl3qFHySF5331QTN0ZKW~HlmUAsnlr-T4KrvR~YyhV8KHG5JWt15zE4fmE4lRvjQBksv2pxEvCp0l5AObsO0lTm2CuwXllX6lNUrSYlMsjxkE4PlWAAu0O2ruIw7Iy0XevrR559kJMEqfEI33fDxkF0-5TNwSykbsCyMomwqYyg6YdLK4FjUHjrT4AHabguEyiWsPIJxukvVj6ejCVOmAepDi5O02MCDbQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4',
+        img: messayOffice,
         hashtags: ['#Идеи', '#Тренды'],
         imgName: 'Messay office room image',
     },
@@ -715,7 +718,7 @@ export const articles = [
         id: 5,
         date: '18 декабря 2022',
         description: `Как обустроить рабочее место: 6 практичных идей`,
-        img: 'https://s3-alpha-sig.figma.com/img/3f31/c5b7/2bd953043038bd1e90219a99cd06eb52?Expires=1698624000&Signature=YnG3O3qJTtbkgIrxLPYTJjkxMQcAvsf1aLUxE1hleCkR3vg8ZeBUGTk37IKw0aE1SOwLybD1GVeUDhgJIK2j0TLhx02FUS2apXovil7uc9D-NajuuhJhPVncKGjVt7SkXFBrLUXOakmlQeXUr5qiZgoj7Todk1K5JpvvXhi1lORY5mIOdVsSaEVnkutxhi~4I8hdQX6~R-DS4C0vZUDKOaxOb4mAs-akgB4cqjZvSgQekFn5Yx7cpsmuPuxtMa1Fl-YztCD~DW1UfCmoOujAWZsJLqnd3lVQX~cKJ6WdWNQdXAgvJtY1ipa9dUU4eC9P2pii4xgQdjby8E9FU4sWTg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4',
+        img: messayOffice,
         hashtags: ['#Идеи', '#Тренды'],
         imgName: 'Messay office room image',
     },
@@ -731,7 +734,7 @@ export const articles = [
         id: 7,
         date: '18 декабря 2022',
         description: 'Бесплатная доставка до офиса',
-        img: 'https://s3-alpha-sig.figma.com/img/3f31/c5b7/2bd953043038bd1e90219a99cd06eb52?Expires=1698624000&Signature=YnG3O3qJTtbkgIrxLPYTJjkxMQcAvsf1aLUxE1hleCkR3vg8ZeBUGTk37IKw0aE1SOwLybD1GVeUDhgJIK2j0TLhx02FUS2apXovil7uc9D-NajuuhJhPVncKGjVt7SkXFBrLUXOakmlQeXUr5qiZgoj7Todk1K5JpvvXhi1lORY5mIOdVsSaEVnkutxhi~4I8hdQX6~R-DS4C0vZUDKOaxOb4mAs-akgB4cqjZvSgQekFn5Yx7cpsmuPuxtMa1Fl-YztCD~DW1UfCmoOujAWZsJLqnd3lVQX~cKJ6WdWNQdXAgvJtY1ipa9dUU4eC9P2pii4xgQdjby8E9FU4sWTg__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4',
+        img: messayOffice,
         hashtags: ['#Идеи', '#Тренды'],
         imgName: 'Messay office room image',
     },
@@ -739,7 +742,7 @@ export const articles = [
         id: 8,
         date: '18 декабря 2022',
         description: '0-0-24 на всё',
-        img: 'https://s3-alpha-sig.figma.com/img/b69f/ae96/477eac75c8edc4169de411dd2f217698?Expires=1698624000&Signature=XbP4iHMHKJDZ2TUBySVQf1vag-XEOkAkDYfY4gfg5tVE-E-E9HJ7LgRLk2WAW15r0Xn5j9peYvI~RjGZ0AWN0a~JUn4~MGqR5kgEQWEdlPv4hYTYHfRXzl3qFHySF5331QTN0ZKW~HlmUAsnlr-T4KrvR~YyhV8KHG5JWt15zE4fmE4lRvjQBksv2pxEvCp0l5AObsO0lTm2CuwXllX6lNUrSYlMsjxkE4PlWAAu0O2ruIw7Iy0XevrR559kJMEqfEI33fDxkF0-5TNwSykbsCyMomwqYyg6YdLK4FjUHjrT4AHabguEyiWsPIJxukvVj6ejCVOmAepDi5O02MCDbQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4',
+        img: messayOffice,
         hashtags: ['#Идеи', '#Тренды'],
         imgName: 'Messay office room image',
     },
