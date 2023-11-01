@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 // components(section)
 import Reviews from '../components/Reviews';
@@ -6,6 +6,9 @@ import Contracts from '../components/Contracts';
 import AddComment from '../components/AddComment';
 
 const ReviewsPage = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    },[]);
     return (
         <>
             <section className="pt-36 pb-60px">

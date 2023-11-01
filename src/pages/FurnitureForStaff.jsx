@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 // 
 import CategoryHero from '../components/CategoryHero';
@@ -8,6 +8,9 @@ import QuestionAnswer from '../components/QuestionAnswer';
 import FurnitureCatalog from '../components/FurnitureCatalog';
 
 const FurnitureForStaff = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    },[]);
     return (
         <>
             <CategoryHero />

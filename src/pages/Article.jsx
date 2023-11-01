@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 // data
@@ -28,6 +28,9 @@ const Article = () => {
         const formattedPhoneNumber = input.replace(/(\d{1,2})(\d{3})(\d{3})(\d{3})/, '+7 ($2) $3-$4');
         setPhoneNumber(formattedPhoneNumber);
     };
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    },[]);
     return (
         <>
             <section className='pt-20 pb-60px'>
