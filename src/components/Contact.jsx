@@ -63,7 +63,7 @@ const Contact = () => {
             </div>
 
             {/* map  */}
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8395.303036926065!2d69.14454517715944!3d41.27083684645601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae89e429bf5339%3A0x4df5395d904db17c!2sComfort%20style!5e0!3m2!1sen!2s!4v1698856778376!5m2!1sen!2s" width="976" height="600" loading="lazy" referrerpolicy="no-referrer-when-downgrade" className='rounded-2.5xl max-1450:w-800px bg-primary-gray-70 max-1050:w-full max-730:h-411px max-440:h-340px max-440:rounded-none'></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8395.303036926065!2d69.14454517715944!3d41.27083684645601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae89e429bf5339%3A0x4df5395d904db17c!2sComfort%20style!5e0!3m2!1sen!2s!4v1698856778376!5m2!1sen!2s" width="976" height="600" loading="lazy" referrerpolicy="no-referrer-when-downgrade" className='rounded-2.5xl max-1450:w-800px bg-primary-gray-70 max-1050:w-full max-730:h-411px max-440:h-340px'></iframe>
         </div>
     )
 };
