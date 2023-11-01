@@ -549,7 +549,9 @@ label {
 /* responsive  */
 
 @media only screen and (max-width:1050px) {
-  h1 {
+
+  h1,
+  .h1-bold {
     font-size: 60px;
     line-height: 72px;
   }
@@ -576,7 +578,9 @@ label {
 }
 
 @media only screen and (max-width:900px) {
-  h1 {
+
+  h1,
+  .h1-bold {
     font-size: 54px;
     line-height: 68px;
   }
@@ -610,7 +614,9 @@ label {
 }
 
 @media only screen and (max-width:730px) {
-  h1 {
+
+  h1,
+  .h1-bold {
     font-size: 48px;
     line-height: 60px;
   }
@@ -630,7 +636,8 @@ label {
 
 @media only screen and (max-width:580px) {
 
-  h1 {
+  h1,
+  .h1-bold {
     font-size: 42px;
     line-height: 52px;
   }
@@ -650,7 +657,8 @@ label {
     font-weight: 500;
   }
 
-  h1 {
+  h1,
+  .h1-bold {
     font-size: 39px;
     line-height: 48px;
   }
@@ -681,7 +689,9 @@ label {
 
 
 @media only screen and (max-width:360px) {
-  h1 {
+
+  h1,
+  .h1-bold {
     font-size: 36px;
     line-height: 45px;
   }

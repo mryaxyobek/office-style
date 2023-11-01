@@ -63,6 +63,7 @@ export default {
       minWidth: {
         '864px': '864px',
         '788px': '788px',
+        '500px': '500px',
         '416px': '416px',
         '224px': '224px',
         '300px': '300px',
