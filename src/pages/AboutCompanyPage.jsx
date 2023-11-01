@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 // components 
 import AboutCompanyHero from '../components/AboutCompanyHero';
@@ -9,6 +9,9 @@ import RedCta from '../components/RedCta';
 import Articles from '../components/Articles';
 
 const AboutCompanyPage = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    },[]);
     return (
         <>
             <AboutCompanyHero />
