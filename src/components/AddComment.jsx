@@ -4,35 +4,35 @@ import recaptchaImg from '../assets/images/other/recaptcha.png';
 const AddComment = () => {
     const [ratingStarsValue, setRatingStarsValue] = useState(0);
     return (
-        <section className='pt-60px pb-120px'>
-            <div className="flex flex-col container items-center">
-                <h2 className="mb-5">Оставить отзыв</h2>
-                <p className="mb-14 max-w-763px text-regular-24 text-primary-gray-70 mx-auto text-center">Ваш e-mail не будет опубликован на сайте. Обязательные поля для заполнения помечены *</p>
+        <section className='pt-60r pb-120r'>
+            <div className="flex flex-col container items-center max-440:px-0">
+                <h2 className="mb-5 max-440:px-5">Оставить отзыв</h2>
+                <p className="mb-14 max-w-763px text-regular-24 text-primary-gray-70 mx-auto text-center max-440:px-5">Ваш e-mail не будет опубликован на сайте. Обязательные поля для заполнения помечены *</p>
 
                 {/* form */}
-                <form action="https://echo.htmlacademy.ru" className="flex flex-col items-center rounded-2.5xl space-y-6 bg-primary-gray-04 p-12 max-w-1088px">
+                <form action="https://echo.htmlacademy.ru" className="flex flex-col items-center rounded-2.5xl space-y-6 bg-primary-gray-04 p-12 max-w-1088px w-full max-800:p-8 max-540:p-5">
                     {/* main content  */}
-                    <div className="grid grid-cols-2 gap-8 mb-6">
+                    <div className="flex gap-8 mb-6 w-full max-730:flex-col">
                         {/* 1 */}
-                        <div className="space-y-5">
+                        <div className="space-y-5 w-full max-800:space-y-2 max-730:space-y-5">
                             {/* name  */}
-                            <div>
+                            <div className='w-full'>
                                 <label htmlFor="commentNameInput" className='mb-2 text-regular-14'>Фамилия и имя*</label>
-                                <input name='user name' type="text" id='commentNameInput' placeholder='Например: Иван' className='w-480px' required />
+                                <input name='user name' type="text" id='commentNameInput' placeholder='Например: Иван' className='' required />
                             </div>
                             {/* email  */}
-                            <div>
+                            <div className='w-full'>
                                 <label htmlFor="commentEmilInput" className='mb-2 text-regular-14'>Ваш e-mail*</label>
-                                <input name='user email' type="email" id='commentEmilInput' placeholder='Например: ivan@mail.ru' className='w-480px' required />
+                                <input name='user email' type="email" id='commentEmilInput' placeholder='Например: ivan@mail.ru' className='' required />
                             </div>
                             {/* product */}
-                            <div>
+                            <div className='w-full'>
                                 <label htmlFor="commentProductInput" className='mb-2 text-regular-14'>Что заказывали?*</label>
-                                <input name='product' type="text" id='commentProductInput' placeholder='Например: Мебель для персонала Metall S...' className='w-480px' required />
+                                <input name='product' type="text" id='commentProductInput' placeholder='Например: Мебель для персонала Metall S...' className='' required />
                             </div>
                             {/* rating  */}
-                            <div>
-                                <label htmlFor="rating" className='mb-2 text-regular-14'>Что заказывали?*</label>
+                            <div className='w-full'>
+                                <label htmlFor="rating" className='mb-2 text-regular-14'>Оцените товар*</label>
 
                                 {/* starts  */}
                                 <div className="flex-center space-x-0.5">
@@ -62,11 +62,11 @@ const AddComment = () => {
                         </div>
 
                         {/* 2 */}
-                        <div className="space-y-5">
+                        <div className="space-y-5 w-full">
                             {/* comment  */}
                             <div>
                                 <label htmlFor="commentText" className="mb-2 text-regular-14">Текст отзыва*</label>
-                                <textarea required id='commentText' name="comment text" className='resize-none h-254px'></textarea>
+                                <textarea required id='commentText' name="comment text" className='resize-none h-254px max-800:h-229.5px max-730:h-254px'></textarea>
                             </div>
 
                             {/* captcha  */}
@@ -79,7 +79,7 @@ const AddComment = () => {
                         *Передавая информацию сайту, Вы принимаете условия <a className="text-primary-red-50">Политики защиты персональной информации</a>
                     </p>
 
-                    <button className='red-btn py-3.5 px-6 text-regular-16 mx-auto'>Отправить отзыв</button>
+                    <button className='red-btn py-3.5 px-6 text-regular-16 mx-auto max-540:w-full'>Отправить отзыв</button>
                 </form>
             </div>
         </section>

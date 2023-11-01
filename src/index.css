@@ -380,6 +380,10 @@ html {
     @apply pb-60px max-900:pb-12 max-440:pb-8;
   }
 
+  .pb-120r {
+    @apply pb-120px max-900:pb-24 max-440:pb-16;
+  }
+
   .pt-36r {
     @apply pt-36 max-1050:pt-28 max-900:pt-12 max-440:pt-8;
   }
