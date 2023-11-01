@@ -1,15 +1,15 @@
 import React from 'react';
+
+// images 
 import whatsapp from '../assets/images/svg/whatsapp-logo.svg';
 import vk from '../assets/images/svg/vk-logo.svg';
-import map from '../assets/images/other/map.png';
-
 const Contact = () => {
     return (
-        <div className='flex justify-between gap-5'>
+        <div className='flex justify-between gap-5 max-1050:flex-col'>
             {/* informations  */}
             <div className="flex flex-col max-w-639px">
                 {/* list 1 */}
-                <ul className="space-y-3 mb-12">
+                <ul className="space-y-3 mb-12 max-900:mb-10 max-440:mb-8">
                     <li className='flex flex-col'>
                         <span className="mb-0.5 text-regular-14 text-primary-gray-70">Адрес:</span>
                         <address className='not-italic'>350051, г. Краснодар, ул. Дальняя д. 27, офис 4</address>
@@ -29,7 +29,7 @@ const Contact = () => {
                 </ul>
 
                 {/* list 2 */}
-                <ul className="space-y-3 mb-auto">
+                <ul className="space-y-3 mb-auto max-1050:mb-8">
                     <li className='flex flex-col'>
                         <span className="mb-0.5 text-regular-14 text-primary-gray-70">Адрес:</span>
                         <address className='not-italic'>350051, г. Краснодар, ул. Дальняя д. 27, офис 4</address>
@@ -49,33 +49,21 @@ const Contact = () => {
                 </ul>
 
                 {/* social  */}
-                <div className="flex-center space-x-4">
-                    <a href="https://example.com" target='_blank' className="flex-center justify-center rounded-lg w-12 h-12 bg-secondary-whatsapp">
-                        <img width={32} height={32} src={whatsapp} alt="" className="" />
-                    </a>
-                    <a href="https://example.com" target='_blank' className="flex-center justify-center rounded-lg w-12 h-12 bg-secondary-vk">
-                        <img width={26} height={17} src={vk} alt="" className="" />
-                    </a>
+                <div className="flex-start space-x-4 max-360:flex-col max-360:space-x-0 max-360:space-y-4">
+                    <div className="flex-center space-x-4">
+                        <a href="https://example.com" target='_blank' className="flex-center justify-center rounded-lg w-12 h-12 bg-secondary-whatsapp">
+                            <img width={32} height={32} src={whatsapp} alt="" className="" />
+                        </a>
+                        <a href="https://example.com" target='_blank' className="flex-center justify-center rounded-lg w-12 h-12 bg-secondary-vk">
+                            <img width={26} height={17} src={vk} alt="" className="" />
+                        </a>
+                    </div>
                     <a href="https://example.com" target='_blank' className="red-btn py-3.5 px-6 text-regular-16">Связаться с нами</a>
                 </div>
             </div>
 
             {/* map  */}
-            <div className="flex items-center justify-center bg-primary-gray-10 rounded-2.5xl overflow-hidden relative">
-                <img width={976} height={612} src={map} alt="map image" />
-
-                {/* icon  */}
-                <div className="absolute">
-                    <div className="flex justify-center relative py-18px px-4 text-white text-lg leading-19px textblack bg-primary-red-50">
-                        ОФИС-СТИЛЬ.
-
-                        {/* polygon  */}
-                        <svg className='absolute -bottom-4' xmlns="http://www.w3.org/2000/svg" width="22" height="18" viewBox="0 0 22 18" fill="none">
-                            <path d="M11.0004 18C11.0004 18 9.94822 3.5 1.47411 1.5C-7.00001 -0.500001 29 -0.499999 20.5267 1.5C12.0533 3.5 11.0004 18 11.0004 18Z" fill="#DA0916" />
-                        </svg>
-                    </div>
-                </div>
-            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8395.303036926065!2d69.14454517715944!3d41.27083684645601!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae89e429bf5339%3A0x4df5395d904db17c!2sComfort%20style!5e0!3m2!1sen!2s!4v1698856778376!5m2!1sen!2s" width="976" height="600" loading="lazy" referrerpolicy="no-referrer-when-downgrade" className='rounded-2.5xl max-1450:w-800px bg-primary-gray-70 max-1050:w-full max-730:h-411px max-440:h-340px max-440:rounded-none'></iframe>
         </div>
     )
 };

@@ -3,9 +3,9 @@ import Contact from './Contact'
 
 const PaymentPageContactSection = () => {
     return (
-        <section className='pt-60px pb-120px'>
+        <section className='pt-60r pb-120r'>
             <div className="container">
-                <h2 className="mb-60px">Контакты</h2>
+                <h2 className="mb-60r">Контакты</h2>
                 <Contact />
             </div>
         </section>

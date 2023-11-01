@@ -70,6 +70,7 @@ export default {
       },
 
       width: {
+        '800px': '800px',
         '480px': '480px',
         '416px': '416px',
         '394px': '394px',
