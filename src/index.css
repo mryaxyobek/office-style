@@ -468,11 +468,11 @@ label {
 }
 
 /* completed projects section */
-.completed-products-list li:nth-child(even) div:first-child {
+.completed-products-list li:nth-child(even)>div:first-child {
   order: 2;
 }
 
-.completed-products-list li:nth-child(even) div:last-child {
+.completed-products-list li:nth-child(even)>div:last-child {
   order: 1;
 }
 
@@ -549,6 +549,20 @@ label {
     font-size: 46px;
     line-height: 54px;
   }
+
+  .completed-products-list li {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .completed-products-list li:nth-child(even)>div:nth-child(1) {
+    order: 1;
+  }
+
+  .completed-products-list li:nth-child(even)>div:nth-child(2) {
+    order: 2;
+  }
+
 }
 
 @media only screen and (max-width:900px) {
