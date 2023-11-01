@@ -33,7 +33,7 @@ const Article = () => {
     },[]);
     return (
         <>
-            <section className='pt-20 pb-60px'>
+            <section className='pt-20 pb-60r'>
                 <div className="container">
                     {/* breadcrumb  */}
                     <ul className="breadcrumb">
