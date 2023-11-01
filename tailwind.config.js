@@ -139,6 +139,10 @@ export default {
         'category-hero': 'url(./assets/images/other/gray-furnitures.jpg)',
       },
 
+      backgroundPosition: {
+        '200px': '200px',
+      },
+
       // position 
       margin: {
         '60px': '60px',
