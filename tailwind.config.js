@@ -162,6 +162,7 @@ export default {
         '153px': '153px',
         '104px': '104px',
         '70px': '70px',
+        '68px': '68px',
         '62px': '62px',
         'auto': 'auto',
         '3px': '3px',

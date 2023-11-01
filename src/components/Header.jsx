@@ -190,7 +190,7 @@ const Header = () => {
                 </div>
             </div>
 
-            <div style={{ transform: openCatalog ? `translateX(0vw)` : `translateX(-100vw)`, top: '157px' }} className='absolute -top-1 z-30 max-h-max w-full bg-slate-400 transition-transform-2'>
+            <div style={{ transform: openCatalog ? `translateX(0vw)` : `translateX(-100vw)`, top: '155px' }} className='absolute -top-1 z-30 max-h-max w-full bg-slate-400 transition-transform-2 max-1050:!top-36 max-900:!top-68px'>
                 <Menu />
             </div>
         </header>
