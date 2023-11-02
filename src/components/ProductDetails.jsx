@@ -22,51 +22,53 @@ const ProductDetails = () => {
         setButtonId(e.target.id);
     }
     return (
-        <section className='py-60px'>
+        <section className='py-60r'>
             <div className="container">
 
                 {/* tab  */}
-                <div className="flex-center mb-8 bg-primary-gray-04 p-1 relative rounded-lg max-w-max">
-                    {/* shape  */}
-                    <div style={{ left: Position + 'px', width: Width + 'px' }} className={`transition-all duration-300 absolute left-1 top-1 h-10 w-14 rounded-lg bg-primary-gray-70 z-1`}></div>
+                <div className="overflow-x-auto hidden-scroll mb-8 max-580:mb-5">
+                    <div className="flex-center bg-primary-gray-04 p-1 relative rounded-lg max-w-max min-w-max">
+                        {/* shape  */}
+                        <div style={{ left: Position + 'px', width: Width + 'px' }} className={`transition-all duration-300 absolute left-1 top-1 h-10 w-14 rounded-lg bg-primary-gray-70 z-1`}></div>
 
-                    {/* buttons  */}
-                    {productTabButtonsGroup.map((button) => {
-                        return (
-                            <button style={{ color: buttonId == button.id ? 'white' : '#4D4D4D' }} key={button.id} onClick={func} className="relative px-4 pt-2.5 pb-3 transition-colors-2 text-regular-14 z-2" id={button.id}>{button.text}</button>
-                        )
-                    })}
+                        {/* buttons  */}
+                        {productTabButtonsGroup.map((button) => {
+                            return (
+                                <button style={{ color: buttonId == button.id ? 'white' : '#4D4D4D' }} key={button.id} onClick={func} className="relative px-4 pt-2.5 pb-3 transition-colors-2 text-regular-14 z-2" id={button.id}>{button.text}</button>
+                            )
+                        })}
+                    </div>
                 </div>
 
                 {/* details  */}
                 {
                     buttonId == 1 &&
-                    <ul>
+                    <ul className='max-w-5xl'>
                         <li className="flex py-3 gap-5">
-                            <span className="w-72 text-primary-gray-70">Материал</span>
-                            <span>ЛДСП</span>
+                            <span className="text-primary-gray-70 w-1/2">Материал</span>
+                            <span className='w-1/2'>ЛДСП</span>
                         </li>
                         <li className="flex py-3 gap-5">
-                            <span className="w-72 text-primary-gray-70">Страна производитель</span>
-                            <span>Россия</span>
+                            <span className="text-primary-gray-70 w-1/2">Страна производитель</span>
+                            <span className='w-1/2'>Россия</span>
                         </li>
                         <li className="flex py-3 gap-5">
-                            <span className="w-72 text-primary-gray-70">Толщина столешницы (см)</span>
-                            <span>2,5</span>
+                            <span className="text-primary-gray-70 w-1/2">Толщина столешницы (см)</span>
+                            <span className='w-1/2'>2,5</span>
                         </li>
                         <li className="flex py-3 gap-5">
-                            <span className="w-72 text-primary-gray-70">Цвет</span>
-                            <span>Орех артемид/бежевый, дуб выбеленный/бежевый</span>
+                            <span className="text-primary-gray-70 w-1/2">Цвет</span>
+                            <span className='w-1/2'>Орех артемид/бежевый, дуб выбеленный/бежевый</span>
                         </li>
                         <li className="flex py-3 gap-5">
-                            <span className="w-72 text-primary-gray-70">Стиль</span>
-                            <span>Современный</span>
+                            <span className="text-primary-gray-70 w-1/2">Стиль</span>
+                            <span className='w-1/2'>Современный</span>
                         </li>
                     </ul>
                 }
                 {
                     buttonId == 2 &&
-                    <p className="max-w-5xl">
+                    <p className="max-w-5xl max-440:text-regular-16">
                         Трансформируемые столы из серии Drive подходят для офисов и коворкинговых пространств, где важна возможность быстро переоборудовать помещение и рабочее место под разные задачи. В коллекции две модели с широким размерным рядом столешниц и каркасов. Цветовые решения серии — шесть древесных текстур и два моноцвета «белый» и «беж» — позволяют подобрать столы под любой интерьер.
                         <br />
                         <br />
@@ -75,20 +77,22 @@ const ProductDetails = () => {
                 }
                 {
                     buttonId == 3 &&
-                    <ul className="grid grid-cols-4 gap-8">
-                        <li>
-                            <img width={416} height={340} src={furnitureImg} alt="brown color furniture" className="rounded-2.5xl object-cover object-center h-340px" />
-                        </li>
-                        <li>
-                            <img width={416} height={340} src={furnitureImg} alt="brown color furniture" className="rounded-2.5xl object-cover object-center h-340px" />
-                        </li>
-                        <li>
-                            <img width={416} height={340} src={furnitureImg} alt="brown color furniture" className="rounded-2.5xl object-cover object-center h-340px" />
-                        </li>
-                        <li>
-                            <img width={416} height={340} src={furnitureImg} alt="brown color furniture" className="rounded-2.5xl object-cover object-center h-340px" />
-                        </li>
-                    </ul>
+                    <div className="overflow-x-auto gray-scroll max-1800:pb-60r">
+                        <ul className="flex gap-8 min-w-max">
+                            <li>
+                                <img width={416} height={340} src={furnitureImg} alt="brown color furniture" className="rounded-2.5xl object-cover object-center max-540:w-300px max-540:h-300px" />
+                            </li>
+                            <li>
+                                <img width={416} height={340} src={furnitureImg} alt="brown color furniture" className="rounded-2.5xl object-cover object-center max-540:w-300px max-540:h-300px" />
+                            </li>
+                            <li>
+                                <img width={416} height={340} src={furnitureImg} alt="brown color furniture" className="rounded-2.5xl object-cover object-center max-540:w-300px max-540:h-300px" />
+                            </li>
+                            <li>
+                                <img width={416} height={340} src={furnitureImg} alt="brown color furniture" className="rounded-2.5xl object-cover object-center max-540:w-300px max-540:h-300px" />
+                            </li>
+                        </ul>
+                    </div>
                 }
                 {
                     buttonId == 4 &&
@@ -97,7 +101,7 @@ const ProductDetails = () => {
                             {
                                 reviewsData.map((e) => {
                                     return (
-                                        <li key={e.id} className='space-y-6 p-8 rounded-2.5xl border border-primary-gray-10'>
+                                        <li key={e.id} className='space-y-6 p-8 rounded-2.5xl border border-primary-gray-10 max-670:p-7 max-470:p-4'>
                                             {/* about  */}
                                             <div className="space-y-3">
                                                 <h3 className='text-regular-18'>{e.userName}</h3>
@@ -121,7 +125,7 @@ const ProductDetails = () => {
                                 })
                             }
                         </ul>
-                        <Link to="/reviews" className="inline-block red-btn py-3.5 px-4 text-regular-16">Оставить отзыв</Link>
+                        <Link to="/reviews" className="flex justify-center red-btn py-3.5 px-4 text-regular-16 max-470:w-full">Оставить отзыв</Link>
                     </div>
                 }
                 {
