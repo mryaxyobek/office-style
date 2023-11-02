@@ -11,7 +11,7 @@ import image from '../assets/images/other/homepage-hero-bg1.jpg';
 
 const ProductDesignHero = () => {
     return (
-        <section className='pt-20 pb-60px'>
+        <section className='pt-20 max-1150:pb-16 max-800:pb-14 max-580:pb-12 max-440:pb-8 pb-60r'>
             <div className="container">
 
                 {/* breadcrumb */}
@@ -28,26 +28,22 @@ const ProductDesignHero = () => {
                 </ul>
 
                 {/* main content  */}
-                <div className="grid grid-cols-16 gap-8">
+                <div className="grid grid-cols-16 gap-8 max-1500:grid-cols-1">
                     {/* first child */}
-                    <div className="flex flex-col gap-8 col-start-1 col-end-11">
+                    <div className="flex flex-col gap-8 col-start-1 col-end-11 max-1500:col-end-2">
 
+                        {/* image wrapper  */}
                         <div className="flex gap-8">
-                            <div className='space-y-4'>
-                                <img width={160} height={116} src={image} alt="image" className="rounded-2.5xl w-40 h-28 object-cover object-center" />
-                                <img width={160} height={116} src={image} alt="image" className="rounded-2.5xl w-40 h-28 object-cover object-center" />
-                                <img width={160} height={116} src={image} alt="image" className="rounded-2.5xl w-40 h-28 object-cover object-center" />
-                                <img width={160} height={116} src={image} alt="image" className="rounded-2.5xl w-40 h-28 object-cover object-center" />
-                                <button className="flex-center justify-center w-40 rounded-lg bg-primary-gray-10 py-3">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="10" height="8" viewBox="0 0 10 8" fill="none">
-                                        <path d="M5 8L0.669873 0.499999L9.33013 0.5L5 8Z" fill="#222222" />
-                                    </svg>
-                                </button>
+                            <div className='space-y-4 min-w-max max-900:hidden'>
+                                <img width={160} height={116} src={image} alt="image" className="rounded-2.5xl w-40 h-28 object-cover object-center max-1500:w-48 max-1500:h-32" />
+                                <img width={160} height={116} src={image} alt="image" className="rounded-2.5xl w-40 h-28 object-cover object-center max-1500:w-48 max-1500:h-32" />
+                                <img width={160} height={116} src={image} alt="image" className="rounded-2.5xl w-40 h-28 object-cover object-center max-1500:w-48 max-1500:h-32" />
+                                <img width={160} height={116} src={image} alt="image" className="rounded-2.5xl w-40 h-28 object-cover object-center max-1500:w-48 max-1500:h-32" />
                             </div>
-                            <img src={image} alt="image" className="w-full h-550px rounded-2.5xl object-cover object-center" />
+                            <img src={image} alt="image" className="w-full h-550px rounded-2.5xl object-cover object-center max-1700:w-720px max-1500:w-full max-1500:h-560px max-1500:min-w-0" />
                         </div>
 
-                        <ul className="flex-center space-x-8">
+                        <ul className="flex-center space-x-8 max-800:hidden">
                             <li className="flex-center gap-6">
                                 <img width={62} height={62} src={truckImg} alt="truck icon image" />
                                 <div className="space-y-1">
@@ -75,7 +71,7 @@ const ProductDesignHero = () => {
                     </div>
 
                     {/* last child  */}
-                    <div className="space-y-8 col-start-11 col-end-17">
+                    <div className="space-y-8 col-start-11 col-end-17 max-1500:col-start-1 max-1500:col-end-2">
                         {/* top  */}
                         <div className='space-y-3'>
 
