@@ -6,8 +6,8 @@ const AddComment = () => {
     return (
         <section className='pt-60r pb-120r'>
             <div className="flex flex-col container items-center max-440:px-0">
-                <h2 className="mb-5 max-440:px-5">Оставить отзыв</h2>
-                <p className="mb-14 max-w-763px text-regular-24 text-primary-gray-70 mx-auto text-center max-440:px-5">Ваш e-mail не будет опубликован на сайте. Обязательные поля для заполнения помечены *</p>
+                <h2 className="mb-5 max-440:px-5">Sharh qoldirish</h2>
+                <p className="mb-14 max-w-763px text-regular-24 text-primary-gray-70 mx-auto text-center max-440:px-5">Sizning elektron pochtangiz saytda chop etilmaydi. Majburiy maydonlar belgilangan</p>
 
                 {/* form */}
                 <form action="https://echo.htmlacademy.ru" className="flex flex-col items-center rounded-2.5xl space-y-6 bg-primary-gray-04 p-12 max-w-1088px w-full max-800:p-8 max-540:p-5">
@@ -17,22 +17,22 @@ const AddComment = () => {
                         <div className="space-y-5 w-full max-800:space-y-2 max-730:space-y-5">
                             {/* name  */}
                             <div className='w-full'>
-                                <label htmlFor="commentNameInput" className='mb-2 text-regular-14'>Фамилия и имя*</label>
-                                <input name='user name' type="text" id='commentNameInput' placeholder='Например: Иван' className='' required />
+                                <label htmlFor="commentNameInput" className='mb-2 text-regular-14'>Ism yoki familiya</label>
+                                <input name='user name' type="text" id='commentNameInput' placeholder='ismingizni kiriting' required />
                             </div>
                             {/* email  */}
                             <div className='w-full'>
-                                <label htmlFor="commentEmilInput" className='mb-2 text-regular-14'>Ваш e-mail*</label>
-                                <input name='user email' type="email" id='commentEmilInput' placeholder='Например: ivan@mail.ru' className='' required />
+                                <label htmlFor="commentEmilInput" className='mb-2 text-regular-14'>E-pochta</label>
+                                <input name='user email' type="email" id='commentEmilInput' placeholder='e-pochta manzilingizni kiritng' required />
                             </div>
                             {/* product */}
                             <div className='w-full'>
-                                <label htmlFor="commentProductInput" className='mb-2 text-regular-14'>Что заказывали?*</label>
-                                <input name='product' type="text" id='commentProductInput' placeholder='Например: Мебель для персонала Metall S...' className='' required />
+                                <label htmlFor="commentProductInput" className='mb-2 text-regular-14'>Nima buyurdingiz?</label>
+                                <input name='product' type="text" id='commentProductInput' placeholder='qanday mahsulot olganingiz haqida yozing' required />
                             </div>
                             {/* rating  */}
                             <div className='w-full'>
-                                <label htmlFor="rating" className='mb-2 text-regular-14'>Оцените товар*</label>
+                                <label htmlFor="rating" className='mb-2 text-regular-14'>Bizni baholang</label>
 
                                 {/* starts  */}
                                 <div className="flex-center space-x-0.5">
@@ -65,7 +65,7 @@ const AddComment = () => {
                         <div className="space-y-5 w-full">
                             {/* comment  */}
                             <div>
-                                <label htmlFor="commentText" className="mb-2 text-regular-14">Текст отзыва*</label>
+                                <label htmlFor="commentText" className="mb-2 text-regular-14">Fikringizni yozing</label>
                                 <textarea required id='commentText' name="comment text" className='resize-none h-254px max-800:h-229.5px max-730:h-254px'></textarea>
                             </div>
 
@@ -76,10 +76,10 @@ const AddComment = () => {
 
                     {/* bottom */}
                     <p className="text-center text-regular-12 text-primary-gray-70">
-                        *Передавая информацию сайту, Вы принимаете условия <a className="text-primary-red-50">Политики защиты персональной информации</a>
+                    *Saytga ma'lumot yuborish orqali siz <a className="text-primary-red-50">Shaxsiy ma'lumotlarni himoya qilish siyosati shartlarini qabul qilasiz</a>
                     </p>
 
-                    <button className='red-btn py-3.5 px-6 text-regular-16 mx-auto max-540:w-full'>Отправить отзыв</button>
+                    <button className='red-btn py-3.5 px-6 text-regular-16 mx-auto max-540:w-full'>Sharhni yuborish</button>
                 </form>
             </div>
         </section>
