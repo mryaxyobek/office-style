@@ -5,7 +5,7 @@ const DeliveryAndPayment = () => {
     <div className='pb-60r pt-36r'>
       <div className="container">
         {/* title  */}
-        <h1 className="mb-60r">Доставка и оплата</h1>
+        <h1 className="mb-60r">Buyurtma berish va to'lash</h1>
         {/* list */}
         <ul className="space-y-16 max-900:space-y-12 max-440:space-y-8">
           <li className='space-y-8 max-w-745px'>
@@ -16,23 +16,22 @@ const DeliveryAndPayment = () => {
                 <path d="M32.22 26.6667C32.025 26.6724 31.8375 26.7504 31.6995 26.8862L27.7425 30.6851L25.305 28.3451C24.6225 27.6604 23.52 28.7178 24.2325 29.3736L27.207 32.2307C27.5025 32.5152 27.9825 32.5152 28.2795 32.2307L32.772 27.9161C33.267 27.4539 32.9025 26.6667 32.2215 26.6667H32.22ZM9.75 32.4444H14.25C14.6655 32.4444 15 32.7666 15 33.1667C15 33.5668 14.6655 33.8889 14.25 33.8889H9.75C9.3345 33.8889 9 33.5668 9 33.1667C9 32.7666 9.3345 32.4444 9.75 32.4444ZM9.75 26.6667H14.25C14.6655 26.6667 15 26.9888 15 27.3889C15 27.789 14.6655 28.1111 14.25 28.1111H9.75C9.3345 28.1111 9 27.789 9 27.3889C9 26.9888 9.3345 26.6667 9.75 26.6667ZM9.75 20.8889H14.25C14.6655 20.8889 15 21.211 15 21.6111C15 22.0112 14.6655 22.3333 14.25 22.3333H9.75C9.3345 22.3333 9 22.0112 9 21.6111C9 21.211 9.3345 20.8889 9.75 20.8889ZM45.75 36.7778C43.6875 36.7778 42 38.4028 42 40.3889C42 42.375 43.6875 44 45.75 44C47.8125 44 49.5 42.375 49.5 40.3889C49.5 38.4028 47.8125 36.7778 45.75 36.7778ZM45.75 38.2222C47.001 38.2222 48 39.1842 48 40.3889C48 41.5936 47.001 42.5556 45.75 42.5556C44.499 42.5556 43.5 41.5936 43.5 40.3889C43.5 39.1842 44.499 38.2222 45.75 38.2222ZM26.25 36.7778C24.1875 36.7778 22.5 38.4028 22.5 40.3889C22.5 42.375 24.1875 44 26.25 44C28.3125 44 30 42.375 30 40.3889C30 38.4028 28.3125 36.7778 26.25 36.7778ZM26.25 38.2222C27.501 38.2222 28.5 39.1842 28.5 40.3889C28.5 41.5936 27.501 42.5556 26.25 42.5556C24.999 42.5556 24 41.5936 24 40.3889C24 39.1842 24.999 38.2222 26.25 38.2222ZM18.75 18C17.517 18 16.5 18.9793 16.5 20.1667V36.0556C16.5 37.2429 17.517 38.2222 18.75 38.2222H21.75C22.764 38.2367 22.764 36.7633 21.75 36.7778H18.75C18.321 36.7778 18 36.4687 18 36.0556V20.1667C18 19.7536 18.321 19.4444 18.75 19.4444H38.25C38.679 19.4444 39 19.7536 39 20.1667V36.7778H30.75C29.76 36.7778 29.778 38.2367 30.75 38.2222H41.25C42.24 38.2222 42.231 36.7778 41.25 36.7778H40.5V23.7778H46.8405L52.5 32.2942V36.0556C52.5 36.4687 52.179 36.7778 51.75 36.7778H50.25C49.269 36.7778 49.269 38.2222 50.25 38.2222H51.75C52.983 38.2222 54 37.2429 54 36.0556V32.0833C54 31.9461 53.9595 31.8089 53.883 31.6933L47.883 22.6656C47.745 22.459 47.508 22.3333 47.25 22.3333H40.5V20.1667C40.5 18.9793 39.483 18 38.25 18H18.75Z" fill="#AE0712" />
               </svg>
               <div className="pb-1.5 border-b-2 border-primary-red-60">
-                <h3 className="text-regular-36 max-900:text-regular-32 max-440:text-regular-28 max-360:text-regular-24">Доставка</h3>
+                <h3 className="text-regular-36 max-900:text-regular-32 max-440:text-regular-28 max-360:text-regular-24">Buyurtma</h3>
               </div>
             </div>
 
             <ul className="space-y-8">
               <li className="space-y-4 max-w-745px">
-                <h4 className="text-regular-24 max-900:text-regular-20 max-360:text-regular18">Доставка по Краснодару</h4>
-                <p className="text-regular-16 text-primary-gray-70">Цена от 600 рублей, мебель, которая есть в наличии, доставим в течение часа, точное время сообщим при оформлении заказа. В случае отсутствия ответственного лица и неготовности помещения к сборке клиент оплачивает повторную доставку товара.</p>
+                <h4 className="text-regular-24 max-900:text-regular-20 max-360:text-regular18">Toshkent bo'ylab yetkazib berish</h4>
+                <p className="text-regular-16 text-primary-gray-70">Narxi 100.000 so'mdan, stokda bo'lgan mebel bir soat ichida yetkazib beriladi, biz sizga buyurtmani joylashtirishda aniq vaqt haqida xabar beramiz. Mas'ul shaxs yo'qligi va binolar yig'ishga tayyor bo'lmagan taqdirda, mijoz tovarni qayta yetkazib berish uchun qayta haq to'laydi.</p>
               </li>
               <li className="space-y-4 max-w-745px">
-                <h4 className="text-regular-24 max-900:text-regular-20 max-360:text-regular18">Доставка по Краснодарскому краю</h4>
-                <p className="text-regular-16 text-primary-gray-70">Стоимость и сроки рассчитаем индивидуально, подробности уточняйте у наших специалистов.</p>
+                <h4 className="text-regular-24 max-900:text-regular-20 max-360:text-regular18">Boshqa hududlar</h4>
+                <p className="text-regular-16 text-primary-gray-70">Xarajat va shartlarni alohida hisoblab chiqamiz, batafsil ma'lumot uchun mutaxassislarimizga murojaat qiling.</p>
               </li>
               <li className="space-y-4 max-w-745px">
-                <h4 className="text-regular-24 max-900:text-regular-20 max-360:text-regular18">Самовывоз в Краснодаре</h4>
-                <p className="text-regular-16 text-primary-gray-70">Вы можете забрать заказ по адресу: Краснодар, ул. Дальняя, 27. <br />
-                  Время работы: в будние дни с 09:00 до 18:00, в субботу с 10:00 до 15:00.</p>
+                <h4 className="text-regular-24 max-900:text-regular-20 max-360:text-regular18">Kompaniyadan olib ketish</h4>
+                <p className="text-regular-16 text-primary-gray-70">Buyurtmani quyidagi manzildan olishingiz mumkin: <br /><address className='not-italic'>Toshkent, Olmaliq K: No312</address> <br /> Ish vaqti: <br /> ish kunlari 09:00 dan 18:00 gacha, yakshanba kuni 10:00 dan 15:00 gacha.</p>
               </li>
             </ul>
           </li>
@@ -50,11 +49,11 @@ const DeliveryAndPayment = () => {
                 <path d="M40.6624 33.9652C40.6394 33.9386 40.6126 33.9128 40.5822 33.8881C40.5491 33.8643 40.512 33.8418 40.4713 33.8211C40.3684 33.7699 40.2419 33.7322 40.1029 33.7112C39.964 33.6903 39.8168 33.6867 39.6745 33.7009C39.6173 33.7063 39.5615 33.7149 39.508 33.7263C39.4539 33.7371 39.4022 33.7508 39.3539 33.7672C39.3059 33.783 39.261 33.801 39.2199 33.8211C39.1796 33.842 39.1425 33.8644 39.1089 33.8881C39.0784 33.9127 39.0521 33.9384 39.0303 33.9652C39.0075 33.992 38.9905 34.0199 38.9794 34.0484C38.9671 34.0768 38.9609 34.1057 38.9609 34.1347C38.9609 34.1635 38.9671 34.1921 38.9794 34.2202C38.9898 34.2489 39.0069 34.2768 39.0303 34.3034C39.0521 34.3302 39.0784 34.356 39.1089 34.3805C39.1421 34.4043 39.1792 34.4268 39.2199 34.4475C39.2609 34.4681 39.3058 34.4867 39.3539 34.503C39.4026 34.5188 39.4542 34.5322 39.508 34.5431C39.562 34.5539 39.6177 34.5624 39.6745 34.5685C39.7312 34.5744 39.7891 34.5773 39.8471 34.577C40.081 34.5763 40.3051 34.5299 40.4713 34.4475C40.5123 34.427 40.5495 34.4045 40.5822 34.3805C40.6126 34.3558 40.6394 34.3301 40.6624 34.3034C40.6851 34.2767 40.7021 34.2488 40.7132 34.2202C40.7243 34.1921 40.73 34.1634 40.7302 34.1347C40.7299 34.1057 40.7243 34.0768 40.7132 34.0484C40.7014 34.0199 40.6844 33.9921 40.6624 33.9652Z" fill="#AE0712" />
               </svg>
               <div className="pb-1.5 border-b-2 border-primary-red-60">
-                <h3 className="text-regular-36 max-900:text-regular-32 max-440:text-regular-28 max-360:text-regular-24">Оплата</h3>
+                <h3 className="text-regular-36 max-900:text-regular-32 max-440:text-regular-28 max-360:text-regular-24">To'lov</h3>
               </div>
             </div>
 
-            <p className="text-regular-16 text-primary-gray-70">Расплатиться наличным и безналичным способом можно в офисе интернет-магазина или при получении товара.</p>
+            <p className="text-regular-16 text-primary-gray-70">Siz onlayn-do'kon ofisida yoki tovarlarni olganingizdan so'ng, naqd yoki bank o'tkazmasi orqali to'lashingiz mumkin.</p>
           </li>
 
           {/* sborka */}
@@ -75,13 +74,13 @@ const DeliveryAndPayment = () => {
                 </defs>
               </svg>
               <div className="pb-1.5 border-b-2 border-primary-red-60">
-                <h3 className="text-regular-36 max-900:text-regular-32 max-440:text-regular-28 max-360:text-regular-24">Сборка</h3>
+                <h3 className="text-regular-36 max-900:text-regular-32 max-440:text-regular-28 max-360:text-regular-24">Yig'ish va o'rnatish</h3>
               </div>
             </div>
 
             <div className='space-y-4'>
-              <p className="text-regular-16 text-primary-gray-70">Стоимость сборки составляет от 5% до 9% в зависимости от серии мебели.</p>
-              <p className="text-regular-16 text-primary-red-60">Сборка корпусной мебели осуществляется мастером на следующий день после доставки. Покупатель обязан заранее подготовить помещение для размещения и монтажа офисной мебели до приезда сборщика, Покупателю рекомендуется не вскрывать коробки и не нарушать упаковку мебели во избежание споров о происхождении дефектов, комплектации, ассортименте и качестве товара.</p>
+              <p className="text-regular-16 text-primary-gray-70">Yig'ish narxi mebel seriyasiga qarab 5% dan 9% gacha.</p>
+              <p className="text-regular-16 text-primary-red-60">Shkaf mebellarini yig'ish etkazib berishdan keyingi kun usta tomonidan amalga oshiriladi. Xaridor yig'uvchi kelishidan oldin ofis mebellarini joylashtirish va o'rnatish uchun binolarni oldindan tayyorlashga majburdir.Xaridorga mebelning kelib chiqishi to'g'risidagi nizolarni oldini olish uchun qutilarni ochmaslik yoki mebelning qadoqlanishini buzmaslik tavsiya etiladi. tovarlarning nuqsonlari, konfiguratsiyasi, assortimenti va sifati.</p>
             </div>
           </li>
         </ul>

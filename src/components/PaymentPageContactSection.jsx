@@ -5,7 +5,7 @@ const PaymentPageContactSection = () => {
     return (
         <section className='pt-60r pb-120r'>
             <div className="container">
-                <h2 className="mb-60r">Контакты</h2>
+                <h2 className="mb-60r">Bog'lanish</h2>
                 <Contact />
             </div>
         </section>

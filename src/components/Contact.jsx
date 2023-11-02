@@ -11,43 +11,42 @@ const Contact = () => {
                 {/* list 1 */}
                 <ul className="space-y-3 mb-12 max-900:mb-10 max-440:mb-8">
                     <li className='flex flex-col'>
-                        <span className="mb-0.5 text-regular-14 text-primary-gray-70">Адрес:</span>
-                        <address className='not-italic'>350051, г. Краснодар, ул. Дальняя д. 27, офис 4</address>
+                        <span className="mb-0.5 text-regular-14 text-primary-gray-70">Manzil:</span>
+                        <address className='not-italic'>Toshkent, Olmaliq Ko'cha: No312. Mo'ljal Korzinka do'koni orqasida</address>
                     </li>
                     <li className='flex flex-col'>
-                        <span className="mb-0.5 text-regular-14 text-primary-gray-70">Телефон:</span>
-                        <a target='_blank' href='tel:+79385000541'>+7 (938) 5000-541</a>
+                        <span className="mb-0.5 text-regular-14 text-primary-gray-70">Telefon raqam:</span>
+                        <a target='_blank' href='tel:+998999999999'>+998 (99) 999-99-99</a>
                     </li>
                     <li className='flex flex-col'>
-                        <span className="mb-0.5 text-regular-14 text-primary-gray-70">Почта:</span>
-                        <a target='_blank' href='mailto:info@territory-office.ru'>info@territory-office.ru</a>
+                        <span className="mb-0.5 text-regular-14 text-primary-gray-70">Elektron pochta:</span>
+                        <a target='_blank' href='mailto:xyaxyobek4@gmail.com'>xyaxyobek4@gmail.com</a>
                     </li>
                     <li className='flex flex-col'>
-                        <span className="mb-0.5 text-regular-14 text-primary-gray-70">Режим работы:</span>
-                        <p>пн-пт с 9:00 до 18:00</p>
+                        <span className="mb-0.5 text-regular-14 text-primary-gray-70">Ish vaqti:</span>
+                        <p>du - shan: 9:00dan 18:00gacha</p>
                     </li>
                 </ul>
 
                 {/* list 2 */}
                 <ul className="space-y-3 mb-auto max-1050:mb-8">
                     <li className='flex flex-col'>
-                        <span className="mb-0.5 text-regular-14 text-primary-gray-70">Адрес:</span>
-                        <address className='not-italic'>350051, г. Краснодар, ул. Дальняя д. 27, офис 4</address>
+                        <span className="mb-0.5 text-regular-14 text-primary-gray-70">Manzil:</span>
+                        <address className='not-italic'>Toshkent, Olmaliq Ko'cha: No312. Mo'ljal Korzinka do'koni orqasida</address>
                     </li>
                     <li className='flex flex-col'>
-                        <span className="mb-0.5 text-regular-14 text-primary-gray-70">Телефон:</span>
-                        <a target='_blank' href='tel:+79385000541'>+7 (938) 5000-541</a>
+                        <span className="mb-0.5 text-regular-14 text-primary-gray-70">Telefon raqam:</span>
+                        <a target='_blank' href='tel:+998999999999'>+998 (99) 999-99-99</a>
                     </li>
                     <li className='flex flex-col'>
-                        <span className="mb-0.5 text-regular-14 text-primary-gray-70">Почта:</span>
-                        <a target='_blank' href='mailto:info@territory-office.ru'>info@territory-office.ru</a>
+                        <span className="mb-0.5 text-regular-14 text-primary-gray-70">Elektron pochta:</span>
+                        <a target='_blank' href='mailto:xyaxyobek4@gmail.com'>xyaxyobek4@gmail.com</a>
                     </li>
                     <li className='flex flex-col'>
-                        <span className="mb-0.5 text-regular-14 text-primary-gray-70">Режим работы:</span>
-                        <p>пн-пт с 9:00 до 18:00</p>
+                        <span className="mb-0.5 text-regular-14 text-primary-gray-70">Ish vaqti:</span>
+                        <p>du - shan: 9:00dan 18:00gacha</p>
                     </li>
                 </ul>
-
                 {/* social  */}
                 <div className="flex-start space-x-4 max-360:flex-col max-360:space-x-0 max-360:space-y-4">
                     <div className="flex-center space-x-4">
@@ -58,7 +57,7 @@ const Contact = () => {
                             <img width={26} height={17} src={vk} alt="" className="" />
                         </a>
                     </div>
-                    <a href="https://example.com" target='_blank' className="red-btn py-3.5 px-6 text-regular-16">Связаться с нами</a>
+                    <a href="https://t.me/mryaxyobek" target='_blank' className="red-btn py-3.5 px-6 text-regular-16">Telegram</a>
                 </div>
             </div>
 
