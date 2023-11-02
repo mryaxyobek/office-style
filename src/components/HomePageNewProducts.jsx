@@ -57,7 +57,7 @@ const HomePageNewProducts = () => {
                     {newProducts.map((e) => {
                         return (
                             <li key={e.id} className="w-416px product hover:active-hover max-470:w-full max-360:min-w-280px max-360:w-full">
-                                <Swiper className="product-img-swiper relative rounded-lg w-full mb-4 h-310px max-470:h-56 max-360:h-175px"
+                                <Swiper className="product-img-swiper relative rounded-2.5xl w-full mb-4 h-310px max-470:h-56 max-360:h-175px"
                                     effect={'fade'}
                                     slidesPerView={1}
                                     spaceBetween={30}

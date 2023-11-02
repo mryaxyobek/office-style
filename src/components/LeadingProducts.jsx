@@ -57,7 +57,7 @@ const HomePageNewProducts = () => {
                     {products.map((e) => {
                         return (
                             <li key={e.id} className="w-416px product hover:active-hover max-470:w-full max-360:min-w-280px max-360:w-full">
-                                <Swiper className="product-img-swiper relative rounded-lg w-full mb-4 h-310px max-470:h-56 max-360:h-175px"
+                                <Swiper className="product-img-swiper relative rounded-2.5xl w-full mb-4 h-310px max-470:h-56 max-360:h-175px"
                                     effect={'fade'}
                                     slidesPerView={1}
                                     spaceBetween={30}
@@ -140,7 +140,7 @@ const HomePageNewProducts = () => {
                                     </div>
 
                                     {/* btn  */}
-                                    <button className="red-btn py-2.5 px-5 max-440:w-full bg-primary-red-60">Заказать в 1 клик</button>
+                                    <button className="red-btn py-2.5 px-5 max-440:w-full bg-primary-red-60">Buyurtma berish</button>
                                 </div>
                             </li>
                         )

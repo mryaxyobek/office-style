@@ -12,7 +12,7 @@ const Footer = () => {
                 <div className="grid grid-cols-4 gap-8 pb-20 max-1150:grid-cols-2 max-580:grid-cols-1 max-730:pb-14 max-360:pb-8">
                     {/* logo  */}
                     <div className='space-y-8 max-580:hidden'>
-                        <Link to='/' className='text-white leading-8 text-29px textblack'>OFIS TARZI</Link>
+                        <Link to='/' className='text-white leading-8 text-29px textblack'>OFIS <span className="text-primary-red-50">TARZI</span></Link>
                         <p className="text-primary-gray-30 text-regular-14 max-w-336px">Saytdagi barcha ma'lumotlar faqat ma'lumot olish uchun mo'ljallangan.</p>
                     </div>
 
