@@ -13,7 +13,7 @@ const Partners = () => {
     return (
         <section className='py-60r'>
             <div className="container">
-                <h2 className="mb-60px max-900:mb-12 max-470:mb-8">Сотрудничаем с крупнейшими компаниями</h2>
+                <h2 className="mb-60px max-900:mb-12 max-470:mb-8">Biz eng yirik kompaniyalar bilan hamkorlik qilamiz</h2>
 
                 {/* company */}
                 <ul className="flex-center gap-8 overflow-x-auto w-full hidden-scroll">

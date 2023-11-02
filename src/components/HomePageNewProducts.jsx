@@ -35,7 +35,7 @@ const HomePageNewProducts = () => {
         <section className='py-60r'>
             <div className="container">
                 {/* title  */}
-                <h2 className="text-center mb-60r">Новинки каталога</h2>
+                <h2 className="text-center mb-60r">Yangi mahsulotlar</h2>
 
                 {/* tab */}
                 <div className="flex w-full overflow-x-auto hidden-scroll mb-8">
@@ -78,19 +78,19 @@ const HomePageNewProducts = () => {
                                                         <div className="flex-center space-x-3 ml-auto">
                                                             {
                                                                 e.aksiya &&
-                                                                <span className="red-tab">Акция</span>
+                                                                <span className="red-tab">Aksiya</span>
                                                             }
                                                             {
                                                                 e.new &&
-                                                                <span className="green-tab">новинка</span>
+                                                                <span className="green-tab">yangi</span>
                                                             }
                                                             {
                                                                 e.available &&
-                                                                <span className="white-tab">В наличи</span>
+                                                                <span className="white-tab">mavjud</span>
                                                             }
                                                             {
                                                                 e.order &&
-                                                                <span className="gray-tab">В наличи</span>
+                                                                <span className="gray-tab">sotuvda</span>
                                                             }
                                                         </div>
                                                     </div>
@@ -112,17 +112,17 @@ const HomePageNewProducts = () => {
                                 {/* list  */}
                                 <ul className="text-regular-14 text-primary-gray-70 space-y-2.5 mb-4">
                                     <li className="flex items-end">
-                                        <span>Страна производитель</span>
+                                        <span>Davlati</span>
                                         <div className="grow border-t-2 mx-1 mb-0.5 border-primary-gray-70 border-dotted"></div>
                                         <span>{e.country}</span>
                                     </li>
                                     <li className="flex items-end">
-                                        <span>Материал столешницы</span>
+                                        <span>Ustki material</span>
                                         <div className="grow border-t-2 mx-1 mb-0.5 border-primary-gray-70 border-dotted"></div>
                                         <span>{e.tableMaterial}</span>
                                     </li>
                                     <li className="flex items-end">
-                                        <span>Толщина столешницы</span>
+                                        <span>Ustki qalinlik</span>
                                         <div className="grow border-t-2 mx-1 mb-0.5 border-primary-gray-70 border-dotted"></div>
                                         <span>{e.tableThicknessn}</span>
                                     </li>
@@ -132,7 +132,7 @@ const HomePageNewProducts = () => {
                                 <div className="flex-c-b max-440:flex-col max-440:items-start max-440:gap-6">
                                     {/* price  */}
                                     <div className="flex items-end">
-                                        <span className="inline-block text-regular-16 text-primary-gray-70 mr-1" >от</span>
+                                        <span className="inline-block text-regular-16 text-primary-gray-70 mr-1" >narx:</span>
                                         <p className="text-regular-20 mr-3">{e.currentPrice}</p>
                                         {
                                             e.oldPrice && <del className='text-regular-18 text-primary-gray-50'>25 990₽</del>
@@ -140,7 +140,7 @@ const HomePageNewProducts = () => {
                                     </div>
 
                                     {/* btn  */}
-                                    <button className="red-btn py-2.5 px-5 max-440:w-full bg-primary-red-60">Заказать в 1 клик</button>
+                                    <button className="red-btn py-2.5 px-5 max-440:w-full bg-primary-red-60">Buyurtma berish</button>
                                 </div>
                             </li>
                         )

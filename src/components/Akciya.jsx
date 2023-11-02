@@ -10,8 +10,8 @@ const Akciya = () => {
             <div className="container">
                 {/* top  */}
                 <div className="flex-c-b mb-60px max-900:mb-14 max-470:mb-8">
-                    <h2>Акции</h2>
-                    <Link to='/' className='solid-gray-50-border-btn'>Все акции</Link>
+                    <h2>Aksiya</h2>
+                    <Link to='/akciya' className='solid-gray-50-border-btn'>Barcha aksiyalar</Link>
                 </div>
 
                 {/* products  */}

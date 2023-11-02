@@ -6,10 +6,10 @@ const HomePageReviews = () => {
     return (
         <section className='py-60r'>
             <div className="container">
-                {/* top  */}
+                {/* top (title wrapper)  */}
                 <div className="flex-c-b mb-60px max-800:mb-12 max-470:mb-8 max-900:pb-14 max-470:pb-8">
-                    <h2>Отзывы</h2>
-                    <Link to='/reviews' className='solid-gray-50-border-btn'>Все отзывы</Link>
+                    <h2>Sharxlar</h2>
+                    <Link to='/reviews' className='solid-gray-50-border-btn'>Barcha sharxlar</Link>
                 </div>
 
                 {/* comments  */}

@@ -20,8 +20,8 @@ const Top = () => {
 
                     {/* center  */}
                     <div className='flex items-center z-1'>
-                        <p className="mr-60px text-20px leading-25px text-white text-bold text-center max-900:max-w-md">Скидка на все диваны до 19.09.2023! Выгода до 15<span className="font-sans">%!</span></p>
-                        <Link to='/' className="py-2 text-14px px-5 rounded-lg bg-white leading-17.5px">Подробнее</Link>
+                        <p className="mr-60px text-20px leading-25px text-white text-bold text-center max-900:max-w-md">02.04.2024 gacha barcha divanlarga 15% chegirma!</p>
+                        <Link to='/' className="py-2 text-14px px-5 rounded-lg bg-white leading-17.5px">Batafsil</Link>
                     </div>
 
                     {/* img  */}
