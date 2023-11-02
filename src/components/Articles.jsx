@@ -5,7 +5,7 @@ const Articles = () => {
     return (
         <section className='py-60r'>
             <div className="container w-full">
-                <h2 className="mb-60r">Статьи</h2>
+                <h2 className="mb-60r">Maqolalar</h2>
                 <ul className="flex gap-8 w-full overflow-x-auto gray-scroll max-1800:pb-60r">
                     {
                         articles.map((e) => {
