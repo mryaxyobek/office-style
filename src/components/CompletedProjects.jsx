@@ -20,7 +20,7 @@ const CompletedProjects = () => {
     return (
         <div className="pt-36r pb-120px max-900:pb-24 max-440:pb-16">
             <div className="container">
-                <h1 className="mb-60r">Выполненные проекты</h1>
+                <h1 className="mb-60r">Tugallangan loyihalar</h1>
                 <ul className="grid grid-cols-1 gap-60px completed-products-list max-1200:gap-14 max-1050:gap-12 max-900:gap-10 max-440:gap-8">
                     {
                         completedProjectsData.map((e) => {
@@ -61,7 +61,7 @@ const CompletedProjects = () => {
                                             <p className="text-regular-24">11 690₽</p>
                                         </div>
 
-                                        <Link to='#' className='flex justify-center red-btn py-3.5 px-6 text-regular-16 max-470:w-full'>Хочу такой же</Link>
+                                        <button to='#' className='flex justify-center red-btn py-3.5 px-6 text-regular-16 max-470:w-full'>Savatchaga qo'shish</button>
                                     </div>
 
                                     {/* last child  */}
