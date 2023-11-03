@@ -81,19 +81,10 @@ function QuestionAnswer() {
         titleH8.current.parentElement.style.maxHeight = `${titleH8.current.clientHeight}px`;
         window.addEventListener("resize", handleResize); return () => { window.removeEventListener("resize", handleResize); };
     }, []);
-
-    //
-    const [phoneNumber, setPhoneNumber] = useState('');
-
-    const handlePhoneNumberChange = (event) => {
-        const input = event.target.value;
-        const formattedPhoneNumber = input.replace(/(\d{1,2})(\d{3})(\d{3})(\d{3})/, '+7 ($2) $3-$4');
-        setPhoneNumber(formattedPhoneNumber);
-    };
     return (
         <section className='py-60r'>
             <div className="container max-470:px-0">
-                <h2 className="mb-60r max-470:px-5">Отвечаем на ваши вопросы</h2>
+                <h2 className="mb-60r max-470:px-5">Savollaringizga javob beramiz</h2>
 
                 {/* main content wrapper */}
                 <div className="grid grid-cols-16 gap-8 items-start max-1150:grid-cols-1 max-1150:max-w-5xl max-1150:mx-auto">
@@ -101,8 +92,8 @@ function QuestionAnswer() {
                     <ul className="space-y-2 col-start-1 col-end-12 max-1150:col-end-2 max-470:px-5">
                         <li className="flex items-start justify-between gap-8 p-6 rounded-xl border border-primary-gray-10">
                             <div className={`${showText ? '!max-h-max' : ''} overflow-y-hidden`}>
-                                <h3 key={1} ref={titleH} className="text-medium-20 mb-3 !leading-25px max-580:text-medium-18 max-440:text-medium-16">Сборка осуществляется в день доставки и сколько стоит сборка?</h3>
-                                <p className="text-primary-gray-70 text-regular-16 max-w-4xl">Сборка заказа осуществляется в день доставки (согласовывается с логистом дополнительно). Тарифы по стоимости сборки Вы можете увидеть в разделе: <Link to='/about-payment' className='text-primary-red-50'>«Доставка»</Link></p>
+                                <h3 key={1} ref={titleH} className="text-medium-20 mb-3 !leading-25px max-580:text-medium-18 max-440:text-medium-16">Yig'ish yetkazib berish 1 kunda amalga oshiriladimi va yig'ish qancha turadi?</h3>
+                                <p className="text-primary-gray-70 text-regular-16 max-w-4xl">Buyurtma va yetkazib berish 1 kunda yig'iladi (qo'shimcha ravishda logist bilan kelishilgan). Siz yig'ish narxining tariflarini "Buyurtma berish" bo'limda ko'rishingiz mumkin: <Link to='/about-payment' className='text-primary-red-50'>"Buyurtma berish"</Link></p>
                             </div>
                             {/* button  */}
                             <button onClick={() => setShowText(!showText)} className={`${showText ? '-rotate-45' : ''} p-0.5 transition-transform-2`}>
@@ -113,8 +104,8 @@ function QuestionAnswer() {
                         </li>
                         <li className="flex items-start justify-between gap-8 p-6 rounded-xl border border-primary-gray-10">
                             <div className={`${showText2 ? '!max-h-max' : ''} overflow-y-hidden`}>
-                                <h3 key={2} ref={titleH2} className="text-medium-20 mb-3 !leading-25px max-580:text-medium-18 max-440:text-medium-16">Могу ли я вернуть или обменять приобретенную мебель?</h3>
-                                <p className="text-primary-gray-70 text-regular-16 max-w-4xl">Условия возврата или обмена обсуждаются индивидуально с менеджером (доплата за иную модель, возврат разницы, сроки, и т.д.).</p>
+                                <h3 key={2} ref={titleH2} className="text-medium-20 mb-3 !leading-25px max-580:text-medium-18 max-440:text-medium-16">Xarid qilingan mebellarni qaytarish yoki almashtirish mumkinmi?</h3>
+                                <p className="text-primary-gray-70 text-regular-16 max-w-4xl">Qaytish yoki almashtirish shartlari menejer bilan alohida muhokama qilinadi (boshqa model uchun qo'shimcha to'lov, farqni qaytarish, muddatlar va boshqalar).</p>
                             </div>
                             {/* button  */}
                             <button onClick={() => setShowText2(!showText2)} className={`${showText2 ? '-rotate-45' : ''} p-0.5 transition-transform-2`}>
@@ -125,8 +116,8 @@ function QuestionAnswer() {
                         </li>
                         <li className="flex items-start justify-between gap-8 p-6 rounded-xl border border-primary-gray-10">
                             <div className={`${showText3 ? '!max-h-max' : ''} overflow-y-hidden`}>
-                                <h3 key={3} ref={titleH3} className="text-medium-20 mb-3 !leading-25px max-580:text-medium-18 max-440:text-medium-16">Какие сроки производства или поставки кабинета?</h3>
-                                <p className="text-primary-gray-70 text-regular-16 max-w-4xl">Поставки кабинета который в наличии в шоуруме от 1 дня.  Кабинеты под заказ от 20 дней до 6 месяцев.</p>
+                                <h3 key={3} ref={titleH3} className="text-medium-20 mb-3 !leading-25px max-580:text-medium-18 max-440:text-medium-16">Kabinet uchun ishlab chiqarish yoki yetkazib berish muddatlari qanday?</h3>
+                                <p className="text-primary-gray-70 text-regular-16 max-w-4xl">Oldindan tayyor, mavjud bo'lgan mebellarni yetkazib berish 1 kundan boshlab. Maxsus buyurtma bo'yicha mebellar 20 kundan 6 oygacha.</p>
                             </div>
                             {/* button  */}
                             <button onClick={() => setShowText3(!showText3)} className={`${showText3 ? '-rotate-45' : ''} p-0.5 transition-transform-2`}>
@@ -137,8 +128,8 @@ function QuestionAnswer() {
                         </li>
                         <li className="flex items-start justify-between gap-8 p-6 rounded-xl border border-primary-gray-10">
                             <div className={`${showText4 ? '!max-h-max' : ''} overflow-y-hidden`}>
-                                <h3 key={4} ref={titleH4} className="text-medium-20 mb-3 !leading-25px max-580:text-medium-18 max-440:text-medium-16">Как заказать проект кабинета?</h3>
-                                <p className="text-primary-gray-70 text-regular-16 max-w-4xl">Вы можете оставить заявку на разработку индивидуального проекта перейдя на сайт или по телефону <a href="tel:+79385000541" className="text-primary-red-50">+7 (938) 500 05-41</a> Ваша заявка будет направлен менеджеру, который в кратчайшие сроки согласует с вами все детали заказа  и создаст проект.</p>
+                                <h3 key={4} ref={titleH4} className="text-medium-20 mb-3 !leading-25px max-580:text-medium-18 max-440:text-medium-16">Maxsus loyihaga qanday buyurtma berish mumkin?</h3>
+                                <p className="text-primary-gray-70 text-regular-16 max-w-4xl">Siz individual loyihani ishlab chiqish bo'yicha so'rovni veb-saytga orqali yoki <a href="tel:+998999999999" className="text-primary-red-50">+998 (99) 999-99-99</a>raqamiga qo'ng'iroq qilib ariza qoldirishingiz mumkin. Sizning arizangiz menejerga yuboriladi, u siz bilan barcha tafsilotlar bo'yicha o'rganadi va tezda to'g'ri maslahat beradi.</p>
                             </div>
                             {/* button  */}
                             <button onClick={() => setShowText4(!showText4)} className={`${showText4 ? '-rotate-45' : ''} p-0.5 transition-transform-2`}>
@@ -149,8 +140,8 @@ function QuestionAnswer() {
                         </li>
                         <li className="flex items-start justify-between gap-8 p-6 rounded-xl border border-primary-gray-10">
                             <div className={`${showText5 ? '!max-h-max' : ''} overflow-y-hidden`}>
-                                <h3 key={5} ref={titleH5} className="text-medium-20 mb-3 !leading-25px max-580:text-medium-18 max-440:text-medium-16">Сборка осуществляется в день доставки и сколько стоит сборка?</h3>
-                                <p className="text-primary-gray-70 text-regular-16 max-w-4xl">Сборка осуществляется в день доставки и сколько стоит сборка?</p>
+                                <h3 key={5} ref={titleH5} className="text-medium-20 mb-3 !leading-25px max-580:text-medium-18 max-440:text-medium-16">Mebelni kompaniya (ishlab chiqarishzavodidan) sotib olsam bo'ladimi?</h3>
+                                <p className="text-primary-gray-70 text-regular-16 max-w-4xl">Ha albatta siz bizning ofizimizga kelgan holda sotib olsangiz bo'ladi bizning manzil: <address className='not-italic'>Toshkent, Olmaliq K: No312</address></p>
                             </div>
                             {/* button  */}
                             <button onClick={() => setShowText5(!showText5)} className={`${showText5 ? '-rotate-45' : ''} p-0.5 transition-transform-2`}>
@@ -161,8 +152,8 @@ function QuestionAnswer() {
                         </li>
                         <li className="flex items-start justify-between gap-8 p-6 rounded-xl border border-primary-gray-10">
                             <div className={`${showText6 ? '!max-h-max' : ''} overflow-y-hidden`}>
-                                <h3 key={6} ref={titleH6} className="text-medium-20 mb-3 !leading-25px max-580:text-medium-18 max-440:text-medium-16">Могу ли я купить и забрать кабинет из шоу-рума?</h3>
-                                <p className="text-primary-gray-70 text-regular-16 max-w-4xl">Кабинет можно забрать с шоурума при полном осмотре на повреждения. Гарантии на сохранность изделия  при собственной перевозки нет.</p>
+                                <h3 key={5} ref={titleH6} className="text-medium-20 mb-3 !leading-25px max-580:text-medium-18 max-440:text-medium-16">Mebelni kompaniya (ishlab chiqarishzavodidan) sotib olsam bo'ladimi?</h3>
+                                <p className="text-primary-gray-70 text-regular-16 max-w-4xl">Ha albatta siz bizning ofizimizga kelgan holda sotib olsangiz bo'ladi bizning manzil: <address className='not-italic'>Toshkent, Olmaliq K: No312</address></p>
                             </div>
                             {/* button  */}
                             <button onClick={() => setShowText6(!showText6)} className={`${showText6 ? '-rotate-45' : ''} p-0.5 transition-transform-2`}>
@@ -173,8 +164,8 @@ function QuestionAnswer() {
                         </li>
                         <li className="flex items-start justify-between gap-8 p-6 rounded-xl border border-primary-gray-10">
                             <div className={`${showText7 ? '!max-h-max' : ''} overflow-y-hidden`}>
-                                <h3 key={7} ref={titleH7} className="text-medium-20 mb-3 !leading-25px max-580:text-medium-18 max-440:text-medium-16">Адрес, телефон, режим работы шоу-рума?</h3>
-                                <p className="text-primary-gray-70 text-regular-16 max-w-4xl">Все зависит от типа серии мебели  и фабрики производителя. Все индивидуально вам объяснит менеджер.</p>
+                                <h3 key={7} ref={titleH7} className="text-medium-20 mb-3 !leading-25px max-580:text-medium-18 max-440:text-medium-16">Manzil, telefon raqami va ish vaqti qanday?</h3>
+                                <p className="text-primary-gray-70 text-regular-16 max-w-4xl">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis, obcaecati.</p>
                             </div>
                             {/* button  */}
                             <button onClick={() => setShowText7(!showText7)} className={`${showText7 ? '-rotate-45' : ''} p-0.5 transition-transform-2`}>
@@ -185,8 +176,8 @@ function QuestionAnswer() {
                         </li>
                         <li className="flex items-start justify-between gap-8 p-6 rounded-xl border border-primary-gray-10">
                             <div className={`${showText8 ? '!max-h-max' : ''} overflow-y-hidden`}>
-                                <h3 key={8} ref={titleH8} className="text-medium-20 mb-3 !leading-25px max-580:text-medium-18 max-440:text-medium-16">Какие модели представлены в шоу-руме?</h3>
-                                <p className="text-primary-gray-70 text-regular-16 max-w-4xl">Сборка заказа осуществляется в день доставки (согласовывается с логистом дополнительно). Тарифы по стоимости сборки Вы можете увидеть в разделе: <Link to='/about-payment' className='text-primary-red-50'>«Доставка»</Link></p>
+                                <h3 key={8} ref={titleH8} className="text-medium-20 mb-3 !leading-25px max-580:text-medium-18 max-440:text-medium-16">Ko'rgazma zalida qanday modellar taqdim etiladi?</h3>
+                                <p className="text-primary-gray-70 text-regular-16 max-w-4xl">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis architecto mollitia deleniti beatae ullam, voluptate sed quos ratione! Quasi quae voluptas ex sapiente debitis distinctio.</p>
                             </div>
                             {/* button  */}
                             <button onClick={() => setShowText8(!showText8)} className={`${showText8 ? '-rotate-45' : ''} p-0.5 transition-transform-2`}>
@@ -200,24 +191,24 @@ function QuestionAnswer() {
                     {/* form  */}
                     <form action="https://echo.htmlacademy.ru" className="bg-primary-gray-10 rounded-2.5xl p-8 col-start-12 col-end-17 min-w-500px max-1150:col-start-1 max-1150:col-end-2 max-1150:min-w-0 max-470:px-5">
                         {/* title  */}
-                        <h3 className="text-center max-w-md mx-auto text-medium-28 mb-3">Остались вопросы?</h3>
-                        <p className="text-center text-primary-gray-70 mb-8 max-440:text-regular-16">Мы перезвоним, внимательно выслушаем Ваши задачи и потребности, предложим оптимальные варианты и бесплатно разработаем эскизный проект будущего кабинета или офиса.</p>
+                        <h3 className="text-center max-w-md mx-auto text-medium-28 mb-3">Savollaringiz bormi?</h3>
+                        <p className="text-center text-primary-gray-70 mb-8 max-440:text-regular-16">Biz sizga qayta qo'ng'iroq qilamiz, sizning vazifalaringiz va ehtiyojlaringizni diqqat bilan tinglaymiz, eng yaxshi variantlarni taklif qilamiz va kelajakdagi kabinetingiz yoki ofisingiz uchun bepul loyihasini ishlab chiqamiz.</p>
                         {/* main  */}
                         <div className="space-y-6 mb-8">
                             <div>
-                                <label htmlFor='categoryTelInput' className="inline-block mb-2 text-regular-14 text-primary-gray-70">Ваш телефон*</label>
-                                <input autoComplete='off' id='categoryTelInput' maxLength={16} value={phoneNumber} name='phone number' onChange={handlePhoneNumberChange} placeholder='+7 (999) 999-999' required type="text" className='leading-17.5px!' />
+                                <label htmlFor='categoryTelInput' className="inline-block mb-2 text-regular-14 text-primary-gray-70">Telefon raqam</label>
+                                <input autoComplete='off' id='categoryTelInput' maxLength={13} name='phone number' placeholder='+998 (99) 999-99-99' required type="tel" className='leading-17.5px!' />
                             </div>
 
                             <div>
-                                <label htmlFor='questionTextArea' className="inline-block mb-2 text-regular-14 text-primary-gray-70">Задайте вопрос*</label>
+                                <label htmlFor='questionTextArea' className="inline-block mb-2 text-regular-14 text-primary-gray-70">Savolingizni yozing</label>
                                 <textarea id='questionTextArea' name='question' required className='leading-17.5px! h-36 resize-none' />
                             </div>
 
-                            <button className="red-btn w-full text-regular-16 py-3.5">Получить консультацию</button>
+                            <button className="red-btn w-full text-regular-16 py-3.5">Savolni yuborish</button>
                         </div>
 
-                        <p className="text-regular-12 text-primary-gray-70 text-center max-w-sm mx-auto">*Передавая информацию сайту, Вы принимаете условия <a href="#" className="text-primary-red-50 underline">Политики защиты персональной информации</a></p>
+                        <p className="text-regular-12 text-center">Saytga ma'lumot yuborish orqali siz <Link className='text-primary-red-50' to='/processing-of-personal-data'>Shaxsiy ma'lumotlarni himoya qilish siyosati shartlarini qabul qilasiz</Link></p>
                     </form>
                 </div>
             </div>
