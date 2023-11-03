@@ -1,5 +1,4 @@
 import React, { useEffect } from 'react';
-import { useParams } from 'react-router-dom';
 
 // 
 import CategoryHero from '../components/CategoryHero';
@@ -7,6 +6,7 @@ import Offer from '../components/Offer';
 import AboutCompany from '../components/AboutCompany';
 import QuestionAnswer from '../components/QuestionAnswer';
 import FurnitureCatalog from '../components/FurnitureCatalog';
+import Products from '../components/Products';
 
 const Category = () => {
     useEffect(() => {
@@ -15,6 +15,7 @@ const Category = () => {
     return (
         <>
             <CategoryHero />
+            <Products />
             <Offer />
             <FurnitureCatalog />
             <QuestionAnswer />

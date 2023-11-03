@@ -17,7 +17,7 @@ const ProductDesignHero = () => {
                 {/* breadcrumb */}
                 <ul className="breadcrumb">
                     <li>
-                        <Link to='/catalog'>Каталог</Link>
+                        <Link to='/catalog'>Katalog</Link>
                     </li>
                     <li>
                         <Link to={-1}>Кабинеты для руководителей</Link>

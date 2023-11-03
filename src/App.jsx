@@ -36,7 +36,6 @@ const App = () => {
           <Route path=':categoryName' element={<CategoryRoot />} >
             {/* index  */}
             <Route index element={<Category />} />
-            <Route index path=':categoryName' element={<Category />} />
             {/* order the product */}
             <Route index path=':productName' element={<ProductPage />} />
           </Route >
