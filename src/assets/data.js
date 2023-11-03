@@ -8,6 +8,16 @@ import messayOffice from '../assets/images/other/messy-office.jpg';
 // for reviews
 import furnitureImgForReviews from '../assets/images/other/furniture-img-for-reviews-page.jpg';
 
+// cabinet Products For  Managers 
+import cabinetProductsForManagersImg1 from '../assets/images/other/dark-jig-colored-desk-chair-for-office.jpg';
+import cabinetProductsForManagersImg2 from '../assets/images/other/cabinet-products-for-managers.jpg';
+import cabinetProductsForManagersImg3 from '../assets/images/other/cabinet-products-for-managers1.jpg';
+import cabinetProductsForManagersImg4 from '../assets/images/other/cabinet-products-for-managers2.jpg';
+
+
+
+
+
 // buttons 
 export const tabButtonsGroup = [
     {
@@ -901,6 +911,2509 @@ export const completedProjectsData = [
                 id: 4,
                 img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmhV2y9Ejt8c7oajXsGr01kmhiSuEYNJkzd3Lc6EXW6D_ZPmgI4gQayMgbLrdjnhn9NDY&usqp=CAU',
             }
+        ]
+    },
+]
+
+export const cabinetProductsForManagers = [
+    {
+        id: 1,
+        productId: '209723',
+        type: 'Boshqaruvchilar uchun',
+        productTitle: 'Gamma Direct rahbari uchun ofis',
+        order: false,
+        new: true,
+        akciya: false,
+        available: true,
+        description: `Drive seriyasidan o'zgartiriladigan jadvallar turli vazifalar uchun xonani va ish joyini tezda qayta jihozlash qobiliyati muhim ahamiyatga ega bo'lgan ofislar va birgalikda ish joylari uchun mos keladi. To'plamda stol usti va ramkalar uchun keng o'lchamdagi ikkita model mavjud. Seriyaning rangli echimlari - oltita yog'och to'qimalari va ikkita monokolor "oq" va "bej" - har qanday interyerga mos keladigan stollarni tanlash imkonini beradi. Drive seriyasidan o'zgartiriladigan jadvallar turli vazifalar uchun xonani va ish joyini tezda qayta jihozlash qobiliyati muhim ahamiyatga ega bo'lgan ofislar va birgalikda ish joylari uchun mos keladi.To'plamda stol usti va ramkalar uchun keng o'lchamdagi ikkita model mavjud.Seriyaning rangli echimlari - oltita yog'och to'qimalari va ikkita monokolor "oq" va "bej" - har qanday interyerga mos keladigan stollarni tanlash imkonini beradi.`,
+        price: {
+            currentPrice: 1584088,
+            oldPrice: 3433733,
+        },
+        details: {
+            country: 'Turkiya',
+            material: 'LDSP',
+            thickness: '18',
+            style: 'Zamonaviy',
+            color: "Artemis yong'oq / bej, oqartirilgan eman / bej",
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg1,
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg2,
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg3,
+            },
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg4,
+            }
+        ],
+        completedProjects: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://www.shutterstock.com/image-photo/office-furniture-on-white-background-260nw-390277798.jpg',
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
+            },
+
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmhV2y9Ejt8c7oajXsGr01kmhiSuEYNJkzd3Lc6EXW6D_ZPmgI4gQayMgbLrdjnhn9NDY&usqp=CAU',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Teshavoy Abdullayev',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Boltavoy Jabborov',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Qo'shqorbek",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 4,
+                userName: "Aqlbek",
+                rating: 2,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+        ],
+        pieces: [
+            {
+                id: 1,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 2,
+                type: 'Brifing konsoli',
+                size: '120x80x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 3,
+                type: 'Xizmat kabineti',
+                size: '106x45x65 sm',
+                price: 1000000,
+            },
+            {
+                id: 4,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 5,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+        ]
+    },
+    {
+        id: 2,
+        productId: '209723',
+        type: 'Boshqaruvchilar uchun',
+        productTitle: 'Gamma Direct rahbari uchun ofis',
+        order: false,
+        new: true,
+        akciya: false,
+        available: true,
+        description: `Drive seriyasidan o'zgartiriladigan jadvallar turli vazifalar uchun xonani va ish joyini tezda qayta jihozlash qobiliyati muhim ahamiyatga ega bo'lgan ofislar va birgalikda ish joylari uchun mos keladi. To'plamda stol usti va ramkalar uchun keng o'lchamdagi ikkita model mavjud. Seriyaning rangli echimlari - oltita yog'och to'qimalari va ikkita monokolor "oq" va "bej" - har qanday interyerga mos keladigan stollarni tanlash imkonini beradi. Drive seriyasidan o'zgartiriladigan jadvallar turli vazifalar uchun xonani va ish joyini tezda qayta jihozlash qobiliyati muhim ahamiyatga ega bo'lgan ofislar va birgalikda ish joylari uchun mos keladi.To'plamda stol usti va ramkalar uchun keng o'lchamdagi ikkita model mavjud.Seriyaning rangli echimlari - oltita yog'och to'qimalari va ikkita monokolor "oq" va "bej" - har qanday interyerga mos keladigan stollarni tanlash imkonini beradi.`,
+        price: {
+            currentPrice: 1584088,
+            oldPrice: 3433733,
+        },
+        details: {
+            country: 'Turkiya',
+            material: 'LDSP',
+            thickness: '18',
+            style: 'Zamonaviy',
+            color: "Artemis yong'oq / bej, oqartirilgan eman / bej",
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg1,
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg2,
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg3,
+            },
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg4,
+            }
+        ],
+        completedProjects: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://www.shutterstock.com/image-photo/office-furniture-on-white-background-260nw-390277798.jpg',
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
+            },
+
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmhV2y9Ejt8c7oajXsGr01kmhiSuEYNJkzd3Lc6EXW6D_ZPmgI4gQayMgbLrdjnhn9NDY&usqp=CAU',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Teshavoy Abdullayev',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Boltavoy Jabborov',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Qo'shqorbek",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 4,
+                userName: "Aqlbek",
+                rating: 2,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+        ],
+        pieces: [
+            {
+                id: 1,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 2,
+                type: 'Brifing konsoli',
+                size: '120x80x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 3,
+                type: 'Xizmat kabineti',
+                size: '106x45x65 sm',
+                price: 1000000,
+            },
+            {
+                id: 4,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 5,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+        ]
+    },
+    {
+        id: 3,
+        productId: '209723',
+        type: 'Boshqaruvchilar uchun',
+        productTitle: 'Gamma Direct rahbari uchun ofis',
+        order: false,
+        new: true,
+        akciya: false,
+        available: true,
+        description: `Drive seriyasidan o'zgartiriladigan jadvallar turli vazifalar uchun xonani va ish joyini tezda qayta jihozlash qobiliyati muhim ahamiyatga ega bo'lgan ofislar va birgalikda ish joylari uchun mos keladi. To'plamda stol usti va ramkalar uchun keng o'lchamdagi ikkita model mavjud. Seriyaning rangli echimlari - oltita yog'och to'qimalari va ikkita monokolor "oq" va "bej" - har qanday interyerga mos keladigan stollarni tanlash imkonini beradi. Drive seriyasidan o'zgartiriladigan jadvallar turli vazifalar uchun xonani va ish joyini tezda qayta jihozlash qobiliyati muhim ahamiyatga ega bo'lgan ofislar va birgalikda ish joylari uchun mos keladi.To'plamda stol usti va ramkalar uchun keng o'lchamdagi ikkita model mavjud.Seriyaning rangli echimlari - oltita yog'och to'qimalari va ikkita monokolor "oq" va "bej" - har qanday interyerga mos keladigan stollarni tanlash imkonini beradi.`,
+        price: {
+            currentPrice: 1584088,
+            oldPrice: 3433733,
+        },
+        details: {
+            country: 'Turkiya',
+            material: 'LDSP',
+            thickness: '18',
+            style: 'Zamonaviy',
+            color: "Artemis yong'oq / bej, oqartirilgan eman / bej",
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg1,
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg2,
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg3,
+            },
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg4,
+            }
+        ],
+        completedProjects: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://www.shutterstock.com/image-photo/office-furniture-on-white-background-260nw-390277798.jpg',
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
+            },
+
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmhV2y9Ejt8c7oajXsGr01kmhiSuEYNJkzd3Lc6EXW6D_ZPmgI4gQayMgbLrdjnhn9NDY&usqp=CAU',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Teshavoy Abdullayev',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Boltavoy Jabborov',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Qo'shqorbek",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 4,
+                userName: "Aqlbek",
+                rating: 2,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+        ],
+        pieces: [
+            {
+                id: 1,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 2,
+                type: 'Brifing konsoli',
+                size: '120x80x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 3,
+                type: 'Xizmat kabineti',
+                size: '106x45x65 sm',
+                price: 1000000,
+            },
+            {
+                id: 4,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 5,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+        ]
+    },
+    {
+        id: 4,
+        productId: '209723',
+        type: 'Boshqaruvchilar uchun',
+        productTitle: 'Gamma Direct rahbari uchun ofis',
+        order: false,
+        new: true,
+        akciya: false,
+        available: true,
+        description: `Drive seriyasidan o'zgartiriladigan jadvallar turli vazifalar uchun xonani va ish joyini tezda qayta jihozlash qobiliyati muhim ahamiyatga ega bo'lgan ofislar va birgalikda ish joylari uchun mos keladi. To'plamda stol usti va ramkalar uchun keng o'lchamdagi ikkita model mavjud. Seriyaning rangli echimlari - oltita yog'och to'qimalari va ikkita monokolor "oq" va "bej" - har qanday interyerga mos keladigan stollarni tanlash imkonini beradi. Drive seriyasidan o'zgartiriladigan jadvallar turli vazifalar uchun xonani va ish joyini tezda qayta jihozlash qobiliyati muhim ahamiyatga ega bo'lgan ofislar va birgalikda ish joylari uchun mos keladi.To'plamda stol usti va ramkalar uchun keng o'lchamdagi ikkita model mavjud.Seriyaning rangli echimlari - oltita yog'och to'qimalari va ikkita monokolor "oq" va "bej" - har qanday interyerga mos keladigan stollarni tanlash imkonini beradi.`,
+        price: {
+            currentPrice: 1584088,
+            oldPrice: 3433733,
+        },
+        details: {
+            country: 'Turkiya',
+            material: 'LDSP',
+            thickness: '18',
+            style: 'Zamonaviy',
+            color: "Artemis yong'oq / bej, oqartirilgan eman / bej",
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg1,
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg2,
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg3,
+            },
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg4,
+            }
+        ],
+        completedProjects: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://www.shutterstock.com/image-photo/office-furniture-on-white-background-260nw-390277798.jpg',
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
+            },
+
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmhV2y9Ejt8c7oajXsGr01kmhiSuEYNJkzd3Lc6EXW6D_ZPmgI4gQayMgbLrdjnhn9NDY&usqp=CAU',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Teshavoy Abdullayev',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Boltavoy Jabborov',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Qo'shqorbek",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 4,
+                userName: "Aqlbek",
+                rating: 2,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+        ],
+        pieces: [
+            {
+                id: 1,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 2,
+                type: 'Brifing konsoli',
+                size: '120x80x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 3,
+                type: 'Xizmat kabineti',
+                size: '106x45x65 sm',
+                price: 1000000,
+            },
+            {
+                id: 4,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 5,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+        ]
+    },
+    {
+        id: 5,
+        productId: '209723',
+        type: 'Boshqaruvchilar uchun',
+        productTitle: 'Gamma Direct rahbari uchun ofis',
+        order: false,
+        new: true,
+        akciya: false,
+        available: true,
+        description: `Drive seriyasidan o'zgartiriladigan jadvallar turli vazifalar uchun xonani va ish joyini tezda qayta jihozlash qobiliyati muhim ahamiyatga ega bo'lgan ofislar va birgalikda ish joylari uchun mos keladi. To'plamda stol usti va ramkalar uchun keng o'lchamdagi ikkita model mavjud. Seriyaning rangli echimlari - oltita yog'och to'qimalari va ikkita monokolor "oq" va "bej" - har qanday interyerga mos keladigan stollarni tanlash imkonini beradi. Drive seriyasidan o'zgartiriladigan jadvallar turli vazifalar uchun xonani va ish joyini tezda qayta jihozlash qobiliyati muhim ahamiyatga ega bo'lgan ofislar va birgalikda ish joylari uchun mos keladi.To'plamda stol usti va ramkalar uchun keng o'lchamdagi ikkita model mavjud.Seriyaning rangli echimlari - oltita yog'och to'qimalari va ikkita monokolor "oq" va "bej" - har qanday interyerga mos keladigan stollarni tanlash imkonini beradi.`,
+        price: {
+            currentPrice: 1584088,
+            oldPrice: 3433733,
+        },
+        details: {
+            country: 'Turkiya',
+            material: 'LDSP',
+            thickness: '18',
+            style: 'Zamonaviy',
+            color: "Artemis yong'oq / bej, oqartirilgan eman / bej",
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg1,
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg2,
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg3,
+            },
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg4,
+            }
+        ],
+        completedProjects: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://www.shutterstock.com/image-photo/office-furniture-on-white-background-260nw-390277798.jpg',
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
+            },
+
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmhV2y9Ejt8c7oajXsGr01kmhiSuEYNJkzd3Lc6EXW6D_ZPmgI4gQayMgbLrdjnhn9NDY&usqp=CAU',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Teshavoy Abdullayev',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Boltavoy Jabborov',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Qo'shqorbek",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 4,
+                userName: "Aqlbek",
+                rating: 2,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+        ],
+        pieces: [
+            {
+                id: 1,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 2,
+                type: 'Brifing konsoli',
+                size: '120x80x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 3,
+                type: 'Xizmat kabineti',
+                size: '106x45x65 sm',
+                price: 1000000,
+            },
+            {
+                id: 4,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 5,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+        ]
+    },
+    {
+        id: 6,
+        productId: '209723',
+        type: 'Boshqaruvchilar uchun',
+        productTitle: 'Gamma Direct rahbari uchun ofis',
+        order: false,
+        new: true,
+        akciya: false,
+        available: true,
+        description: `Drive seriyasidan o'zgartiriladigan jadvallar turli vazifalar uchun xonani va ish joyini tezda qayta jihozlash qobiliyati muhim ahamiyatga ega bo'lgan ofislar va birgalikda ish joylari uchun mos keladi. To'plamda stol usti va ramkalar uchun keng o'lchamdagi ikkita model mavjud. Seriyaning rangli echimlari - oltita yog'och to'qimalari va ikkita monokolor "oq" va "bej" - har qanday interyerga mos keladigan stollarni tanlash imkonini beradi. Drive seriyasidan o'zgartiriladigan jadvallar turli vazifalar uchun xonani va ish joyini tezda qayta jihozlash qobiliyati muhim ahamiyatga ega bo'lgan ofislar va birgalikda ish joylari uchun mos keladi.To'plamda stol usti va ramkalar uchun keng o'lchamdagi ikkita model mavjud.Seriyaning rangli echimlari - oltita yog'och to'qimalari va ikkita monokolor "oq" va "bej" - har qanday interyerga mos keladigan stollarni tanlash imkonini beradi.`,
+        price: {
+            currentPrice: 1584088,
+            oldPrice: 3433733,
+        },
+        details: {
+            country: 'Turkiya',
+            material: 'LDSP',
+            thickness: '18',
+            style: 'Zamonaviy',
+            color: "Artemis yong'oq / bej, oqartirilgan eman / bej",
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg1,
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg2,
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg3,
+            },
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg4,
+            }
+        ],
+        completedProjects: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://www.shutterstock.com/image-photo/office-furniture-on-white-background-260nw-390277798.jpg',
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
+            },
+
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmhV2y9Ejt8c7oajXsGr01kmhiSuEYNJkzd3Lc6EXW6D_ZPmgI4gQayMgbLrdjnhn9NDY&usqp=CAU',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Teshavoy Abdullayev',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Boltavoy Jabborov',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Qo'shqorbek",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 4,
+                userName: "Aqlbek",
+                rating: 2,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+        ],
+        pieces: [
+            {
+                id: 1,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 2,
+                type: 'Brifing konsoli',
+                size: '120x80x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 3,
+                type: 'Xizmat kabineti',
+                size: '106x45x65 sm',
+                price: 1000000,
+            },
+            {
+                id: 4,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 5,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+        ]
+    },
+    {
+        id: 7,
+        productId: '209723',
+        type: 'Boshqaruvchilar uchun',
+        productTitle: 'Gamma Direct rahbari uchun ofis',
+        order: false,
+        new: true,
+        akciya: false,
+        available: true,
+        description: `Drive seriyasidan o'zgartiriladigan jadvallar turli vazifalar uchun xonani va ish joyini tezda qayta jihozlash qobiliyati muhim ahamiyatga ega bo'lgan ofislar va birgalikda ish joylari uchun mos keladi. To'plamda stol usti va ramkalar uchun keng o'lchamdagi ikkita model mavjud. Seriyaning rangli echimlari - oltita yog'och to'qimalari va ikkita monokolor "oq" va "bej" - har qanday interyerga mos keladigan stollarni tanlash imkonini beradi. Drive seriyasidan o'zgartiriladigan jadvallar turli vazifalar uchun xonani va ish joyini tezda qayta jihozlash qobiliyati muhim ahamiyatga ega bo'lgan ofislar va birgalikda ish joylari uchun mos keladi.To'plamda stol usti va ramkalar uchun keng o'lchamdagi ikkita model mavjud.Seriyaning rangli echimlari - oltita yog'och to'qimalari va ikkita monokolor "oq" va "bej" - har qanday interyerga mos keladigan stollarni tanlash imkonini beradi.`,
+        price: {
+            currentPrice: 1584088,
+            oldPrice: 3433733,
+        },
+        details: {
+            country: 'Turkiya',
+            material: 'LDSP',
+            thickness: '18',
+            style: 'Zamonaviy',
+            color: "Artemis yong'oq / bej, oqartirilgan eman / bej",
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg1,
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg2,
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg3,
+            },
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg4,
+            }
+        ],
+        completedProjects: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://www.shutterstock.com/image-photo/office-furniture-on-white-background-260nw-390277798.jpg',
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
+            },
+
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmhV2y9Ejt8c7oajXsGr01kmhiSuEYNJkzd3Lc6EXW6D_ZPmgI4gQayMgbLrdjnhn9NDY&usqp=CAU',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Teshavoy Abdullayev',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Boltavoy Jabborov',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Qo'shqorbek",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 4,
+                userName: "Aqlbek",
+                rating: 2,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+        ],
+        pieces: [
+            {
+                id: 1,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 2,
+                type: 'Brifing konsoli',
+                size: '120x80x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 3,
+                type: 'Xizmat kabineti',
+                size: '106x45x65 sm',
+                price: 1000000,
+            },
+            {
+                id: 4,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 5,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+        ]
+    },
+    {
+        id: 8,
+        productId: '209723',
+        type: 'Boshqaruvchilar uchun',
+        productTitle: 'Gamma Direct rahbari uchun ofis',
+        order: false,
+        new: true,
+        akciya: false,
+        available: true,
+        description: `Drive seriyasidan o'zgartiriladigan jadvallar turli vazifalar uchun xonani va ish joyini tezda qayta jihozlash qobiliyati muhim ahamiyatga ega bo'lgan ofislar va birgalikda ish joylari uchun mos keladi. To'plamda stol usti va ramkalar uchun keng o'lchamdagi ikkita model mavjud. Seriyaning rangli echimlari - oltita yog'och to'qimalari va ikkita monokolor "oq" va "bej" - har qanday interyerga mos keladigan stollarni tanlash imkonini beradi. Drive seriyasidan o'zgartiriladigan jadvallar turli vazifalar uchun xonani va ish joyini tezda qayta jihozlash qobiliyati muhim ahamiyatga ega bo'lgan ofislar va birgalikda ish joylari uchun mos keladi.To'plamda stol usti va ramkalar uchun keng o'lchamdagi ikkita model mavjud.Seriyaning rangli echimlari - oltita yog'och to'qimalari va ikkita monokolor "oq" va "bej" - har qanday interyerga mos keladigan stollarni tanlash imkonini beradi.`,
+        price: {
+            currentPrice: 1584088,
+            oldPrice: 3433733,
+        },
+        details: {
+            country: 'Turkiya',
+            material: 'LDSP',
+            thickness: '18',
+            style: 'Zamonaviy',
+            color: "Artemis yong'oq / bej, oqartirilgan eman / bej",
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg1,
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg2,
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg3,
+            },
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg4,
+            }
+        ],
+        completedProjects: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://www.shutterstock.com/image-photo/office-furniture-on-white-background-260nw-390277798.jpg',
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
+            },
+
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmhV2y9Ejt8c7oajXsGr01kmhiSuEYNJkzd3Lc6EXW6D_ZPmgI4gQayMgbLrdjnhn9NDY&usqp=CAU',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Teshavoy Abdullayev',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Boltavoy Jabborov',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Qo'shqorbek",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 4,
+                userName: "Aqlbek",
+                rating: 2,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+        ],
+        pieces: [
+            {
+                id: 1,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 2,
+                type: 'Brifing konsoli',
+                size: '120x80x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 3,
+                type: 'Xizmat kabineti',
+                size: '106x45x65 sm',
+                price: 1000000,
+            },
+            {
+                id: 4,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 5,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+        ]
+    },
+    {
+        id: 9,
+        productId: '209723',
+        type: 'Boshqaruvchilar uchun',
+        productTitle: 'Gamma Direct rahbari uchun ofis',
+        order: false,
+        new: true,
+        akciya: false,
+        available: true,
+        description: `Drive seriyasidan o'zgartiriladigan jadvallar turli vazifalar uchun xonani va ish joyini tezda qayta jihozlash qobiliyati muhim ahamiyatga ega bo'lgan ofislar va birgalikda ish joylari uchun mos keladi. To'plamda stol usti va ramkalar uchun keng o'lchamdagi ikkita model mavjud. Seriyaning rangli echimlari - oltita yog'och to'qimalari va ikkita monokolor "oq" va "bej" - har qanday interyerga mos keladigan stollarni tanlash imkonini beradi. Drive seriyasidan o'zgartiriladigan jadvallar turli vazifalar uchun xonani va ish joyini tezda qayta jihozlash qobiliyati muhim ahamiyatga ega bo'lgan ofislar va birgalikda ish joylari uchun mos keladi.To'plamda stol usti va ramkalar uchun keng o'lchamdagi ikkita model mavjud.Seriyaning rangli echimlari - oltita yog'och to'qimalari va ikkita monokolor "oq" va "bej" - har qanday interyerga mos keladigan stollarni tanlash imkonini beradi.`,
+        price: {
+            currentPrice: 1584088,
+            oldPrice: 3433733,
+        },
+        details: {
+            country: 'Turkiya',
+            material: 'LDSP',
+            thickness: '18',
+            style: 'Zamonaviy',
+            color: "Artemis yong'oq / bej, oqartirilgan eman / bej",
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg1,
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg2,
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg3,
+            },
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg4,
+            }
+        ],
+        completedProjects: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://www.shutterstock.com/image-photo/office-furniture-on-white-background-260nw-390277798.jpg',
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
+            },
+
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmhV2y9Ejt8c7oajXsGr01kmhiSuEYNJkzd3Lc6EXW6D_ZPmgI4gQayMgbLrdjnhn9NDY&usqp=CAU',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Teshavoy Abdullayev',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Boltavoy Jabborov',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Qo'shqorbek",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 4,
+                userName: "Aqlbek",
+                rating: 2,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+        ],
+        pieces: [
+            {
+                id: 1,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 2,
+                type: 'Brifing konsoli',
+                size: '120x80x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 3,
+                type: 'Xizmat kabineti',
+                size: '106x45x65 sm',
+                price: 1000000,
+            },
+            {
+                id: 4,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 5,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+        ]
+    },
+    {
+        id: 10,
+        productId: '209723',
+        type: 'Boshqaruvchilar uchun',
+        productTitle: 'Gamma Direct rahbari uchun ofis',
+        order: false,
+        new: true,
+        akciya: false,
+        available: true,
+        description: `Drive seriyasidan o'zgartiriladigan jadvallar turli vazifalar uchun xonani va ish joyini tezda qayta jihozlash qobiliyati muhim ahamiyatga ega bo'lgan ofislar va birgalikda ish joylari uchun mos keladi. To'plamda stol usti va ramkalar uchun keng o'lchamdagi ikkita model mavjud. Seriyaning rangli echimlari - oltita yog'och to'qimalari va ikkita monokolor "oq" va "bej" - har qanday interyerga mos keladigan stollarni tanlash imkonini beradi. Drive seriyasidan o'zgartiriladigan jadvallar turli vazifalar uchun xonani va ish joyini tezda qayta jihozlash qobiliyati muhim ahamiyatga ega bo'lgan ofislar va birgalikda ish joylari uchun mos keladi.To'plamda stol usti va ramkalar uchun keng o'lchamdagi ikkita model mavjud.Seriyaning rangli echimlari - oltita yog'och to'qimalari va ikkita monokolor "oq" va "bej" - har qanday interyerga mos keladigan stollarni tanlash imkonini beradi.`,
+        price: {
+            currentPrice: 1584088,
+            oldPrice: 3433733,
+        },
+        details: {
+            country: 'Turkiya',
+            material: 'LDSP',
+            thickness: '18',
+            style: 'Zamonaviy',
+            color: "Artemis yong'oq / bej, oqartirilgan eman / bej",
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg1,
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg2,
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg3,
+            },
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg4,
+            }
+        ],
+        completedProjects: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://www.shutterstock.com/image-photo/office-furniture-on-white-background-260nw-390277798.jpg',
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
+            },
+
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmhV2y9Ejt8c7oajXsGr01kmhiSuEYNJkzd3Lc6EXW6D_ZPmgI4gQayMgbLrdjnhn9NDY&usqp=CAU',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Teshavoy Abdullayev',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Boltavoy Jabborov',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Qo'shqorbek",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 4,
+                userName: "Aqlbek",
+                rating: 2,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+        ],
+        pieces: [
+            {
+                id: 1,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 2,
+                type: 'Brifing konsoli',
+                size: '120x80x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 3,
+                type: 'Xizmat kabineti',
+                size: '106x45x65 sm',
+                price: 1000000,
+            },
+            {
+                id: 4,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 5,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+        ]
+    },
+    {
+        id: 11,
+        productId: '209723',
+        type: 'Boshqaruvchilar uchun',
+        productTitle: 'Gamma Direct rahbari uchun ofis',
+        order: false,
+        new: true,
+        akciya: false,
+        available: true,
+        description: `Drive seriyasidan o'zgartiriladigan jadvallar turli vazifalar uchun xonani va ish joyini tezda qayta jihozlash qobiliyati muhim ahamiyatga ega bo'lgan ofislar va birgalikda ish joylari uchun mos keladi. To'plamda stol usti va ramkalar uchun keng o'lchamdagi ikkita model mavjud. Seriyaning rangli echimlari - oltita yog'och to'qimalari va ikkita monokolor "oq" va "bej" - har qanday interyerga mos keladigan stollarni tanlash imkonini beradi. Drive seriyasidan o'zgartiriladigan jadvallar turli vazifalar uchun xonani va ish joyini tezda qayta jihozlash qobiliyati muhim ahamiyatga ega bo'lgan ofislar va birgalikda ish joylari uchun mos keladi.To'plamda stol usti va ramkalar uchun keng o'lchamdagi ikkita model mavjud.Seriyaning rangli echimlari - oltita yog'och to'qimalari va ikkita monokolor "oq" va "bej" - har qanday interyerga mos keladigan stollarni tanlash imkonini beradi.`,
+        price: {
+            currentPrice: 1584088,
+            oldPrice: 3433733,
+        },
+        details: {
+            country: 'Turkiya',
+            material: 'LDSP',
+            thickness: '18',
+            style: 'Zamonaviy',
+            color: "Artemis yong'oq / bej, oqartirilgan eman / bej",
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg1,
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg2,
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg3,
+            },
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg4,
+            }
+        ],
+        completedProjects: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://www.shutterstock.com/image-photo/office-furniture-on-white-background-260nw-390277798.jpg',
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
+            },
+
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmhV2y9Ejt8c7oajXsGr01kmhiSuEYNJkzd3Lc6EXW6D_ZPmgI4gQayMgbLrdjnhn9NDY&usqp=CAU',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Teshavoy Abdullayev',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Boltavoy Jabborov',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Qo'shqorbek",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 4,
+                userName: "Aqlbek",
+                rating: 2,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+        ],
+        pieces: [
+            {
+                id: 1,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 2,
+                type: 'Brifing konsoli',
+                size: '120x80x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 3,
+                type: 'Xizmat kabineti',
+                size: '106x45x65 sm',
+                price: 1000000,
+            },
+            {
+                id: 4,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 5,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+        ]
+    },
+    {
+        id: 12,
+        productId: '209723',
+        type: 'Boshqaruvchilar uchun',
+        productTitle: 'Gamma Direct rahbari uchun ofis',
+        order: false,
+        new: true,
+        akciya: false,
+        available: true,
+        description: `Drive seriyasidan o'zgartiriladigan jadvallar turli vazifalar uchun xonani va ish joyini tezda qayta jihozlash qobiliyati muhim ahamiyatga ega bo'lgan ofislar va birgalikda ish joylari uchun mos keladi. To'plamda stol usti va ramkalar uchun keng o'lchamdagi ikkita model mavjud. Seriyaning rangli echimlari - oltita yog'och to'qimalari va ikkita monokolor "oq" va "bej" - har qanday interyerga mos keladigan stollarni tanlash imkonini beradi. Drive seriyasidan o'zgartiriladigan jadvallar turli vazifalar uchun xonani va ish joyini tezda qayta jihozlash qobiliyati muhim ahamiyatga ega bo'lgan ofislar va birgalikda ish joylari uchun mos keladi.To'plamda stol usti va ramkalar uchun keng o'lchamdagi ikkita model mavjud.Seriyaning rangli echimlari - oltita yog'och to'qimalari va ikkita monokolor "oq" va "bej" - har qanday interyerga mos keladigan stollarni tanlash imkonini beradi.`,
+        price: {
+            currentPrice: 1584088,
+            oldPrice: 3433733,
+        },
+        details: {
+            country: 'Turkiya',
+            material: 'LDSP',
+            thickness: '18',
+            style: 'Zamonaviy',
+            color: "Artemis yong'oq / bej, oqartirilgan eman / bej",
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg1,
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg2,
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg3,
+            },
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg4,
+            }
+        ],
+        completedProjects: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://www.shutterstock.com/image-photo/office-furniture-on-white-background-260nw-390277798.jpg',
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
+            },
+
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmhV2y9Ejt8c7oajXsGr01kmhiSuEYNJkzd3Lc6EXW6D_ZPmgI4gQayMgbLrdjnhn9NDY&usqp=CAU',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Teshavoy Abdullayev',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Boltavoy Jabborov',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Qo'shqorbek",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 4,
+                userName: "Aqlbek",
+                rating: 2,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+        ],
+        pieces: [
+            {
+                id: 1,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 2,
+                type: 'Brifing konsoli',
+                size: '120x80x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 3,
+                type: 'Xizmat kabineti',
+                size: '106x45x65 sm',
+                price: 1000000,
+            },
+            {
+                id: 4,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 5,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+        ]
+    },
+    {
+        id: 13,
+        productId: '209723',
+        type: 'Boshqaruvchilar uchun',
+        productTitle: 'Gamma Direct rahbari uchun ofis',
+        order: false,
+        new: true,
+        akciya: false,
+        available: true,
+        description: `Drive seriyasidan o'zgartiriladigan jadvallar turli vazifalar uchun xonani va ish joyini tezda qayta jihozlash qobiliyati muhim ahamiyatga ega bo'lgan ofislar va birgalikda ish joylari uchun mos keladi. To'plamda stol usti va ramkalar uchun keng o'lchamdagi ikkita model mavjud. Seriyaning rangli echimlari - oltita yog'och to'qimalari va ikkita monokolor "oq" va "bej" - har qanday interyerga mos keladigan stollarni tanlash imkonini beradi. Drive seriyasidan o'zgartiriladigan jadvallar turli vazifalar uchun xonani va ish joyini tezda qayta jihozlash qobiliyati muhim ahamiyatga ega bo'lgan ofislar va birgalikda ish joylari uchun mos keladi.To'plamda stol usti va ramkalar uchun keng o'lchamdagi ikkita model mavjud.Seriyaning rangli echimlari - oltita yog'och to'qimalari va ikkita monokolor "oq" va "bej" - har qanday interyerga mos keladigan stollarni tanlash imkonini beradi.`,
+        price: {
+            currentPrice: 1584088,
+            oldPrice: 3433733,
+        },
+        details: {
+            country: 'Turkiya',
+            material: 'LDSP',
+            thickness: '18',
+            style: 'Zamonaviy',
+            color: "Artemis yong'oq / bej, oqartirilgan eman / bej",
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg1,
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg2,
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg3,
+            },
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg4,
+            }
+        ],
+        completedProjects: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://www.shutterstock.com/image-photo/office-furniture-on-white-background-260nw-390277798.jpg',
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
+            },
+
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmhV2y9Ejt8c7oajXsGr01kmhiSuEYNJkzd3Lc6EXW6D_ZPmgI4gQayMgbLrdjnhn9NDY&usqp=CAU',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Teshavoy Abdullayev',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Boltavoy Jabborov',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Qo'shqorbek",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 4,
+                userName: "Aqlbek",
+                rating: 2,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+        ],
+        pieces: [
+            {
+                id: 1,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 2,
+                type: 'Brifing konsoli',
+                size: '120x80x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 3,
+                type: 'Xizmat kabineti',
+                size: '106x45x65 sm',
+                price: 1000000,
+            },
+            {
+                id: 4,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 5,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+        ]
+    },
+    {
+        id: 14,
+        productId: '209723',
+        type: 'Boshqaruvchilar uchun',
+        productTitle: 'Gamma Direct rahbari uchun ofis',
+        order: false,
+        new: true,
+        akciya: false,
+        available: true,
+        description: `Drive seriyasidan o'zgartiriladigan jadvallar turli vazifalar uchun xonani va ish joyini tezda qayta jihozlash qobiliyati muhim ahamiyatga ega bo'lgan ofislar va birgalikda ish joylari uchun mos keladi. To'plamda stol usti va ramkalar uchun keng o'lchamdagi ikkita model mavjud. Seriyaning rangli echimlari - oltita yog'och to'qimalari va ikkita monokolor "oq" va "bej" - har qanday interyerga mos keladigan stollarni tanlash imkonini beradi. Drive seriyasidan o'zgartiriladigan jadvallar turli vazifalar uchun xonani va ish joyini tezda qayta jihozlash qobiliyati muhim ahamiyatga ega bo'lgan ofislar va birgalikda ish joylari uchun mos keladi.To'plamda stol usti va ramkalar uchun keng o'lchamdagi ikkita model mavjud.Seriyaning rangli echimlari - oltita yog'och to'qimalari va ikkita monokolor "oq" va "bej" - har qanday interyerga mos keladigan stollarni tanlash imkonini beradi.`,
+        price: {
+            currentPrice: 1584088,
+            oldPrice: 3433733,
+        },
+        details: {
+            country: 'Turkiya',
+            material: 'LDSP',
+            thickness: '18',
+            style: 'Zamonaviy',
+            color: "Artemis yong'oq / bej, oqartirilgan eman / bej",
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg1,
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg2,
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg3,
+            },
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg4,
+            }
+        ],
+        completedProjects: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://www.shutterstock.com/image-photo/office-furniture-on-white-background-260nw-390277798.jpg',
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
+            },
+
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmhV2y9Ejt8c7oajXsGr01kmhiSuEYNJkzd3Lc6EXW6D_ZPmgI4gQayMgbLrdjnhn9NDY&usqp=CAU',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Teshavoy Abdullayev',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Boltavoy Jabborov',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Qo'shqorbek",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 4,
+                userName: "Aqlbek",
+                rating: 2,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+        ],
+        pieces: [
+            {
+                id: 1,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 2,
+                type: 'Brifing konsoli',
+                size: '120x80x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 3,
+                type: 'Xizmat kabineti',
+                size: '106x45x65 sm',
+                price: 1000000,
+            },
+            {
+                id: 4,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 5,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+        ]
+    },
+    {
+        id: 15,
+        productId: '209723',
+        type: 'Boshqaruvchilar uchun',
+        productTitle: 'Gamma Direct rahbari uchun ofis',
+        order: false,
+        new: true,
+        akciya: false,
+        available: true,
+        description: `Drive seriyasidan o'zgartiriladigan jadvallar turli vazifalar uchun xonani va ish joyini tezda qayta jihozlash qobiliyati muhim ahamiyatga ega bo'lgan ofislar va birgalikda ish joylari uchun mos keladi. To'plamda stol usti va ramkalar uchun keng o'lchamdagi ikkita model mavjud. Seriyaning rangli echimlari - oltita yog'och to'qimalari va ikkita monokolor "oq" va "bej" - har qanday interyerga mos keladigan stollarni tanlash imkonini beradi. Drive seriyasidan o'zgartiriladigan jadvallar turli vazifalar uchun xonani va ish joyini tezda qayta jihozlash qobiliyati muhim ahamiyatga ega bo'lgan ofislar va birgalikda ish joylari uchun mos keladi.To'plamda stol usti va ramkalar uchun keng o'lchamdagi ikkita model mavjud.Seriyaning rangli echimlari - oltita yog'och to'qimalari va ikkita monokolor "oq" va "bej" - har qanday interyerga mos keladigan stollarni tanlash imkonini beradi.`,
+        price: {
+            currentPrice: 1584088,
+            oldPrice: 3433733,
+        },
+        details: {
+            country: 'Turkiya',
+            material: 'LDSP',
+            thickness: '18',
+            style: 'Zamonaviy',
+            color: "Artemis yong'oq / bej, oqartirilgan eman / bej",
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg1,
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg2,
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg3,
+            },
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg4,
+            }
+        ],
+        completedProjects: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://www.shutterstock.com/image-photo/office-furniture-on-white-background-260nw-390277798.jpg',
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
+            },
+
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmhV2y9Ejt8c7oajXsGr01kmhiSuEYNJkzd3Lc6EXW6D_ZPmgI4gQayMgbLrdjnhn9NDY&usqp=CAU',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Teshavoy Abdullayev',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Boltavoy Jabborov',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Qo'shqorbek",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 4,
+                userName: "Aqlbek",
+                rating: 2,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+        ],
+        pieces: [
+            {
+                id: 1,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 2,
+                type: 'Brifing konsoli',
+                size: '120x80x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 3,
+                type: 'Xizmat kabineti',
+                size: '106x45x65 sm',
+                price: 1000000,
+            },
+            {
+                id: 4,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 5,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+        ]
+    },
+    {
+        id: 16,
+        productId: '209723',
+        type: 'Boshqaruvchilar uchun',
+        productTitle: 'Gamma Direct rahbari uchun ofis',
+        order: false,
+        new: true,
+        akciya: false,
+        available: true,
+        description: `Drive seriyasidan o'zgartiriladigan jadvallar turli vazifalar uchun xonani va ish joyini tezda qayta jihozlash qobiliyati muhim ahamiyatga ega bo'lgan ofislar va birgalikda ish joylari uchun mos keladi. To'plamda stol usti va ramkalar uchun keng o'lchamdagi ikkita model mavjud. Seriyaning rangli echimlari - oltita yog'och to'qimalari va ikkita monokolor "oq" va "bej" - har qanday interyerga mos keladigan stollarni tanlash imkonini beradi. Drive seriyasidan o'zgartiriladigan jadvallar turli vazifalar uchun xonani va ish joyini tezda qayta jihozlash qobiliyati muhim ahamiyatga ega bo'lgan ofislar va birgalikda ish joylari uchun mos keladi.To'plamda stol usti va ramkalar uchun keng o'lchamdagi ikkita model mavjud.Seriyaning rangli echimlari - oltita yog'och to'qimalari va ikkita monokolor "oq" va "bej" - har qanday interyerga mos keladigan stollarni tanlash imkonini beradi.`,
+        price: {
+            currentPrice: 1584088,
+            oldPrice: 3433733,
+        },
+        details: {
+            country: 'Turkiya',
+            material: 'LDSP',
+            thickness: '18',
+            style: 'Zamonaviy',
+            color: "Artemis yong'oq / bej, oqartirilgan eman / bej",
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg1,
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg2,
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg3,
+            },
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg4,
+            }
+        ],
+        completedProjects: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://www.shutterstock.com/image-photo/office-furniture-on-white-background-260nw-390277798.jpg',
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
+            },
+
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmhV2y9Ejt8c7oajXsGr01kmhiSuEYNJkzd3Lc6EXW6D_ZPmgI4gQayMgbLrdjnhn9NDY&usqp=CAU',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Teshavoy Abdullayev',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Boltavoy Jabborov',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Qo'shqorbek",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 4,
+                userName: "Aqlbek",
+                rating: 2,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+        ],
+        pieces: [
+            {
+                id: 1,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 2,
+                type: 'Brifing konsoli',
+                size: '120x80x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 3,
+                type: 'Xizmat kabineti',
+                size: '106x45x65 sm',
+                price: 1000000,
+            },
+            {
+                id: 4,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 5,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+        ]
+    },
+    {
+        id: 17,
+        productId: '209723',
+        type: 'Boshqaruvchilar uchun',
+        productTitle: 'Gamma Direct rahbari uchun ofis',
+        order: false,
+        new: true,
+        akciya: false,
+        available: true,
+        description: `Drive seriyasidan o'zgartiriladigan jadvallar turli vazifalar uchun xonani va ish joyini tezda qayta jihozlash qobiliyati muhim ahamiyatga ega bo'lgan ofislar va birgalikda ish joylari uchun mos keladi. To'plamda stol usti va ramkalar uchun keng o'lchamdagi ikkita model mavjud. Seriyaning rangli echimlari - oltita yog'och to'qimalari va ikkita monokolor "oq" va "bej" - har qanday interyerga mos keladigan stollarni tanlash imkonini beradi. Drive seriyasidan o'zgartiriladigan jadvallar turli vazifalar uchun xonani va ish joyini tezda qayta jihozlash qobiliyati muhim ahamiyatga ega bo'lgan ofislar va birgalikda ish joylari uchun mos keladi.To'plamda stol usti va ramkalar uchun keng o'lchamdagi ikkita model mavjud.Seriyaning rangli echimlari - oltita yog'och to'qimalari va ikkita monokolor "oq" va "bej" - har qanday interyerga mos keladigan stollarni tanlash imkonini beradi.`,
+        price: {
+            currentPrice: 1584088,
+            oldPrice: 3433733,
+        },
+        details: {
+            country: 'Turkiya',
+            material: 'LDSP',
+            thickness: '18',
+            style: 'Zamonaviy',
+            color: "Artemis yong'oq / bej, oqartirilgan eman / bej",
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg1,
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg2,
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg3,
+            },
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg4,
+            }
+        ],
+        completedProjects: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://www.shutterstock.com/image-photo/office-furniture-on-white-background-260nw-390277798.jpg',
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
+            },
+
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmhV2y9Ejt8c7oajXsGr01kmhiSuEYNJkzd3Lc6EXW6D_ZPmgI4gQayMgbLrdjnhn9NDY&usqp=CAU',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Teshavoy Abdullayev',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Boltavoy Jabborov',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Qo'shqorbek",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 4,
+                userName: "Aqlbek",
+                rating: 2,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+        ],
+        pieces: [
+            {
+                id: 1,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 2,
+                type: 'Brifing konsoli',
+                size: '120x80x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 3,
+                type: 'Xizmat kabineti',
+                size: '106x45x65 sm',
+                price: 1000000,
+            },
+            {
+                id: 4,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 5,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+        ]
+    },
+    {
+        id: 18,
+        productId: '209723',
+        type: 'Boshqaruvchilar uchun',
+        productTitle: 'Gamma Direct rahbari uchun ofis',
+        order: false,
+        new: true,
+        akciya: false,
+        available: true,
+        description: `Drive seriyasidan o'zgartiriladigan jadvallar turli vazifalar uchun xonani va ish joyini tezda qayta jihozlash qobiliyati muhim ahamiyatga ega bo'lgan ofislar va birgalikda ish joylari uchun mos keladi. To'plamda stol usti va ramkalar uchun keng o'lchamdagi ikkita model mavjud. Seriyaning rangli echimlari - oltita yog'och to'qimalari va ikkita monokolor "oq" va "bej" - har qanday interyerga mos keladigan stollarni tanlash imkonini beradi. Drive seriyasidan o'zgartiriladigan jadvallar turli vazifalar uchun xonani va ish joyini tezda qayta jihozlash qobiliyati muhim ahamiyatga ega bo'lgan ofislar va birgalikda ish joylari uchun mos keladi.To'plamda stol usti va ramkalar uchun keng o'lchamdagi ikkita model mavjud.Seriyaning rangli echimlari - oltita yog'och to'qimalari va ikkita monokolor "oq" va "bej" - har qanday interyerga mos keladigan stollarni tanlash imkonini beradi.`,
+        price: {
+            currentPrice: 1584088,
+            oldPrice: 3433733,
+        },
+        details: {
+            country: 'Turkiya',
+            material: 'LDSP',
+            thickness: '18',
+            style: 'Zamonaviy',
+            color: "Artemis yong'oq / bej, oqartirilgan eman / bej",
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg1,
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg2,
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg3,
+            },
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg4,
+            }
+        ],
+        completedProjects: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://www.shutterstock.com/image-photo/office-furniture-on-white-background-260nw-390277798.jpg',
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
+            },
+
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmhV2y9Ejt8c7oajXsGr01kmhiSuEYNJkzd3Lc6EXW6D_ZPmgI4gQayMgbLrdjnhn9NDY&usqp=CAU',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Teshavoy Abdullayev',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Boltavoy Jabborov',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Qo'shqorbek",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 4,
+                userName: "Aqlbek",
+                rating: 2,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+        ],
+        pieces: [
+            {
+                id: 1,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 2,
+                type: 'Brifing konsoli',
+                size: '120x80x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 3,
+                type: 'Xizmat kabineti',
+                size: '106x45x65 sm',
+                price: 1000000,
+            },
+            {
+                id: 4,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 5,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+        ]
+    },
+    {
+        id: 19,
+        productId: '209723',
+        type: 'Boshqaruvchilar uchun',
+        productTitle: 'Gamma Direct rahbari uchun ofis',
+        order: false,
+        new: true,
+        akciya: false,
+        available: true,
+        description: `Drive seriyasidan o'zgartiriladigan jadvallar turli vazifalar uchun xonani va ish joyini tezda qayta jihozlash qobiliyati muhim ahamiyatga ega bo'lgan ofislar va birgalikda ish joylari uchun mos keladi. To'plamda stol usti va ramkalar uchun keng o'lchamdagi ikkita model mavjud. Seriyaning rangli echimlari - oltita yog'och to'qimalari va ikkita monokolor "oq" va "bej" - har qanday interyerga mos keladigan stollarni tanlash imkonini beradi. Drive seriyasidan o'zgartiriladigan jadvallar turli vazifalar uchun xonani va ish joyini tezda qayta jihozlash qobiliyati muhim ahamiyatga ega bo'lgan ofislar va birgalikda ish joylari uchun mos keladi.To'plamda stol usti va ramkalar uchun keng o'lchamdagi ikkita model mavjud.Seriyaning rangli echimlari - oltita yog'och to'qimalari va ikkita monokolor "oq" va "bej" - har qanday interyerga mos keladigan stollarni tanlash imkonini beradi.`,
+        price: {
+            currentPrice: 1584088,
+            oldPrice: 3433733,
+        },
+        details: {
+            country: 'Turkiya',
+            material: 'LDSP',
+            thickness: '18',
+            style: 'Zamonaviy',
+            color: "Artemis yong'oq / bej, oqartirilgan eman / bej",
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg1,
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg2,
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg3,
+            },
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg4,
+            }
+        ],
+        completedProjects: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://www.shutterstock.com/image-photo/office-furniture-on-white-background-260nw-390277798.jpg',
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
+            },
+
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmhV2y9Ejt8c7oajXsGr01kmhiSuEYNJkzd3Lc6EXW6D_ZPmgI4gQayMgbLrdjnhn9NDY&usqp=CAU',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Teshavoy Abdullayev',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Boltavoy Jabborov',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Qo'shqorbek",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 4,
+                userName: "Aqlbek",
+                rating: 2,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+        ],
+        pieces: [
+            {
+                id: 1,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 2,
+                type: 'Brifing konsoli',
+                size: '120x80x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 3,
+                type: 'Xizmat kabineti',
+                size: '106x45x65 sm',
+                price: 1000000,
+            },
+            {
+                id: 4,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 5,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+        ]
+    },
+    {
+        id: 20,
+        productId: '209723',
+        type: 'Boshqaruvchilar uchun',
+        productTitle: 'Gamma Direct rahbari uchun ofis',
+        order: false,
+        new: true,
+        akciya: false,
+        available: true,
+        description: `Drive seriyasidan o'zgartiriladigan jadvallar turli vazifalar uchun xonani va ish joyini tezda qayta jihozlash qobiliyati muhim ahamiyatga ega bo'lgan ofislar va birgalikda ish joylari uchun mos keladi. To'plamda stol usti va ramkalar uchun keng o'lchamdagi ikkita model mavjud. Seriyaning rangli echimlari - oltita yog'och to'qimalari va ikkita monokolor "oq" va "bej" - har qanday interyerga mos keladigan stollarni tanlash imkonini beradi. Drive seriyasidan o'zgartiriladigan jadvallar turli vazifalar uchun xonani va ish joyini tezda qayta jihozlash qobiliyati muhim ahamiyatga ega bo'lgan ofislar va birgalikda ish joylari uchun mos keladi.To'plamda stol usti va ramkalar uchun keng o'lchamdagi ikkita model mavjud.Seriyaning rangli echimlari - oltita yog'och to'qimalari va ikkita monokolor "oq" va "bej" - har qanday interyerga mos keladigan stollarni tanlash imkonini beradi.`,
+        price: {
+            currentPrice: 1584088,
+            oldPrice: 3433733,
+        },
+        details: {
+            country: 'Turkiya',
+            material: 'LDSP',
+            thickness: '18',
+            style: 'Zamonaviy',
+            color: "Artemis yong'oq / bej, oqartirilgan eman / bej",
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg1,
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg2,
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg3,
+            },
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: cabinetProductsForManagersImg4,
+            }
+        ],
+        completedProjects: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://www.shutterstock.com/image-photo/office-furniture-on-white-background-260nw-390277798.jpg',
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
+            },
+
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmhV2y9Ejt8c7oajXsGr01kmhiSuEYNJkzd3Lc6EXW6D_ZPmgI4gQayMgbLrdjnhn9NDY&usqp=CAU',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Teshavoy Abdullayev',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Boltavoy Jabborov',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Qo'shqorbek",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 4,
+                userName: "Aqlbek",
+                rating: 2,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+        ],
+        pieces: [
+            {
+                id: 1,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 2,
+                type: 'Brifing konsoli',
+                size: '120x80x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 3,
+                type: 'Xizmat kabineti',
+                size: '106x45x65 sm',
+                price: 1000000,
+            },
+            {
+                id: 4,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
+            {
+                id: 5,
+                type: 'Boshqaruvchi stoli',
+                size: '180x97x75 sm',
+                price: 1000000,
+            },
         ]
     },
 ]
