@@ -6,7 +6,7 @@ import ProductDetails from '../components/ProductDetails';
 import QuestionAnswer from '../components/QuestionAnswer';
 import AboutCompany from '../components/AboutCompany';
 
-const CreateProductDesign = () => {
+const Category = () => {
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
@@ -20,4 +20,4 @@ const CreateProductDesign = () => {
     )
 };
 
-export default CreateProductDesign;
+export default Category;

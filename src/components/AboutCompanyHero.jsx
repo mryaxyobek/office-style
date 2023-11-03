@@ -11,10 +11,10 @@ const AboutCompanyHero = () => {
                     <div className='max-w-864px'>
                         <h1 className="mb-12 max-900:mb-10 max-440:mb-8">Kompaniya haqida</h1>
                         <div className="space-y-4 text-primary-gray-70">
-                            <p className='max-440:text-regular-16'><blockquote className='inline'>"Office furnitures"</blockquote> - O'zbekistondagi eng yirik ofis mebellarini ishlab chiqaruvchi va yetkazib beruvchilardan biri hisoblanadi.</p>
+                            <p className='max-440:text-regular-16'>"Office furnitures" - O'zbekistondagi eng yirik ofis mebellarini ishlab chiqaruvchi va yetkazib beruvchilardan biri hisoblanadi.</p>
                             <p className='max-440:text-regular-16'>"Office furnitures" tovar va xizmatlarning eng yaxshi tanlovini, mijozlarning barcha talablariga javob beradigan yuqori professional xizmat ko'rsatish darajasini taklif etadi.</p>
                             <p className='max-440:text-regular-16'>O'zbekiston va xalqaro tanlovlardagi g'alabalar, mijozlarning minnatdorchiligi va menejerlar va xodimlar uchun ofis mebellari kolleksiyalari uchun olingan mukofotlar O'zbekiston mebel kompaniyalari orasida Office furnitures kompaniyasining yuqori reytingini ko'rsatadi.<br /><br />
-                                </p>
+                            </p>
                         </div>
                     </div>
                     {/* img  */}

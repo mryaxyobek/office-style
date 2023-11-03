@@ -17,7 +17,7 @@ import ContactPage from './pages/ContactPage';
 import AboutCompanyPage from './pages/AboutCompanyPage';
 import FurnitureForStaff from './pages/FurnitureForStaff';
 import ArticlesPage from './pages/ArticlesPage';
-import CreateProductDesign from './pages/CreateProductDesign';
+import Category from './pages/Category';
 import Portfolio from './pages/Portfolio';
 import Article from './pages/Article';
 
@@ -36,8 +36,8 @@ const App = () => {
           <Route path='furniture-for-staff' element={<FurnitureForStaffRoot />} >
             <Route index element={<FurnitureForStaff />} />
             <Route index path='furniture-for-staff' element={<FurnitureForStaff />} />
-            {/* create product design  */}
-            <Route index path='product-name' element={<CreateProductDesign />} />
+            {/* category */}
+            <Route index path='product-name' element={<Category />} />
           </Route >
 
         </Route>

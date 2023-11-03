@@ -141,7 +141,7 @@ function QuestionAnswer() {
                         <li className="flex items-start justify-between gap-8 p-6 rounded-xl border border-primary-gray-10">
                             <div className={`${showText5 ? '!max-h-max' : ''} overflow-y-hidden`}>
                                 <h3 key={5} ref={titleH5} className="text-medium-20 mb-3 !leading-25px max-580:text-medium-18 max-440:text-medium-16">Mebelni kompaniya (ishlab chiqarishzavodidan) sotib olsam bo'ladimi?</h3>
-                                <p className="text-primary-gray-70 text-regular-16 max-w-4xl">Ha albatta siz bizning ofizimizga kelgan holda sotib olsangiz bo'ladi bizning manzil: <address className='not-italic'>Toshkent, Olmaliq K: No312</address></p>
+                                <div className="text-primary-gray-70 text-regular-16 max-w-4xl">Ha albatta siz bizning ofizimizga kelgan holda sotib olsangiz bo'ladi bizning manzil: <address className='not-italic'>Toshkent, Olmaliq K: No312</address></div>
                             </div>
                             {/* button  */}
                             <button onClick={() => setShowText5(!showText5)} className={`${showText5 ? '-rotate-45' : ''} p-0.5 transition-transform-2`}>
@@ -153,8 +153,8 @@ function QuestionAnswer() {
                         <li className="flex items-start justify-between gap-8 p-6 rounded-xl border border-primary-gray-10">
                             <div className={`${showText6 ? '!max-h-max' : ''} overflow-y-hidden`}>
                                 <h3 key={5} ref={titleH6} className="text-medium-20 mb-3 !leading-25px max-580:text-medium-18 max-440:text-medium-16">Mebelni kompaniya (ishlab chiqarishzavodidan) sotib olsam bo'ladimi?</h3>
-                                <p className="text-primary-gray-70 text-regular-16 max-w-4xl">Ha albatta siz bizning ofizimizga kelgan holda sotib olsangiz bo'ladi bizning manzil: <address className='not-italic'>Toshkent, Olmaliq K: No312</address></p>
-                            </div>
+                                <div className="text-primary-gray-70 text-regular-16 max-w-4xl">Ha albatta siz bizning ofizimizga kelgan holda sotib olsangiz bo'ladi bizning manzil: <address className='not-italic'>Toshkent, Olmaliq K: No312</address></div>
+                            </div>-
                             {/* button  */}
                             <button onClick={() => setShowText6(!showText6)} className={`${showText6 ? '-rotate-45' : ''} p-0.5 transition-transform-2`}>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="23" height="23" viewBox="0 0 23 23" fill="none">
