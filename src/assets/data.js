@@ -22,68 +22,71 @@ import cabinetProductsForManagersImg4 from '../assets/images/other/cabinet-produ
 export const tabButtonsGroup = [
     {
         id: 1,
-        text: 'Все',
+        text: 'Barchasi',
     },
     {
         id: 2,
-        text: 'Кабинеты для руководителя',
+        text: 'Boshqaruvchi kabineti',
     },
     {
         id: 3,
-        text: 'Мебель для персонала',
+        text: 'Xodimlar uchun',
     },
     {
         id: 4,
-        text: 'Офисные кресла',
+        text: 'Ofis kreslolari',
     },
     {
         id: 5,
-        text: 'Офисные диваны',
+        text: 'Ofis divanlari',
     },
     {
         id: 6,
-        text: 'Стойки рецепшн',
+        text: 'Qabul qilish stollari',
     },
     {
         id: 7,
-        text: 'Столы для переговоров',
+        text: 'Uchrashuv stollari',
     },
     {
         id: 8,
-        text: 'Еще',
+        text: 'Boshqa',
     }
 ]
+
+
 // product tabbuttons 
 export const productTabButtonsGroup = [
     {
         id: 1,
-        text: 'Характеристики',
+        text: 'Xususiyatlari',
     },
     {
         id: 2,
-        text: 'Описание',
+        text: 'Tavsif',
     },
     {
         id: 3,
-        text: 'Примеры выполненных проектов',
+        text: 'Tugallangan loyihalarga misollar',
     },
     {
         id: 4,
-        text: 'Отзывы',
+        text: 'Sharxlar',
     },
     {
         id: 5,
-        text: 'Доставка',
+        text: 'Yetkazib berish',
     },
     {
         id: 6,
-        text: 'Оплата',
+        text: "To'lov",
     },
     {
         id: 7,
-        text: 'Сборка',
+        text: 'Assambleya',
     },
 ]
+
 
 // products
 export const products = [
@@ -357,6 +360,7 @@ export const products = [
     },
 ]
 
+
 // new products
 export const newProducts = [
     {
@@ -629,6 +633,7 @@ export const newProducts = [
     },
 ]
 
+
 // akciya (stock) products
 export const akciyaProducts = [
     {
@@ -661,6 +666,7 @@ export const akciyaProducts = [
     },
 ]
 
+
 // reviews
 export const reviewsData = [
     {
@@ -692,6 +698,7 @@ export const reviewsData = [
         rating: 2,
     },
 ]
+
 
 // akciya (stock) products
 export const articles = [
@@ -760,6 +767,7 @@ export const articles = [
         imgName: 'Messay office room image',
     },
 ]
+
 
 // new products
 export const completedProjectsData = [
@@ -915,6 +923,8 @@ export const completedProjectsData = [
     },
 ]
 
+
+// cabinet products for managers 
 export const cabinetProductsForManagers = [
     {
         id: 1,
