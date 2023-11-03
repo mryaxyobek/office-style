@@ -1,10 +1,12 @@
 import React, { useEffect } from 'react';
+import { useParams } from 'react-router-dom';
 
-// components (sections)
-import ProductDesignHero from '../components/ProductDesignHero';
-import ProductDetails from '../components/ProductDetails';
-import QuestionAnswer from '../components/QuestionAnswer';
+// 
+import CategoryHero from '../components/CategoryHero';
+import Offer from '../components/Offer';
 import AboutCompany from '../components/AboutCompany';
+import QuestionAnswer from '../components/QuestionAnswer';
+import FurnitureCatalog from '../components/FurnitureCatalog';
 
 const Category = () => {
     useEffect(() => {
@@ -12,8 +14,9 @@ const Category = () => {
     }, []);
     return (
         <>
-            <ProductDesignHero />
-            <ProductDetails />
+            <CategoryHero />
+            <Offer />
+            <FurnitureCatalog />
             <QuestionAnswer />
             <AboutCompany />
         </>

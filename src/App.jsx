@@ -5,21 +5,21 @@ import { Route } from 'react-router-dom';
 // layouts 
 import MainRoot from './layouts/MainRoot';
 import CatalogRoot from './layouts/CatalogRoot';
-import FurnitureForStaffRoot from './layouts/FurnitureForStaffRoot';
+import CategoryRoot from './layouts/CategoryRoot';
 import ArticleRoot from './layouts/ArticleRoot';
 
 // pages 
 import Home from './pages/Home';
 import Catalog from './pages/Catalog';
+import Category from './pages/Category';
+import ProductPage from './pages/ProductPage';
 import AboutPayment from './pages/AboutPayment';
 import ReviewsPage from './pages/ReviewsPage';
 import ContactPage from './pages/ContactPage';
 import AboutCompanyPage from './pages/AboutCompanyPage';
-import FurnitureForStaff from './pages/FurnitureForStaff';
 import ArticlesPage from './pages/ArticlesPage';
-import Category from './pages/Category';
-import Portfolio from './pages/Portfolio';
 import Article from './pages/Article';
+import Portfolio from './pages/Portfolio';
 
 const App = () => {
   const router = createBrowserRouter(
@@ -32,12 +32,13 @@ const App = () => {
           <Route index element={<Catalog />} />
           <Route index path='/catalog' element={<Catalog />} />
 
-          {/* FurnitureForStaff */}
-          <Route path='furniture-for-staff' element={<FurnitureForStaffRoot />} >
-            <Route index element={<FurnitureForStaff />} />
-            <Route index path='furniture-for-staff' element={<FurnitureForStaff />} />
-            {/* category */}
-            <Route index path='product-name' element={<Category />} />
+          {/* FurnitureForStaf */}
+          <Route path=':categoryName' element={<CategoryRoot />} >
+            {/* index  */}
+            <Route index element={<Category />} />
+            <Route index path=':categoryName' element={<Category />} />
+            {/* order the product */}
+            <Route index path=':productName' element={<ProductPage />} />
           </Route >
 
         </Route>

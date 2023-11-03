@@ -1,7 +1,7 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
 
-const FurnitureForStaffRoot = () => {
+const CategoryRoot = () => {
     return (
         <>
             <Outlet />
@@ -9,4 +9,4 @@ const FurnitureForStaffRoot = () => {
     )
 };
 
-export default FurnitureForStaffRoot;
+export default CategoryRoot;

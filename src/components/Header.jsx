@@ -138,19 +138,19 @@ const Header = () => {
                             <nav className={`${openSearchInput ? 'hidden' : ''} max-1350:hidden`}>
                                 <ul className={`${openCatalog ? 'black' : changeText ? 'text-white' : ''} flex-center space-x-10 text-regular-16`}>
                                     <li>
-                                        <Link to='/'>Ijroiya idoralari</Link>
+                                        <Link to='/catalog/cabinet-for-managers'>Boshqaruvchi kabineti</Link>
                                     </li>
                                     <li>
-                                        <Link to='/'>Xodimlar uchun mebel</Link>
+                                        <Link to='/catalog/furniture-for-staff'>Xodimlar uchun mebel</Link>
                                     </li>
                                     <li>
-                                        <Link to='/'>Ofis kreslolari</Link>
+                                        <Link to='/catalog/office-chairs'>Ofis kreslolari</Link>
                                     </li>
                                     <li>
-                                        <Link to='/'>Qabul qilish stollari</Link>
+                                        <Link to='/catalog/reception-desks'>Qabul qilish stollari</Link>
                                     </li>
                                     <li>
-                                        <Link to='/'>Uchrashuv stollari</Link>
+                                        <Link to='/catalog/meeting-tables'>Uchrashuv stollari</Link>
                                     </li>
                                 </ul>
                             </nav>
