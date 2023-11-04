@@ -20,12 +20,14 @@ import AboutCompanyPage from './pages/AboutCompanyPage';
 import ArticlesPage from './pages/ArticlesPage';
 import Article from './pages/Article';
 import Portfolio from './pages/Portfolio';
+import Basket from './pages/Basket';
 
 const App = () => {
   const router = createBrowserRouter(
     createRoutesFromElements(
       <Route path='/' element={<MainRoot />}>
         <Route index element={<Home />} />
+        <Route path='/basket' element={<Basket />} />
 
         {/* catalog  */}
         <Route path='/catalog' element={<CatalogRoot />}>
@@ -42,15 +44,19 @@ const App = () => {
 
         </Route>
 
-        <Route path='/about-company' element={<AboutCompanyPage />} />
-        <Route path='/portfolio' element={<Portfolio />} />
-        <Route path='/reviews' element={<ReviewsPage />} />
 
+        {/* articles  */}
         <Route path='/articles' element={<ArticleRoot />} >
           <Route index element={<ArticlesPage />} />
           <Route index path='/articles' element={<ArticlesPage />} />
           <Route path='article-name' element={<Article />} />
         </Route>
+
+
+        <Route path='/about-company' element={<AboutCompanyPage />} />
+        <Route path='/portfolio' element={<Portfolio />} />
+        <Route path='/reviews' element={<ReviewsPage />} />
+
 
         <Route path='/about-payment' element={<AboutPayment />} />
         <Route path='/contact' element={<ContactPage />} />

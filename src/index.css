@@ -546,6 +546,55 @@ label {
   min-width: 384px !important;
 }
 
+
+/* notification  */
+@keyframes show-notification {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.add-basket-notification {
+  animation: show-notification 0.3s ease-in;
+}
+
+@keyframes count-animation {
+
+  0% {
+    content: "5";
+  }
+
+  25% {
+    content: "3";
+  }
+
+  50% {
+    content: "2";
+  }
+
+  75% {
+    content: "1";
+  }
+
+  100% {
+    content: "0";
+  }
+}
+
+
+.count::after {
+  display: inline-block;
+  content: "5";
+  width: 12px;
+  animation: count-animation 5s linear;
+}
+
+
+
 /* responsive  */
 
 @media only screen and (max-width:1050px) {

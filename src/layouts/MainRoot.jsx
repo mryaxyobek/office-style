@@ -2,6 +2,7 @@ import React from 'react';
 import { Outlet } from 'react-router-dom';
 import Header from '../components/Header';
 import Top from '../components/Top';
+import Notification from '../components/Notification';
 import Footer from '../components/Footer';
 
 const MainRoot = () => {
@@ -11,6 +12,7 @@ const MainRoot = () => {
             <Header />
             <main className='grow'>
                 <Outlet />
+                {/* <Notification /> */}
             </main>
             <Footer />
         </div>
