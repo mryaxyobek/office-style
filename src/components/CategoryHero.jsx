@@ -11,7 +11,63 @@ const CategoryHero = () => {
                     <Link className='max-540:text-primary-gray-10' to='/catalog'>Katalog</Link>
                 </li>
                 <li>
-                    <span className='max-540:text-primary-gray-10'>Boshqaruvchi kabineti</span>
+                    <span className='max-540:text-primary-gray-10'>
+                        {
+                            categoryName == 'cabinet-for-managers' &&
+                            <>Boshqaruvchilar uchun kabinet</>
+                        }
+                        {
+                            categoryName == 'furniture-for-staff' &&
+                            <>Xodimlar uchun mebel</>
+                        }
+                        {
+                            categoryName == 'office-chairs' &&
+                            <>Ofis kreslolari</>
+                        }
+                        {
+                            categoryName == 'office-sofas' &&
+                            <>Ofis divanlari</>
+                        }
+                        {
+                            categoryName == 'reception-desks' &&
+                            <>Qabul qilish stollari</>
+                        }
+                        {
+                            categoryName == 'meeting-tables' &&
+                            <>Uchrashuvlar stollari</>
+                        }
+                        {
+                            categoryName == 'office-partitions' &&
+                            <>Ofis bo'limlari</>
+                        }
+                        {
+                            categoryName == 'multi-person-sections' &&
+                            <>Ko'p kishilik bo'limlar</>
+                        }
+                        {
+                            categoryName == 'office-desks' &&
+                            <>Ofis stollari</>
+                        }
+                        {
+                            categoryName == 'office-cabinets' &&
+                            <>Ofis shkaflari</>
+                        }
+
+                        {/* other  */}
+                        {
+                            categoryName != 'cabinet-for-managers' &&
+                            categoryName != 'furniture-for-staff' &&
+                            categoryName != 'office-chairs' &&
+                            categoryName != 'office-sofas' &&
+                            categoryName != 'reception-desks' &&
+                            categoryName != 'meeting-tables' &&
+                            categoryName != 'office-partitions' &&
+                            categoryName != 'multi-person-sections' &&
+                            categoryName != 'office-desks' &&
+                            categoryName != 'office-cabinets' &&
+                            <span>Sahifa topilmadi</span>
+                        }
+                    </span>
                 </li>
             </ul>
 
@@ -75,14 +131,14 @@ const CategoryHero = () => {
                                 categoryName != 'office-desks' &&
                                 categoryName != 'office-cabinets' &&
                                 <span>
-                                    <span  className='text-yellow-200'>Siz noto'g'ri bo'limga kirib qoldingiz :(</span> <br />
+                                    <span className='text-yellow-200'>Siz noto'g'ri bo'limga kirib qoldingiz :(</span> <br />
                                     <Link to='/' className='text-medium-20'>Bosh sahifaga qaytish</Link>
                                 </span>
                             }
                         </h1>
                         <p className="text-regular-20 text-primary-gray-10 max-1200:text-center max-540:text-left max-730:text-regular-18 max-440:text-regular-16">So'rov qoldiring, biz nafaqat sizning o'lchamingiz va talablaringizga mos mebel tanlaymiz, balki kelajakdagi ofisingizning bepul dizayn eskizini ham yaratamiz.</p>
                     </div>
-                    
+
                     <div className="flex space-x-12 max-1200:justify-between max-1200:mt-8 max-540:flex-col max-540:space-x-0 max-540:gap-6">
                         <div className="space-y-3 max-w-245px max-540:max-w-full">
                             <h3 className="text-medium-20 text-white">Buyurtma</h3>
