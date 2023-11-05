@@ -2,7 +2,6 @@ import { createSlice } from '@reduxjs/toolkit';
 
 const initialStateValues = {
     card: [],
-    // notification: false,
 };
 export const cardSlice = createSlice({
     name: 'card',
@@ -12,16 +11,11 @@ export const cardSlice = createSlice({
             const { id } = action.payload;
             const found = state.card.find(product => product.id === id);
             if (!found) {
-                let product = { ...action.payload, count: 1 }
+                let product = { ...action.payload }
                 state.card.push(product)
             } else {
-                // state.notification = true;
-                // setTimeout(function () {
-                //     state.notification = false;
-                // }, 1000)
                 alert("Bu mahsulot allaqachon savatga qo'shilgan")
-            }
-            ;
+            };
         },
         deleteCard: (state, action) => {
             const { id } = action.payload;
