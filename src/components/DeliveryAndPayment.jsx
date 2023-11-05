@@ -31,7 +31,7 @@ const DeliveryAndPayment = () => {
               </li>
               <li className="space-y-4 max-w-745px">
                 <h4 className="text-regular-24 max-900:text-regular-20 max-360:text-regular18">Kompaniyadan olib ketish</h4>
-                <p className="text-regular-16 text-primary-gray-70">Buyurtmani quyidagi manzildan olishingiz mumkin: <br /><address className='not-italic'>Toshkent, Olmaliq K: No312</address> <br /> Ish vaqti: <br /> ish kunlari 09:00 dan 18:00 gacha, yakshanba kuni 10:00 dan 15:00 gacha.</p>
+                <div className="text-regular-16 text-primary-gray-70">Buyurtmani quyidagi manzildan olishingiz mumkin: <br /><address className='not-italic'>Toshkent, Olmaliq K: No312</address> <br /> Ish vaqti: <br /> ish kunlari 09:00 dan 18:00 gacha, yakshanba kuni 10:00 dan 15:00 gacha.</div>
               </li>
             </ul>
           </li>

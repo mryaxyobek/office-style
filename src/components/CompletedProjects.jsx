@@ -3,16 +3,13 @@ import { completedProjectsData } from '../assets/data';
 import { Link } from 'react-router-dom';
 
 // swiper 
-// Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/effect-fade';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import '../css/styles.css';
-
 // import required modules
 import { EffectFade, Navigation, Pagination } from 'swiper/modules';
 
