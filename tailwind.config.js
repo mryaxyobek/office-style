@@ -31,6 +31,10 @@ export default {
           'gray-50': '#B5CBEB',
           'gray-40': '#999',
           'blue-70': '#778FB3',
+          'brown-90': '#251E18',
+          'brown-50': '#764421',
+          'brown-10': '#DCCCB0',
+          'black-light': '#1C1C1C',
         },
       },
 
