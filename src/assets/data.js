@@ -52,7 +52,7 @@ export const tabButtonsGroup = [
         id: 8,
         text: 'Boshqa',
     }
-]
+];
 
 
 // product tabbuttons 
@@ -85,7 +85,7 @@ export const productTabButtonsGroup = [
         id: 7,
         text: 'Assambleya',
     },
-]
+];
 
 
 // products
@@ -107,7 +107,7 @@ export const products = [
         images: [
             {
                 id: 1,
-                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
             },
             {
                 id: 2,
@@ -145,7 +145,7 @@ export const products = [
             },
             {
                 id: 2,
-                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
             },
             {
                 id: 3,
@@ -175,7 +175,7 @@ export const products = [
         images: [
             {
                 id: 1,
-                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
             },
             {
                 id: 2,
@@ -208,7 +208,7 @@ export const products = [
         images: [
             {
                 id: 1,
-                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
             },
             {
                 id: 2,
@@ -241,7 +241,7 @@ export const products = [
         images: [
             {
                 id: 1,
-                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
             },
             {
                 id: 2,
@@ -274,7 +274,7 @@ export const products = [
         images: [
             {
                 id: 1,
-                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
             },
             {
                 id: 2,
@@ -312,7 +312,7 @@ export const products = [
             },
             {
                 id: 2,
-                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
             },
             {
                 id: 3,
@@ -342,7 +342,7 @@ export const products = [
         images: [
             {
                 id: 1,
-                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
             },
             {
                 id: 2,
@@ -358,7 +358,7 @@ export const products = [
             },
         ]
     },
-]
+];
 
 
 // new products
@@ -380,7 +380,7 @@ export const newProducts = [
         images: [
             {
                 id: 1,
-                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
             },
             {
                 id: 2,
@@ -418,7 +418,7 @@ export const newProducts = [
             },
             {
                 id: 2,
-                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
             },
             {
                 id: 3,
@@ -448,7 +448,7 @@ export const newProducts = [
         images: [
             {
                 id: 1,
-                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
             },
             {
                 id: 2,
@@ -481,7 +481,7 @@ export const newProducts = [
         images: [
             {
                 id: 1,
-                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
             },
             {
                 id: 2,
@@ -514,7 +514,7 @@ export const newProducts = [
         images: [
             {
                 id: 1,
-                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
             },
             {
                 id: 2,
@@ -547,7 +547,7 @@ export const newProducts = [
         images: [
             {
                 id: 1,
-                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
             },
             {
                 id: 2,
@@ -585,7 +585,7 @@ export const newProducts = [
             },
             {
                 id: 2,
-                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
             },
             {
                 id: 3,
@@ -615,7 +615,7 @@ export const newProducts = [
         images: [
             {
                 id: 1,
-                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
             },
             {
                 id: 2,
@@ -631,7 +631,7 @@ export const newProducts = [
             },
         ]
     },
-]
+];
 
 
 // akciya (stock) products
@@ -641,21 +641,21 @@ export const akciyaProducts = [
         date: '22 июня 2023',
         description: 'Успейте приобрести кабинет для руководителя Onix Direct со скидкой',
         idName: '#exampleid1',
-        img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+        img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
     },
     {
         id: 2,
         date: '16 июля 2023',
         description: 'Успейте приобрести кабинет для руководителя Onix Direct со скидкой',
         idName: '#exampleid2',
-        img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+        img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
     },
     {
         id: 3,
         date: '20 августа 2023',
         description: 'Бесплатная доставка до офиса',
         idName: '#exampleid3',
-        img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+        img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
     },
     {
         id: 4,
@@ -664,7 +664,7 @@ export const akciyaProducts = [
         idName: '#',
         img: paymentPlanImg,
     },
-]
+];
 
 
 // reviews
@@ -697,7 +697,7 @@ export const reviewsData = [
         productImg: furnitureImgForReviews,
         rating: 2,
     },
-]
+];
 
 
 // akciya (stock) products
@@ -766,7 +766,7 @@ export const articles = [
         hashtags: ['#Идеи', '#Тренды'],
         imgName: 'Messay office room image',
     },
-]
+];
 
 
 // new products
@@ -804,7 +804,7 @@ export const completedProjectsData = [
         images: [
             {
                 id: 1,
-                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
             },
             {
                 id: 2,
@@ -854,7 +854,7 @@ export const completedProjectsData = [
         images: [
             {
                 id: 1,
-                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
             },
             {
                 id: 2,
@@ -904,7 +904,7 @@ export const completedProjectsData = [
         images: [
             {
                 id: 1,
-                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
             },
             {
                 id: 2,
@@ -921,7 +921,7 @@ export const completedProjectsData = [
             }
         ]
     },
-]
+];
 
 
 // cabinet products for managers 
@@ -973,7 +973,7 @@ export const cabinetProductsForManagers = [
             {
                 id: 1,
                 alt: 'furniture image',
-                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
             },
             {
                 id: 2,
@@ -1007,7 +1007,7 @@ export const cabinetProductsForManagers = [
             },
             {
                 id: 3,
-                userName: "Qo'shqorbek",
+                userName: "Qo'chqorbek",
                 rating: 5,
                 body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
             },
@@ -1103,7 +1103,7 @@ export const cabinetProductsForManagers = [
             {
                 id: 1,
                 alt: 'furniture image',
-                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
             },
             {
                 id: 2,
@@ -1137,7 +1137,7 @@ export const cabinetProductsForManagers = [
             },
             {
                 id: 3,
-                userName: "Qo'shqorbek",
+                userName: "Qo'chqorbek",
                 rating: 5,
                 body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
             },
@@ -1233,7 +1233,7 @@ export const cabinetProductsForManagers = [
             {
                 id: 1,
                 alt: 'furniture image',
-                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
             },
             {
                 id: 2,
@@ -1267,7 +1267,7 @@ export const cabinetProductsForManagers = [
             },
             {
                 id: 3,
-                userName: "Qo'shqorbek",
+                userName: "Qo'chqorbek",
                 rating: 5,
                 body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
             },
@@ -1363,7 +1363,7 @@ export const cabinetProductsForManagers = [
             {
                 id: 1,
                 alt: 'furniture image',
-                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
             },
             {
                 id: 2,
@@ -1397,7 +1397,7 @@ export const cabinetProductsForManagers = [
             },
             {
                 id: 3,
-                userName: "Qo'shqorbek",
+                userName: "Qo'chqorbek",
                 rating: 5,
                 body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
             },
@@ -1493,7 +1493,7 @@ export const cabinetProductsForManagers = [
             {
                 id: 1,
                 alt: 'furniture image',
-                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
             },
             {
                 id: 2,
@@ -1527,7 +1527,7 @@ export const cabinetProductsForManagers = [
             },
             {
                 id: 3,
-                userName: "Qo'shqorbek",
+                userName: "Qo'chqorbek",
                 rating: 5,
                 body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
             },
@@ -1623,7 +1623,7 @@ export const cabinetProductsForManagers = [
             {
                 id: 1,
                 alt: 'furniture image',
-                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
             },
             {
                 id: 2,
@@ -1657,7 +1657,7 @@ export const cabinetProductsForManagers = [
             },
             {
                 id: 3,
-                userName: "Qo'shqorbek",
+                userName: "Qo'chqorbek",
                 rating: 5,
                 body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
             },
@@ -1753,7 +1753,7 @@ export const cabinetProductsForManagers = [
             {
                 id: 1,
                 alt: 'furniture image',
-                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
             },
             {
                 id: 2,
@@ -1787,7 +1787,7 @@ export const cabinetProductsForManagers = [
             },
             {
                 id: 3,
-                userName: "Qo'shqorbek",
+                userName: "Qo'chqorbek",
                 rating: 5,
                 body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
             },
@@ -1883,7 +1883,7 @@ export const cabinetProductsForManagers = [
             {
                 id: 1,
                 alt: 'furniture image',
-                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
             },
             {
                 id: 2,
@@ -1917,7 +1917,7 @@ export const cabinetProductsForManagers = [
             },
             {
                 id: 3,
-                userName: "Qo'shqorbek",
+                userName: "Qo'chqorbek",
                 rating: 5,
                 body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
             },
@@ -2013,7 +2013,7 @@ export const cabinetProductsForManagers = [
             {
                 id: 1,
                 alt: 'furniture image',
-                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
             },
             {
                 id: 2,
@@ -2047,7 +2047,7 @@ export const cabinetProductsForManagers = [
             },
             {
                 id: 3,
-                userName: "Qo'shqorbek",
+                userName: "Qo'chqorbek",
                 rating: 5,
                 body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
             },
@@ -2143,7 +2143,7 @@ export const cabinetProductsForManagers = [
             {
                 id: 1,
                 alt: 'furniture image',
-                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
             },
             {
                 id: 2,
@@ -2177,7 +2177,7 @@ export const cabinetProductsForManagers = [
             },
             {
                 id: 3,
-                userName: "Qo'shqorbek",
+                userName: "Qo'chqorbek",
                 rating: 5,
                 body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
             },
@@ -2273,7 +2273,7 @@ export const cabinetProductsForManagers = [
             {
                 id: 1,
                 alt: 'furniture image',
-                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
             },
             {
                 id: 2,
@@ -2307,7 +2307,7 @@ export const cabinetProductsForManagers = [
             },
             {
                 id: 3,
-                userName: "Qo'shqorbek",
+                userName: "Qo'chqorbek",
                 rating: 5,
                 body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
             },
@@ -2403,7 +2403,7 @@ export const cabinetProductsForManagers = [
             {
                 id: 1,
                 alt: 'furniture image',
-                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
             },
             {
                 id: 2,
@@ -2437,7 +2437,7 @@ export const cabinetProductsForManagers = [
             },
             {
                 id: 3,
-                userName: "Qo'shqorbek",
+                userName: "Qo'chqorbek",
                 rating: 5,
                 body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
             },
@@ -2533,7 +2533,7 @@ export const cabinetProductsForManagers = [
             {
                 id: 1,
                 alt: 'furniture image',
-                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
             },
             {
                 id: 2,
@@ -2567,7 +2567,7 @@ export const cabinetProductsForManagers = [
             },
             {
                 id: 3,
-                userName: "Qo'shqorbek",
+                userName: "Qo'chqorbek",
                 rating: 5,
                 body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
             },
@@ -2663,7 +2663,7 @@ export const cabinetProductsForManagers = [
             {
                 id: 1,
                 alt: 'furniture image',
-                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
             },
             {
                 id: 2,
@@ -2697,7 +2697,7 @@ export const cabinetProductsForManagers = [
             },
             {
                 id: 3,
-                userName: "Qo'shqorbek",
+                userName: "Qo'chqorbek",
                 rating: 5,
                 body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
             },
@@ -2793,7 +2793,7 @@ export const cabinetProductsForManagers = [
             {
                 id: 1,
                 alt: 'furniture image',
-                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
             },
             {
                 id: 2,
@@ -2827,7 +2827,7 @@ export const cabinetProductsForManagers = [
             },
             {
                 id: 3,
-                userName: "Qo'shqorbek",
+                userName: "Qo'chqorbek",
                 rating: 5,
                 body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
             },
@@ -2923,7 +2923,7 @@ export const cabinetProductsForManagers = [
             {
                 id: 1,
                 alt: 'furniture image',
-                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
             },
             {
                 id: 2,
@@ -2957,7 +2957,7 @@ export const cabinetProductsForManagers = [
             },
             {
                 id: 3,
-                userName: "Qo'shqorbek",
+                userName: "Qo'chqorbek",
                 rating: 5,
                 body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
             },
@@ -3053,7 +3053,7 @@ export const cabinetProductsForManagers = [
             {
                 id: 1,
                 alt: 'furniture image',
-                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
             },
             {
                 id: 2,
@@ -3087,7 +3087,7 @@ export const cabinetProductsForManagers = [
             },
             {
                 id: 3,
-                userName: "Qo'shqorbek",
+                userName: "Qo'chqorbek",
                 rating: 5,
                 body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
             },
@@ -3183,7 +3183,7 @@ export const cabinetProductsForManagers = [
             {
                 id: 1,
                 alt: 'furniture image',
-                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
             },
             {
                 id: 2,
@@ -3217,7 +3217,7 @@ export const cabinetProductsForManagers = [
             },
             {
                 id: 3,
-                userName: "Qo'shqorbek",
+                userName: "Qo'chqorbek",
                 rating: 5,
                 body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
             },
@@ -3313,7 +3313,7 @@ export const cabinetProductsForManagers = [
             {
                 id: 1,
                 alt: 'furniture image',
-                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
             },
             {
                 id: 2,
@@ -3347,7 +3347,7 @@ export const cabinetProductsForManagers = [
             },
             {
                 id: 3,
-                userName: "Qo'shqorbek",
+                userName: "Qo'chqorbek",
                 rating: 5,
                 body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
             },
@@ -3443,7 +3443,7 @@ export const cabinetProductsForManagers = [
             {
                 id: 1,
                 alt: 'furniture image',
-                img: 'https://assets.architecturaldigest.in/photos/6008351194ca758bb0ad0d69/16:9/w_2560%2Cc_limit/office-furniture-main-1366x768.jpg',
+                img: 'https://img.freepik.com/premium-photo/light-office-furniture-middle-room-office-room-layout-3d-illustration_724548-977.jpg',
             },
             {
                 id: 2,
@@ -3477,7 +3477,7 @@ export const cabinetProductsForManagers = [
             },
             {
                 id: 3,
-                userName: "Qo'shqorbek",
+                userName: "Qo'chqorbek",
                 rating: 5,
                 body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
             },
@@ -3526,4 +3526,4 @@ export const cabinetProductsForManagers = [
             },
         ]
     },
-]
+];
