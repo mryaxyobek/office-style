@@ -1,13 +1,17 @@
 import React, { useState } from 'react';
-import { productTabButtonsGroup, reviewsData } from '../assets/data';
+import { productTabButtonsGroup, cabinetProductsForManagers } from '../assets/data';
+import { useParams } from 'react-router-dom';
 
-// img 
-import furnitureImg from '../assets/images/other/brown-furniture.jpg';
-import { Link } from 'react-router-dom';
 
 const ProductDetails = () => {
+    // product 
+    const { productName } = useParams();
+    const allProducts = [...cabinetProductsForManagers];
+    const product = allProducts.find((product) => productName === product.productTitle.toLowerCase().replace(/\s+/g, '-'));
+
+
     const [Position, setPosition] = useState(4);
-    const [Width, setWidth] = useState(144);
+    const [Width, setWidth] = useState(117);
     const [buttonId, setButtonId] = useState(1);
 
     // function for tab 
@@ -45,52 +49,46 @@ const ProductDetails = () => {
                     buttonId == 1 &&
                     <ul className='max-w-5xl'>
                         <li className="flex py-3 gap-5">
-                            <span className="text-primary-gray-70 w-1/2">Материал</span>
-                            <span className='w-1/2'>ЛДСП</span>
+                            <span className="text-primary-gray-70 w-1/2">Material</span>
+                            <span className='w-1/2'>{product.details.material}</span>
                         </li>
                         <li className="flex py-3 gap-5">
-                            <span className="text-primary-gray-70 w-1/2">Страна производитель</span>
-                            <span className='w-1/2'>Россия</span>
+                            <span className="text-primary-gray-70 w-1/2">Ishlab chiqarilgan davlat</span>
+                            <span className='w-1/2'>{product.details.country}</span>
                         </li>
                         <li className="flex py-3 gap-5">
-                            <span className="text-primary-gray-70 w-1/2">Толщина столешницы (см)</span>
-                            <span className='w-1/2'>2,5</span>
+                            <span className="text-primary-gray-70 w-1/2">Qalinlik</span>
+                            <span className='w-1/2'>{product.details.thickness} (sm)</span>
                         </li>
                         <li className="flex py-3 gap-5">
-                            <span className="text-primary-gray-70 w-1/2">Цвет</span>
-                            <span className='w-1/2'>Орех артемид/бежевый, дуб выбеленный/бежевый</span>
+                            <span className="text-primary-gray-70 w-1/2">Rangi</span>
+                            <span className='w-1/2'>{product.details.color}</span>
                         </li>
                         <li className="flex py-3 gap-5">
-                            <span className="text-primary-gray-70 w-1/2">Стиль</span>
-                            <span className='w-1/2'>Современный</span>
+                            <span className="text-primary-gray-70 w-1/2">Stil</span>
+                            <span className='w-1/2'>{product.details.style}</span>
                         </li>
                     </ul>
                 }
                 {
                     buttonId == 2 &&
                     <p className="max-w-5xl max-440:text-regular-16">
-                        Трансформируемые столы из серии Drive подходят для офисов и коворкинговых пространств, где важна возможность быстро переоборудовать помещение и рабочее место под разные задачи. В коллекции две модели с широким размерным рядом столешниц и каркасов. Цветовые решения серии — шесть древесных текстур и два моноцвета «белый» и «беж» — позволяют подобрать столы под любой интерьер.
-                        <br />
-                        <br />
-                        Трансформируемые столы из серии Drive подходят для офисов и коворкинговых пространств, где важна возможность быстро переоборудовать помещение и рабочее место под разные задачи. В коллекции две модели с широким размерным рядом столешниц и каркасов. Цветовые решения серии — шесть древесных текстур и два моноцвета «белый» и «беж» — позволяют подобрать столы под любой интерьер.
+                        {product.description}
                     </p>
                 }
                 {
                     buttonId == 3 &&
                     <div className="overflow-x-auto gray-scroll max-1800:pb-60r">
                         <ul className="flex gap-8 min-w-max">
-                            <li>
-                                <img width={416} height={340} src={furnitureImg} alt="brown color furniture" className="rounded-2.5xl object-cover object-center max-540:w-300px max-540:h-300px" />
-                            </li>
-                            <li>
-                                <img width={416} height={340} src={furnitureImg} alt="brown color furniture" className="rounded-2.5xl object-cover object-center max-540:w-300px max-540:h-300px" />
-                            </li>
-                            <li>
-                                <img width={416} height={340} src={furnitureImg} alt="brown color furniture" className="rounded-2.5xl object-cover object-center max-540:w-300px max-540:h-300px" />
-                            </li>
-                            <li>
-                                <img width={416} height={340} src={furnitureImg} alt="brown color furniture" className="rounded-2.5xl object-cover object-center max-540:w-300px max-540:h-300px" />
-                            </li>
+                            {
+                                product.completedProjects.map((img) => {
+                                    return (
+                                        <li key={img.id}>
+                                            <img width={416} height={340} src={img.img} alt="brown color furniture" className="w-416px h-340px rounded-2.5xl object-cover object-center max-540:w-300px max-540:h-300px" />
+                                        </li>
+                                    )
+                                })
+                            }
                         </ul>
                     </div>
                 }
@@ -99,7 +97,7 @@ const ProductDetails = () => {
                     <div className='space-y-8'>
                         <ul className="grid grid-cols-1 gap-8 max-w-1088px">
                             {
-                                reviewsData.map((e) => {
+                                product.reviews.map((e) => {
                                     return (
                                         <li key={e.id} className='space-y-6 p-8 rounded-2.5xl border border-primary-gray-10 max-670:p-7 max-470:p-4'>
                                             {/* about  */}
@@ -119,57 +117,56 @@ const ProductDetails = () => {
                                             </div>
 
                                             {/* commment  */}
-                                            <p className="text-primary-gray-70">{e.comment}</p>
+                                            <p className="text-primary-gray-70">{e.body}</p>
                                         </li>
                                     )
                                 })
                             }
                         </ul>
-                        <Link to="/reviews" className="flex justify-center red-btn py-3.5 px-4 text-regular-16 max-470:w-full">Оставить отзыв</Link>
+                        <button className="flex justify-center red-btn py-3.5 px-4 text-regular-16 max-w-max max-470:max-w-none max-470:w-full">Sharx qoldirish</button>
                     </div>
                 }
                 {
                     buttonId == 5 &&
                     <div>
-                        <h3 className="text-regular-20 mb-5">Доставка</h3>
+                        <h3 className="text-regular-20 mb-5">Yetkazib berish</h3>
                         <ul className="grid grid-cols-1 gap-6 max-w-745px text-primary-gray-70 mb-8">
                             <li>
-                                <h4 className="text-black text-regular-16">Доставка по Краснодару</h4>
-                                <p className='text-regular-16'>Цена от 600 рублей, мебель, которая есть в наличии, доставим в течение часа, точное время сообщим при оформлении заказа.</p>
+                                <h4 className="text-black text-regular-16">Toshkent bo'ylab yetkazib berish</h4>
+                                <p className='text-regular-16'>Narxi 100.000 so'mdan, ombordada mavjud bo'lgan mebel bir soat ichida yetkazib beriladi, biz sizga buyurtmani joylashtirishda aniq vaqt haqida xabar beramiz.</p>
                             </li>
                             <li>
-                                <h4 className="text-black text-regular-16">Доставка по Краснодарскому краю</h4>
-                                <p className='text-regular-16'>Стоимость и сроки рассчитаем индивидуально, подробности уточняйте у наших специалистов.</p>
+                                <h4 className="text-black text-regular-16">Boshqa hududlar</h4>
+                                <p className='text-regular-16'>Xarajat va shartlarni alohida hisoblab chiqamiz, batafsil ma'lumot uchun mutaxassislarimizga murojaat qiling.</p>
                             </li>
                             <li>
-                                <h4 className="text-black text-regular-16">Самовывоз в Краснодаре</h4>
-                                <p className='text-regular-16'>Вы можете забрать заказ по адресу: Краснодар, ул. Дальняя, 27.
-                                    Время работы: в будние дни с 09:00 до 18:00, в субботу с 10:00 до 15:00.</p>
+                                <h4 className="text-black text-regular-16">Kompaniyadan olib ketish</h4>
+                                <p className='text-regular-16'>Buyurtmani quyidagi manzildan olishingiz mumkin: <br />
+                                    Toshkent, Olmaliq K: No312
+                                    <br /><br />
+                                    Ish vaqti:
+                                    ish kunlari 09:00 dan 18:00 gacha, yakshanba kuni 10:00 dan 15:00 gacha.</p>
                             </li>
                         </ul>
-                        <Link to="#" className="inline-block red-btn py-3.5 px-4 text-regular-16">Рассчитать стоимость доставки</Link>
                     </div>
                 }
                 {
                     buttonId == 6 &&
                     <div>
-                        <h3 className="text-regular-20 mb-5">Оплата</h3>
+                        <h3 className="text-regular-20 mb-5">To'lov</h3>
                         <ul className="grid grid-cols-1 gap-6 max-w-745px text-primary-gray-70">
                             <li>
-                                <h4 className="text-black text-regular-16">Банковской картой.</h4>
-                                <p className='text-regular-16'>Во время оформления заказа на сайте или при получении, а также в офисе интернет-магазина.</p>
+                                <h4 className="text-black text-regular-16">Bank kartasi</h4>
+                                <p className='text-regular-16'>Buyurtmani veb-saytda yoki qabul qilishda, shuningdek onlayn-do'kon ofisida joylashtirishda.</p>
                             </li>
                             <li>
-                                <h4 className="text-black text-regular-16">Через интернет-сервисы</h4>
-                                <p className='text-regular-16'>Есть возможность оплатить покупки онлайн.</p>
+                                <h4 className="text-black text-regular-16">Internet xizmatlari orqali</h4>
+                                <p className='text-regular-16'>Onlayn xaridlar uchun to'lovni amalga olishirishingiz mumkin.</p>
                             </li>
                             <li>
-                                <h4 className="text-black text-regular-16">Наличными</h4>
-                                <p className='text-regular-16'>При получении товара в своем городе или офисе интернет-магазина.
-                                    С НДС или без</p>
-                            </li>
-                            <li>
-                                <p className='text-regular-16'>Выбирайте вариант, который будет удобен вам.</p>
+                                <h4 className="text-black text-regular-16">Naqd pul</h4>
+                                <p className='text-regular-16'>Sizning shahringizda yoki onlayn do'kon ofisida tovarlarni qabul qilishda to'lovni amalga olishirishingiz mumkin.
+                                    QQS bilan yoki QQSsiz</p>
                             </li>
                         </ul>
                     </div>
@@ -177,15 +174,15 @@ const ProductDetails = () => {
                 {
                     buttonId == 7 &&
                     <div>
-                        <h3 className="text-regular-20 mb-5">Сборка</h3>
+                        <h3 className="text-regular-20 mb-5">Assambleya</h3>
                         <ul className="grid grid-cols-1 gap-6 max-w-745px text-primary-gray-70">
                             <li>
-                                <h4 className="text-black text-regular-16">Стоит от 5 % до 9 % суммы заказа</h4>
-                                <p className='text-regular-16'>Цена зависит от серии мебели – менеджер рассчитает точную стоимость при обсуждении деталей.</p>
+                                <h4 className="text-black text-regular-16">Buyurtma miqdorining 5% dan 9% gacha bo'lgan xarajatlar</h4>
+                                <p className='text-regular-16'>Narx mebel seriyasiga bog'liq - menejer tafsilotlarni muhokama qilishda aniq xarajatlarni hisoblab chiqadi.</p>
                             </li>
                             <li>
-                                <h4 className="text-black text-regular-16">В Краснодаре и других городах РФ</h4>
-                                <p className='text-regular-16'>Сотрудничаем с проверенными сборщиками по всей стране.</p>
+                                <h4 className="text-black text-regular-16">Barcha mamlakat viloyatlari bo'ylab</h4>
+                                <p className='text-regular-16'>Biz butun mamlakat bo'ylab ishonchli montajchilar bilan hamkorlik qilamiz.</p>
                             </li>
                         </ul>
                     </div>

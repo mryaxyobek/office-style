@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 
 // data 
 import { cabinetProductsForManagers } from '../assets/data';
@@ -20,7 +20,6 @@ import { Link, useParams } from 'react-router-dom';
 // redux 
 import { useDispatch } from 'react-redux'
 import { addCard } from '../store/slices/productBasketslice';
-import { addProduct } from '../store/slices/productDetailsSlice';
 
 
 const Products = () => {
@@ -30,17 +29,11 @@ const Products = () => {
     const addToCard = (product) => {
         dispatch(addCard(product))
     }
-    
-    const addProductDetails = (product) => {
-        dispatch(addProduct(product))
-    }
-
     return (
         <div className="container">
-            {/* filter  */}
-            {/* products  */}
+            {/* products */}
             <ul className="grid grid-cols-4 gap-8 max-1400:grid-cols-3 max-1050:grid-cols-2 max-730:grid-cols-1">
-                {cabinetProductsForManagers.map((product, index) => {
+                {cabinetProductsForManagers.map((product) => {
                     return (
                         <li key={product.id} className="w-full product hover:active-hover">
                             <Swiper className="product-img-swiper relative rounded-2.5xl w-full mb-4 max-730:h-96 h-310px max-470:h-64 max-360:h-223px"
@@ -131,7 +124,7 @@ const Products = () => {
 
                             {/* buttons  */}
                             <div className="flex flex-co w-full gap-2">
-                                <Link onClick={() => addProductDetails(product)} to={`/catalog/${categoryName}/${product.productTitleNoSpacing}`} className="flex-center justify-center red-btn py-2.5 px-5 w-full bg-primary-red-60">Buyurtma berish</Link>
+                                <Link to={`/catalog/${categoryName}/${product.productTitle.toLowerCase().replace(/\s+/g, '-')}`} className="flex-center justify-center red-btn py-2.5 px-5 w-full bg-primary-red-60">Buyurtma berish</Link>
                                 <button onClick={() => addToCard(product)} className="red-btn py-2.5 px-8 bg-transparent border-2 border-primary-red-60 ">
                                     <svg xmlns="http://www.w3.org/2000/svg" className='text-primary-red-60' width="24" height="24" viewBox="0 0 17 17" fill="none">
                                         <path fillRule="evenodd" clipRule="evenodd" d="M8.53724 0.500039C6.42693 0.506342 4.70854 2.19779 4.66892 4.30762C4.66655 4.32905 4.66529 4.3506 4.66514 4.37214V5.0175H2.72908C2.37269 5.0175 2.08373 5.30641 2.08373 5.66285V10.8257C2.05805 11.6291 2.0872 12.4334 2.17086 13.2328C2.14479 13.9489 2.41783 14.6434 2.92461 15.1499C3.43139 15.6564 4.12606 15.9291 4.84207 15.9026C5.42416 15.9899 6.01342 16.0186 6.60119 15.9884L10.4733 15.9885C11.062 16.0187 11.6523 15.9896 12.2351 15.9013C12.9511 15.9275 13.6457 15.6544 14.1522 15.1477C14.6587 14.6409 14.9314 13.9462 14.9049 13.2302C14.9878 12.4316 15.0165 11.6282 14.9907 10.8257V5.66285C14.9907 5.30641 14.7018 5.0175 14.3454 5.0175H12.4093V4.37214C12.4095 4.34776 12.4082 4.32342 12.4055 4.29924C12.3611 2.19279 10.6442 0.506539 8.53732 0.5L8.53724 0.500039ZM8.53726 1.79074C9.22263 1.78853 9.8805 2.05977 10.3651 2.54437C10.8497 3.02894 11.1209 3.68685 11.1187 4.37214V5.01749H5.95586V4.37214C5.95357 3.68681 6.22488 3.02894 6.70945 2.54433C7.19401 2.05977 7.85197 1.7885 8.53726 1.79074V1.79074ZM3.37445 6.30822H4.66515V7.59892C4.66192 7.82955 4.78198 8.04433 4.98003 8.16238C5.17816 8.28047 5.42418 8.28386 5.62546 8.17132C5.82674 8.05879 5.9527 7.84739 5.95586 7.6168C5.95586 7.61121 5.95586 7.60475 5.95586 7.59892V6.30822H11.1187V7.59892C11.1154 7.82955 11.2355 8.04433 11.4335 8.16238C11.6317 8.28047 11.8777 8.28386 12.079 8.17132C12.2802 8.05879 12.4062 7.84739 12.4094 7.6168C12.4094 7.61121 12.4094 7.60475 12.4094 7.59892V6.30822H13.7001V10.8257C13.724 11.5795 13.6979 12.3341 13.622 13.0844C13.6819 13.5063 13.5401 13.9317 13.2389 14.2331C12.9378 14.5345 12.5124 14.6767 12.0905 14.6171C11.5557 14.701 11.0136 14.728 10.4732 14.6978H6.60121C6.06213 14.7285 5.52139 14.7023 4.98783 14.6197C4.56605 14.6797 4.14057 14.5378 3.83916 14.2367C3.53776 13.9355 3.39549 13.5102 3.45512 13.0883C3.378 12.3368 3.35106 11.5809 3.37445 10.8257V6.30822V6.30822Z" fill="currentColor" />
@@ -147,4 +140,4 @@ const Products = () => {
     )
 };
 
-export default Products;
+export default Products;    
