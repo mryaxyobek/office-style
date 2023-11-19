@@ -99,7 +99,7 @@ html {
   }
 
   .red-btn {
-    @apply rounded-lg bg-primary-red-50 text-regular-14 text-white;
+    @apply rounded-lg bg-primary-red-50 text-regular-14 text-white transition-colors-2 hover:bg-primary-gray-70;
   }
 
   .red-btn-14 {
@@ -120,6 +120,14 @@ html {
 
   .solid-gray-50-border-btn {
     @apply py-3.5 px-6 rounded-lg border border-primary-gray-50 text-regular-14;
+  }
+
+  .button-hovered {
+    @apply border-primary-gray-70;
+  }
+
+  .button-hovered svg {
+    @apply text-primary-gray-70;
   }
 
   /* homepage plus btn  */
@@ -198,7 +206,7 @@ html {
 
   /* breadcrumb */
   .breadcrumb {
-    @apply flex-center space-x-4 text-regular-16 text-primary-gray-50 py-8
+    @apply flex-center gap-4 flex-wrap text-regular-16 text-primary-gray-50 py-8
   }
 
   .breadcrumb li {

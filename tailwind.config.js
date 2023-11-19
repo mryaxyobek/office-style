@@ -60,8 +60,10 @@ export default {
         '305px': '305px',
         '260px': '260px',
         '245px': '245px',
+        '230px': '230px',
         '217px': '217px',
         '200px': '200px',
+        '120px': '120px',
       },
 
       minWidth: {
@@ -72,6 +74,8 @@ export default {
         '224px': '224px',
         '300px': '300px',
         '280px': '280px',
+        '230px': '230px',
+        '120px': '120px',
       },
 
       width: {
