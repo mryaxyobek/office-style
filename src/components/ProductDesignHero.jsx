@@ -25,7 +25,7 @@ const ProductDesignHero = () => {
     const { productName } = useParams();
     const allProducts = [...cabinetProductsForManagers];
     const product = allProducts.find((product) => productName === product.productTitle.toLowerCase().replace(/\s+/g, '-'));
-
+    console.log(product);
     let [count1, changeCount1] = useState(1);
     let [count2, changeCount2] = useState(1);
     let [count3, changeCount3] = useState(1);
@@ -59,7 +59,7 @@ const ProductDesignHero = () => {
         setSelectBrownColor(true);
     };
     return (
-        <section className='pt-20 max-1150:pb-16 max-800:pb-14 max-580:pb-12 max-440:pb-8 pb-60r'>
+        <section className='pt-20 max-1150:pb-16 max-900:pt-8 max-800:pb-14 max-580:pb-12 max-540:pt-0 max-440:pb-8 pb-60r'>
             <div className="container">
                 {
                     product ?
@@ -109,19 +109,6 @@ const ProductDesignHero = () => {
                                     {
                                         product.type == 'Ofis shkafi' &&
                                         <Link to='/catalog/office-cabinets'>Ofis shkaflari</Link>
-                                    }
-                                    {
-                                        product.type == 'Boshqaruvchilar uchun' &&
-                                        product.type == 'Xodimlar uchun' &&
-                                        product.type == 'Ofis kreslosi' &&
-                                        product.type == 'Ofis divani' &&
-                                        product.type == 'Qabul qilish stoli' &&
-                                        product.type == 'Uchrashuvlar uchun stol' &&
-                                        product.type == "Ofis bo'limlari uchun" &&
-                                        product.type == "Ko'p kishilk bo'limlar uchun" &&
-                                        product.type == 'Ofis stoli' &&
-                                        product.type == 'Ofis shkafi' &&
-                                        <span>Sahifa topilmadi</span>
                                     }
                                 </li>
                                 <li>
@@ -275,11 +262,11 @@ const ProductDesignHero = () => {
                                                     <span>{product.pieces[0].type} {product.pieces[0].size}</span>
                                                 </div>
 
-                                                <div className='flex-center gap-5 max-470:flex-col max-470:gap-3'>
+                                                <div className='flex-c-b gap-1 max-w-230px w-full min-w-230px max-470:flex-col max-470:min-w-120px max-470:max-w-120px max-470:items-end'>
                                                     <div className="flex-center">
-                                                        <button disabled={count1 === 0} onClick={()=> changeCount1(count1-1)} className="red-btn !bg-primary-red-50 disabled:!bg-primary-gray-10 disabled:text-secondary-blue-70 rounded w-8 h-8">-</button>
+                                                        <button disabled={count1 === 0} onClick={() => changeCount1(count1 - 1)} className="red-btn !bg-primary-red-50 disabled:!bg-primary-gray-10 disabled:text-secondary-blue-70 rounded w-8 h-8">-</button>
                                                         <span className='flex-center justify-center text-black w-5 mx-2'>{count1}</span>
-                                                        <button disabled={count1 === 99} onClick={()=> changeCount1(count1+1)} className="red-btn !bg-primary-red-50 rounded w-8 h-8 disabled:!bg-primary-gray-10 disabled:text-secondary-blue-70">+</button>
+                                                        <button disabled={count1 === 99} onClick={() => changeCount1(count1 + 1)} className="red-btn !bg-primary-red-50 rounded w-8 h-8 disabled:!bg-primary-gray-10 disabled:text-secondary-blue-70">+</button>
                                                     </div>
 
                                                     <div className="space-y-1">
@@ -292,7 +279,7 @@ const ProductDesignHero = () => {
                                                 </div>
 
                                             </li>
-                                            
+
                                             <li className="flex-c-b gap-5 py-2 border-b border-primary-gray-20 first:border-t text-regular-16 text-primary-gray-70 max-470:items-stretch">
 
                                                 <div className='flex-center gap-1 max-470:flex-col max-470:items-start max-470:gap-3'>
@@ -300,11 +287,11 @@ const ProductDesignHero = () => {
                                                     <span>{product.pieces[1].type} {product.pieces[1].size}</span>
                                                 </div>
 
-                                                <div className='flex-center gap-5 max-470:flex-col max-470:gap-3'>
+                                                <div className='flex-c-b gap-1 max-w-230px w-full min-w-230px max-470:flex-col max-470:min-w-120px max-470:max-w-120px max-470:items-end'>
                                                     <div className="flex-center">
-                                                        <button disabled={count2 === 0} onClick={() => changeCount2(count2-1)} className="red-btn !bg-primary-red-50 disabled:!bg-primary-gray-10 disabled:text-secondary-blue-70 rounded w-8 h-8">-</button>
+                                                        <button disabled={count2 === 0} onClick={() => changeCount2(count2 - 1)} className="red-btn !bg-primary-red-50 disabled:!bg-primary-gray-10 disabled:text-secondary-blue-70 rounded w-8 h-8">-</button>
                                                         <span className='flex-center justify-center text-black w-5 mx-2'>{count2}</span>
-                                                        <button disabled={count2 === 99} onClick={() => changeCount2(count2+1)} className="red-btn !bg-primary-red-50 rounded w-8 h-8 disabled:!bg-primary-gray-10 disabled:text-secondary-blue-70">+</button>
+                                                        <button disabled={count2 === 99} onClick={() => changeCount2(count2 + 1)} className="red-btn !bg-primary-red-50 rounded w-8 h-8 disabled:!bg-primary-gray-10 disabled:text-secondary-blue-70">+</button>
                                                     </div>
 
                                                     <div className="space-y-1">
@@ -325,11 +312,11 @@ const ProductDesignHero = () => {
                                                     <span>{product.pieces[2].type} {product.pieces[2].size}</span>
                                                 </div>
 
-                                                <div className='flex-center gap-5 max-470:flex-col max-470:gap-3'>
+                                                <div className='flex-c-b gap-1 max-w-230px w-full min-w-230px max-470:flex-col max-470:min-w-120px max-470:max-w-120px max-470:items-end'>
                                                     <div className="flex-center">
-                                                        <button disabled={count3 === 0} onClick={()=> changeCount3(count3-1)}  className="red-btn !bg-primary-red-50 disabled:!bg-primary-gray-10 disabled:text-secondary-blue-70 rounded w-8 h-8">-</button>
+                                                        <button disabled={count3 === 0} onClick={() => changeCount3(count3 - 1)} className="red-btn !bg-primary-red-50 disabled:!bg-primary-gray-10 disabled:text-secondary-blue-70 rounded w-8 h-8">-</button>
                                                         <span className='flex-center justify-center text-black w-5 mx-2'>{count3}</span>
-                                                        <button disabled={count3 === 99} onClick={()=> changeCount3(count3+1)} className="red-btn !bg-primary-red-50 rounded w-8 h-8 disabled:!bg-primary-gray-10 disabled:text-secondary-blue-70">+</button>
+                                                        <button disabled={count3 === 99} onClick={() => changeCount3(count3 + 1)} className="red-btn !bg-primary-red-50 rounded w-8 h-8 disabled:!bg-primary-gray-10 disabled:text-secondary-blue-70">+</button>
                                                     </div>
 
                                                     <div className="space-y-1">
@@ -350,11 +337,11 @@ const ProductDesignHero = () => {
                                                     <span>{product.pieces[3].type} {product.pieces[3].size}</span>
                                                 </div>
 
-                                                <div className='flex-center gap-5 max-470:flex-col max-470:gap-3'>
+                                                <div className='flex-c-b gap-1 max-w-230px w-full min-w-230px max-470:flex-col max-470:min-w-120px max-470:max-w-120px max-470:items-end'>
                                                     <div className="flex-center">
-                                                        <button disabled={count4 === 0} onClick={()=> changeCount4(count4-1)}  className="red-btn !bg-primary-red-50 disabled:!bg-primary-gray-10 disabled:text-secondary-blue-70 rounded w-8 h-8">-</button>
+                                                        <button disabled={count4 === 0} onClick={() => changeCount4(count4 - 1)} className="red-btn !bg-primary-red-50 disabled:!bg-primary-gray-10 disabled:text-secondary-blue-70 rounded w-8 h-8">-</button>
                                                         <span className='flex-center justify-center text-black w-5 mx-2'>{count4}</span>
-                                                        <button disabled={count4 === 99} onClick={()=> changeCount4(count4+1)} className="red-btn !bg-primary-red-50 rounded w-8 h-8 disabled:!bg-primary-gray-10 disabled:text-secondary-blue-70">+</button>
+                                                        <button disabled={count4 === 99} onClick={() => changeCount4(count4 + 1)} className="red-btn !bg-primary-red-50 rounded w-8 h-8 disabled:!bg-primary-gray-10 disabled:text-secondary-blue-70">+</button>
                                                     </div>
 
                                                     <div className="space-y-1">
@@ -375,11 +362,11 @@ const ProductDesignHero = () => {
                                                     <span>{product.pieces[4].type} {product.pieces[4].size}</span>
                                                 </div>
 
-                                                <div className='flex-center gap-5 max-470:flex-col max-470:gap-3'>
+                                                <div className='flex-c-b gap-1 max-w-230px w-full min-w-230px max-470:flex-col max-470:min-w-120px max-470:max-w-120px max-470:items-end'>
                                                     <div className="flex-center">
-                                                        <button disabled={count5 === 0} onClick={()=> changeCount5(count5-1)}  className="red-btn !bg-primary-red-50 disabled:!bg-primary-gray-10 disabled:text-secondary-blue-70 rounded w-8 h-8">-</button>
+                                                        <button disabled={count5 === 0} onClick={() => changeCount5(count5 - 1)} className="red-btn !bg-primary-red-50 disabled:!bg-primary-gray-10 disabled:text-secondary-blue-70 rounded w-8 h-8">-</button>
                                                         <span className='flex-center justify-center text-black w-5 mx-2'>{count5}</span>
-                                                        <button disabled={count5 === 99} onClick={()=> changeCount5(count5+1)} className="red-btn !bg-primary-red-50 rounded w-8 h-8 disabled:!bg-primary-gray-10 disabled:text-secondary-blue-70">+</button>
+                                                        <button disabled={count5 === 99} onClick={() => changeCount5(count5 + 1)} className="red-btn !bg-primary-red-50 rounded w-8 h-8 disabled:!bg-primary-gray-10 disabled:text-secondary-blue-70">+</button>
                                                     </div>
 
                                                     <div className="space-y-1">
@@ -427,7 +414,16 @@ const ProductDesignHero = () => {
                             </div >
                         </div >
                         :
-                        <h1>Nimadir xato ketdi...</h1>
+                        // error 
+                        <div className='space-y-6'>
+                            <h1>Nimadir xato ketdi :(</h1>
+                            <p className='text-medium-20'>Bu nimadan bo'lishi mumkin?</p>
+                            <ul className="space-y-2">
+                                <li>1. Sayt havolasi (linki)ni noto'g'ri kiritilgan bo'lishi mumkin.</li>
+                                <li>2. Bunday mahsulot yo'q yoki mahsulot ma'lumotlarini olib bo'lmadi.</li>
+                            </ul>
+                            <Link to='/' className='inline-block red-btn px-6 py-4'>Bosh sahifaga o'tish</Link>
+                        </div>
                 }
             </div >
         </section >
