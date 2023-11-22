@@ -76,6 +76,8 @@ export default {
         '280px': '280px',
         '230px': '230px',
         '120px': '120px',
+        '28px': '28px',
+        '24px': '24px',
       },
 
       width: {

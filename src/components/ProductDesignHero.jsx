@@ -258,7 +258,7 @@ const ProductDesignHero = () => {
                                             <li className="flex-c-b gap-5 py-2 border-b border-primary-gray-20 first:border-t text-regular-16 text-primary-gray-70 max-470:items-stretch">
 
                                                 <div className='flex-center gap-1 max-470:flex-col max-470:items-start max-470:gap-3'>
-                                                    <span className="flex justify-center w-7 leading-5 max-470:border max-470:rounded-full max-470:w-6 max-470:h-6 max-470:mb-auto border-primary-gray-50 max-470:items-center">{product.pieces[0].id}</span>
+                                                    <span className="flex justify-center min-w-28px max-640:min-w-24px w-7 leading-5 max-470:border max-470:rounded-full max-470:w-6 max-470:h-6 max-470:mb-auto border-primary-gray-50 max-470:items-center">{product.pieces[0].id}</span>
                                                     <span>{product.pieces[0].type} {product.pieces[0].size}</span>
                                                 </div>
 
@@ -283,7 +283,7 @@ const ProductDesignHero = () => {
                                             <li className="flex-c-b gap-5 py-2 border-b border-primary-gray-20 first:border-t text-regular-16 text-primary-gray-70 max-470:items-stretch">
 
                                                 <div className='flex-center gap-1 max-470:flex-col max-470:items-start max-470:gap-3'>
-                                                    <span className="flex justify-center w-7 leading-5 max-470:border max-470:rounded-full max-470:w-6 max-470:h-6 max-470:mb-auto border-primary-gray-50 max-470:items-center">{product.pieces[1].id}</span>
+                                                    <span className="flex justify-center max-640:min-w-24px min-w-28px max-640:min-w-24px w-7 leading-5 max-470:border max-470:rounded-full max-470:w-6 max-470:h-6 max-470:mb-auto border-primary-gray-50 max-470:items-center">{product.pieces[1].id}</span>
                                                     <span>{product.pieces[1].type} {product.pieces[1].size}</span>
                                                 </div>
 
@@ -308,7 +308,7 @@ const ProductDesignHero = () => {
                                             <li className="flex-c-b gap-5 py-2 border-b border-primary-gray-20 first:border-t text-regular-16 text-primary-gray-70 max-470:items-stretch">
 
                                                 <div className='flex-center gap-1 max-470:flex-col max-470:items-start max-470:gap-3'>
-                                                    <span className="flex justify-center w-7 leading-5 max-470:border max-470:rounded-full max-470:w-6 max-470:h-6 max-470:mb-auto border-primary-gray-50 max-470:items-center">{product.pieces[2].id}</span>
+                                                    <span className="flex justify-center max-640:min-w-24px w-7 leading-5 max-470:border max-470:rounded-full max-470:w-6 max-470:h-6 max-470:mb-auto border-primary-gray-50 max-470:items-center">{product.pieces[2].id}</span>
                                                     <span>{product.pieces[2].type} {product.pieces[2].size}</span>
                                                 </div>
 
@@ -333,7 +333,7 @@ const ProductDesignHero = () => {
                                             <li className="flex-c-b gap-5 py-2 border-b border-primary-gray-20 first:border-t text-regular-16 text-primary-gray-70 max-470:items-stretch">
 
                                                 <div className='flex-center gap-1 max-470:flex-col max-470:items-start max-470:gap-3'>
-                                                    <span className="flex justify-center w-7 leading-5 max-470:border max-470:rounded-full max-470:w-6 max-470:h-6 max-470:mb-auto border-primary-gray-50 max-470:items-center">{product.pieces[3].id}</span>
+                                                    <span className="flex justify-center max-640:min-w-24px w-7 leading-5 max-470:border max-470:rounded-full max-470:w-6 max-470:h-6 max-470:mb-auto border-primary-gray-50 max-470:items-center">{product.pieces[3].id}</span>
                                                     <span>{product.pieces[3].type} {product.pieces[3].size}</span>
                                                 </div>
 
@@ -358,7 +358,7 @@ const ProductDesignHero = () => {
                                             <li className="flex-c-b gap-5 py-2 border-b border-primary-gray-20 first:border-t text-regular-16 text-primary-gray-70 max-470:items-stretch">
 
                                                 <div className='flex-center gap-1 max-470:flex-col max-470:items-start max-470:gap-3'>
-                                                    <span className="flex justify-center w-7 leading-5 max-470:border max-470:rounded-full max-470:w-6 max-470:h-6 max-470:mb-auto border-primary-gray-50 max-470:items-center">{product.pieces[4].id}</span>
+                                                    <span className="flex justify-center max-640:min-w-24px w-7 leading-5 max-470:border max-470:rounded-full max-470:w-6 max-470:h-6 max-470:mb-auto border-primary-gray-50 max-470:items-center">{product.pieces[4].id}</span>
                                                     <span>{product.pieces[4].type} {product.pieces[4].size}</span>
                                                 </div>
 

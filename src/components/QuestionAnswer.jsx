@@ -90,7 +90,7 @@ function QuestionAnswer() {
                 <div className="grid grid-cols-16 gap-8 items-start max-1150:grid-cols-1 max-1150:max-w-5xl max-1150:mx-auto">
                     {/* QuestionAnswer  */}
                     <ul className="space-y-2 col-start-1 col-end-12 max-1150:col-end-2 max-470:px-5">
-                        <li className="flex items-start justify-between gap-8 p-6 rounded-xl border border-primary-gray-10">
+                        <li className="flex items-start justify-between gap-8 p-6 rounded-xl border border-primary-gray-10 max-640:p-5 max-640:gap-2 max-470:p-4">
                             <div className={`${showText ? '!max-h-max' : ''} overflow-y-hidden`}>
                                 <h3 key={1} ref={titleH} className="text-medium-20 mb-3 !leading-25px max-580:text-medium-18 max-440:text-medium-16">Yig'ish yetkazib berish 1 kunda amalga oshiriladimi va yig'ish qancha turadi?</h3>
                                 <p className="text-primary-gray-70 text-regular-16 max-w-4xl">Buyurtma va yetkazib berish 1 kunda yig'iladi (qo'shimcha ravishda logist bilan kelishilgan). Siz yig'ish narxining tariflarini "Buyurtma berish" bo'limda ko'rishingiz mumkin: <Link to='/about-payment' className='text-primary-red-50'>"Buyurtma berish"</Link></p>
@@ -102,7 +102,7 @@ function QuestionAnswer() {
                                 </svg>
                             </button>
                         </li>
-                        <li className="flex items-start justify-between gap-8 p-6 rounded-xl border border-primary-gray-10">
+                        <li className="flex items-start justify-between gap-8 p-6 rounded-xl border border-primary-gray-10 max-640:p-5 max-640:gap-2 max-470:p-4">
                             <div className={`${showText2 ? '!max-h-max' : ''} overflow-y-hidden`}>
                                 <h3 key={2} ref={titleH2} className="text-medium-20 mb-3 !leading-25px max-580:text-medium-18 max-440:text-medium-16">Xarid qilingan mebellarni qaytarish yoki almashtirish mumkinmi?</h3>
                                 <p className="text-primary-gray-70 text-regular-16 max-w-4xl">Qaytish yoki almashtirish shartlari menejer bilan alohida muhokama qilinadi (boshqa model uchun qo'shimcha to'lov, farqni qaytarish, muddatlar va boshqalar).</p>
@@ -114,7 +114,7 @@ function QuestionAnswer() {
                                 </svg>
                             </button>
                         </li>
-                        <li className="flex items-start justify-between gap-8 p-6 rounded-xl border border-primary-gray-10">
+                        <li className="flex items-start justify-between gap-8 p-6 rounded-xl border border-primary-gray-10 max-640:p-5 max-640:gap-2 max-470:p-4">
                             <div className={`${showText3 ? '!max-h-max' : ''} overflow-y-hidden`}>
                                 <h3 key={3} ref={titleH3} className="text-medium-20 mb-3 !leading-25px max-580:text-medium-18 max-440:text-medium-16">Kabinet uchun ishlab chiqarish yoki yetkazib berish muddatlari qanday?</h3>
                                 <p className="text-primary-gray-70 text-regular-16 max-w-4xl">Oldindan tayyor, mavjud bo'lgan mebellarni yetkazib berish 1 kundan boshlab. Maxsus buyurtma bo'yicha mebellar 20 kundan 6 oygacha.</p>
@@ -126,7 +126,7 @@ function QuestionAnswer() {
                                 </svg>
                             </button>
                         </li>
-                        <li className="flex items-start justify-between gap-8 p-6 rounded-xl border border-primary-gray-10">
+                        <li className="flex items-start justify-between gap-8 p-6 rounded-xl border border-primary-gray-10 max-640:p-5 max-640:gap-2 max-470:p-4">
                             <div className={`${showText4 ? '!max-h-max' : ''} overflow-y-hidden`}>
                                 <h3 key={4} ref={titleH4} className="text-medium-20 mb-3 !leading-25px max-580:text-medium-18 max-440:text-medium-16">Maxsus loyihaga qanday buyurtma berish mumkin?</h3>
                                 <p className="text-primary-gray-70 text-regular-16 max-w-4xl">Siz individual loyihani ishlab chiqish bo'yicha so'rovni veb-saytga orqali yoki <a href="tel:+998999999999" className="text-primary-red-50">+998 (99) 999-99-99</a>raqamiga qo'ng'iroq qilib ariza qoldirishingiz mumkin. Sizning arizangiz menejerga yuboriladi, u siz bilan barcha tafsilotlar bo'yicha o'rganadi va tezda to'g'ri maslahat beradi.</p>
@@ -138,7 +138,7 @@ function QuestionAnswer() {
                                 </svg>
                             </button>
                         </li>
-                        <li className="flex items-start justify-between gap-8 p-6 rounded-xl border border-primary-gray-10">
+                        <li className="flex items-start justify-between gap-8 p-6 rounded-xl border border-primary-gray-10 max-640:p-5 max-640:gap-2 max-470:p-4">
                             <div className={`${showText5 ? '!max-h-max' : ''} overflow-y-hidden`}>
                                 <h3 key={5} ref={titleH5} className="text-medium-20 mb-3 !leading-25px max-580:text-medium-18 max-440:text-medium-16">Mebelni kompaniya (ishlab chiqarishzavodidan) sotib olsam bo'ladimi?</h3>
                                 <div className="text-primary-gray-70 text-regular-16 max-w-4xl">Ha albatta siz bizning ofizimizga kelgan holda sotib olsangiz bo'ladi bizning manzil: <address className='not-italic'>Toshkent, Olmaliq K: No312</address></div>
@@ -150,7 +150,7 @@ function QuestionAnswer() {
                                 </svg>
                             </button>
                         </li>
-                        <li className="flex items-start justify-between gap-8 p-6 rounded-xl border border-primary-gray-10">
+                        <li className="flex items-start justify-between gap-8 p-6 rounded-xl border border-primary-gray-10 max-640:p-5 max-640:gap-2 max-470:p-4">
                             <div className={`${showText6 ? '!max-h-max' : ''} overflow-y-hidden`}>
                                 <h3 key={5} ref={titleH6} className="text-medium-20 mb-3 !leading-25px max-580:text-medium-18 max-440:text-medium-16">Mebelni kompaniya (ishlab chiqarishzavodidan) sotib olsam bo'ladimi?</h3>
                                 <div className="text-primary-gray-70 text-regular-16 max-w-4xl">Ha albatta siz bizning ofizimizga kelgan holda sotib olsangiz bo'ladi bizning manzil: <address className='not-italic'>Toshkent, Olmaliq K: No312</address></div>
@@ -162,7 +162,7 @@ function QuestionAnswer() {
                                 </svg>
                             </button>
                         </li>
-                        <li className="flex items-start justify-between gap-8 p-6 rounded-xl border border-primary-gray-10">
+                        <li className="flex items-start justify-between gap-8 p-6 rounded-xl border border-primary-gray-10 max-640:p-5 max-640:gap-2 max-470:p-4">
                             <div className={`${showText7 ? '!max-h-max' : ''} overflow-y-hidden`}>
                                 <h3 key={7} ref={titleH7} className="text-medium-20 mb-3 !leading-25px max-580:text-medium-18 max-440:text-medium-16">Manzil, telefon raqami va ish vaqti qanday?</h3>
                                 <p className="text-primary-gray-70 text-regular-16 max-w-4xl">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis, obcaecati.</p>
@@ -174,7 +174,7 @@ function QuestionAnswer() {
                                 </svg>
                             </button>
                         </li>
-                        <li className="flex items-start justify-between gap-8 p-6 rounded-xl border border-primary-gray-10">
+                        <li className="flex items-start justify-between gap-8 p-6 rounded-xl border border-primary-gray-10 max-640:p-5 max-640:gap-2 max-470:p-4">
                             <div className={`${showText8 ? '!max-h-max' : ''} overflow-y-hidden`}>
                                 <h3 key={8} ref={titleH8} className="text-medium-20 mb-3 !leading-25px max-580:text-medium-18 max-440:text-medium-16">Ko'rgazma zalida qanday modellar taqdim etiladi?</h3>
                                 <p className="text-primary-gray-70 text-regular-16 max-w-4xl">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis architecto mollitia deleniti beatae ullam, voluptate sed quos ratione! Quasi quae voluptas ex sapiente debitis distinctio.</p>

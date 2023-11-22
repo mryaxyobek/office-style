@@ -29,7 +29,6 @@ const Products = () => {
     const addToCard = (product) => {
         dispatch(addCard(product));
     };
-    console.log(Link.render);
     return (
         <div className="container">
             {/* products */}
