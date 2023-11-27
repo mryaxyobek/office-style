@@ -932,16 +932,25 @@ export const cabinetProductsForManagers = [
         akciya: false,
         available: true,
         description: `Drive seriyasidan o'zgartiriladigan jadvallar turli vazifalar uchun xonani va ish joyini tezda qayta jihozlash qobiliyati muhim ahamiyatga ega bo'lgan ofislar va birgalikda ish joylari uchun mos keladi. To'plamda stol usti va ramkalar uchun keng o'lchamdagi ikkita model mavjud. Seriyaning rangli echimlari - oltita yog'och to'qimalari va ikkita monokolor "oq" va "bej" - har qanday interyerga mos keladigan stollarni tanlash imkonini beradi. Drive seriyasidan o'zgartiriladigan jadvallar turli vazifalar uchun xonani va ish joyini tezda qayta jihozlash qobiliyati muhim ahamiyatga ega bo'lgan ofislar va birgalikda ish joylari uchun mos keladi.To'plamda stol usti va ramkalar uchun keng o'lchamdagi ikkita model mavjud.Seriyaning rangli echimlari - oltita yog'och to'qimalari va ikkita monokolor "oq" va "bej" - har qanday interyerga mos keladigan stollarni tanlash imkonini beradi.`,
-        price: {
-            currentPrice: 1584088,
-            oldPrice: 3433733,
-        },
         details: {
             country: 'Turkiya',
             material: 'LDSP',
             thickness: '18',
             style: 'Zamonaviy',
-            color: "Artemis yong'oq / bej, oqartirilgan eman / bej",
+            color: [
+                {
+                    id: 1,
+                    name: "Artemis yong'oq"
+                },
+                {
+                    id: 2,
+                    name: "bej, oqartirilgan eman"
+                },
+                {
+                    id: 3,
+                    name: "bej"
+                },
+            ]
         },
         images: [
             {
@@ -969,23 +978,23 @@ export const cabinetProductsForManagers = [
             {
                 id: 1,
                 alt: 'furniture image',
-                img: '',
+                img: 'https://territory-office.ru/assets/thumbnails/25/254133cdb5f22fb2f57d5a4978c43880.jpg',
             },
             {
                 id: 2,
                 alt: 'furniture image',
-                img: '',
+                img: 'https://territory-office.ru/assets/thumbnails/25/254133cdb5f22fb2f57d5a4978c43880.jpg',
             },
             {
                 id: 3,
                 alt: 'furniture image',
-                img: '',
+                img: 'https://territory-office.ru/assets/thumbnails/25/254133cdb5f22fb2f57d5a4978c43880.jpg',
             },
 
             {
                 id: 4,
                 alt: 'furniture image',
-                img: '',
+                img: 'https://territory-office.ru/assets/thumbnails/25/254133cdb5f22fb2f57d5a4978c43880.jpg',
             }
         ],
         reviews: [
@@ -1014,7 +1023,7 @@ export const cabinetProductsForManagers = [
                 body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
             },
         ],
-        pieces: [
+        parts: [
             {
                 id: 1,
                 type: 'Boshqaruvchi stoli',
@@ -1063,16 +1072,25 @@ export const cabinetProductsForManagers = [
         available: true,
         description: `Yalta menejerining ofisi Art Nouveau uslubida yaratilgan va ofis maydoni dizaynidagi zamonaviy tendentsiyalarga to'liq mos keladi. Elementlarning xilma-xilligi, ularning ko'p qirraliligi va modulli dizayni har qanday darajadagi rahbar, shu jumladan biznes egalari va davlat organlari vakillari uchun sharoit tanlash imkonini beradi.
         Mebel engil va quyuq ranglardagi interyer uchun mahsulotlarni tanlash imkoniyati bilan bir nechta soyalarda taqdim etilgan. To'plamdagi jadvallarning xilma-xilligi an'anaviy tekis modellar, burchak, devor modullari va metall tayanchlardagi stollarni o'z ichiga oladi.`,
-        price: {
-            currentPrice: 2857325,
-            oldPrice: false,
-        },
         details: {
             country: 'Rossiya',
             material: 'LDSP',
             thickness: '3.6',
             style: 'Zamonaviy',
-            color: "Qarag'ay rang, to'q oqish rang, och jigarrang",
+            color: [
+                {
+                    id: 1,
+                    name: "Qarag'ay rang"
+                },
+                {
+                    id: 2,
+                    name: "to'q oqish rang"
+                },
+                {
+                    id: 3,
+                    name: "och jigarrang"
+                },
+            ]
         },
         images: [
             {
@@ -1127,7 +1145,7 @@ export const cabinetProductsForManagers = [
                 body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
             },
         ],
-        pieces: [
+        parts: [
             {
                 id: 1,
                 type: 'LT.A-16 Boshqaruv stoli',
@@ -1175,16 +1193,21 @@ export const cabinetProductsForManagers = [
         akciya: false,
         available: true,
         description: `Fermo Wood boshqaruv idorasi zamonaviy, oqlangan va xavfsizdir. Arzon ofis mebellari segmentidagi eng yaxshi variantlardan biri uzoq vaqtdan beri mos narxni saqlab, maksimal darajada olishni afzal ko'rgan mijozlar tomonidan yaxshi ko'rilgan. To'plam eng mashhur ranglarni o'z ichiga oladi. Ushbu soyalar klassikadan zamonaviygacha har qanday uslubga mos keladi..`,
-        price: {
-            currentPrice: 2174000,
-            oldPrice: 2574000,
-        },
         details: {
             country: 'Involus(Belarussiya)',
             material: 'DSP / melamin',
             thickness: '3,8',
             style: 'Zamonaviy',
-            color: "Wenge, yengil eman, DH yengil eman",
+            color: [
+                {
+                    id: 1,
+                    name: "Wenge, yengil eman"
+                },
+                {
+                    id: 2,
+                    name: "DH yengil eman"
+                }
+            ]
         },
         images: [
             {
@@ -1232,7 +1255,7 @@ export const cabinetProductsForManagers = [
             }
         ],
         reviews: [],
-        pieces: [
+        parts: [
             {
                 id: 1,
                 type: 'FERMO Wood Stol L160',
@@ -1283,16 +1306,25 @@ export const cabinetProductsForManagers = [
         Asl metall tayanchlar olijanob yog'och ranglari bilan birgalikda samarali ishlash uchun qulay muhit yaratadi. G'ayrioddiy ichki arxitekturaga ega bo'lgan xizmat ko'rsatish kabinetlari ofisning zamonaviy dizaynini ta'kidlaydi va temperli shisha tokchali devor panellari interyerga engillik va ochiqlikni beradi.
         "RIO" to'plamini ishlab chiqarishda aşınmaya va qarishga chidamli yuqori sifatli laminatlangan sunta ishlatiladi. Namlikka chidamliligi va issiqlikka chidamliligi oshishi mebelning ish faoliyatini yaxshilaydi va xizmat muddatini uzaytiradi.
         Barcha mebellar qayta ishlatilishi mumkin va osongina ko'chirilishi mumkin bo'lgan moslashuvchan ofis yaratish imkonini beradi.`,
-        price: {
-            currentPrice: 4500100,
-            oldPrice: false,
-        },
         details: {
             country: 'Rossiya',
             material: 'LDSP, Material',
             thickness: '2.5',
             style: 'Zamonaviy',
-            color: "Wenge/bej eman; Shveytsariya qarag'ayi / bej",
+            color: [
+                {
+                    id: 1,
+                    name: "Wenge"
+                },
+                {
+                    id: 2,
+                    name: "bej eman shvetsariya qarag'ayi"
+                },
+                {
+                    id: 3,
+                    name: "bej"
+                },
+            ]
         },
         images: [
             {
@@ -1388,7 +1420,7 @@ export const cabinetProductsForManagers = [
                 body: 'Unchalik yoqmadi',
             },
         ],
-        pieces: [
+        parts: [
             {
                 id: 1,
                 type: 'RD-180 (qora tayanchlar) Boshqaruv stoli',
@@ -1436,16 +1468,17 @@ export const cabinetProductsForManagers = [
         akciya: false,
         available: true,
         description: `An'anaviy Torino ijroiya idorasi konservatizm bilan hurmatlilik va o'ziga ishonch uslubini anglatadi. Ushbu modelning mebellari ikkita rangda - qora va klassik yong'oqdan yasalgan bo'lib, yog'och teksturasini takrorlaydi. An'anaviy Torino ijroiya idorasi engil klassik uslub bo'lib, stollar, shkaflar va skameykalar dekorativ hoshiyalar bilan bezatilgan. Stol usti va usti ustidagi kattaroq chegaralar, qalinligi 67 mm. Model nafaqat estetika nuqtai nazaridan, balki funksionallik nuqtai nazaridan ham o'ylangan: keng shkaflar va tortmalar, shkaflar, qulay stol - Torino shkafi eng yaxshi ish sharoitlarini yaratadi.`,
-        price: {
-            currentPrice: 7543000,
-            oldPrice: false,
-        },
         details: {
             country: 'Rossiya/Italiya',
             material: 'LDSP, MDF',
             thickness: '6,7',
             style: 'Klassik',
-            color: "qora daraxt",
+            color: [
+                {
+                    id: 1,
+                    name: "Qora daraxt",
+                }
+            ]
         },
         images: [
             {
@@ -1527,7 +1560,7 @@ export const cabinetProductsForManagers = [
                 body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
             }
         ],
-        pieces: [
+        parts: [
             {
                 id: 1,
                 type: 'TRN200 Torino boshqaruv stoli',
@@ -1575,16 +1608,17 @@ export const cabinetProductsForManagers = [
         akciya: false,
         available: true,
         description: `Buyuk ijroiya idorasi hayotdan maksimal darajada foydalanishga odatlangan odam uchun ajoyib echimdir. Funktsional seriya ajoyib taassurot qoldiradi va birinchi daqiqalardanoq nafis chiziqli geometriyasi va silliq dizaynlari bilan o'ziga jalb qiladi. Katalog mijozlarning munosib sevgisidan zavqlanadigan eng mashhur ranglarni taqdim etadi. Ular, shuningdek, elementlarning yuqori ergonomikasini ham qadrlashadi. Maksimal qulaylik uchun har bir tafsilot o'ylab topilgan. Grand kolleksiyasining asosiy afzalligi modullilikdir. Bu shuni anglatadiki, har bir kishi o'z shaxsiy ehtiyojlariga moslashtirilgan ish joyini yaratishi mumkin.`,
-        price: {
-            currentPrice: 3084088,
-            oldPrice: 3433733,
-        },
         details: {
             country: 'Turkiya',
             material: 'LDSP',
             thickness: '3.2',
             style: 'Zamonaviy',
-            color: "Shimo kuli, quyuq yong'oq",
+            color: [
+                {
+                    id: 1,
+                    name: "Shimo kuli, quyuq yong"
+                }
+            ]
         },
         images: [
             {
@@ -1698,7 +1732,7 @@ export const cabinetProductsForManagers = [
                 body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
             },
         ],
-        pieces: [
+        parts: [
             {
                 id: 1,
                 type: 'Gr-16 boshqaruv stoli',
@@ -1746,16 +1780,17 @@ export const cabinetProductsForManagers = [
         akciya: false,
         available: true,
         description: `Fermo Wood boshqaruv idorasi zamonaviy, oqlangan va xavfsizdir. Arzon ofis mebellari segmentidagi eng yaxshi variantlardan biri uzoq vaqtdan beri mos narxni saqlab, maksimal darajada olishni afzal ko'rgan mijozlar tomonidan yaxshi ko'rilgan. To'plam eng mashhur ranglarni o'z ichiga oladi. Ushbu soyalar klassikadan zamonaviygacha har qanday uslubga mos keladi..`,
-        price: {
-            currentPrice: 2174000,
-            oldPrice: 2574000,
-        },
         details: {
             country: 'Involus(Belarussiya)',
             material: 'DSP / melamin',
             thickness: '3,8',
             style: 'Zamonaviy',
-            color: "DH yengil eman",
+            color: [
+                {
+                    id: 1,
+                    name: "Dh yengil eman"
+                }
+            ]
         },
         images: [
             {
@@ -1803,7 +1838,7 @@ export const cabinetProductsForManagers = [
             }
         ],
         reviews: [],
-        pieces: [
+        parts: [
             {
                 id: 1,
                 type: 'FERMO Wood Stol L160',
@@ -1853,16 +1888,21 @@ export const cabinetProductsForManagers = [
         description: `Lava ofisi o'ylangan uslub va ilg'or texnologiyalarni o'zida mujassam etgan. Shkafning barcha detallari sizga maksimal ish maydoni samaradorligini ta'minlash uchun mo'ljallangan.
         Zamonaviy materiallar va tabiiy yog'och ranglarning kombinatsiyasi ofisingizga o'ziga xos ko'rinish qo'shadi va sizni har kuni quvontiradi.
         Funktsional ofis yechimi ikki turdagi stollarni, saqlash tizimlarining keng assortimentini va konferentsiya stollarini o'z ichiga oladi.`,
-        price: {
-            currentPrice: 11185000,
-            oldPrice: 12185000,
-        },
         details: {
             country: "O'zbekistion",
             material: 'DSP / melamin',
             thickness: '3.8',
             style: 'Zamonaviy',
-            color: "Tamaki, Gavana",
+            color: [
+                {
+                    id: 1,
+                    name: "Tamaki"
+                },
+                {
+                    id: 2,
+                    name: "Gavana"
+                }
+            ]
         },
         images: [
             {
@@ -1940,7 +1980,7 @@ export const cabinetProductsForManagers = [
                 body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
             },
         ],
-        pieces: [
+        parts: [
             {
                 id: 1,
                 type: 'LAVA stoli',
@@ -1989,16 +2029,25 @@ export const cabinetProductsForManagers = [
         available: true,
         description: `Remo boshqaruv idorasi zamonaviy dizayndagi eng mashhur tendentsiyalarning sintezi: ekologik tozalik, ajoyib ko'rinish, yengillik va funksionallik.
         Stol ustilarining g'ayrioddiy shakllari va materiallari nafis tayanchlar va keraksiz tafsilotlarning yo'qligi bilan birgalikda ofisingizda yangi g'oyalarga ochiq bo'sh joy yaratishga imkon beradi.`,
-        price: {
-            currentPrice: 9584088,
-            oldPrice: false,
-        },
         details: {
             country: 'Rossiya',
             material: 'LDSP/MDF',
             thickness: '2.5',
             style: 'Yuqori texnologik',
-            color: "Oq marmar, kulrang yumshoq, Sorano eman, qora marmar, grafit",
+            color: [
+                {
+                    id: 1,
+                    name: "Oq marmar"
+                },
+                {
+                    id: 2,
+                    name: "Sorano eman"
+                },
+                {
+                    id: 3,
+                    name: " qora marmar grafit"
+                },
+            ]
         },
         images: [
             {
@@ -2065,7 +2114,7 @@ export const cabinetProductsForManagers = [
                 body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
             },
         ],
-        pieces: [
+        parts: [
             {
                 id: 1,
                 type: "Rem-200.1 R/L boshqaruv stoli (qo'llab-quvvatlash stendiga o'rnatish uchun)",
@@ -2115,16 +2164,17 @@ export const cabinetProductsForManagers = [
         description: `Kelajak uchun yangi dizayn echimlarini izlashda etakchi dizaynerlar o'tmishdagi yorqin g'oyalarni tobora ko'proq jalb qilmoqdalar. Ajoyib to'plamlar shunday tug'iladi! GENESIS rahbarining vintage ofisi bizning zamondoshimiz uchun zamonaviy, beqiyos mebeldir. Yorqin ranglar va silliq chiziqlarning uyg'unligi. Yangi ming yillikda 20-asrning moda tendentsiyalarini qayta ko'rib chiqish! Metall trapezoidal stol tayanchlari ajoyib dizayn topilmasi. GENESIS to'plamida "Shokolad" va "Grey Matt" ranglaridagi mat tayanchlardan foydalaniladi. "Suzuvchi stol usti" ning ta'siri maxsus mahkamlagichlar yordamida ishlaydigan sirtni o'zaro faoliyat nurlarga o'rnatish orqali erishiladi.
         Ehtimol, birinchi marta GENESIS kabinetlari to'plamlari menejerlarni jinsi bo'yicha ajratgan. Ular ikkita kontrast rangda taqdim etiladi. Va agar laminatlangan DSP, MDF, temperli shisha va mot kulrang tayanchlardan yasalgan mebel to'qimalariga ega yumshoq kremsi kulrang rangdagi ofis ishbilarmon ayol uchun ko'proq mos keladigan bo'lsa, MDF panellari "Truffle" rangi bilan birgalikda. yorqin ifodalangan erkaklikdir. Ijrochi stolining soddalashtirilgan shakli butun ofis interyerining yengilligi va vaznsizligi tuyg'usini yaratadi. Stollar ikkita tayanchda va standart mobil stend bilan yoki tayanch stend bilan jihozlangan bo'lishi mumkin. To'plamdagi barcha ish stollari kabel kanallari bilan jihozlangan.
         Asl konferentsiya stollari va brifing konsollari ofisning umumiy ijodiy muhitiga juda mos keladi. Ularning dastgohlari ish stollarining sirtlari bilan bir xil materiallardan tayyorlangan - bu MDF issiqqa chidamli Feniks plastmassasi bilan qoplangan, kundalik foydalanishda juda bardoshli va aşınmaya bardoshli. Xodimlar va menejerlar uchun original stullar metall tayanchlarda konferentsiya stoli uchun ideal. Bosh suyagi bilan baland va qulay charm stullar menejerga ish orasidagi tanaffuslarda dam olishga imkon beradi.`,
-        price: {
-            currentPrice: 1584088,
-            oldPrice: 3433733,
-        },
         details: {
             country: 'Turkiya',
             material: 'LDSP/MDF',
             thickness: '2.5',
             style: 'Zamonaviy',
-            color: "kulrang tosh",
+            color: [
+                {
+                    id: 1,
+                    name: "Kulrang tosh"
+                }
+            ]
         },
         images: [
             {
@@ -2172,7 +2222,7 @@ export const cabinetProductsForManagers = [
             }
         ],
         reviews: [],
-        pieces: [
+        parts: [
             {
                 id: 1,
                 type: 'Boshqaruvchi stoli',
@@ -2221,16 +2271,25 @@ export const cabinetProductsForManagers = [
         available: true,
         description: `Yalta menejerining ofisi Art Nouveau uslubida yaratilgan va ofis maydoni dizaynidagi zamonaviy tendentsiyalarga to'liq mos keladi. Elementlarning xilma-xilligi, ularning ko'p qirraliligi va modulli dizayni har qanday darajadagi rahbar, shu jumladan biznes egalari va davlat organlari vakillari uchun sharoit tanlash imkonini beradi.
         Mebel engil va quyuq ranglardagi interyer uchun mahsulotlarni tanlash imkoniyati bilan bir nechta soyalarda taqdim etilgan. To'plamdagi jadvallarning xilma-xilligi an'anaviy tekis modellar, burchak, devor modullari va metall tayanchlardagi stollarni o'z ichiga oladi.`,
-        price: {
-            currentPrice: 2857325,
-            oldPrice: false,
-        },
         details: {
             country: 'Rossiya',
             material: 'LDSP',
             thickness: '3.6',
             style: 'Zamonaviy',
-            color: "Qarag'ay rang, to'q oqish rang, och jigarrang",
+            color: [
+                {
+                    id: 1,
+                    name: "Qarag'ay rang"
+                },
+                {
+                    id: 2,
+                    name: " to'q oqish"
+                },
+                {
+                    id: 3,
+                    name: "och jigarrang"
+                },
+            ]
         },
         images: [
             {
@@ -2285,7 +2344,7 @@ export const cabinetProductsForManagers = [
                 body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
             },
         ],
-        pieces: [
+        parts: [
             {
                 id: 1,
                 type: 'LT.A-16 Boshqaruv stoli',
@@ -2334,16 +2393,21 @@ export const cabinetProductsForManagers = [
         available: true,
         description: `Time.S rahbarining ofisi o'zini o'zgartirish qobiliyati bilan hayratda qoldiradi. To'plamning model diapazoni va rang sxemalari shunday o'ylanganki, har bir kombinatsiya boshqalardan farqli o'laroq o'ziga xos tasvirni yaratadi.
         Seriyaning asosiy elementi - dekorativ shpalli boshqaruvchi stoli - butun ofisning uslubini o'rnatadi. Yengil rangdagi "Elsa Oak" muzli shisha bilan birgalikda ichki qismni yorug' qiladi va olijanob "Paldao" ning rangli shisha bilan kombinatsiyasi barqarorlik va ishonchlilik hissini beradi.`,
-        price: {
-            currentPrice: 1584088,
-            oldPrice: 3433733,
-        },
         details: {
             country: 'Rossiya',
             material: 'LDSP',
             thickness: '4',
             style: 'Zamonaviy',
-            color: "Elza eman, paldao",
+            color: [
+                {
+                    id: 1,
+                    name: "Elza eman"
+                },
+                {
+                    id: 2,
+                    name: "paldao"
+                }
+            ]
         },
         images: [
             {
@@ -2403,7 +2467,7 @@ export const cabinetProductsForManagers = [
                 body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
             }
         ],
-        pieces: [
+        parts: [
             {
                 id: 1,
                 type: 'Ts-180 Boshqaruv stoli',
@@ -2451,16 +2515,21 @@ export const cabinetProductsForManagers = [
         akciya: true,
         available: true,
         description: `Fermo Wood boshqaruv idorasi zamonaviy, oqlangan va xavfsizdir. Arzon ofis mebellari segmentidagi eng yaxshi variantlardan biri uzoq vaqtdan beri mos narxni saqlab, maksimal darajada olishni afzal ko'rgan mijozlar tomonidan yaxshi ko'rilgan. To'plam eng mashhur ranglarni o'z ichiga oladi. Ushbu soyalar klassikadan zamonaviygacha har qanday uslubga mos keladi..`,
-        price: {
-            currentPrice: 2224600,
-            oldPrice: 2574000,
-        },
         details: {
             country: "O'zbekiston / Andijan",
             material: 'DSP / melamin',
             thickness: '3,9',
             style: 'Zamonaviy',
-            color: "Wenge, yengil eman, DH yengil eman",
+            color: [
+                {
+                    id: 1,
+                    name: "Wenge yengil eman"
+                },
+                {
+                    id: 2,
+                    name: "Dh yengil eman"
+                },
+            ]
         },
         images: [
             {
@@ -2508,7 +2577,7 @@ export const cabinetProductsForManagers = [
             }
         ],
         reviews: [],
-        pieces: [
+        parts: [
             {
                 id: 1,
                 type: 'FERMO Wood Stol L160',
@@ -2559,16 +2628,21 @@ export const cabinetProductsForManagers = [
         Asl metall tayanchlar olijanob yog'och ranglari bilan birgalikda samarali ishlash uchun qulay muhit yaratadi. G'ayrioddiy ichki arxitekturaga ega bo'lgan xizmat ko'rsatish kabinetlari ofisning zamonaviy dizaynini ta'kidlaydi va temperli shisha tokchali devor panellari interyerga engillik va ochiqlikni beradi.
         "RIO" to'plamini ishlab chiqarishda aşınmaya va qarishga chidamli yuqori sifatli laminatlangan sunta ishlatiladi. Namlikka chidamliligi va issiqlikka chidamliligi oshishi mebelning ish faoliyatini yaxshilaydi va xizmat muddatini uzaytiradi.
         Barcha mebellar qayta ishlatilishi mumkin va osongina ko'chirilishi mumkin bo'lgan moslashuvchan ofis yaratish imkonini beradi.`,
-        price: {
-            currentPrice: 4100100,
-            oldPrice: false,
-        },
         details: {
             country: 'Ukraina',
             material: 'Material',
             thickness: '2.5',
             style: 'Zamonaviy',
-            color: "Eman; Shveytsariya qarag'ayi",
+            color: [
+                {
+                    id: 1,
+                    name: "Eman"
+                },
+                {
+                    id: 2,
+                    name: "Shvetsariya qarag'ayi"
+                }
+            ]
         },
         images: [
             {
@@ -2707,7 +2781,7 @@ export const cabinetProductsForManagers = [
             },
 
         ],
-        pieces: [
+        parts: [
             {
                 id: 1,
                 type: 'RD-180 (qora tayanchlar) Boshqaruv stoli',
@@ -2755,16 +2829,21 @@ export const cabinetProductsForManagers = [
         akciya: false,
         available: true,
         description: `An'anaviy Torino ijroiya idorasi konservatizm bilan hurmatlilik va o'ziga ishonch uslubini anglatadi. Ushbu modelning mebellari ikkita rangda - qora va klassik yong'oqdan yasalgan bo'lib, yog'och teksturasini takrorlaydi. An'anaviy Torino ijroiya idorasi engil klassik uslub bo'lib, stollar, shkaflar va skameykalar dekorativ hoshiyalar bilan bezatilgan. Stol usti va usti ustidagi kattaroq chegaralar, qalinligi 67 mm. Model nafaqat estetika nuqtai nazaridan, balki funksionallik nuqtai nazaridan ham o'ylangan: keng shkaflar va tortmalar, shkaflar, qulay stol - Torino shkafi eng yaxshi ish sharoitlarini yaratadi.`,
-        price: {
-            currentPrice: 3543000,
-            oldPrice: false,
-        },
         details: {
             country: 'Rossiya',
             material: 'LDSP, MDF',
             thickness: '5,6',
             style: 'Klassik',
-            color: "qora daraxt, qalin eman",
+            color: [
+                {
+                    id: 1,
+                    name: "Qora daraxt"
+                },
+                {
+                    id: 2,
+                    name: "qalin eman"
+                }
+            ]
         },
         images: [
             {
@@ -2846,7 +2925,7 @@ export const cabinetProductsForManagers = [
                 body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
             }
         ],
-        pieces: [
+        parts: [
             {
                 id: 1,
                 type: 'TRN200 Torino boshqaruv stoli',
@@ -2894,16 +2973,21 @@ export const cabinetProductsForManagers = [
         akciya: false,
         available: true,
         description: `Buyuk ijroiya idorasi hayotdan maksimal darajada foydalanishga odatlangan odam uchun ajoyib echimdir. Funktsional seriya ajoyib taassurot qoldiradi va birinchi daqiqalardanoq nafis chiziqli geometriyasi va silliq dizaynlari bilan o'ziga jalb qiladi. Katalog mijozlarning munosib sevgisidan zavqlanadigan eng mashhur ranglarni taqdim etadi. Ular, shuningdek, elementlarning yuqori ergonomikasini ham qadrlashadi. Maksimal qulaylik uchun har bir tafsilot o'ylab topilgan. Grand kolleksiyasining asosiy afzalligi modullilikdir. Bu shuni anglatadiki, har bir kishi o'z shaxsiy ehtiyojlariga moslashtirilgan ish joyini yaratishi mumkin.`,
-        price: {
-            currentPrice: 2084088,
-            oldPrice: false,
-        },
         details: {
             country: 'Belarussiya',
             material: 'LDSP',
             thickness: '3.2',
             style: "O'rta daraja",
-            color: "Qarag'ay kuli, quyuq yong'oq",
+            color: [
+                {
+                    id: 1,
+                    name: "Qarag'ay kuli"
+                },
+                {
+                    id: 2,
+                    name: "quyuq yong'oq"
+                }
+            ]
         },
         images: [
             {
@@ -2963,7 +3047,7 @@ export const cabinetProductsForManagers = [
                 body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
             },
         ],
-        pieces: [
+        parts: [
             {
                 id: 1,
                 type: 'OnT-16 boshqaruv stoli',
@@ -3014,17 +3098,8 @@ export const furnitureForStaff = [
         akciya: false,
         available: true,
         description: `Xodimlar uchun mebel "Work" ofis jihozlarining eng zamonaviy va moda tendentsiyalarini birlashtiradi. Elementlarning funksionalligi hozirgi ofis ish sharoitlariga moslashtirilgan. Chiziqlarning ravshanligi va geometrikligi zamonaviy teksturalar bilan ta'kidlangan. Yaxshi o'ylangan modellar assortimenti ofis maydonining muhim qismini tartibga solishni ta'minlaydi: xodimlarning ish joylari, o'rta bo'g'in rahbarlarining ofislari, yig'ilish joylari va hatto ofis oshxonasi.`,
-        price: {
-            currentPrice: 2344001,
-            oldPrice: 3433733,
-        },
         details: {
-            country: [
-                {
-                    id: 1,
-                    name: 'Rossiya',
-                },
-            ],
+            country: 'Rossiya',
             material: [
                 {
                     id: 1,
@@ -3116,7 +3191,7 @@ export const furnitureForStaff = [
                 body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
             },
         ],
-        pieces: [
+        parts: [
             {
                 id: 1,
                 type: 'Ergonomik stol R/L',
@@ -3185,17 +3260,8 @@ export const furnitureForStaff = [
         akciya: false,
         available: true,
         description: `Agat mebel seriyasi ofis uchun universal echimdir. An'anaviy ofis uslubi zamonaviy materiallar va zamonaviy rang sxemalari tufayli yangi hayotga ega bo'ladi. L shaklidagi metall ramkalardan foydalanish ofis maydoniga dinamikani olib keladi. Modellarning keng assortimenti nafaqat xodimlarning ish joylarini, balki konferentsiya zallarini, yig'ilish xonalarini va qabul qilish joylarini jihozlash imkonini beradi.`,
-        price: {
-            currentPrice: 2344001,
-            oldPrice: 3433733,
-        },
         details: {
-            country: [
-                {
-                    id: 1,
-                    name: 'Rossiya',
-                },
-            ],
+            country: 'Ukraina',
             material: [
                 {
                     id: 1,
@@ -3305,7 +3371,7 @@ export const furnitureForStaff = [
             },
 
         ],
-        pieces: [
+        parts: [
             {
                 id: 1,
                 type: 'Stol',
@@ -3367,17 +3433,8 @@ export const furnitureForStaff = [
         akciya: false,
         available: true,
         description: `"Gamma" to'plamining yagona uslubli yechimi, shakl va funksionallikning nafis soddaligi zamonaviy katta ofisda ham, kichik xonalarda ham dinamik interyer yaratish uchun keng imkoniyatlar yaratadi. Seriyaning model diapazoni ish stantsiyalari va saqlash tizimlarining ko'plab kombinatsiyalarini yaratishga imkon beradi.`,
-        price: {
-            currentPrice: 2144000,
-            oldPrice: false,
-        },
         details: {
-            country: [
-                {
-                    id: 1,
-                    name: 'Rossiya',
-                },
-            ],
+            country: 'Rossiya',
             material: [
                 {
                     id: 1,
@@ -3539,7 +3596,7 @@ export const furnitureForStaff = [
                 body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
             },
         ],
-        pieces: [
+        parts: [
             {
                 id: 1,
                 type: 'Metall ramka ustidagi ergonomik stol R/L',
@@ -3601,17 +3658,8 @@ export const furnitureForStaff = [
         akciya: false,
         available: true,
         description: `"Rio Base" seriyasidagi zamonaviy mebellar butun ofis maydonini bir xil uslubda bezash uchun ideal. "Rio Base" da peshtaxtalarning qalinligi oshirildi, bu esa mebel narxini maqbul darajada ushlab turish bilan birga kolleksiyani biznes segmentiga o'tkazadi. Seriyaning turli xil rang sxemalari katta ofisni faoliyat sohalari bo'yicha zonalash imkonini beradi. Tashqi armatura va moda ranglarning yo'qligi to'plamga zamonaviy ko'rinish beradi.`,
-        price: {
-            currentPrice: 818000,
-            oldPrice: false,
-        },
         details: {
-            country: [
-                {
-                    id: 1,
-                    name: 'Rossiya',
-                }
-            ],
+            country: 'Rossiya',
             material: [
                 {
                     id: 1,
@@ -3744,7 +3792,7 @@ export const furnitureForStaff = [
                 body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
             }
         ],
-        pieces: [
+        parts: [
             {
                 id: 1,
                 type: 'Stol har narsa uchun',
@@ -3807,12 +3855,7 @@ export const furnitureForStaff = [
         available: true,
         description: `“Rio loyihasi” nafis dizayn va ofis texnologiyalaridagi eng so‘nggi yutuqlarni o‘zida mujassam etgan “Rio” kontseptsiyasining qisqa davomi hisoblanadi. Modullarning ko'p qirrali va o'zgaruvchanligi, dizaynlarning engilligi va to'qimachilik qo'shimchalari va bo'linmalarining ranglarining keng assortimenti "Rio loyihasi" ni xodimlar uchun mebel kolleksiyalari orasida ajratib turadi.`,
         details: {
-            country: [
-                {
-                    id: 1,
-                    name: 'Rossiya',
-                }
-            ],
+            country: 'Belarussiya',
             material: [
                 {
                     id: 1,
@@ -3949,7 +3992,7 @@ export const furnitureForStaff = [
                 body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
             }
         ],
-        pieces: [
+        parts: [
             {
                 id: 1,
                 type: 'Ikkita stolli ikkita guruh (lyuklar bilan)',
@@ -4005,12 +4048,7 @@ export const furnitureForStaff = [
         available: true,
         description: `Drive seriyasidan o'zgartiriladigan jadvallar turli vazifalar uchun xonani va ish joyini tezda qayta jihozlash qobiliyati muhim ahamiyatga ega bo'lgan ofislar va birgalikda ish joylari uchun mos keladi. To'plam stol usti va ramkalar uchun keng o'lchamdagi ikkita modelni o'z ichiga oladi. Seriyaning rangli echimlari - oltita yog'och to'qimalari va ikkita monokolor "oq" va "bej" - har qanday interyerga mos keladigan stollarni tanlash imkonini beradi.`,
         details: {
-            country: [
-                {
-                    id: 1,
-                    name: 'Rossiya',
-                }
-            ],
+            country: 'Rossiya',
             material: [
                 {
                     id: 1,
@@ -4091,7 +4129,7 @@ export const furnitureForStaff = [
                 body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
             }
         ],
-        pieces: [
+        parts: [
             {
                 id: 1,
                 type: "Ko'taruvchi metall ramka",
@@ -4140,12 +4178,7 @@ export const furnitureForStaff = [
         available: true,
         description: `Xodimlar uchun mebel "Work" ofis jihozlarining eng zamonaviy va moda tendentsiyalarini birlashtiradi. Elementlarning funksionalligi hozirgi ofis ish sharoitlariga moslashtirilgan. Chiziqlarning ravshanligi va geometrikligi zamonaviy teksturalar bilan ta'kidlangan. Yaxshi o'ylangan modellar assortimenti ofis maydonining muhim qismini tartibga solishni ta'minlaydi: xodimlarning ish joylari, o'rta bo'g'in rahbarlarining ofislari, yig'ilish joylari va hatto ofis oshxonasi.`,
         details: {
-            country: [
-                {
-                    id: 1,
-                    name: 'Rossiya',
-                }
-            ],
+            country: 'Rossiya',
             material: [
                 {
                     id: 1,
@@ -4271,7 +4304,7 @@ export const furnitureForStaff = [
                 body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
             },
         ],
-        pieces: [
+        parts: [
             {
                 id: 1,
                 type: 'Metall ramkali bitta stol',
@@ -4328,12 +4361,7 @@ export const furnitureForStaff = [
         description: `Yuqori sifatli materiallar, bezatish va kompozitsion echimlarning cheksiz xilma-xilligi - bu ijodiy va puxta o'ylangan loyiha xodimlarni o'z ish joylarida samarali ishlashga undaydigan yuzlab eng yorqin dizayn g'oyalarini o'zida mujassam etgan. Seriya sizning ish joyingizni to'g'ri tashkil qilish imkoniyatini beruvchi turli xil stollar va dastgoh tizimlarini o'z ichiga oladi.
         Ofis maydonini hayot va ijod uchun tabiiy muhit deb hisoblaydigan zamonaviy kontseptsiya GENESIS operatsion mebellarining yangi kolleksiyasini yaratish uchun asos bo'ldi. Tosh kulrang rangdagi GENESIS kolleksiyasi nafis va engildir. To'plamdagi ish stansiyalarining soddalashtirilgan shakli butun ofis interyerida yengillik va vaznsizlik hissi yaratadi.`,
         details: {
-            country: [
-                {
-                    id: 1,
-                    name: 'Rossiya',
-                }
-            ],
+            country: 'Rossiya',
             material: [
                 {
                     id: 1,
@@ -4401,7 +4429,7 @@ export const furnitureForStaff = [
             }
         ],
         reviews: [],
-        pieces: [
+        parts: [
             {
                 id: 1,
                 type: "Kichik o'ng ish stantsiyasi (matbaa)",
@@ -4464,12 +4492,7 @@ export const furnitureForStaff = [
         available: true,
         description: `TARGET to'plami har qanday darajadagi kompaniyalarda xodimlar uchun qulay ish joylarini tashkil qilish imkonini beradi va ideal ofisni yaratish uchun ajoyib imkoniyatlar yaratadi. Chiroyli ish stoli ekranlari ish stantsiyalarini zonalash imkonini beradi va diqqatni jamlashga yordam beradi, qulay, ishbilarmonlik muhitini yaratadi. Yig'ish liniyasi xodimlarga qulaylikni ta'minlaydigan va har qanday dizayn muammosini hal qilishga imkon beruvchi xodimlar uchun stollar, yig'ilish stollari, mobil shkaflar, shkaflar, javonlar va boshqa modulli elementlarning katta tanlovini o'z ichiga oladi.`,
         details: {
-            country: [
-                {
-                    id: 1,
-                    name: 'Rossiya',
-                }
-            ],
+            country: 'Turkiya',
             material: [
                 {
                     id: 1,
@@ -4556,7 +4579,7 @@ export const furnitureForStaff = [
                 body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
             }
         ],
-        pieces: [
+        parts: [
             {
                 id: 1,
                 type: 'Stol',
@@ -4612,12 +4635,7 @@ export const furnitureForStaff = [
         available: true,
         description: `Klifford modulli xodimlar uchun mebel o'ylab topilgan elementlar to'plamidan iborat bo'lib, ular deyarli har qanday ofis maydonini - yosh startapning ixcham binolaridan tortib, transmilliy kompaniyaning ulkan ofisiga qadar jihozlash imkonini beradi. Aslida, dizayner bo'lgan Klifford to'plami mijozning binolarining barcha nuanslari va xususiyatlarini hisobga oladi.`,
         details: {
-            country: [
-                {
-                    id: 1,
-                    name: 'Rossiya',
-                }
-            ],
+            country: 'Rossiya',
             material: [
                 {
                     id: 1,
@@ -4696,7 +4714,7 @@ export const furnitureForStaff = [
                 body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
             }
         ],
-        pieces: [
+        parts: [
             {
                 id: 1,
                 type: 'Yon stol bilan yon stol',
@@ -4759,12 +4777,7 @@ export const furnitureForStaff = [
         available: true,
         description: `Drive seriyasidan o'zgartiriladigan jadvallar turli vazifalar uchun xonani va ish joyini tezda qayta jihozlash qobiliyati muhim ahamiyatga ega bo'lgan ofislar va birgalikda ish joylari uchun mos keladi. To'plam stol usti va ramkalar uchun keng o'lchamdagi ikkita modelni o'z ichiga oladi. Seriyaning rangli echimlari - oltita yog'och to'qimalari va ikkita monokolor "oq" va "bej" - har qanday interyerga mos keladigan stollarni tanlash imkonini beradi.`,
         details: {
-            country: [
-                {
-                    id: 1,
-                    name: 'Turkiaya',
-                }
-            ],
+            country: 'Turkiaya',
             material: [
                 {
                     id: 1,
@@ -4845,7 +4858,7 @@ export const furnitureForStaff = [
                 body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
             }
         ],
-        pieces: [
+        parts: [
             {
                 id: 1,
                 type: "Ko'taruvchi metall ramka",
@@ -4894,12 +4907,7 @@ export const furnitureForStaff = [
         available: true,
         description: `Flex mebel kolleksiyasi ofisingiz uchun zamonaviy va ishonchli yechimdir. Ushbu seriyadagi modellar hamma uchun mos keladi: tadbirkorlik faoliyatini yaqinda boshlagan va bozorga kirgan korxonalar uchun ham, ko'p yillar davomida biznes bilan shug'ullanadigan boshqa kompaniyalar uchun ham. To'plamda shkaflar, shkaflar, stollar va boshqa mebellarning turli modellari mavjud. Turli xil ranglar va o'lchamlar, burchak ostida joylashgan tayanchlar - bu Flex seriyasining o'ziga xos xususiyatlari. Mahsulotlarning keng assortimenti tufayli siz saqlash tizimlarining deyarli har qanday kombinatsiyasini yaratishingiz mumkin.`,
         details: {
-            country: [
-                {
-                    id: 1,
-                    name: 'Belarussiya',
-                }
-            ],
+            country: 'Belarussiya',
             material: [
                 {
                     id: 1,
@@ -5024,7 +5032,7 @@ export const furnitureForStaff = [
                 body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
             }
         ],
-        pieces: [
+        parts: [
             {
                 id: 1,
                 type: 'Stol',
@@ -5086,17 +5094,8 @@ export const furnitureForStaff = [
         akciya: false,
         available: true,
         description: `Xodimlar uchun mebel "Work" ofis jihozlarining eng zamonaviy va moda tendentsiyalarini birlashtiradi. Elementlarning funksionalligi hozirgi ofis ish sharoitlariga moslashtirilgan. Chiziqlarning ravshanligi va geometrikligi zamonaviy teksturalar bilan ta'kidlangan. Yaxshi o'ylangan modellar assortimenti ofis maydonining muhim qismini tartibga solishni ta'minlaydi: xodimlarning ish joylari, o'rta bo'g'in rahbarlarining ofislari, yig'ilish joylari va hatto ofis oshxonasi.`,
-        price: {
-            currentPrice: 2344001,
-            oldPrice: 3433733,
-        },
         details: {
-            country: [
-                {
-                    id: 1,
-                    name: 'Rossiya',
-                },
-            ],
+            country: 'Rossiya',
             material: [
                 {
                     id: 1,
@@ -5176,7 +5175,7 @@ export const furnitureForStaff = [
                 body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
             }
         ],
-        pieces: [
+        parts: [
             {
                 id: 1,
                 type: 'Ergonomik stol R/L',
@@ -5317,7 +5316,7 @@ export const furnitureForStaff = [
             }
         ],
         reviews: [],
-        pieces: [
+        parts: [
             {
                 id: 1,
                 type: 'Stol',
@@ -5373,12 +5372,7 @@ export const furnitureForStaff = [
         available: true,
         description: `Zamonaviy Tour Wood kolleksiyasi jozibali ko'rinishning benuqson pardozlash sifati bilan o'ziga xos kombinatsiyasidir. Ishlab chiqishda so'nggi dizayn ishlanmalaridan foydalanish ish joylarini ergonomika va qulaylik bilan ta'minlaydi. To'plam assortimenti foydalanishda o'zini isbotlagan turli xil narsalarni birlashtirish uchun turli xil variantlarni o'z ichiga oladi.`,
         details: {
-            country: [
-                {
-                    id: 1,
-                    name: 'Belarussiya',
-                }
-            ],
+            country: 'Belarussiya',
             material: [
                 {
                     id: 1,
@@ -5481,7 +5475,7 @@ export const furnitureForStaff = [
                 body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
             }
         ],
-        pieces: [
+        parts: [
             {
                 id: 1,
                 type: "2 ish o'rinli stol",
@@ -5522,17 +5516,8 @@ export const furnitureForStaff = [
         akciya: false,
         available: true,
         description: `"Gamma" to'plamining yagona uslubli yechimi, shakl va funksionallikning nafis soddaligi zamonaviy katta ofisda ham, kichik xonalarda ham dinamik interyer yaratish uchun keng imkoniyatlar yaratadi. Seriyaning model diapazoni ish stantsiyalari va saqlash tizimlarining ko'plab kombinatsiyalarini yaratishga imkon beradi.`,
-        price: {
-            currentPrice: 2144000,
-            oldPrice: false,
-        },
         details: {
-            country: [
-                {
-                    id: 1,
-                    name: 'Rossiya',
-                },
-            ],
+            country: 'Rossiya',
             material: [
                 {
                     id: 1,
@@ -5694,7 +5679,7 @@ export const furnitureForStaff = [
                 body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
             },
         ],
-        pieces: [
+        parts: [
             {
                 id: 1,
                 type: 'Metall ramka ustidagi ergonomik stol R/L',
