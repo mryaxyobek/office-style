@@ -1054,7 +1054,7 @@ export const cabinetProductsForManagers = [
     },
     {
         id: 2,
-        productId: 209723,
+        productId: 209724,
         type: 'Boshqaruvchilar uchun',
         productTitle: 'Yalta rahbari uchun kabinet',
         order: false,
@@ -1167,7 +1167,7 @@ export const cabinetProductsForManagers = [
     },
     {
         id: 3,
-        productId: 219723,
+        productId: 209725,
         type: 'Boshqaruvchilar uchun',
         productTitle: 'Fermo Wooddan mebellar',
         order: false,
@@ -1272,7 +1272,7 @@ export const cabinetProductsForManagers = [
     },
     {
         id: 4,
-        productId: 209723,
+        productId: 209726,
         type: 'Boshqaruvchilar uchun',
         productTitle: 'Rio Direct rahbari uchun kabinet',
         order: true,
@@ -1428,7 +1428,7 @@ export const cabinetProductsForManagers = [
     },
     {
         id: 5,
-        productId: 209823,
+        productId: 209727,
         type: 'Boshqaruvchilar uchun',
         productTitle: 'Menejer uchun kabinet Torino MIlano',
         order: false,
@@ -1567,7 +1567,7 @@ export const cabinetProductsForManagers = [
     },
     {
         id: 6,
-        productId: 199723,
+        productId: 209728,
         type: 'Boshqaruvchilar uchun',
         productTitle: 'Katta menejerning kabineti',
         order: false,
@@ -1738,7 +1738,7 @@ export const cabinetProductsForManagers = [
     },
     {
         id: 7,
-        productId: 224723,
+        productId: 209729,
         type: 'Boshqaruvchilar uchun',
         productTitle: 'Onix Direct menejeri uchun kabinet',
         order: false,
@@ -1843,7 +1843,7 @@ export const cabinetProductsForManagers = [
     },
     {
         id: 8,
-        productId: 209793,
+        productId: 209730,
         type: 'Boshqaruvchilar uchun',
         productTitle: 'Lava bosh direktorining kabineti',
         order: false,
@@ -2105,7 +2105,7 @@ export const cabinetProductsForManagers = [
     },
     {
         id: 10,
-        productId: 209724,
+        productId: 209731,
         type: 'Boshqaruvchilar uchun',
         productTitle: 'Genesis ijroiya kabineti',
         order: true,
@@ -2212,7 +2212,7 @@ export const cabinetProductsForManagers = [
     },
     {
         id: 11,
-        productId: 209723,
+        productId: 209732,
         type: 'Boshqaruvchilar uchun',
         productTitle: 'Yalta rahbari uchun kabinet',
         order: false,
@@ -2325,7 +2325,7 @@ export const cabinetProductsForManagers = [
     },
     {
         id: 12,
-        productId: 229728,
+        productId: 209733,
         type: 'Boshqaruvchilar uchun',
         productTitle: 'Time.S rahbari uchun kabinet',
         order: false,
@@ -2443,7 +2443,7 @@ export const cabinetProductsForManagers = [
     },
     {
         id: 13,
-        productId: 211723,
+        productId: 209734,
         type: 'Boshqaruvchilar uchun',
         productTitle: 'Remo ijroiya kabineti',
         order: true,
@@ -2548,7 +2548,7 @@ export const cabinetProductsForManagers = [
     },
     {
         id: 14,
-        productId: 209423,
+        productId: 209735,
         type: 'Boshqaruvchilar uchun',
         productTitle: 'Edvard Menejer uchun ofis',
         order: true,
@@ -2747,7 +2747,7 @@ export const cabinetProductsForManagers = [
     },
     {
         id: 15,
-        productId: 209823,
+        productId: 209736,
         type: 'Boshqaruvchilar uchun',
         productTitle: 'Porto boshqaruvchi kabineti',
         order: false,
@@ -2886,7 +2886,7 @@ export const cabinetProductsForManagers = [
     },
     {
         id: 16,
-        productId: 199723,
+        productId: 209737,
         type: 'Boshqaruvchilar uchun',
         productTitle: 'ON.top Katta menejerning kabineti',
         order: false,
@@ -3002,3 +3002,2748 @@ export const cabinetProductsForManagers = [
         ]
     },
 ];
+
+export const furnitureForStaff = [
+    {
+        id: 1,
+        productId: 209738,
+        type: 'Xodimlarlar uchun',
+        productTitle: 'Xodimlar uchun mebel Work',
+        order: false,
+        new: false,
+        akciya: false,
+        available: true,
+        description: `Xodimlar uchun mebel "Work" ofis jihozlarining eng zamonaviy va moda tendentsiyalarini birlashtiradi. Elementlarning funksionalligi hozirgi ofis ish sharoitlariga moslashtirilgan. Chiziqlarning ravshanligi va geometrikligi zamonaviy teksturalar bilan ta'kidlangan. Yaxshi o'ylangan modellar assortimenti ofis maydonining muhim qismini tartibga solishni ta'minlaydi: xodimlarning ish joylari, o'rta bo'g'in rahbarlarining ofislari, yig'ilish joylari va hatto ofis oshxonasi.`,
+        price: {
+            currentPrice: 2344001,
+            oldPrice: 3433733,
+        },
+        details: {
+            country: [
+                {
+                    id: 1,
+                    name: 'Rossiya',
+                },
+            ],
+            material: [
+                {
+                    id: 1,
+                    name: 'LDSP',
+                },
+            ],
+            thickness: '1,8',
+            color: [
+                {
+                    id: 1,
+                    name: 'Sanoma eman',
+                },
+                {
+                    id: 2,
+                    name: 'Mocha, qizil tulki',
+                },
+                {
+                    id: 3,
+                    name: 'mocha',
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/cc/cc2bac92a88db306218426f90beede7a.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/df/dffc21dc1c819112413d35589a78e960.jpg',
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/4d/4d3dbc44d1722a454d7860a9dbc82d03.jpg',
+            },
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/9f/9f72a40371278d65c3f19f7a17232770.jpg',
+            },
+            {
+                id: 5,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/23/2370d2842a2377278d29ed7d0a7439f4.jpg',
+            },
+            {
+                id: 6,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/20/20cc29ec2c85d189e5c5c5d6f7408dcd.jpg',
+            },
+        ],
+        completedProjects: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/cb/cb978875bce2b96733effb7a08c37090.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/df/df028bc620c206594c7aebd38776adbb.jpg',
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/47/47a5d0c95ebe2fb4d3b6955ee44e2ecb.jpg',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Teshavoy Abdullayev',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Boltavoy Jabborov',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Qo'chqorbek",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+        ],
+        pieces: [
+            {
+                id: 1,
+                type: 'Ergonomik stol R/L',
+                size: '180x97x75 sm',
+                currentPrice: 810000,
+                oldprice: false,
+            },
+            {
+                id: 2,
+                type: 'Bishilka',
+                size: '120x80x75 sm',
+                currentPrice: 1130000,
+                oldprice: 2200000,
+            },
+            {
+                id: 3,
+                type: 'Usti bilan yon stol',
+                size: '40x65x77 sm',
+                currentPrice: 900000,
+                oldprice: false,
+            },
+            {
+                id: 4,
+                type: 'Hujjatlar kabineti',
+                size: '72x36x183 sm',
+                currentPrice: 2170000,
+                oldprice: false,
+            },
+            {
+                id: 5,
+                type: 'Shkaf',
+                size: '72x36x183 sm',
+                currentPrice: 2430000,
+                oldprice: false,
+            },
+            {
+                id: 6,
+                type: "Statsionar yordam haqida qisqacha ma'lumot",
+                size: '65x80x77 sm',
+                currentPrice: 1420000,
+                oldprice: false,
+            },
+            {
+                id: 7,
+                type: "Statsionar qo'llab-quvvatlash bilan biriktirma",
+                size: '65x40x77 sm',
+                currentPrice: 3235000,
+                oldprice: false,
+            },
+            {
+                id: 8,
+                type: "Tor baland tokcha",
+                size: '36x36x183 sm',
+                currentPrice: 4530000,
+                oldprice: false,
+            },
+        ]
+    },
+    {
+        id: 2,
+        productId: 209739,
+        type: 'Xodimlarlar uchun',
+        productTitle: 'Xodimlar uchun mebel Agat',
+        order: false,
+        new: false,
+        akciya: false,
+        available: true,
+        description: `Agat mebel seriyasi ofis uchun universal echimdir. An'anaviy ofis uslubi zamonaviy materiallar va zamonaviy rang sxemalari tufayli yangi hayotga ega bo'ladi. L shaklidagi metall ramkalardan foydalanish ofis maydoniga dinamikani olib keladi. Modellarning keng assortimenti nafaqat xodimlarning ish joylarini, balki konferentsiya zallarini, yig'ilish xonalarini va qabul qilish joylarini jihozlash imkonini beradi.`,
+        price: {
+            currentPrice: 2344001,
+            oldPrice: 3433733,
+        },
+        details: {
+            country: [
+                {
+                    id: 1,
+                    name: 'Rossiya',
+                },
+            ],
+            material: [
+                {
+                    id: 1,
+                    name: 'LDSP',
+                },
+            ],
+            thickness: '2,2',
+            color: [
+                {
+                    id: 1,
+                    name: 'Paldao',
+                },
+                {
+                    id: 2,
+                    name: 'Shimo kul',
+                },
+                {
+                    id: 3,
+                    name: 'Och kulrang',
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/63/631b74a9a624c08aeee2107faa833a96.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/4d/4db2977119a08f0b37fcdc2196a5d0a9.jpg',
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/05/05febc4e4c8d7b3143b229d27ba6e362.jpg',
+            },
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/12/1265f97168b845f1f1074eacdf6d0d99.jpg',
+            },
+            {
+                id: 5,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/0b/0b5e906eb25e89407b73ecb6c6ed6a09.jpg',
+            },
+            {
+                id: 6,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/60/60a429d0449309085d8be95a018f4cff.jpg',
+            },
+        ],
+        completedProjects: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/f8/f8c4f4c3a024d7178ea1693e7ffcafc5.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/67/67afd4ea8b9fcf7ba38f8c9554e49540.jpg',
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/63/634b538329769800fbb9d4487cc998e3.jpg',
+            },
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/a9/a9072a5e3525134d7865403bfd034f4f.jpg',
+            },
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Teshavoy Abdullayev',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Boltavoy Jabborov',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Qo'chqorbek",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 4,
+                userName: "Qo'chqorbek",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 5,
+                userName: "Fazliddin",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+
+        ],
+        pieces: [
+            {
+                id: 1,
+                type: 'Stol',
+                size: '180x97x75 sm',
+                currentPrice: 920000,
+                oldprice: false,
+            },
+            {
+                id: 2,
+                type: 'Ustki va yon stol',
+                size: '120x80x75 sm',
+                currentPrice: 2130000,
+                oldprice: 2200000,
+            },
+            {
+                id: 3,
+                type: 'Yopiq shkaf',
+                size: '40x65x77 sm',
+                currentPrice: 909000,
+                oldprice: false,
+            },
+            {
+                id: 4,
+                type: 'Birlashtirilgan shkaf',
+                size: '72x36x183 sm',
+                currentPrice: 1190000,
+                oldprice: false,
+            },
+            {
+                id: 5,
+                type: 'Shkaf',
+                size: '72x36x183 sm',
+                currentPrice: 2130000,
+                oldprice: false,
+            },
+            {
+                id: 6,
+                type: "O'rta kombinatsiyalangan shkaf",
+                size: '65x80x77 sm',
+                currentPrice: 2420000,
+                oldprice: false,
+            },
+            {
+                id: 7,
+                type: "Tizim bloki uchun stend",
+                size: '65x40x77 sm',
+                currentPrice: 635000,
+                oldprice: false,
+            }
+        ]
+    },
+    {
+        id: 3,
+        productId: 209740,
+        type: 'Xodimlarlar uchun',
+        productTitle: 'Xodimlar uchun mebel Gamma',
+        order: false,
+        new: false,
+        akciya: false,
+        available: true,
+        description: `"Gamma" to'plamining yagona uslubli yechimi, shakl va funksionallikning nafis soddaligi zamonaviy katta ofisda ham, kichik xonalarda ham dinamik interyer yaratish uchun keng imkoniyatlar yaratadi. Seriyaning model diapazoni ish stantsiyalari va saqlash tizimlarining ko'plab kombinatsiyalarini yaratishga imkon beradi.`,
+        price: {
+            currentPrice: 2144000,
+            oldPrice: false,
+        },
+        details: {
+            country: [
+                {
+                    id: 1,
+                    name: 'Rossiya',
+                },
+            ],
+            material: [
+                {
+                    id: 1,
+                    name: 'LDSP',
+                },
+                {
+                    id: 2,
+                    name: 'Metall ramka',
+                },
+            ],
+            thickness: '1,8',
+            color: [
+                {
+                    id: 1,
+                    name: "Artemsi yong'oq",
+                },
+                {
+                    id: 2,
+                    name: 'Bej, oqartirilgan eman',
+                },
+                {
+                    id: 3,
+                    name: 'Bej',
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/62/6237f86611ed6a89de5aad7060b8f21a.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/2b/2b6ce4dced3de7d6d79cf51f43aed520.jpg',
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/2f/2f2ea5675e5fbef463e6b788d0273f12.jpg',
+            },
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/9f/9f72a40371278d65c3f19f7a17232770.jpg',
+            },
+            {
+                id: 5,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/26/26697600b8375080d92fa76e7c0436d1.jpg',
+            },
+            {
+                id: 6,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/bc/bc931056ec8cdbb46703fa1ad1d2a366.jpg',
+            },
+        ],
+        completedProjects: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/c1/c14f99755455992a1202378952af613f.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/df/df028bc620c206594c7aebd38776adbb.jpg',
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/24/2436e932f03847c299fd1fa0324a2758.jpg',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Teshavoy Abdullayev',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Boltavoy Jabborov',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Qo'chqorbek",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 4,
+                userName: "Sarvinoz",
+                rating: 1,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 5,
+                userName: "Boltavoy Shermatov",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 6,
+                userName: "Qo'chqorbek Abulxalilov",
+                rating: 2,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 7,
+                userName: "Madina",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 8,
+                userName: "Shaxlo Egamberdiyeva",
+                rating: 2,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 9,
+                userName: "Davlatmurod",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 10,
+                userName: "Azizaxon",
+                rating: 3,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 11,
+                userName: "Anonym",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 12,
+                userName: "Kamron Qahhorov",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 13,
+                userName: "Azizbek",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 14,
+                userName: "Yaxyobek",
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+        ],
+        pieces: [
+            {
+                id: 1,
+                type: 'Metall ramka ustidagi ergonomik stol R/L',
+                size: '180x97x75 sm',
+                currentPrice: 810000,
+                oldprice: false,
+            },
+            {
+                id: 2,
+                type: 'Usti bilan yon stol',
+                size: '120x80x75 sm',
+                currentPrice: 1130000,
+                oldprice: 2200000,
+            },
+            {
+                id: 3,
+                type: 'Rak',
+                size: '40x65x77 sm',
+                currentPrice: 900000,
+                oldprice: false,
+            },
+            {
+                id: 4,
+                type: 'Tokcha',
+                size: '72x36x183 sm',
+                currentPrice: 2170000,
+                oldprice: false,
+            },
+            {
+                id: 5,
+                type: 'Pastki shkaf',
+                size: '72x36x183 sm',
+                currentPrice: 2430000,
+                oldprice: false,
+            },
+            {
+                id: 6,
+                type: "Qahva stoli",
+                size: '65x80x77 sm',
+                currentPrice: 1420000,
+                oldprice: false,
+            },
+            {
+                id: 7,
+                type: "Tizim bloki uchun stend",
+                size: '65x40x77 sm',
+                currentPrice: 3235000,
+                oldprice: false,
+            },
+        ]
+    },
+    {
+        id: 4,
+        productId: 209741,
+        type: 'Xodimlarlar uchun',
+        productTitle: 'Xodimlar uchun mebel Rio base',
+        order: false,
+        new: false,
+        akciya: false,
+        available: true,
+        description: `"Rio Base" seriyasidagi zamonaviy mebellar butun ofis maydonini bir xil uslubda bezash uchun ideal. "Rio Base" da peshtaxtalarning qalinligi oshirildi, bu esa mebel narxini maqbul darajada ushlab turish bilan birga kolleksiyani biznes segmentiga o'tkazadi. Seriyaning turli xil rang sxemalari katta ofisni faoliyat sohalari bo'yicha zonalash imkonini beradi. Tashqi armatura va moda ranglarning yo'qligi to'plamga zamonaviy ko'rinish beradi.`,
+        price: {
+            currentPrice: 818000,
+            oldPrice: false,
+        },
+        details: {
+            country: [
+                {
+                    id: 1,
+                    name: 'Rossiya',
+                }
+            ],
+            material: [
+                {
+                    id: 1,
+                    name: 'LDSP',
+                },
+                {
+                    id: 2,
+                    name: 'metall ramka',
+                },
+            ],
+            thickness: '2,5',
+            color: [
+                {
+                    id: 1,
+                    name: "bej. kulrang verzaska eman",
+                },
+                {
+                    id: 2,
+                    name: 'bej venge',
+                },
+                {
+                    id: 3,
+                    name: 'bej. kulrang',
+                },
+                {
+                    id: 4,
+                    name: 'Shvetsariya eman',
+                },
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/e6/e6b8c855d18485badba1b88376ac3575.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/00/0037fdb0844ed739b971dfd5b215021c.jpg',
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/15/154a17fc590a275d6caf41863eaa3222.jpg',
+            },
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/13/13b1f399963c1d7674f481da67924432.jpg',
+            },
+            {
+                id: 5,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/fb/fb888b7e27da04179f795994b6cc97e2.jpg',
+            },
+            {
+                id: 6,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/86/865951716563bb2a45f43074f97baf68.jpg',
+            },
+            {
+                id: 7,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/1e/1e1eea56d05b130d5a83c5623de40b16.jpg',
+            },
+            {
+                id: 8,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/d5/d566961bd0391025fd8bd238688c2be2.jpg',
+            },
+        ],
+        completedProjects: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/a9/a9f2088e934b019a92edf8de6e5ee9b2.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/2e/2e34e91527be77f5dcecb3aab9827e3d.jpg',
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/24/24b2349f1212e2e50888044b2654477d.jpg',
+            },
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/fd/fda2158cc61f0cfbccca35391e3c57e3.jpg',
+            },
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Teshavoy Abdullayev',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Boltavoy Jabborov',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Qo'chqorbek",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 4,
+                userName: "Sarvinoz",
+                rating: 1,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 5,
+                userName: "Boltavoy Shermatov",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 6,
+                userName: "Qo'chqorbek Abulxalilov",
+                rating: 2,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            }
+        ],
+        pieces: [
+            {
+                id: 1,
+                type: 'Stol har narsa uchun',
+                size: '180x100x78 sm',
+                currentPrice: 818000,
+                oldprice: false,
+            },
+            {
+                id: 2,
+                type: 'Birlashtiruvchi kabinet',
+                size: '120x80x75 sm',
+                currentPrice: 9130000,
+                oldprice: 2200000,
+            },
+            {
+                id: 3,
+                type: 'Stol tokchasi',
+                size: '42x15x77 sm',
+                currentPrice: 2304000,
+                oldprice: false,
+            },
+            {
+                id: 4,
+                type: 'Hujjatlarni topshirish kabinetlari',
+                size: '79x39x283 sm',
+                currentPrice: 1140000,
+                oldprice: false,
+            },
+            {
+                id: 5,
+                type: 'Gradient',
+                size: '72x36x183 sm',
+                currentPrice: 499000,
+                oldprice: false,
+            },
+            {
+                id: 6,
+                type: "Ekran bo'limi",
+                size: '65x80x77 sm',
+                currentPrice: 1428700,
+                oldprice: false,
+            },
+            {
+                id: 7,
+                type: "Tizim bloki uchun stend",
+                size: '68x43x17 sm',
+                currentPrice: 2235000,
+                oldprice: false,
+            },
+        ]
+    },
+    {
+        id: 5,
+        productId: 209742,
+        type: 'Xodimlarlar uchun',
+        productTitle: 'Xodimlar uchun mebel Rio project',
+        order: false,
+        new: false,
+        akciya: false,
+        available: true,
+        description: `“Rio loyihasi” nafis dizayn va ofis texnologiyalaridagi eng so‘nggi yutuqlarni o‘zida mujassam etgan “Rio” kontseptsiyasining qisqa davomi hisoblanadi. Modullarning ko'p qirrali va o'zgaruvchanligi, dizaynlarning engilligi va to'qimachilik qo'shimchalari va bo'linmalarining ranglarining keng assortimenti "Rio loyihasi" ni xodimlar uchun mebel kolleksiyalari orasida ajratib turadi.`,
+        details: {
+            country: [
+                {
+                    id: 1,
+                    name: 'Rossiya',
+                }
+            ],
+            material: [
+                {
+                    id: 1,
+                    name: 'LDSP',
+                },
+                {
+                    id: 2,
+                    name: 'metall ramka',
+                },
+            ],
+            thickness: '2,5',
+            color: [
+                {
+                    id: 1,
+                    name: "Shveytsariya karam",
+                },
+                {
+                    id: 2,
+                    name: 'bej, Verzaska eman',
+                },
+                {
+                    id: 3,
+                    name: 'bej, venge',
+                },
+                {
+                    id: 4,
+                    name: "bej, oq, Shveytsariya qarag'ay",
+                },
+                {
+                    id: 5,
+                    name: 'oq, Verzaska eman',
+                },
+                {
+                    id: 6,
+                    name: 'oq, venge',
+                },
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/02/02be9fb06c984c5371cbd4c70070e11c.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/a3/a3f9f713d9b3e19fc4fd3ffe1391ac77.jpg',
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/7a/7a6c824cf6ff1f14d79dce2361699d78.jpg',
+            },
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/14/14a91797460672006f9497447ebdceed.jpg',
+            },
+            {
+                id: 5,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/eb/eb7cff2a0b4da99b6b8cfab20d40ab4a.jpg',
+            },
+            {
+                id: 6,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/bb/bb7ceaab3fa584f0e3f5b35eb915101b.jpg',
+            },
+        ],
+        completedProjects: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/56/5647f836617894b7d263d8a91764158d.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/d2/d274b704505098e49cf8accd189fb7f0.jpg',
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/60/60416b90b0d5e5c77f2c62805ee90d72.jpg',
+            },
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/15/151dbb0febe5425b546ac41b7691c923.jpg',
+            },
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Teshavoy Abdullayev',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Boltavoy Jabborov',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Qo'chqorbek",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 4,
+                userName: "Sarvinoz",
+                rating: 2,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 5,
+                userName: "Boltavoy Shermatov",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 6,
+                userName: "Qo'chqorbek Abulxalilov",
+                rating: 2,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 7,
+                userName: "Madina",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            }
+        ],
+        pieces: [
+            {
+                id: 1,
+                type: 'Ikkita stolli ikkita guruh (lyuklar bilan)',
+                size: '280x143x75 sm',
+                currentPrice: 6810000,
+                oldprice: 7236200,
+            },
+            {
+                id: 2,
+                type: 'Yumshoq yostiqli mobil shkaf',
+                size: '42x45x57 sm',
+                currentPrice: 1130000,
+                oldprice: 2200000,
+            },
+            {
+                id: 3,
+                type: 'Stol tokchasi',
+                size: '36x118,8x111,1 sm',
+                currentPrice: 905000,
+                oldprice: false,
+            },
+            {
+                id: 4,
+                type: 'Birlashtiruvchi kabinet',
+                size: '72x36x183 sm',
+                currentPrice: 1870000,
+                oldprice: false,
+            },
+            {
+                id: 5,
+                type: "Laminatlangan LDSP bo'limi ekrani",
+                size: '140x1,8x38,6 sm',
+                currentPrice: 431000,
+                oldprice: false,
+            },
+            {
+                id: 6,
+                type: "Ko'taruvchi kabel kanali",
+                size: '72,5 sm',
+                currentPrice: 350800,
+                oldprice: false,
+            }
+        ]
+    },
+    {
+        id: 6,
+        productId: 209743,
+        type: 'Xodimlarlar uchun',
+        productTitle: 'Xodimlar uchun mebel Drive',
+        order: false,
+        new: false,
+        akciya: false,
+        available: true,
+        description: `Drive seriyasidan o'zgartiriladigan jadvallar turli vazifalar uchun xonani va ish joyini tezda qayta jihozlash qobiliyati muhim ahamiyatga ega bo'lgan ofislar va birgalikda ish joylari uchun mos keladi. To'plam stol usti va ramkalar uchun keng o'lchamdagi ikkita modelni o'z ichiga oladi. Seriyaning rangli echimlari - oltita yog'och to'qimalari va ikkita monokolor "oq" va "bej" - har qanday interyerga mos keladigan stollarni tanlash imkonini beradi.`,
+        details: {
+            country: [
+                {
+                    id: 1,
+                    name: 'Rossiya',
+                }
+            ],
+            material: [
+                {
+                    id: 1,
+                    name: 'LDSP',
+                },
+                {
+                    id: 2,
+                    name: 'material ramka',
+                },
+            ],
+            thickness: '2,5',
+            color: [
+                {
+                    id: 1,
+                    name: "bej",
+                },
+                {
+                    id: 2,
+                    name: 'oqish',
+                },
+                {
+                    id: 3,
+                    name: 'italiyan eman',
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/c0/c0db28cb782f3351363722a5add9ae57.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/f1/f1d66b6f827dfa2eebdd380b6dd80865.jpg',
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/18/181e148e90dd27cea5645e50871a4c71.jpg',
+            },
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/21/210c9064dcef590efc033cc2f46cfe93.jpg',
+            }
+        ],
+        completedProjects: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/e1/e177cbdc71986ddf32c1ee4ba654c040.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/e1/e13edec1f1e5fa760c479d39c49761c4.jpg',
+            },
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Teshavoy Abdullayev',
+                rating: 2,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Boltavoy Jabborov',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Qo'chqorbek",
+                rating: 3,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            }
+        ],
+        pieces: [
+            {
+                id: 1,
+                type: "Ko'taruvchi metall ramka",
+                size: '135x68x113,5 sm',
+                currentPrice: 6810000,
+                oldprice: false,
+            },
+            {
+                id: 2,
+                type: 'Lyukli tekis stol usti',
+                size: '140x70x2,5 sm',
+                currentPrice: 612800,
+                oldprice: 2200000,
+            },
+            {
+                id: 3,
+                type: 'Tizim bloki uchun osilgan stend',
+                size: '26x50x60 sm',
+                currentPrice: 312000,
+                oldprice: false,
+            },
+            {
+                id: 4,
+                type: "Ko'tarish kabel kanali H",
+                size: '72,5 sm',
+                currentPrice: 2170000,
+                oldprice: false,
+            },
+            {
+                id: 5,
+                type: 'Stol ustiga mahkamlangan mato ekrani',
+                size: '130x2,6x45 sm',
+                currentPrice: 663000,
+                oldprice: false,
+            }
+        ]
+    },
+    {
+        id: 7,
+        productId: 209744,
+        type: 'Xodimlarlar uchun',
+        productTitle: 'Xodimlar uchun mebel Work Metall',
+        order: false,
+        new: false,
+        akciya: false,
+        available: true,
+        description: `Xodimlar uchun mebel "Work" ofis jihozlarining eng zamonaviy va moda tendentsiyalarini birlashtiradi. Elementlarning funksionalligi hozirgi ofis ish sharoitlariga moslashtirilgan. Chiziqlarning ravshanligi va geometrikligi zamonaviy teksturalar bilan ta'kidlangan. Yaxshi o'ylangan modellar assortimenti ofis maydonining muhim qismini tartibga solishni ta'minlaydi: xodimlarning ish joylari, o'rta bo'g'in rahbarlarining ofislari, yig'ilish joylari va hatto ofis oshxonasi.`,
+        details: {
+            country: [
+                {
+                    id: 1,
+                    name: 'Rossiya',
+                }
+            ],
+            material: [
+                {
+                    id: 1,
+                    name: 'LDSP',
+                },
+                {
+                    id: 2,
+                    name: 'metall ramka',
+                },
+            ],
+            thickness: '1,8',
+            color: [
+                {
+                    id: 1,
+                    name: "Sanoma eman",
+                },
+                {
+                    id: 2,
+                    name: 'mocha, qizil tulki',
+                },
+                {
+                    id: 3,
+                    name: 'mocha. Grafit',
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/7d/7deb4776d4e11ee3d69f02f5f70c6c5f.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/1c/1c9ae5f7acbf35f085826488520b2808.jpg',
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/92/926db0d915ba5604643c71b21b581147.jpg',
+            },
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/6b/6bfec70975e84dafa8517d615e1eba45.jpg',
+            },
+            {
+                id: 5,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/13/13597e00789a36cb3c8332df1a97ffae.jpg',
+            },
+            {
+                id: 6,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/65/65e1815901db425f70e47cdf45683066.jpg',
+            },
+        ],
+        completedProjects: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/65/65e1815901db425f70e47cdf45683066.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/65/65e1815901db425f70e47cdf45683066.jpg',
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/65/65e1815901db425f70e47cdf45683066.jpg',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Teshavoy Abdullayev',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Boltavoy Jabborov',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Qo'chqorbek",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 4,
+                userName: "Sarvinoz",
+                rating: 1,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 5,
+                userName: "Boltavoy Shermatov",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 6,
+                userName: "Qo'chqorbek Abulxalilov",
+                rating: 2,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 7,
+                userName: "Madina",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 8,
+                userName: "Ravshanbek ismoilov",
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+        ],
+        pieces: [
+            {
+                id: 1,
+                type: 'Metall ramkali bitta stol',
+                size: '180x97x75 sm',
+                currentPrice: 1510500,
+                oldprice: false,
+            },
+            {
+                id: 2,
+                type: 'Mobil shkaf (ikkitalik tortma)',
+                size: '120x80x75 sm',
+                currentPrice: 1130000,
+                oldprice: false,
+            },
+            {
+                id: 3,
+                type: 'Tor ochiq tokcha',
+                size: '40x65x77 sm',
+                currentPrice: 607000,
+                oldprice: false,
+            },
+            {
+                id: 4,
+                type: 'Hujjatlar kabineti',
+                size: '72x36x183 sm',
+                currentPrice: 1300000,
+                oldprice: false,
+            },
+            {
+                id: 5,
+                type: 'Shkaf',
+                size: '72x36x183 sm',
+                currentPrice: 1239000,
+                oldprice: false,
+            },
+            {
+                id: 6,
+                type: "Yon ekran (MATO)",
+                size: '65x80x2 sm',
+                currentPrice: 354000,
+                oldprice: 4010100,
+            }
+        ]
+    },
+    {
+        id: 8,
+        productId: 209745,
+        type: 'Xodimlarlar uchun',
+        productTitle: 'Xodimlar uchun mebel Genesis',
+        order: false,
+        new: true,
+        akciya: false,
+        available: true,
+        description: `Yuqori sifatli materiallar, bezatish va kompozitsion echimlarning cheksiz xilma-xilligi - bu ijodiy va puxta o'ylangan loyiha xodimlarni o'z ish joylarida samarali ishlashga undaydigan yuzlab eng yorqin dizayn g'oyalarini o'zida mujassam etgan. Seriya sizning ish joyingizni to'g'ri tashkil qilish imkoniyatini beruvchi turli xil stollar va dastgoh tizimlarini o'z ichiga oladi.
+        Ofis maydonini hayot va ijod uchun tabiiy muhit deb hisoblaydigan zamonaviy kontseptsiya GENESIS operatsion mebellarining yangi kolleksiyasini yaratish uchun asos bo'ldi. Tosh kulrang rangdagi GENESIS kolleksiyasi nafis va engildir. To'plamdagi ish stansiyalarining soddalashtirilgan shakli butun ofis interyerida yengillik va vaznsizlik hissi yaratadi.`,
+        details: {
+            country: [
+                {
+                    id: 1,
+                    name: 'Rossiya',
+                }
+            ],
+            material: [
+                {
+                    id: 1,
+                    name: 'LDSP',
+                },
+                {
+                    id: 2,
+                    name: 'metal ramka',
+                },
+            ],
+            thickness: '2,5',
+            color: [
+                {
+                    id: 1,
+                    name: "kulrang tosh",
+                },
+                {
+                    id: 2,
+                    name: 'antrasit',
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/9a/9a5e5a0e779b3c6b350b7258f5a1995f.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/86/86cabd624f13480dc2205df2fc0e02d3.jpg',
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/e9/e9d5628feee43d033e1d6dda6b05882f.jpg',
+            },
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/4d/4dfb8dca03bc2cd64fb46bcecff5da13.jpg',
+            },
+            {
+                id: 5,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/63/63821497d657e9b59cd3910090f20506.jpg',
+            },
+            {
+                id: 6,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/89/893ef4b1f4b4cda91f4ec86864ecf5c6.jpg',
+            },
+            {
+                id: 7,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/13/139c0399430d2c62e03f9467cd8b9c94.jpg',
+            },
+        ],
+        completedProjects: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/c0/c05c97f38b6a35399e3c3a32b3320a6c.jpg',
+            }
+        ],
+        reviews: [],
+        pieces: [
+            {
+                id: 1,
+                type: "Kichik o'ng ish stantsiyasi (matbaa)",
+                size: '140x140x75 sm',
+                currentPrice: 5907880,
+                oldprice: false,
+            },
+            {
+                id: 2,
+                type: 'Asosiy shkaf 4 tortma',
+                size: '44,6x47,2x67,5 sm',
+                currentPrice: 2137000,
+                oldprice: false,
+            },
+            {
+                id: 3,
+                type: 'Konteyner L/R',
+                size: '44,6x69,4x25 sm',
+                currentPrice: 907200,
+                oldprice: false,
+            },
+            {
+                id: 4,
+                type: "O'rta hujjatli kabinet",
+                size: '932x42x140 sm',
+                currentPrice: 5179000,
+                oldprice: false,
+            },
+            {
+                id: 5,
+                type: "Shkaf o'rtacha",
+                size: '932x42x140 sm',
+                currentPrice: 4932000,
+                oldprice: false,
+            },
+            {
+                id: 6,
+                type: "O'rta yon raf",
+                size: '420x26,6x136,1 sm',
+                currentPrice: 1420200,
+                oldprice: false,
+            },
+            {
+                id: 7,
+                type: "Shkaf",
+                size: '932x42x70 sm',
+                currentPrice: 3125000,
+                oldprice: false,
+            },
+        ]
+    },
+    {
+        id: 9,
+        productId: 209746,
+        type: 'Xodimlarlar uchun',
+        productTitle: 'Xodimlar uchun mebel Target',
+        order: false,
+        new: false,
+        akciya: true,
+        available: true,
+        description: `TARGET to'plami har qanday darajadagi kompaniyalarda xodimlar uchun qulay ish joylarini tashkil qilish imkonini beradi va ideal ofisni yaratish uchun ajoyib imkoniyatlar yaratadi. Chiroyli ish stoli ekranlari ish stantsiyalarini zonalash imkonini beradi va diqqatni jamlashga yordam beradi, qulay, ishbilarmonlik muhitini yaratadi. Yig'ish liniyasi xodimlarga qulaylikni ta'minlaydigan va har qanday dizayn muammosini hal qilishga imkon beruvchi xodimlar uchun stollar, yig'ilish stollari, mobil shkaflar, shkaflar, javonlar va boshqa modulli elementlarning katta tanlovini o'z ichiga oladi.`,
+        details: {
+            country: [
+                {
+                    id: 1,
+                    name: 'Rossiya',
+                }
+            ],
+            material: [
+                {
+                    id: 1,
+                    name: 'LDSP',
+                },
+                {
+                    id: 2,
+                    name: 'ABS qirrasi',
+                },
+                {
+                    id: 3,
+                    name: 'metall ramka',
+                },
+            ],
+            thickness: '2,5',
+            color: [
+                {
+                    id: 1,
+                    name: "oq",
+                },
+                {
+                    id: 2,
+                    name: 'rover oq',
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/be/be7520658f0cad70e8e0a8e09348b708.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/a0/a062683855ad3b451361ebd000d05619.jpg',
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/07/07374f7038757d6b30ac5d57237f8cb4.jpg',
+            },
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/f2/f22c86149ae251e4b4b2a3b8a165166e.jpg',
+            }
+        ],
+        completedProjects: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/07/07374f7038757d6b30ac5d57237f8cb4.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/07/07374f7038757d6b30ac5d57237f8cb4.jpg',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Teshavoy Abdullayev',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Boltavoy Jabborov',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Qo'chqorbek",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 4,
+                userName: "Sarvinoz",
+                rating: 2,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            }
+        ],
+        pieces: [
+            {
+                id: 1,
+                type: 'Stol',
+                size: '120x70x75 sm',
+                currentPrice: 1410400,
+                oldprice: false,
+            },
+            {
+                id: 2,
+                type: 'Xizmat kabineti',
+                size: '120x52x61,2 sm',
+                currentPrice: 1415400,
+                oldprice: false,
+            },
+            {
+                id: 3,
+                type: 'Yuqori tortmasidagi qulfli mobil shkaf',
+                size: '45,2x47,4x58,5 sm',
+                currentPrice: 780700,
+                oldprice: false,
+            },
+            {
+                id: 4,
+                type: 'Hujjatlar kabineti',
+                size: '80x36x185 sm',
+                currentPrice: 871000,
+                oldprice: false,
+            },
+            {
+                id: 5,
+                type: 'Shkaf',
+                size: '80x36x185 sm',
+                currentPrice: 2430000,
+                oldprice: false,
+            },
+            {
+                id: 6,
+                type: "Stol tokchasi",
+                size: '35x110x110 sm',
+                currentPrice: 1420000,
+                oldprice: false,
+            }
+        ]
+    },
+    {
+        id: 10,
+        productId: 209747,
+        type: 'Xodimlarlar uchun',
+        productTitle: 'Xodimlar uchun mebel Cliford',
+        order: false,
+        new: false,
+        akciya: false,
+        available: true,
+        description: `Klifford modulli xodimlar uchun mebel o'ylab topilgan elementlar to'plamidan iborat bo'lib, ular deyarli har qanday ofis maydonini - yosh startapning ixcham binolaridan tortib, transmilliy kompaniyaning ulkan ofisiga qadar jihozlash imkonini beradi. Aslida, dizayner bo'lgan Klifford to'plami mijozning binolarining barcha nuanslari va xususiyatlarini hisobga oladi.`,
+        details: {
+            country: [
+                {
+                    id: 1,
+                    name: 'Rossiya',
+                }
+            ],
+            material: [
+                {
+                    id: 1,
+                    name: 'LDSP',
+                }
+            ],
+            thickness: '2,5',
+            color: [
+                {
+                    id: 1,
+                    name: "Chesterfild eman, oq",
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/bf/bfe245833a137c38594f272c6e8029e3.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/25/25b60c1e8e2f40afb1167b468b54d2e3.jpg',
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/63/63772f89215537aab7ba4e169b5ab49a.jpg',
+            },
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/b9/b917c1b094785a9154180daeb6f22c47.jpg',
+            },
+            {
+                id: 5,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/29/2973cbcd894d8e015b89d31f0c2bc4bc.jpg',
+            }
+        ],
+        completedProjects: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/94/945716783a92c729e62d44a2215fc621.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/4b/4ba3d9f4c86dc696fb6eb4b1a8ca1534.jpg',
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/a8/a81e78eb37068659d92ae64b076d3e45.jpg',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Teshavoy Abdullayev',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Boltavoy Jabborov',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Qo'chqorbek",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            }
+        ],
+        pieces: [
+            {
+                id: 1,
+                type: 'Yon stol bilan yon stol',
+                size: '180x97x75 sm',
+                currentPrice: 4810000,
+                oldprice: false,
+            },
+            {
+                id: 2,
+                type: 'CPU stend',
+                size: '120x80x75 sm',
+                currentPrice: 3908700,
+                oldprice: 2200000,
+            },
+            {
+                id: 3,
+                type: 'Org pastki minora',
+                size: '40x65x77 sm',
+                currentPrice: 936500,
+                oldprice: false,
+            },
+            {
+                id: 4,
+                type: 'Eshikli past shkaf',
+                size: '72x36x183 sm',
+                currentPrice: 4536000,
+                oldprice: false,
+            },
+            {
+                id: 5,
+                type: 'Javonli past shkaf',
+                size: '72x36x183 sm',
+                currentPrice: 243000,
+                oldprice: 310300,
+            },
+            {
+                id: 6,
+                type: "Yuqori kombinatsiyalangan shkaf",
+                size: '65x80x77 sm',
+                currentPrice: 831000,
+                oldprice: false,
+            },
+            {
+                id: 7,
+                type: "Baland shkaf",
+                size: '65x40x77 sm',
+                currentPrice: 2845000,
+                oldprice: false,
+            },
+        ]
+    },
+    {
+        id: 11,
+        productId: 209748,
+        type: 'Xodimlarlar uchun',
+        productTitle: 'Xodimlar uchun mebel Drive plus',
+        order: false,
+        new: true,
+        akciya: false,
+        available: true,
+        description: `Drive seriyasidan o'zgartiriladigan jadvallar turli vazifalar uchun xonani va ish joyini tezda qayta jihozlash qobiliyati muhim ahamiyatga ega bo'lgan ofislar va birgalikda ish joylari uchun mos keladi. To'plam stol usti va ramkalar uchun keng o'lchamdagi ikkita modelni o'z ichiga oladi. Seriyaning rangli echimlari - oltita yog'och to'qimalari va ikkita monokolor "oq" va "bej" - har qanday interyerga mos keladigan stollarni tanlash imkonini beradi.`,
+        details: {
+            country: [
+                {
+                    id: 1,
+                    name: 'Turkiaya',
+                }
+            ],
+            material: [
+                {
+                    id: 1,
+                    name: 'LDSP',
+                },
+                {
+                    id: 2,
+                    name: 'material ramka',
+                },
+            ],
+            thickness: '2,4',
+            color: [
+                {
+                    id: 1,
+                    name: "Artemsi qarg'ay",
+                },
+                {
+                    id: 2,
+                    name: "qora qarg'ay",
+                },
+                {
+                    id: 3,
+                    name: 'Kulrang tosh',
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/18/181e148e90dd27cea5645e50871a4c71.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/21/210c9064dcef590efc033cc2f46cfe93.jpg',
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/f1/f1d66b6f827dfa2eebdd380b6dd80865.jpg',
+            },
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/c0/c0db28cb782f3351363722a5add9ae57.jpg',
+            }
+        ],
+        completedProjects: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/e1/e13edec1f1e5fa760c479d39c49761c4.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/e1/e177cbdc71986ddf32c1ee4ba654c040.jpg',
+            },
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Teshavoy Abdullayev',
+                rating: 2,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Boltavoy Jabborov',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Qo'chqorbek",
+                rating: 3,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            }
+        ],
+        pieces: [
+            {
+                id: 1,
+                type: "Ko'taruvchi metall ramka",
+                size: '135x68x113,5 sm',
+                currentPrice: 6810000,
+                oldprice: false,
+            },
+            {
+                id: 2,
+                type: 'Lyukli tekis stol usti',
+                size: '140x70x2,5 sm',
+                currentPrice: 612800,
+                oldprice: 2200000,
+            },
+            {
+                id: 3,
+                type: 'Tizim bloki uchun osilgan stend',
+                size: '26x50x60 sm',
+                currentPrice: 312000,
+                oldprice: false,
+            },
+            {
+                id: 4,
+                type: "Ko'tarish kabel kanali H",
+                size: '72,5 sm',
+                currentPrice: 2170000,
+                oldprice: false,
+            },
+            {
+                id: 5,
+                type: 'Stol ustiga mahkamlangan mato ekrani',
+                size: '130x2,6x45 sm',
+                currentPrice: 663000,
+                oldprice: false,
+            }
+        ]
+    },
+    {
+        id: 12,
+        productId: 209749,
+        type: 'Xodimlarlar uchun',
+        productTitle: 'Xodimlar uchun mebel Flex',
+        order: false,
+        new: false,
+        akciya: true,
+        available: true,
+        description: `Flex mebel kolleksiyasi ofisingiz uchun zamonaviy va ishonchli yechimdir. Ushbu seriyadagi modellar hamma uchun mos keladi: tadbirkorlik faoliyatini yaqinda boshlagan va bozorga kirgan korxonalar uchun ham, ko'p yillar davomida biznes bilan shug'ullanadigan boshqa kompaniyalar uchun ham. To'plamda shkaflar, shkaflar, stollar va boshqa mebellarning turli modellari mavjud. Turli xil ranglar va o'lchamlar, burchak ostida joylashgan tayanchlar - bu Flex seriyasining o'ziga xos xususiyatlari. Mahsulotlarning keng assortimenti tufayli siz saqlash tizimlarining deyarli har qanday kombinatsiyasini yaratishingiz mumkin.`,
+        details: {
+            country: [
+                {
+                    id: 1,
+                    name: 'Belarussiya',
+                }
+            ],
+            material: [
+                {
+                    id: 1,
+                    name: 'DSP',
+                },
+                {
+                    id: 2,
+                    name: 'melamin',
+                },
+                {
+                    id: 3,
+                    name: 'metall ramka',
+                },
+            ],
+            thickness: '2,5',
+            color: [
+                {
+                    id: 1,
+                    name: "Tabiiy hikor",
+                },
+                {
+                    id: 2,
+                    name: 'grafit',
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/4a/4af813d6fcc858935d6b99c3bbc4e623.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/e9/e9a02ce5d63edb1aa611e601d58c5c38.jpg',
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/e4/e447e7207a162643a6dfbba4b15257ed.jpg',
+            },
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: '	https://territory-office.ru/assets/thumbnails/ba/bab28218a6f2d0a25c08671efa6ad046.jpg',
+            },
+            {
+                id: 5,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/db/dbf9ab9a85e03c71230071e727764ce3.jpg',
+            },
+            {
+                id: 6,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/a9/a91dc17e0434e5e441a726c6b53dd797.jpg',
+            },
+        ],
+        completedProjects: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/23/23457294f21377fea77c71755f5bf9dd.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/64/648517833cd6d2afe15ae48394673afe.jpg',
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: '	https://territory-office.ru/assets/thumbnails/12/1210f9aac56906564f7c4fdc31c83c94.jpg',
+            },
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/3a/3adc7a6e421d13da4861de306b556c6b.jpg',
+            },
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Teshavoy Abdullayev',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Boltavoy Jabborov',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Qo'chqorbek",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 4,
+                userName: "Sarvinoz",
+                rating: 1,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 5,
+                userName: "Boltavoy Shermatov",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 6,
+                userName: "Qo'chqorbek Abulxalilov",
+                rating: 2,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 7,
+                userName: "Madina",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            }
+        ],
+        pieces: [
+            {
+                id: 1,
+                type: 'Stol',
+                size: '180x97x75 sm',
+                currentPrice: 810000,
+                oldprice: false,
+            },
+            {
+                id: 2,
+                type: 'Old panel',
+                size: '120x80x75 sm',
+                currentPrice: 1130000,
+                oldprice: 2260000,
+            },
+            {
+                id: 3,
+                type: 'Osiladigan shkaf 1 tortma',
+                size: '40x65x77 sm',
+                currentPrice: 900000,
+                oldprice: false,
+            },
+            {
+                id: 4,
+                type: 'Kengaytma kabinetini oching',
+                size: '72x36x183 sm',
+                currentPrice: 2170000,
+                oldprice: false,
+            },
+            {
+                id: 5,
+                type: 'Shkaf',
+                size: '72x36x183 sm',
+                currentPrice: 2430000,
+                oldprice: false,
+            },
+            {
+                id: 6,
+                type: "O'rtacha shkaf",
+                size: '65x80x77 sm',
+                currentPrice: 1420000,
+                oldprice: false,
+            },
+            {
+                id: 7,
+                type: "Yuqori kompozit shkaf",
+                size: '65x40x77 sm',
+                currentPrice: 3235000,
+                oldprice: false,
+            },
+        ]
+    },
+    {
+        id: 13,
+        productId: 209750,
+        type: 'Xodimlarlar uchun',
+        productTitle: 'Xodimlar uchun mebel Work plus',
+        order: false,
+        new: true,
+        akciya: false,
+        available: true,
+        description: `Xodimlar uchun mebel "Work" ofis jihozlarining eng zamonaviy va moda tendentsiyalarini birlashtiradi. Elementlarning funksionalligi hozirgi ofis ish sharoitlariga moslashtirilgan. Chiziqlarning ravshanligi va geometrikligi zamonaviy teksturalar bilan ta'kidlangan. Yaxshi o'ylangan modellar assortimenti ofis maydonining muhim qismini tartibga solishni ta'minlaydi: xodimlarning ish joylari, o'rta bo'g'in rahbarlarining ofislari, yig'ilish joylari va hatto ofis oshxonasi.`,
+        price: {
+            currentPrice: 2344001,
+            oldPrice: 3433733,
+        },
+        details: {
+            country: [
+                {
+                    id: 1,
+                    name: 'Rossiya',
+                },
+            ],
+            material: [
+                {
+                    id: 1,
+                    name: 'LDSP',
+                },
+            ],
+            thickness: '1,8',
+            color: [
+                {
+                    id: 1,
+                    name: 'Sanoma eman',
+                },
+                {
+                    id: 2,
+                    name: 'Mocha, qizil tulki',
+                },
+                {
+                    id: 3,
+                    name: 'mocha',
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/20/20cc29ec2c85d189e5c5c5d6f7408dcd.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/23/2370d2842a2377278d29ed7d0a7439f4.jpg',
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/9f/9f72a40371278d65c3f19f7a17232770.jpg',
+            },
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/4d/4d3dbc44d1722a454d7860a9dbc82d03.jpg',
+            },
+            {
+                id: 5,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/df/dffc21dc1c819112413d35589a78e960.jpg',
+            },
+            {
+                id: 6,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/cc/cc2bac92a88db306218426f90beede7a.jpg',
+            },
+        ],
+        completedProjects: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/df/df028bc620c206594c7aebd38776adbb.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/cb/cb978875bce2b96733effb7a08c37090.jpg',
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/47/47a5d0c95ebe2fb4d3b6955ee44e2ecb.jpg',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Madinaxon Asadullayeva',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            }
+        ],
+        pieces: [
+            {
+                id: 1,
+                type: 'Ergonomik stol R/L',
+                size: '180x97x75 sm',
+                currentPrice: 810000,
+                oldprice: false,
+            },
+            {
+                id: 2,
+                type: 'Bishilka',
+                size: '120x80x75 sm',
+                currentPrice: 1130000,
+                oldprice: 2200000,
+            },
+            {
+                id: 3,
+                type: 'Usti bilan yon stol',
+                size: '40x65x77 sm',
+                currentPrice: 900000,
+                oldprice: false,
+            },
+            {
+                id: 4,
+                type: 'Hujjatlar kabineti',
+                size: '72x36x183 sm',
+                currentPrice: 2170000,
+                oldprice: false,
+            },
+            {
+                id: 5,
+                type: 'Shkaf',
+                size: '72x36x183 sm',
+                currentPrice: 2430000,
+                oldprice: false,
+            },
+            {
+                id: 6,
+                type: "Statsionar yordam haqida qisqacha ma'lumot",
+                size: '65x80x77 sm',
+                currentPrice: 1420000,
+                oldprice: false,
+            },
+            {
+                id: 7,
+                type: "Statsionar qo'llab-quvvatlash bilan biriktirma",
+                size: '65x40x77 sm',
+                currentPrice: 3235000,
+                oldprice: false,
+            },
+            {
+                id: 8,
+                type: "Tor baland tokcha",
+                size: '36x36x183 sm',
+                currentPrice: 4530000,
+                oldprice: false,
+            },
+        ]
+    },
+    {
+        id: 14,
+        productId: 209751,
+        type: 'Xodimlarlar uchun',
+        productTitle: 'Xodimlar uchun mebel New Target',
+        order: true,
+        new: true,
+        akciya: true,
+        available: true,
+        description: `TARGET to'plami har qanday darajadagi kompaniyalarda xodimlar uchun qulay ish joylarini tashkil qilish imkonini beradi va ideal ofisni yaratish uchun ajoyib imkoniyatlar yaratadi. Chiroyli ish stoli ekranlari ish stantsiyalarini zonalash imkonini beradi va diqqatni jamlashga yordam beradi, qulay, ishbilarmonlik muhitini yaratadi. Yig'ish liniyasi xodimlarga qulaylikni ta'minlaydigan va har qanday dizayn muammosini hal qilishga imkon beruvchi xodimlar uchun stollar, yig'ilish stollari, mobil shkaflar, shkaflar, javonlar va boshqa modulli elementlarning katta tanlovini o'z ichiga oladi.`,
+        details: {
+            country: [
+                {
+                    id: 1,
+                    name: 'Rossiya',
+                },
+                {
+                    id: 2,
+                    name: 'Turkiya',
+                }
+            ],
+            material: [
+                {
+                    id: 1,
+                    name: 'LDSP',
+                },
+                {
+                    id: 2,
+                    name: 'ABS qirrasi',
+                },
+                {
+                    id: 3,
+                    name: 'metall ramka',
+                },
+            ],
+            thickness: '2,6',
+            color: [
+                {
+                    id: 1,
+                    name: "oq",
+                },
+                {
+                    id: 2,
+                    name: 'rover oq + oqish',
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/f2/f22c86149ae251e4b4b2a3b8a165166e.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/07/07374f7038757d6b30ac5d57237f8cb4.jpg',
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/a0/a062683855ad3b451361ebd000d05619.jpg',
+            },
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/be/be7520658f0cad70e8e0a8e09348b708.jpg',
+            }
+        ],
+        completedProjects: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/07/07374f7038757d6b30ac5d57237f8cb4.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/07/07374f7038757d6b30ac5d57237f8cb4.jpg',
+            }
+        ],
+        reviews: [],
+        pieces: [
+            {
+                id: 1,
+                type: 'Stol',
+                size: '120x70x75 sm',
+                currentPrice: 1410400,
+                oldprice: false,
+            },
+            {
+                id: 2,
+                type: 'Xizmat kabineti',
+                size: '120x52x61,2 sm',
+                currentPrice: 1415400,
+                oldprice: false,
+            },
+            {
+                id: 3,
+                type: 'Yuqori tortmasidagi qulfli mobil shkaf',
+                size: '45,2x47,4x58,5 sm',
+                currentPrice: 780700,
+                oldprice: false,
+            },
+            {
+                id: 4,
+                type: 'Hujjatlar kabineti',
+                size: '80x36x185 sm',
+                currentPrice: 871000,
+                oldprice: false,
+            },
+            {
+                id: 5,
+                type: 'Shkaf',
+                size: '80x36x185 sm',
+                currentPrice: 2430000,
+                oldprice: false,
+            },
+            {
+                id: 6,
+                type: "Stol tokchasi",
+                size: '35x110x110 sm',
+                currentPrice: 1420000,
+                oldprice: false,
+            }
+        ]
+    },
+    {
+        id: 15,
+        productId: 209752,
+        type: 'Xodimlarlar uchun',
+        productTitle: 'Xodimlar uchun mebel Tour Wood',
+        order: true,
+        new: false,
+        akciya: false,
+        available: true,
+        description: `Zamonaviy Tour Wood kolleksiyasi jozibali ko'rinishning benuqson pardozlash sifati bilan o'ziga xos kombinatsiyasidir. Ishlab chiqishda so'nggi dizayn ishlanmalaridan foydalanish ish joylarini ergonomika va qulaylik bilan ta'minlaydi. To'plam assortimenti foydalanishda o'zini isbotlagan turli xil narsalarni birlashtirish uchun turli xil variantlarni o'z ichiga oladi.`,
+        details: {
+            country: [
+                {
+                    id: 1,
+                    name: 'Belarussiya',
+                }
+            ],
+            material: [
+                {
+                    id: 1,
+                    name: 'LDSP',
+                },
+                {
+                    id: 2,
+                    name: 'melamin',
+                },
+            ],
+            thickness: '2,5',
+            color: [
+                {
+                    id: 1,
+                    name: "oq",
+                },
+                {
+                    id: 2,
+                    name: 'antrasit, oq',
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/0a/0a09e649e69747b2eec20075627d44ad.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/0a/0a09e649e69747b2eec20075627d44ad.jpg',
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: '	https://territory-office.ru/assets/thumbnails/cc/cc3bb0f3642c44391000b0a17de184a0.jpg',
+            },
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/70/7027f11799fc6902a023cf0b7a302e72.jpg',
+            },
+            {
+                id: 5,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/75/75f94c66e31bcab2ca13c9c10b5ded97.jpg',
+            },
+            {
+                id: 6,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/b4/b400744f9d847d2fc96c3d5829d13604.jpg',
+            },
+        ],
+        completedProjects: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/19/1908a50eed16601607cf5a9b5a6168fc.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/8e/8e501c9ae6e1ddf22665992513f5958e.jpg',
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/ed/edbf228981dd5d6154d10b0d0d0c28b1.jpg',
+            },
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/2d/2d499a6e5b148be0e0b28802b7a75cf9.jpg',
+            },
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Teshavoy Abdullayev',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Boltavoy Jabborov',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Qo'chqorbek",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 4,
+                userName: "Sarvinoz",
+                rating: 1,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            }
+        ],
+        pieces: [
+            {
+                id: 1,
+                type: "2 ish o'rinli stol",
+                size: '138x138x75 sm',
+                currentPrice: 2810400,
+                oldprice: 3202000,
+            },
+            {
+                id: 2,
+                type: 'Jadval ekrani',
+                size: '132x1,8x37 sm',
+                currentPrice: 496070,
+                oldprice: false,
+            },
+            {
+                id: 3,
+                type: 'Osiladigan shkaf, 1 tortma',
+                size: '40x50x29 sm',
+                currentPrice: 549200,
+                oldprice: false,
+            },
+            {
+                id: 4,
+                type: 'Tokcha',
+                size: '145x40x112 sm',
+                currentPrice: 2931000,
+                oldprice: false,
+            }
+        ]
+    },
+    {
+        id: 16,
+        productId: 209753,
+        type: 'Xodimlarlar uchun',
+        productTitle: 'Xodimlar uchun mebel Gamma direct',
+        order: false,
+        new: false,
+        akciya: false,
+        available: true,
+        description: `"Gamma" to'plamining yagona uslubli yechimi, shakl va funksionallikning nafis soddaligi zamonaviy katta ofisda ham, kichik xonalarda ham dinamik interyer yaratish uchun keng imkoniyatlar yaratadi. Seriyaning model diapazoni ish stantsiyalari va saqlash tizimlarining ko'plab kombinatsiyalarini yaratishga imkon beradi.`,
+        price: {
+            currentPrice: 2144000,
+            oldPrice: false,
+        },
+        details: {
+            country: [
+                {
+                    id: 1,
+                    name: 'Rossiya',
+                },
+            ],
+            material: [
+                {
+                    id: 1,
+                    name: 'LDSP',
+                },
+                {
+                    id: 2,
+                    name: 'Metall ramka',
+                },
+            ],
+            thickness: '1,8',
+            color: [
+                {
+                    id: 1,
+                    name: "Artemsi yong'oq",
+                },
+                {
+                    id: 2,
+                    name: 'Bej, oqartirilgan eman',
+                },
+                {
+                    id: 3,
+                    name: 'Bej',
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/26/26697600b8375080d92fa76e7c0436d1.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/2f/2f2ea5675e5fbef463e6b788d0273f12.jpg',
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/2b/2b6ce4dced3de7d6d79cf51f43aed520.jpg',
+            },
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/9f/9f72a40371278d65c3f19f7a17232770.jpg',
+            },
+            {
+                id: 5,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/62/6237f86611ed6a89de5aad7060b8f21a.jpg',
+            },
+            {
+                id: 6,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/bc/bc931056ec8cdbb46703fa1ad1d2a366.jpg',
+            },
+        ],
+        completedProjects: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/24/2436e932f03847c299fd1fa0324a2758.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/df/df028bc620c206594c7aebd38776adbb.jpg',
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/c1/c14f99755455992a1202378952af613f.jpg',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Teshavoy Abdullayev',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Boltavoy Jabborov',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Qo'chqorbek",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 4,
+                userName: "Sarvinoz",
+                rating: 1,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 5,
+                userName: "Boltavoy Shermatov",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 6,
+                userName: "Qo'chqorbek Abulxalilov",
+                rating: 2,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 7,
+                userName: "Madina",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 8,
+                userName: "Shaxlo Egamberdiyeva",
+                rating: 2,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 9,
+                userName: "Davlatmurod",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 10,
+                userName: "Azizaxon",
+                rating: 3,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 11,
+                userName: "Anonym",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 12,
+                userName: "Kamron Qahhorov",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 13,
+                userName: "Azizbek",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 14,
+                userName: "Yaxyobek",
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+        ],
+        pieces: [
+            {
+                id: 1,
+                type: 'Metall ramka ustidagi ergonomik stol R/L',
+                size: '180x97x75 sm',
+                currentPrice: 810000,
+                oldprice: false,
+            },
+            {
+                id: 2,
+                type: 'Usti bilan yon stol',
+                size: '120x80x75 sm',
+                currentPrice: 1130000,
+                oldprice: 2200000,
+            },
+            {
+                id: 3,
+                type: 'Rak',
+                size: '40x65x77 sm',
+                currentPrice: 900000,
+                oldprice: false,
+            },
+            {
+                id: 4,
+                type: 'Tokcha',
+                size: '72x36x183 sm',
+                currentPrice: 2170000,
+                oldprice: false,
+            },
+            {
+                id: 5,
+                type: 'Pastki shkaf',
+                size: '72x36x183 sm',
+                currentPrice: 2430000,
+                oldprice: false,
+            },
+            {
+                id: 6,
+                type: "Qahva stoli",
+                size: '65x80x77 sm',
+                currentPrice: 1420000,
+                oldprice: false,
+            },
+            {
+                id: 7,
+                type: "Tizim bloki uchun stend",
+                size: '65x40x77 sm',
+                currentPrice: 3235000,
+                oldprice: false,
+            },
+        ]
+    },
+]

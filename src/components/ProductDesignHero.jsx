@@ -299,7 +299,7 @@ const ProductDesignHero = () => {
                                                                     }
                                                                     <p className="text-regular-16">{part.currentPrice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}so'm</p>
                                                                 </div>
-                                                            </div>
+                                                            </div>  
 
                                                         </li>
                                                     )
