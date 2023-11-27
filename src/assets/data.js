@@ -2026,7 +2026,7 @@ export const cabinetProductsForManagers = [
                 alt: 'furniture image',
                 img: 'https://territory-office.ru/assets/thumbnails/f6/f6cb3be9626a9a5eb2647664cfdd2a51.jpg',
             },
-            
+
         ],
         completedProjects: [
             {
@@ -2705,7 +2705,7 @@ export const cabinetProductsForManagers = [
                 rating: 2,
                 body: 'Yoqmadi',
             },
-            
+
         ],
         pieces: [
             {

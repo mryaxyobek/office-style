@@ -23,14 +23,34 @@ import { Autoplay, EffectFade, Navigation, Pagination } from 'swiper/modules';
 
 const ProductDesignHero = () => {
     const { productName } = useParams();
+
     const allProducts = [...cabinetProductsForManagers];
+
     const product = allProducts.find((product) => productName === product.productTitle.toLowerCase().replace(/\s+/g, '-'));
-    console.log(product);
-    let [count1, changeCount1] = useState(1);
-    let [count2, changeCount2] = useState(1);
-    let [count3, changeCount3] = useState(1);
-    let [count4, changeCount4] = useState(1);
-    let [count5, changeCount5] = useState(1);
+
+    const [productParts, setProductParts] = useState([...product.pieces.map(item => ({ ...item, count: 1 }))]);
+
+
+    const decrementCount = (index) => {
+        const updatedProductParts = [...productParts]
+        updatedProductParts[index].count = Math.max(0, updatedProductParts[index].count - 1);
+        setProductParts(updatedProductParts);
+    };
+
+    const incrementCount = (index) => {
+        const updatedProductParts = [...productParts];
+        updatedProductParts[index].count++;
+        setProductParts(updatedProductParts);
+    };
+
+
+    // total price
+
+    let totalPrice = 0;
+    productParts.forEach((part) => {
+        totalPrice += part.count * part.currentPrice;
+    });
+
 
     // for rating 
     let averageValue = 0;
@@ -63,7 +83,7 @@ const ProductDesignHero = () => {
             <div className="container">
                 {
                     product ?
-                        <div key={product.id}>
+                        <div>
                             {/* breadcrumb */}
                             < ul className="breadcrumb">
                                 <li>
@@ -255,130 +275,36 @@ const ProductDesignHero = () => {
                                     {/* list wrapper */}
                                     <div>
                                         <ul className="mb-4">
-                                            <li className="flex-c-b gap-5 py-2 border-b border-primary-gray-20 first:border-t text-regular-16 text-primary-gray-70 max-470:items-stretch">
+                                            {
+                                                productParts.map((part, index) => {
+                                                    return (
+                                                        <li key={part.id} className="flex-c-b gap-5 py-2 border-b border-primary-gray-20 first:border-t text-regular-16 text-primary-gray-70 max-470:items-stretch">
 
-                                                <div className='flex-center gap-1 max-470:flex-col max-470:items-start max-470:gap-3'>
-                                                    <span className="flex justify-center min-w-28px max-640:min-w-24px w-7 leading-5 max-470:border max-470:rounded-full max-470:w-6 max-470:h-6 max-470:mb-auto border-primary-gray-50 max-470:items-center">{product.pieces[0].id}</span>
-                                                    <span>{product.pieces[0].type} {product.pieces[0].size}</span>
-                                                </div>
+                                                            <div className='flex-center gap-1 max-470:flex-col max-470:items-start max-470:gap-3'>
+                                                                <span className="flex justify-center min-w-28px max-640:min-w-24px w-7 leading-5 max-470:border max-470:rounded-full max-470:w-6 max-470:h-6 max-470:mb-auto border-primary-gray-50 max-470:items-center">{part.id}</span>
+                                                                <span>{part.type} {part.size}</span>
+                                                            </div>
 
-                                                <div className='flex-c-b gap-1 max-w-230px w-full min-w-230px max-470:flex-col max-470:min-w-120px max-470:max-w-120px max-470:items-end'>
-                                                    <div className="flex-center">
-                                                        <button disabled={count1 === 0} onClick={() => changeCount1(count1 - 1)} className="red-btn !bg-primary-red-50 disabled:!bg-primary-gray-10 disabled:text-secondary-blue-70 rounded w-8 h-8">-</button>
-                                                        <span className='flex-center justify-center text-black w-5 mx-2'>{count1}</span>
-                                                        <button disabled={count1 === 99} onClick={() => changeCount1(count1 + 1)} className="red-btn !bg-primary-red-50 rounded w-8 h-8 disabled:!bg-primary-gray-10 disabled:text-secondary-blue-70">+</button>
-                                                    </div>
+                                                            <div className='flex-c-b gap-1 max-w-230px w-full min-w-230px max-470:flex-col max-470:min-w-120px max-470:max-w-120px max-470:items-end'>
+                                                                <div className="flex-center">
+                                                                    <button onClick={() => decrementCount(index)} className="red-btn !bg-primary-red-50 disabled:!bg-primary-gray-10 disabled:text-secondary-blue-70 rounded w-8 h-8">-</button>
+                                                                    <span className='flex-center justify-center text-black w-5 mx-2'>{part.count}</span>
+                                                                    <button onClick={() => incrementCount(index)} className="red-btn !bg-primary-red-50 rounded w-8 h-8 disabled:!bg-primary-gray-10 disabled:text-secondary-blue-70">+</button>
+                                                                </div>
 
-                                                    <div className="space-y-1">
-                                                        {
-                                                            product.pieces[0].oldprice &&
-                                                            <del className="text-regular-12 text-primary-gray-50">{product.pieces[0].oldprice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}so'm</del>
-                                                        }
-                                                        <p className="text-regular-16">{product.pieces[0].currentPrice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}so'm</p>
-                                                    </div>
-                                                </div>
+                                                                <div className="space-y-1">
+                                                                    {
+                                                                        part.oldprice &&
+                                                                        <del className="text-regular-12 text-primary-gray-50">{product.pieces[0].oldprice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}so'm</del>
+                                                                    }
+                                                                    <p className="text-regular-16">{part.currentPrice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}so'm</p>
+                                                                </div>
+                                                            </div>
 
-                                            </li>
-
-                                            <li className="flex-c-b gap-5 py-2 border-b border-primary-gray-20 first:border-t text-regular-16 text-primary-gray-70 max-470:items-stretch">
-
-                                                <div className='flex-center gap-1 max-470:flex-col max-470:items-start max-470:gap-3'>
-                                                    <span className="flex justify-center max-640:min-w-24px min-w-28px max-640:min-w-24px w-7 leading-5 max-470:border max-470:rounded-full max-470:w-6 max-470:h-6 max-470:mb-auto border-primary-gray-50 max-470:items-center">{product.pieces[1].id}</span>
-                                                    <span>{product.pieces[1].type} {product.pieces[1].size}</span>
-                                                </div>
-
-                                                <div className='flex-c-b gap-1 max-w-230px w-full min-w-230px max-470:flex-col max-470:min-w-120px max-470:max-w-120px max-470:items-end'>
-                                                    <div className="flex-center">
-                                                        <button disabled={count2 === 0} onClick={() => changeCount2(count2 - 1)} className="red-btn !bg-primary-red-50 disabled:!bg-primary-gray-10 disabled:text-secondary-blue-70 rounded w-8 h-8">-</button>
-                                                        <span className='flex-center justify-center text-black w-5 mx-2'>{count2}</span>
-                                                        <button disabled={count2 === 99} onClick={() => changeCount2(count2 + 1)} className="red-btn !bg-primary-red-50 rounded w-8 h-8 disabled:!bg-primary-gray-10 disabled:text-secondary-blue-70">+</button>
-                                                    </div>
-
-                                                    <div className="space-y-1">
-                                                        {
-                                                            product.pieces[1].oldprice &&
-                                                            <del className="text-regular-12 text-primary-gray-50">{product.pieces[1].oldprice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}so'm</del>
-                                                        }
-                                                        <p className="text-regular-16">{product.pieces[1].currentPrice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}so'm</p>
-                                                    </div>
-                                                </div>
-
-                                            </li>
-
-                                            <li className="flex-c-b gap-5 py-2 border-b border-primary-gray-20 first:border-t text-regular-16 text-primary-gray-70 max-470:items-stretch">
-
-                                                <div className='flex-center gap-1 max-470:flex-col max-470:items-start max-470:gap-3'>
-                                                    <span className="flex justify-center max-640:min-w-24px w-7 leading-5 max-470:border max-470:rounded-full max-470:w-6 max-470:h-6 max-470:mb-auto border-primary-gray-50 max-470:items-center">{product.pieces[2].id}</span>
-                                                    <span>{product.pieces[2].type} {product.pieces[2].size}</span>
-                                                </div>
-
-                                                <div className='flex-c-b gap-1 max-w-230px w-full min-w-230px max-470:flex-col max-470:min-w-120px max-470:max-w-120px max-470:items-end'>
-                                                    <div className="flex-center">
-                                                        <button disabled={count3 === 0} onClick={() => changeCount3(count3 - 1)} className="red-btn !bg-primary-red-50 disabled:!bg-primary-gray-10 disabled:text-secondary-blue-70 rounded w-8 h-8">-</button>
-                                                        <span className='flex-center justify-center text-black w-5 mx-2'>{count3}</span>
-                                                        <button disabled={count3 === 99} onClick={() => changeCount3(count3 + 1)} className="red-btn !bg-primary-red-50 rounded w-8 h-8 disabled:!bg-primary-gray-10 disabled:text-secondary-blue-70">+</button>
-                                                    </div>
-
-                                                    <div className="space-y-1">
-                                                        {
-                                                            product.pieces[2].oldprice &&
-                                                            <del className="text-regular-12 text-primary-gray-50">{product.pieces[2].oldprice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}so'm</del>
-                                                        }
-                                                        <p className="text-regular-16">{product.pieces[2].currentPrice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}so'm</p>
-                                                    </div>
-                                                </div>
-
-                                            </li>
-
-                                            <li className="flex-c-b gap-5 py-2 border-b border-primary-gray-20 first:border-t text-regular-16 text-primary-gray-70 max-470:items-stretch">
-
-                                                <div className='flex-center gap-1 max-470:flex-col max-470:items-start max-470:gap-3'>
-                                                    <span className="flex justify-center max-640:min-w-24px w-7 leading-5 max-470:border max-470:rounded-full max-470:w-6 max-470:h-6 max-470:mb-auto border-primary-gray-50 max-470:items-center">{product.pieces[3].id}</span>
-                                                    <span>{product.pieces[3].type} {product.pieces[3].size}</span>
-                                                </div>
-
-                                                <div className='flex-c-b gap-1 max-w-230px w-full min-w-230px max-470:flex-col max-470:min-w-120px max-470:max-w-120px max-470:items-end'>
-                                                    <div className="flex-center">
-                                                        <button disabled={count4 === 0} onClick={() => changeCount4(count4 - 1)} className="red-btn !bg-primary-red-50 disabled:!bg-primary-gray-10 disabled:text-secondary-blue-70 rounded w-8 h-8">-</button>
-                                                        <span className='flex-center justify-center text-black w-5 mx-2'>{count4}</span>
-                                                        <button disabled={count4 === 99} onClick={() => changeCount4(count4 + 1)} className="red-btn !bg-primary-red-50 rounded w-8 h-8 disabled:!bg-primary-gray-10 disabled:text-secondary-blue-70">+</button>
-                                                    </div>
-
-                                                    <div className="space-y-1">
-                                                        {
-                                                            product.pieces[3].oldprice &&
-                                                            <del className="text-regular-12 text-primary-gray-50">{product.pieces[3].oldprice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}so'm</del>
-                                                        }
-                                                        <p className="text-regular-16">{product.pieces[3].currentPrice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}so'm</p>
-                                                    </div>
-                                                </div>
-
-                                            </li>
-
-                                            <li className="flex-c-b gap-5 py-2 border-b border-primary-gray-20 first:border-t text-regular-16 text-primary-gray-70 max-470:items-stretch">
-
-                                                <div className='flex-center gap-1 max-470:flex-col max-470:items-start max-470:gap-3'>
-                                                    <span className="flex justify-center max-640:min-w-24px w-7 leading-5 max-470:border max-470:rounded-full max-470:w-6 max-470:h-6 max-470:mb-auto border-primary-gray-50 max-470:items-center">{product.pieces[4].id}</span>
-                                                    <span>{product.pieces[4].type} {product.pieces[4].size}</span>
-                                                </div>
-
-                                                <div className='flex-c-b gap-1 max-w-230px w-full min-w-230px max-470:flex-col max-470:min-w-120px max-470:max-w-120px max-470:items-end'>
-                                                    <div className="flex-center">
-                                                        <button disabled={count5 === 0} onClick={() => changeCount5(count5 - 1)} className="red-btn !bg-primary-red-50 disabled:!bg-primary-gray-10 disabled:text-secondary-blue-70 rounded w-8 h-8">-</button>
-                                                        <span className='flex-center justify-center text-black w-5 mx-2'>{count5}</span>
-                                                        <button disabled={count5 === 99} onClick={() => changeCount5(count5 + 1)} className="red-btn !bg-primary-red-50 rounded w-8 h-8 disabled:!bg-primary-gray-10 disabled:text-secondary-blue-70">+</button>
-                                                    </div>
-
-                                                    <div className="space-y-1">
-                                                        {
-                                                            product.pieces[4].oldprice &&
-                                                            <del className="text-regular-12 text-primary-gray-50">{product.pieces[4].oldprice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}so'm</del>
-                                                        }
-                                                        <p className="text-regular-16">{product.pieces[4].currentPrice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}so'm</p>
-                                                    </div>
-                                                </div>
-
-                                            </li>
+                                                        </li>
+                                                    )
+                                                })
+                                            }
                                         </ul>
 
                                         {/* total price */}
@@ -388,15 +314,7 @@ const ProductDesignHero = () => {
                                                 <p className="flex-end space-x-2">
                                                     <span className="inline-block text-regular-28">
                                                         {
-                                                            `${count1 * product.pieces[0].currentPrice
-                                                                +
-                                                                count2 * product.pieces[1].currentPrice
-                                                                +
-                                                                count3 * product.pieces[2].currentPrice
-                                                                +
-                                                                count4 * product.pieces[3].currentPrice
-                                                                +
-                                                                count5 * product.pieces[4].currentPrice}`.replace(/\B(?=(\d{3})+(?!\d))/g, ".")
+                                                            totalPrice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")
                                                         }
                                                         <span className="inline-block text-regular-16 ml-1">so'm</span>
                                                     </span>
@@ -406,7 +324,7 @@ const ProductDesignHero = () => {
 
                                         {/* buttons  */}
                                         <div className="flex justify-end gap-6 text-regular-16 max-540:flex-col">
-                                            <button disabled={count1 == 0 && count2 == 0 && count3 == 0 && count4 == 0 && count5 == 0} className="red-btn py-3.5 px-6 bg-primary-red-50 disabled:!bg-primary-gray-10 disabled:text-secondary-blue-70">Sotib olish</button>
+                                            <button disabled={totalPrice === 0} className="red-btn py-3.5 px-6 bg-primary-red-50 disabled:!bg-primary-gray-10 disabled:text-secondary-blue-70">Sotib olish</button>
                                             <button className="py-3.5 text-regular-14 px-6 text-primary-gray-90 rounded-lg border border-primary-gray-50">Bepul dizayn eskiziga zakaz berish</button>
                                         </div>
                                     </div>
