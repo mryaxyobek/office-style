@@ -934,7 +934,12 @@ export const cabinetProductsForManagers = [
         description: `Drive seriyasidan o'zgartiriladigan jadvallar turli vazifalar uchun xonani va ish joyini tezda qayta jihozlash qobiliyati muhim ahamiyatga ega bo'lgan ofislar va birgalikda ish joylari uchun mos keladi. To'plamda stol usti va ramkalar uchun keng o'lchamdagi ikkita model mavjud. Seriyaning rangli echimlari - oltita yog'och to'qimalari va ikkita monokolor "oq" va "bej" - har qanday interyerga mos keladigan stollarni tanlash imkonini beradi. Drive seriyasidan o'zgartiriladigan jadvallar turli vazifalar uchun xonani va ish joyini tezda qayta jihozlash qobiliyati muhim ahamiyatga ega bo'lgan ofislar va birgalikda ish joylari uchun mos keladi.To'plamda stol usti va ramkalar uchun keng o'lchamdagi ikkita model mavjud.Seriyaning rangli echimlari - oltita yog'och to'qimalari va ikkita monokolor "oq" va "bej" - har qanday interyerga mos keladigan stollarni tanlash imkonini beradi.`,
         details: {
             country: 'Turkiya',
-            material: 'LDSP',
+            material: [
+                {
+                    id: 1,
+                    name: 'LDSP',
+                }
+            ],
             thickness: '18',
             style: 'Zamonaviy',
             color: [
@@ -1074,7 +1079,12 @@ export const cabinetProductsForManagers = [
         Mebel engil va quyuq ranglardagi interyer uchun mahsulotlarni tanlash imkoniyati bilan bir nechta soyalarda taqdim etilgan. To'plamdagi jadvallarning xilma-xilligi an'anaviy tekis modellar, burchak, devor modullari va metall tayanchlardagi stollarni o'z ichiga oladi.`,
         details: {
             country: 'Rossiya',
-            material: 'LDSP',
+            material: [
+                {
+                    id: 1,
+                    name: 'LDSP',
+                }
+            ],
             thickness: '3.6',
             style: 'Zamonaviy',
             color: [
@@ -1151,7 +1161,7 @@ export const cabinetProductsForManagers = [
                 type: 'LT.A-16 Boshqaruv stoli',
                 size: '160x90x75 sm',
                 currentPrice: 2857000,
-                oldprice: false,
+                oldprice: 3196700,
             },
             {
                 id: 2,
@@ -1195,7 +1205,16 @@ export const cabinetProductsForManagers = [
         description: `Fermo Wood boshqaruv idorasi zamonaviy, oqlangan va xavfsizdir. Arzon ofis mebellari segmentidagi eng yaxshi variantlardan biri uzoq vaqtdan beri mos narxni saqlab, maksimal darajada olishni afzal ko'rgan mijozlar tomonidan yaxshi ko'rilgan. To'plam eng mashhur ranglarni o'z ichiga oladi. Ushbu soyalar klassikadan zamonaviygacha har qanday uslubga mos keladi..`,
         details: {
             country: 'Involus(Belarussiya)',
-            material: 'DSP / melamin',
+            material: [
+                {
+                    id: 1,
+                    name: 'LDSP',
+                },
+                {
+                    id: 2,
+                    name: 'Melamin',
+                },
+            ],
             thickness: '3,8',
             style: 'Zamonaviy',
             color: [
@@ -1308,7 +1327,16 @@ export const cabinetProductsForManagers = [
         Barcha mebellar qayta ishlatilishi mumkin va osongina ko'chirilishi mumkin bo'lgan moslashuvchan ofis yaratish imkonini beradi.`,
         details: {
             country: 'Rossiya',
-            material: 'LDSP, Material',
+            material: [
+                {
+                    id: 1,
+                    name: 'LDSP',
+                },
+                {
+                    id: 2,
+                    name: 'Material',
+                },
+            ],
             thickness: '2.5',
             style: 'Zamonaviy',
             color: [
@@ -1469,8 +1497,17 @@ export const cabinetProductsForManagers = [
         available: true,
         description: `An'anaviy Torino ijroiya idorasi konservatizm bilan hurmatlilik va o'ziga ishonch uslubini anglatadi. Ushbu modelning mebellari ikkita rangda - qora va klassik yong'oqdan yasalgan bo'lib, yog'och teksturasini takrorlaydi. An'anaviy Torino ijroiya idorasi engil klassik uslub bo'lib, stollar, shkaflar va skameykalar dekorativ hoshiyalar bilan bezatilgan. Stol usti va usti ustidagi kattaroq chegaralar, qalinligi 67 mm. Model nafaqat estetika nuqtai nazaridan, balki funksionallik nuqtai nazaridan ham o'ylangan: keng shkaflar va tortmalar, shkaflar, qulay stol - Torino shkafi eng yaxshi ish sharoitlarini yaratadi.`,
         details: {
-            country: 'Rossiya/Italiya',
-            material: 'LDSP, MDF',
+            country: 'Italiya',
+            material: [
+                {
+                    id: 1,
+                    name: 'LDSP',
+                },
+                {
+                    id: 2,
+                    name: 'MDF',
+                },
+            ],
             thickness: '6,7',
             style: 'Klassik',
             color: [
@@ -1610,7 +1647,12 @@ export const cabinetProductsForManagers = [
         description: `Buyuk ijroiya idorasi hayotdan maksimal darajada foydalanishga odatlangan odam uchun ajoyib echimdir. Funktsional seriya ajoyib taassurot qoldiradi va birinchi daqiqalardanoq nafis chiziqli geometriyasi va silliq dizaynlari bilan o'ziga jalb qiladi. Katalog mijozlarning munosib sevgisidan zavqlanadigan eng mashhur ranglarni taqdim etadi. Ular, shuningdek, elementlarning yuqori ergonomikasini ham qadrlashadi. Maksimal qulaylik uchun har bir tafsilot o'ylab topilgan. Grand kolleksiyasining asosiy afzalligi modullilikdir. Bu shuni anglatadiki, har bir kishi o'z shaxsiy ehtiyojlariga moslashtirilgan ish joyini yaratishi mumkin.`,
         details: {
             country: 'Turkiya',
-            material: 'LDSP',
+            material: [
+                {
+                    id: 1,
+                    name: 'LDSP',
+                }
+            ],
             thickness: '3.2',
             style: 'Zamonaviy',
             color: [
@@ -1782,7 +1824,16 @@ export const cabinetProductsForManagers = [
         description: `Fermo Wood boshqaruv idorasi zamonaviy, oqlangan va xavfsizdir. Arzon ofis mebellari segmentidagi eng yaxshi variantlardan biri uzoq vaqtdan beri mos narxni saqlab, maksimal darajada olishni afzal ko'rgan mijozlar tomonidan yaxshi ko'rilgan. To'plam eng mashhur ranglarni o'z ichiga oladi. Ushbu soyalar klassikadan zamonaviygacha har qanday uslubga mos keladi..`,
         details: {
             country: 'Involus(Belarussiya)',
-            material: 'DSP / melamin',
+            material: [
+                {
+                    id: 1,
+                    name: 'DSP',
+                },
+                {
+                    id: 2,
+                    name: 'Melamin',
+                },
+            ],
             thickness: '3,8',
             style: 'Zamonaviy',
             color: [
@@ -1890,7 +1941,16 @@ export const cabinetProductsForManagers = [
         Funktsional ofis yechimi ikki turdagi stollarni, saqlash tizimlarining keng assortimentini va konferentsiya stollarini o'z ichiga oladi.`,
         details: {
             country: "O'zbekistion",
-            material: 'DSP / melamin',
+            material: [
+                {
+                    id: 1,
+                    name: 'DSP',
+                },
+                {
+                    id: 2,
+                    name: 'Melamin',
+                },
+            ],
             thickness: '3.8',
             style: 'Zamonaviy',
             color: [
@@ -2031,7 +2091,16 @@ export const cabinetProductsForManagers = [
         Stol ustilarining g'ayrioddiy shakllari va materiallari nafis tayanchlar va keraksiz tafsilotlarning yo'qligi bilan birgalikda ofisingizda yangi g'oyalarga ochiq bo'sh joy yaratishga imkon beradi.`,
         details: {
             country: 'Rossiya',
-            material: 'LDSP/MDF',
+            material: [
+                {
+                    id: 1,
+                    name: 'LDSP',
+                },
+                {
+                    id: 2,
+                    name: 'MDF',
+                },
+            ],
             thickness: '2.5',
             style: 'Yuqori texnologik',
             color: [
@@ -2166,7 +2235,16 @@ export const cabinetProductsForManagers = [
         Asl konferentsiya stollari va brifing konsollari ofisning umumiy ijodiy muhitiga juda mos keladi. Ularning dastgohlari ish stollarining sirtlari bilan bir xil materiallardan tayyorlangan - bu MDF issiqqa chidamli Feniks plastmassasi bilan qoplangan, kundalik foydalanishda juda bardoshli va aşınmaya bardoshli. Xodimlar va menejerlar uchun original stullar metall tayanchlarda konferentsiya stoli uchun ideal. Bosh suyagi bilan baland va qulay charm stullar menejerga ish orasidagi tanaffuslarda dam olishga imkon beradi.`,
         details: {
             country: 'Turkiya',
-            material: 'LDSP/MDF',
+            material: [
+                {
+                    id: 1,
+                    name: 'LDSP',
+                },
+                {
+                    id: 2,
+                    name: 'MDF',
+                },
+            ],
             thickness: '2.5',
             style: 'Zamonaviy',
             color: [
@@ -2273,7 +2351,12 @@ export const cabinetProductsForManagers = [
         Mebel engil va quyuq ranglardagi interyer uchun mahsulotlarni tanlash imkoniyati bilan bir nechta soyalarda taqdim etilgan. To'plamdagi jadvallarning xilma-xilligi an'anaviy tekis modellar, burchak, devor modullari va metall tayanchlardagi stollarni o'z ichiga oladi.`,
         details: {
             country: 'Rossiya',
-            material: 'LDSP',
+            material: [
+                {
+                    id: 1,
+                    name: 'LDSP',
+                }
+            ],
             thickness: '3.6',
             style: 'Zamonaviy',
             color: [
@@ -2395,7 +2478,12 @@ export const cabinetProductsForManagers = [
         Seriyaning asosiy elementi - dekorativ shpalli boshqaruvchi stoli - butun ofisning uslubini o'rnatadi. Yengil rangdagi "Elsa Oak" muzli shisha bilan birgalikda ichki qismni yorug' qiladi va olijanob "Paldao" ning rangli shisha bilan kombinatsiyasi barqarorlik va ishonchlilik hissini beradi.`,
         details: {
             country: 'Rossiya',
-            material: 'LDSP',
+            material: [
+                {
+                    id: 1,
+                    name: 'LDSP',
+                }
+            ],
             thickness: '4',
             style: 'Zamonaviy',
             color: [
@@ -2517,7 +2605,16 @@ export const cabinetProductsForManagers = [
         description: `Fermo Wood boshqaruv idorasi zamonaviy, oqlangan va xavfsizdir. Arzon ofis mebellari segmentidagi eng yaxshi variantlardan biri uzoq vaqtdan beri mos narxni saqlab, maksimal darajada olishni afzal ko'rgan mijozlar tomonidan yaxshi ko'rilgan. To'plam eng mashhur ranglarni o'z ichiga oladi. Ushbu soyalar klassikadan zamonaviygacha har qanday uslubga mos keladi..`,
         details: {
             country: "O'zbekiston / Andijan",
-            material: 'DSP / melamin',
+            material: [
+                {
+                    id: 1,
+                    name: 'LDSP',
+                },
+                {
+                    id: 2,
+                    name: 'Melamin',
+                },
+            ],
             thickness: '3,9',
             style: 'Zamonaviy',
             color: [
@@ -2630,7 +2727,12 @@ export const cabinetProductsForManagers = [
         Barcha mebellar qayta ishlatilishi mumkin va osongina ko'chirilishi mumkin bo'lgan moslashuvchan ofis yaratish imkonini beradi.`,
         details: {
             country: 'Ukraina',
-            material: 'Material',
+            material: [
+                {
+                    id: 1,
+                    name: 'Metall',
+                }
+            ],
             thickness: '2.5',
             style: 'Zamonaviy',
             color: [
@@ -2831,7 +2933,16 @@ export const cabinetProductsForManagers = [
         description: `An'anaviy Torino ijroiya idorasi konservatizm bilan hurmatlilik va o'ziga ishonch uslubini anglatadi. Ushbu modelning mebellari ikkita rangda - qora va klassik yong'oqdan yasalgan bo'lib, yog'och teksturasini takrorlaydi. An'anaviy Torino ijroiya idorasi engil klassik uslub bo'lib, stollar, shkaflar va skameykalar dekorativ hoshiyalar bilan bezatilgan. Stol usti va usti ustidagi kattaroq chegaralar, qalinligi 67 mm. Model nafaqat estetika nuqtai nazaridan, balki funksionallik nuqtai nazaridan ham o'ylangan: keng shkaflar va tortmalar, shkaflar, qulay stol - Torino shkafi eng yaxshi ish sharoitlarini yaratadi.`,
         details: {
             country: 'Rossiya',
-            material: 'LDSP, MDF',
+            material: [
+                {
+                    id: 1,
+                    name: 'LDSP',
+                },
+                {
+                    id: 2,
+                    name: 'MDF',
+                },
+            ],
             thickness: '5,6',
             style: 'Klassik',
             color: [
@@ -2976,6 +3087,12 @@ export const cabinetProductsForManagers = [
         details: {
             country: 'Belarussiya',
             material: 'LDSP',
+            material: [
+                {
+                    id: 1,
+                    name: 'LDSP',
+                }
+            ],
             thickness: '3.2',
             style: "O'rta daraja",
             color: [
@@ -5731,4 +5848,4 @@ export const furnitureForStaff = [
             },
         ]
     },
-]
+];

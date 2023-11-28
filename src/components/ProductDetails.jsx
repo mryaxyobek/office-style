@@ -53,7 +53,15 @@ const ProductDetails = () => {
                                 <ul className='max-w-5xl'>
                                     <li className="flex py-3 gap-5">
                                         <span className="text-primary-gray-70 w-1/2">Material</span>
-                                        <span className='w-1/2'>{product.details.material}</span>
+                                        <ul className='flex-center gap-0.5 w-1/2'>
+                                            {
+                                                product.details.material.map(name => {
+                                                    return <li key={name.id} className='after:ml-0.5 after:content-["/"] last:after:content-[""] after:text-primary-gray-70'>
+                                                        {name.name}
+                                                    </li>
+                                                })
+                                            }
+                                        </ul>
                                     </li>
                                     <li className="flex py-3 gap-5">
                                         <span className="text-primary-gray-70 w-1/2">Ishlab chiqarilgan davlat</span>
@@ -65,7 +73,15 @@ const ProductDetails = () => {
                                     </li>
                                     <li className="flex py-3 gap-5">
                                         <span className="text-primary-gray-70 w-1/2">Rangi</span>
-                                        <span className='w-1/2'>{product.details.color}</span>
+                                        <ul className='flex-center gap-0.5 w-1/2'>
+                                            {
+                                                product.details.color.map(name => {
+                                                    return <li key={name.id} className='after:ml-0.5 after:content-["/"] last:after:content-[""] after:text-primary-gray-70'>
+                                                        {name.name}
+                                                    </li>
+                                                })
+                                            }
+                                        </ul>
                                     </li>
                                     <li className="flex py-3 gap-5">
                                         <span className="text-primary-gray-70 w-1/2">Stil</span>

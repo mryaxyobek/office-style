@@ -28,7 +28,7 @@ const ProductDesignHero = () => {
 
     const product = allProducts.find((product) => productName === product.productTitle.toLowerCase().replace(/\s+/g, '-'));
 
-    const [productParts, setProductParts] = useState([...product.pieces.map(item => ({ ...item, count: 1 }))]);
+    const [productParts, setProductParts] = useState([...product.parts.map(item => ({ ...item, count: 1 }))]);
 
 
     const decrementCount = (index) => {
@@ -295,7 +295,7 @@ const ProductDesignHero = () => {
                                                                 <div className="space-y-1">
                                                                     {
                                                                         part.oldprice &&
-                                                                        <del className="text-regular-12 text-primary-gray-50">{product.pieces[0].oldprice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}so'm</del>
+                                                                        <del className="text-regular-12 text-primary-gray-50">{part.oldprice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}so'm</del>
                                                                     }
                                                                     <p className="text-regular-16">{part.currentPrice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}so'm</p>
                                                                 </div>

@@ -99,7 +99,15 @@ const Products = () => {
                                 <li className="flex items-end">
                                     <span>Ustki material</span>
                                     <div className="grow border-t-2 mx-1 mb-0.5 border-primary-gray-70 border-dotted"></div>
-                                    <span>{product.details.material}</span>
+                                    <ul className='flex-center gap-0.5'>
+                                        {
+                                            product.details.material.map(name => {
+                                                return <li key={name.id} className='after:ml-0.5 after:content-["/"] last:after:content-[""] after:text-primary-gray-70'>
+                                                    {name.name}
+                                                </li>
+                                            })
+                                        }
+                                    </ul>
                                 </li>
                                 <li className="flex items-end">
                                     <span>Ustki qalinlik</span>
@@ -111,12 +119,12 @@ const Products = () => {
                             {/* price */}
                             <div className="flex-c-b max-440:flex-col max-440:items-start max-440:gap-6 mb-5">
                                 <div className="flex-end max-340:flex-col max-340:items-start gap-1">
-                                    <span className="inline-block text-regular-16 text-primary-gray-70 mr-1" >narxi:</span>
-                                    <p className="text-regular-20 mr-3">{product.price.currentPrice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}so'm</p>
+                                    <span className="inline-block text-regular-16 text-primary-gray-70 mr-1" >Narx:</span>
+                                    <p className="text-regular-20 mr-3">{product.parts[0].currentPrice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}so'm</p>
 
                                     {/* old price aksiya price  */}
                                     {
-                                        product.price.oldPrice && <del className='text-regular-18 text-primary-gray-50'>{product.price.oldPrice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}so'm</del>
+                                        product.parts[0].oldprice && <del className='text-regular-18 text-primary-gray-50'>{product.parts[0].oldprice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}so'm</del>
                                     }
                                 </div>
 

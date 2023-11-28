@@ -8,8 +8,7 @@ export const cardSlice = createSlice({
     initialState: initialStateValues,
     reducers: {
         addCard: (state, action) => {
-            const { id } = action.payload;z
-            const found = state.card.find(product => product.id === id);
+            const found = state.card.find(product => product.productId === action.payload.productId);
             if (!found) {
                 let product = { ...action.payload }
                 state.card.push(product)
