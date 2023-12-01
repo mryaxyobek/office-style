@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import { productTabButtonsGroup, cabinetProductsForManagers } from '../assets/data';
+import { productTabButtonsGroup, cabinetProductsForManagers, furnitureForStaff } from '../assets/data';
 import { useParams } from 'react-router-dom';
 
 
 const ProductDetails = () => {
     // product 
     const { productName } = useParams();
-    const allProducts = [...cabinetProductsForManagers];
+    const allProducts = [...cabinetProductsForManagers, ...furnitureForStaff];
     const product = allProducts.find((product) => productName === product.productTitle.toLowerCase().replace(/\s+/g, '-'));
 
 
@@ -62,7 +62,7 @@ const ProductDetails = () => {
                                                 })
                                             }
                                         </ul>
-                                        
+
                                     </li>
                                     <li className="flex py-3 gap-5">
                                         <span className="text-primary-gray-70 w-1/2">Ishlab chiqarilgan davlat</span>

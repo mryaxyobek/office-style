@@ -155,7 +155,7 @@ const Products = () => {
         }
     };
 
-        // sort products 
+    // sort products 
     useEffect(() => {
         if (priceIncrease) {
             const sortedProducts = products.sort((a, b) => a.parts[0].currentPrice - b.parts[0].currentPrice);

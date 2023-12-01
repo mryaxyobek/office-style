@@ -67,6 +67,10 @@ export default {
         '120px': '120px',
       },
 
+      maxHeight: {
+        '640px': '640px'
+      },
+
       minWidth: {
         '864px': '864px',
         '788px': '788px',
@@ -82,6 +86,7 @@ export default {
       },
 
       width: {
+        '1080px': '1080px',
         '800px': '800px',
         '720px': '720px',
         '480px': '480px',
