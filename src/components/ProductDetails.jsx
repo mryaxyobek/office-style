@@ -74,7 +74,7 @@ const ProductDetails = () => {
                                     </li>
                                     <li className="flex py-3 gap-5">
                                         <span className="text-primary-gray-70 w-1/2">Rangi</span>
-                                        <ul className='flex-center gap-0.5 w-1/2'>
+                                        <ul className='flex-center gap-0.5 w-1/2 flex-wrap'>
                                             {
                                                 product.details.color.map(name => {
                                                     return <li key={name.id} className='after:ml-0.5 after:content-["/"] last:after:content-[""] after:text-primary-gray-70'>
@@ -84,10 +84,13 @@ const ProductDetails = () => {
                                             }
                                         </ul>
                                     </li>
-                                    <li className="flex py-3 gap-5">
-                                        <span className="text-primary-gray-70 w-1/2">Stil</span>
-                                        <span className='w-1/2'>{product.details.style}</span>
-                                    </li>
+                                    {
+                                        product.details.style &&
+                                        <li className="flex py-3 gap-5">
+                                            <span className="text-primary-gray-70 w-1/2">Stil</span>
+                                            <span className='w-1/2'>{product.details.style}</span>
+                                        </li>
+                                    }
                                 </ul>
                             }
                             {
@@ -199,7 +202,7 @@ const ProductDetails = () => {
                             {
                                 buttonId == 7 &&
                                 <div>
-                                    <h3 className="text-regular-20 mb-5">Assambleya</h3>
+                                    <h3 className="text-regular-20 mb-5">Mahsulotni qaytarish</h3>
                                     <ul className="grid grid-cols-1 gap-6 max-w-745px text-primary-gray-70">
                                         <li>
                                             <h4 className="text-black text-regular-16">Buyurtma miqdorining 5% dan 9% gacha bo'lgan xarajatlar</h4>
