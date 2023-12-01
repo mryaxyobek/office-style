@@ -98,6 +98,7 @@ export default {
         '147px': '147px',
         '41px': '41px',
         '18px': '18px',
+        '52%': '52%',
       },
 
       height: {

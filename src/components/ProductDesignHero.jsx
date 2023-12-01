@@ -21,6 +21,10 @@ import '../css/styles.css';
 // import required modules
 import { Autoplay, EffectFade, Navigation, Pagination } from 'swiper/modules';
 
+// for modal (redux)
+import { useDispatch } from 'react-redux';
+import { openSketchModal } from '../store/slices/modalSlice';
+
 const ProductDesignHero = () => {
     const location = useLocation();
     const pathArr = location.pathname.split("/").filter((path) => path !== "");
@@ -85,8 +89,15 @@ const ProductDesignHero = () => {
     };
 
 
-    // modal
+    // deliovery and furniture design modal
     const [openModal, setOpenModal] = useState(false);
+    const dispatch = useDispatch();
+
+    const openSketchModalFunction = () => {
+        dispatch(openSketchModal());
+    };
+
+    // close modals
     document.addEventListener('keydown', (e) => {
         if (e.key === 'Escape') {
             setOpenModal(false);
@@ -181,7 +192,7 @@ const ProductDesignHero = () => {
                                 <div className="space-y-8 col-start-11 col-end-17 max-1500:col-start-1 max-1500:col-end-2">
                                     {/* top  */}
                                     <div className='space-y-3'>
-                                        <div className="flex-center space-x-8">
+                                        <div className="flex-center space-x-8 max-440:justify-between">
                                             {/* id  */}
                                             <span className="text-primary-gray-70">ID: {product.productId}</span>
                                             <div className="flex space-x-2.5">
@@ -203,7 +214,7 @@ const ProductDesignHero = () => {
                                                         <path d="M10 0.5L12.2451 7.40983H19.5106L13.6327 11.6803L15.8779 18.5902L10 14.3197L4.12215 18.5902L6.36729 11.6803L0.489435 7.40983H7.75486L10 0.5Z" fill={averageValue >= 5 ? '#FFA800' : '#cccccc'} />
                                                     </svg>
                                                 </div>
-                                                <span className="text-primary-gray-70">Sharxlar ({product.reviews.length})</span>
+                                                <span className="text-primary-gray-70 max-440:hidden">Sharxlar ({product.reviews.length})</span>
                                             </div>
                                         </div>
                                         <h3 className="text-regular-36">{product.productTitle}</h3>
@@ -306,7 +317,7 @@ const ProductDesignHero = () => {
                                                 disabled={totalPrice === 0}
                                                 onClick={() => setOpenModal(true)}
                                                 className="red-btn py-3.5 px-6 bg-primary-red-50 disabled:!bg-primary-gray-10 disabled:text-secondary-blue-70">Sotib olish</button>
-                                            <button className="py-3.5 text-regular-14 px-6 text-primary-gray-90 rounded-lg border border-primary-gray-50">Bepul dizayn eskiziga zakaz berish</button>
+                                            <button onClick={openSketchModalFunction} className="py-3.5 text-regular-14 px-6 text-primary-gray-90 rounded-lg border border-primary-gray-50">Bepul dizayn eskiziga zakaz berish</button>
                                         </div>
                                     </div>
                                 </div >
