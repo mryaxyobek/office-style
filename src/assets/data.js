@@ -924,7 +924,7 @@ export const completedProjectsData = [
 export const cabinetProductsForManagers = [
     {
         id: 1,
-        productId: 209723,
+        productId: 209722,
         type: 'Boshqaruvchilar uchun',
         productTitle: 'Gamma Direct rahbari uchun ofis',
         order: false,
@@ -1068,7 +1068,7 @@ export const cabinetProductsForManagers = [
     },
     {
         id: 2,
-        productId: 209724,
+        productId: 209723,
         type: 'Boshqaruvchilar uchun',
         productTitle: 'Yalta rahbari uchun kabinet',
         order: false,
@@ -1195,7 +1195,7 @@ export const cabinetProductsForManagers = [
     },
     {
         id: 3,
-        productId: 209725,
+        productId: 209724,
         type: 'Boshqaruvchilar uchun',
         productTitle: 'Fermo Wooddan mebellar',
         order: false,
@@ -1314,7 +1314,7 @@ export const cabinetProductsForManagers = [
     },
     {
         id: 4,
-        productId: 209726,
+        productId: 209725,
         type: 'Boshqaruvchilar uchun',
         productTitle: 'Rio Direct rahbari uchun kabinet',
         order: true,
@@ -1488,7 +1488,7 @@ export const cabinetProductsForManagers = [
     },
     {
         id: 5,
-        productId: 209727,
+        productId: 209726,
         type: 'Boshqaruvchilar uchun',
         productTitle: 'Menejer uchun kabinet Torino MIlano',
         order: false,
@@ -1637,7 +1637,7 @@ export const cabinetProductsForManagers = [
     },
     {
         id: 6,
-        productId: 209728,
+        productId: 209727,
         type: 'Boshqaruvchilar uchun',
         productTitle: 'Katta menejerning kabineti',
         order: false,
@@ -1814,7 +1814,7 @@ export const cabinetProductsForManagers = [
     },
     {
         id: 7,
-        productId: 209729,
+        productId: 209728,
         type: 'Boshqaruvchilar uchun',
         productTitle: 'Onix Direct menejeri uchun kabinet',
         order: false,
@@ -1929,7 +1929,7 @@ export const cabinetProductsForManagers = [
     },
     {
         id: 8,
-        productId: 209730,
+        productId: 209729,
         type: 'Boshqaruvchilar uchun',
         productTitle: 'Lava bosh direktorining kabineti',
         order: false,
@@ -2080,7 +2080,7 @@ export const cabinetProductsForManagers = [
     },
     {
         id: 9,
-        productId: 211723,
+        productId: 209730,
         type: 'Boshqaruvchilar uchun',
         productTitle: 'Remo ijroiya kabineti',
         order: false,
@@ -2604,7 +2604,7 @@ export const cabinetProductsForManagers = [
         available: true,
         description: `Fermo Wood boshqaruv idorasi zamonaviy, oqlangan va xavfsizdir. Arzon ofis mebellari segmentidagi eng yaxshi variantlardan biri uzoq vaqtdan beri mos narxni saqlab, maksimal darajada olishni afzal ko'rgan mijozlar tomonidan yaxshi ko'rilgan. To'plam eng mashhur ranglarni o'z ichiga oladi. Ushbu soyalar klassikadan zamonaviygacha har qanday uslubga mos keladi..`,
         details: {
-            country: "O'zbekiston / Andijan",
+            country: "Turkiya",
             material: [
                 {
                     id: 1,
@@ -5362,16 +5362,7 @@ export const furnitureForStaff = [
         available: true,
         description: `TARGET to'plami har qanday darajadagi kompaniyalarda xodimlar uchun qulay ish joylarini tashkil qilish imkonini beradi va ideal ofisni yaratish uchun ajoyib imkoniyatlar yaratadi. Chiroyli ish stoli ekranlari ish stantsiyalarini zonalash imkonini beradi va diqqatni jamlashga yordam beradi, qulay, ishbilarmonlik muhitini yaratadi. Yig'ish liniyasi xodimlarga qulaylikni ta'minlaydigan va har qanday dizayn muammosini hal qilishga imkon beruvchi xodimlar uchun stollar, yig'ilish stollari, mobil shkaflar, shkaflar, javonlar va boshqa modulli elementlarning katta tanlovini o'z ichiga oladi.`,
         details: {
-            country: [
-                {
-                    id: 1,
-                    name: 'Rossiya',
-                },
-                {
-                    id: 2,
-                    name: 'Turkiya',
-                }
-            ],
+            country: 'Turkiya',
             material: [
                 {
                     id: 1,
