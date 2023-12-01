@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { Link, useLocation, useParams } from 'react-router-dom';
 
 // products data 
-import { cabinetProductsForManagers } from '../assets/data';
+import { cabinetProductsForManagers, furnitureForStaff } from '../assets/data';
 
 // images 
 import truckImg from '../assets/images/svg/truck.svg';
@@ -22,9 +22,14 @@ import '../css/styles.css';
 import { Autoplay, EffectFade, Navigation, Pagination } from 'swiper/modules';
 
 const ProductDesignHero = () => {
+    const location = useLocation();
+    const pathArr = location.pathname.split("/").filter((path) => path !== "");
+
+
+
     const { productName } = useParams();
 
-    const allProducts = [...cabinetProductsForManagers];
+    const allProducts = [...cabinetProductsForManagers, ...furnitureForStaff];
 
     const product = allProducts.find((product) => productName === product.productTitle.toLowerCase().replace(/\s+/g, '-'));
 
@@ -91,44 +96,8 @@ const ProductDesignHero = () => {
                                 </li>
                                 <li>
                                     {
-                                        product.type == 'Boshqaruvchilar uchun' &&
-                                        <Link to='/catalog/cabinet-for-managers'>Boshqaruvchilar uchun</Link>
-                                    }
-                                    {
-                                        product.type == 'Xodimlar uchun' &&
-                                        <Link to='/catalog/furniture-for-staff'>Xodimlar uchun mebel</Link>
-                                    }
-                                    {
-                                        product.type == 'Ofis kreslosi' &&
-                                        <Link to='/catalog/office-chairs'>Ofis kreslolari</Link>
-                                    }
-                                    {
-                                        product.type == 'Ofis divani' &&
-                                        <Link to='/catalog/office-sofas'>Ofis divanlari</Link>
-                                    }
-                                    {
-                                        product.type == 'Qabul qilish stoli' &&
-                                        <Link to='/catalog/reception-desks'>Qabul qilish stollari</Link>
-                                    }
-                                    {
-                                        product.type == 'Uchrashuvlar uchun stol' &&
-                                        <Link to='/catalog/meeting-tables'>Uchrashuv uchun stollar</Link>
-                                    }
-                                    {
-                                        product.type == "Ofis bo'limlari uchun" &&
-                                        <Link to='/catalog/office-partitions'>Ofis bo'limlari uchun</Link>
-                                    }
-                                    {
-                                        product.type == "Ko'p kishilk bo'limlar uchun" &&
-                                        <Link to='/catalog/multi-person-sections'>Ko'p kishilik bo'limlar uhcun</Link>
-                                    }
-                                    {
-                                        product.type == 'Ofis stoli' &&
-                                        <Link to='/catalog/office-desks'>Ofis stollari</Link>
-                                    }
-                                    {
-                                        product.type == 'Ofis shkafi' &&
-                                        <Link to='/catalog/office-cabinets'>Ofis shkaflari</Link>
+                                        pathArr[1] &&
+                                        <Link to={`/catalog/${pathArr[1]}`}>{product.type}</Link>
                                     }
                                 </li>
                                 <li>
@@ -299,7 +268,7 @@ const ProductDesignHero = () => {
                                                                     }
                                                                     <p className="text-regular-16">{part.currentPrice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}so'm</p>
                                                                 </div>
-                                                            </div>  
+                                                            </div>
 
                                                         </li>
                                                     )
