@@ -22,7 +22,7 @@ export const tabButtonsGroup = [
     },
     {
         id: 2,
-        text: 'Boshqaruvchi kabineti',
+        text: 'Boshqaruvchi uchun',
     },
     {
         id: 3,
@@ -79,7 +79,7 @@ export const productTabButtonsGroup = [
     },
     {
         id: 7,
-        text: 'Assambleya',
+        text: 'Mahsulotni qaytarish',
     },
 ];
 
