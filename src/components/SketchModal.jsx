@@ -2,7 +2,7 @@ import Link from 'antd/es/typography/Link';
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { closeSketchModal } from '../store/slices/modalSlice';
-import operator from '../assets/images/other/furniture-design.png';
+import furnitureDesign from '../assets/images/other/furniture-design.png';
 
 const SketchModal = () => {
     const dispatch = useDispatch();
@@ -59,7 +59,7 @@ const SketchModal = () => {
                     </form>
 
                     {/* image */}
-                    <img src={operator} width={600} height={640} alt='operator girl image' className="absolute z-1 right-0 rounded-r-2.5xl top-0 h-full w-52% object-cover object-right-top max-730:hidden" />
+                    <img src={furnitureDesign} width={600} height={640} alt='furniture design image' className="absolute z-1 right-0 rounded-r-2.5xl top-0 h-full w-52% object-cover object-right-top max-730:hidden" />
                 </div >
             </div >
         </>

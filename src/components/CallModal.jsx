@@ -1,6 +1,6 @@
 import Link from 'antd/es/typography/Link';
 import React from 'react';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { closeCallModal } from '../store/slices/modalSlice';
 import operator from '../assets/images/other/operator.png';
 
@@ -43,19 +43,19 @@ const CallModal = () => {
                             {/* main  */}
                             <div className="space-y-6 mb-8">
                                 <div>
-                                    <label htmlFor='callModalNameInput' className="inline-block mb-2 text-regular-14 text-primary-gray-70">Ismingiz</label>
-                                    <input autoComplete='off' id='callModalNameInput' maxLength={13} name='user name' placeholder='Ismingiz' required type="text" className='leading-17.5px!' />
+                                    <label htmlFor='callModalNameInput' className="inline-block mb-2 text-regular-14 text-primary-gray-70">Ismingiz*</label>
+                                    <input autoComplete='off' id='callModalNameInput' name='user name' placeholder='Ismingiz' required type="text" className='leading-17.5px!' />
                                 </div>
 
                                 <div>
-                                    <label htmlFor='callModalPhoneNumInput' className="inline-block mb-2 text-regular-14 text-primary-gray-70">Telefon raqamingiz</label>
+                                    <label htmlFor='callModalPhoneNumInput' className="inline-block mb-2 text-regular-14 text-primary-gray-70">Telefon raqamingiz*</label>
                                     <input autoComplete='off' id='callModalPhoneNumInput' maxLength={13} name='phone number' placeholder='+998 (99) 999-99-99' required type="tel" className='leading-17.5px!' />
                                 </div>
 
                                 <button className="red-btn w-full text-regular-16 py-3.5">Buyurtma berish</button>
                             </div>
 
-                            <p className="text-regular-12 text-center">Saytga ma'lumot yuborish orqali siz <Link className='!text-primary-red-50' to='/processing-of-personal-data'>Shaxsiy ma'lumotlarni himoya qilish siyosati shartlarini qabul qilasiz</Link></p>
+                            <p className="text-regular-12 text-center">*Saytga ma'lumot yuborish orqali siz <Link className='!text-primary-red-50' to='/processing-of-personal-data'>Shaxsiy ma'lumotlarni himoya qilish siyosati shartlarini qabul qilasiz</Link></p>
                         </div>
                     </form>
 

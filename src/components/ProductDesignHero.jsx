@@ -174,7 +174,7 @@ const ProductDesignHero = () => {
                                             <img width={62} height={62} src={shiledImg} alt="truck icon image" className='py-1.5 px-2.5' />
                                             <div className="space-y-1">
                                                 <h3>Kafolat va qaytarish</h3>
-                                                <Link href='#' className="text-regular-16 underline text-primary-red-50">Shartlar</Link>
+                                                <Link href='/' className="text-regular-16 underline text-primary-red-50">Shartlar</Link>
                                             </div>
                                         </li>
 

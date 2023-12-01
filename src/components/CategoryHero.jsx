@@ -159,15 +159,15 @@ const CategoryHero = () => {
                     {/* main  */}
                     <div className="space-y-5">
                         <div>
-                            <label htmlFor='categoryNameInput' className="inline-block mb-2 text-regular-14 text-primary-gray-70">Ismingizniz</label>
-                            <input autoComplete='off' id='categoryNameInput' name='name' placeholder='ismingizni kiriting' required type="text" className='leading-17.5px!' />
+                            <label htmlFor='categoryNameInput' className="inline-block mb-2 text-regular-14 text-primary-gray-70">Ismingiz*</label>
+                            <input autoComplete='off' id='categoryNameInput' name='user name' placeholder='ismingizni kiriting' required type="text" className='leading-17.5px!' />
                         </div>
                         <div>
-                            <label htmlFor='categoryTelInput' className="inline-block mb-2 text-regular-14 text-primary-gray-70">Telefon raqamingiz</label>
+                            <label htmlFor='categoryTelInput' className="inline-block mb-2 text-regular-14 text-primary-gray-70">Telefon raqamingiz*</label>
                             <input autoComplete='off' id='categoryTelInput' maxLength={13} name='phone number' placeholder='+998 (99) 999-99-99' required type="text" className='leading-17.5px!' />
                         </div>
-                        <button className="red-btn w-full text-regular-16 py-3.5">Maslahat olish uchun</button>
-                        <p className="text-regular-12 text-primary-gray-70 text-center">*Saytga ma'lumot yuborish orqali siz <a href="#" className="text-primary-red-50 underline">Shaxsiy ma'lumotlarni himoya qilish siyosati shartlarini qabul qilasiz</a></p>
+                        <button className="red-btn w-full text-regular-16 py-3.5">Maslahat olish</button>
+                        <p className="text-regular-12 text-primary-gray-70 text-center">*Saytga ma'lumot yuborish orqali siz <Link className="text-primary-red-50">Shaxsiy ma'lumotlarni himoya qilish siyosati shartlarini qabul qilasiz</Link></p>
                     </div>
                 </form>
 

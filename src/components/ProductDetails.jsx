@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { productTabButtonsGroup, cabinetProductsForManagers, furnitureForStaff } from '../assets/data';
 import { useParams } from 'react-router-dom';
+import { openAddReviewModal } from '../store/slices/modalSlice';
+import { useDispatch } from 'react-redux';
 
 
 const ProductDetails = () => {
@@ -25,6 +27,14 @@ const ProductDetails = () => {
         setWidth(childWidth);
         setButtonId(e.target.id);
     }
+
+
+    // for modal
+    const dispatch = useDispatch();
+
+    const openAddReviewModalFunction = () => {
+        dispatch(openAddReviewModal());
+    };
     return (
         <section className='py-60r'>
             <div className="container">
@@ -151,7 +161,7 @@ const ProductDetails = () => {
                                                 </>
                                         }
                                     </ul>
-                                    <button className="flex justify-center red-btn py-3.5 px-4 text-regular-16 max-w-max max-470:max-w-none max-470:w-full">Sharx qoldirish</button>
+                                    <button onClick={openAddReviewModalFunction} className="flex justify-center red-btn py-3.5 px-4 text-regular-16 max-w-max max-470:max-w-none max-470:w-full">Sharx qoldirish</button>
                                 </div>
                             }
                             {

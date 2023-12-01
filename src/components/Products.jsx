@@ -18,7 +18,7 @@ import { Link, useParams } from 'react-router-dom';
 
 
 // redux 
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { addCard } from '../store/slices/productBasketslice';
 
 // ant design
@@ -28,7 +28,6 @@ const Products = () => {
 
     // product
     const { categoryName } = useParams();
-    const dispatch = useDispatch();
 
     const addToCard = (product) => {
         dispatch(addCard(product));
@@ -505,7 +504,6 @@ const Products = () => {
             </div>
 
             {/* open filter place buttons */}
-
             <div className="flex items-start flex-wrap gap-8 pb-60r">
                 <button onClick={() => setOpenFilter(true)} className='flex-center space-x-2.5 px-5 py-4 rounded-lg border border-primary-gray-90'>
                     <span>

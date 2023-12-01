@@ -196,19 +196,19 @@ function QuestionAnswer() {
                         {/* main  */}
                         <div className="space-y-6 mb-8">
                             <div>
-                                <label htmlFor='categoryTelInput' className="inline-block mb-2 text-regular-14 text-primary-gray-70">Telefon raqam</label>
+                                <label htmlFor='categoryTelInput' className="inline-block mb-2 text-regular-14 text-primary-gray-70">Telefon raqamingiz*</label>
                                 <input autoComplete='off' id='categoryTelInput' maxLength={13} name='phone number' placeholder='+998 (99) 999-99-99' required type="tel" className='leading-17.5px!' />
                             </div>
 
                             <div>
-                                <label htmlFor='questionTextArea' className="inline-block mb-2 text-regular-14 text-primary-gray-70">Savolingizni yozing</label>
-                                <textarea id='questionTextArea' name='question' required className='leading-17.5px! h-36 resize-none' />
+                                <label htmlFor='questionTextarea' className="inline-block mb-2 text-regular-14 text-primary-gray-70">Savolingizni yozing*</label>
+                                <textarea id='questionTextarea' name='question text' required className='leading-17.5px! h-36 resize-none' />
                             </div>
 
                             <button className="red-btn w-full text-regular-16 py-3.5">Savolni yuborish</button>
                         </div>
 
-                        <p className="text-regular-12 text-center">Saytga ma'lumot yuborish orqali siz <Link className='text-primary-red-50' to='/processing-of-personal-data'>Shaxsiy ma'lumotlarni himoya qilish siyosati shartlarini qabul qilasiz</Link></p>
+                        <p className="text-regular-12 text-center">*Saytga ma'lumot yuborish orqali siz <Link className='text-primary-red-50' to='/processing-of-personal-data'>Shaxsiy ma'lumotlarni himoya qilish siyosati shartlarini qabul qilasiz</Link></p>
                     </form>
                 </div>
             </div>
