@@ -4,6 +4,7 @@ const initialStateValues = {
     callModalValue: false,
     sketchModalValue: false,
     questionModalValue: false,
+    addReviewModalValue: false,
 };
 export const modalSlice = createSlice({
     name: 'modal',
@@ -31,9 +32,17 @@ export const modalSlice = createSlice({
         closeQuestionModal: (state) => {
             state.questionModalValue = false;
         },
+
+        // add review modal
+        openAddReviewModal: (state) => {
+            state.addReviewModalValue = true;
+        },
+        closeAddReviewModal: (state) => {
+            state.addReviewModalValue = false;
+        }
     },
 });
 
-export const { openCallModal, closeCallModal, openSketchModal, closeSketchModal, openQuestionModal, closeQuestionModal } = modalSlice.actions;
+export const { openCallModal, closeCallModal, openSketchModal, closeSketchModal, openQuestionModal, closeQuestionModal, openAddReviewModal, closeAddReviewModal } = modalSlice.actions;
 
 export default modalSlice.reducer;

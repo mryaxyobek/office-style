@@ -8,5 +8,6 @@ export const store = configureStore({
         callModalValue: modalSlice,
         sketchModalValue: modalSlice,
         questionModalValue: modalSlice,
+        addReviewModalValue: modalSlice,
     },
 });

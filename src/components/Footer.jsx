@@ -4,7 +4,16 @@ import telephone from '../assets/images/svg/telephone-icon.svg';
 import whatsapp from '../assets/images/svg/whatsapp-logo.svg';
 import vk from '../assets/images/svg/vk-logo.svg';
 
+// for modal (redux)
+import { useDispatch } from 'react-redux';
+import { openQuestionModal } from '../store/slices/modalSlice';
+
 const Footer = () => {
+    // for modal
+    const dispatch = useDispatch();
+    const openQuestionModalFunction = () => {
+        dispatch(openQuestionModal());
+    };
     return (
         <footer className='pt-20 pb-8 bg-primary-gray-90 max-580:py-16'>
             <div className="container">
@@ -19,14 +28,16 @@ const Footer = () => {
                     {/* catalog  */}
                     <div className='space-y-8'>
                         {/* title  */}
-                        <h3 className="text-medium-24 text-white">Katalog</h3>
+                        <h3 className="text-medium-24 text-white">
+                            <Link to='/catalog'>Katalog</Link>
+                        </h3>
                         {/* list  */}
                         <ul className="space-y-2 text-regular-14 text-primary-gray-20">
                             <li>
-                                <Link to='/'>Ijroiya idoralari</Link>
+                                <Link to='/catalog/cabinet-for-managers'>Boshqaruvchi kabineti</Link>
                             </li>
                             <li>
-                                <Link to='/'>Xodimlar uchun mebel</Link>
+                                <Link to='/catalog/furniture-for-staff'>Xodimlar uchun mebel</Link>
                             </li>
                             <li>
                                 <Link to='/'>Ofis kreslolari</Link>
@@ -80,9 +91,6 @@ const Footer = () => {
                                 <Link to='/articles'>Maqolalar</Link>
                             </li>
                             <li>
-                                <Link to='/news'>Yangiliklar</Link>
-                            </li>
-                            <li>
                                 <Link to='/contact'>Bog'lanish</Link>
                             </li>
                         </ul>
@@ -100,23 +108,23 @@ const Footer = () => {
                                 <img width={28} height={28} src={telephone} alt="telephone icon" className="w-7 h-7 p-2 rounded-full border border-white mr-4" />
                                 <span className="text-regular-24 text-white">+998 (99) 999-99-99</span>
                             </a>
+
                             {/* address  */}
                             <div className="flex flex-col space-y-2 text-regular-16 text-primary-gray-20 mb-7">
                                 <address className='not-italic'>Toshkent, Olmaliq K: No312</address>
                                 <span className="inline-block">du - shan: 9:00dan 18:00gacha</span>
                                 <a href="mailto:xyaxyobek4@gmail.com" target='_blank' className="inline-block">xyaxyobek4@gmail.com</a>
                             </div>
+
                             {/* social  */}
-                            <div className="flex-start space-x-4 max-1400:flex-col max-1400:space-x-0 max-1400:space-y-4 max-1150:flex-row max-1150:space-y-0 max-1150:space-x-4 max-730:space-x-0 max-730:space-y-4 max-730:flex-col max-580:flex-row max-580:space-x-4 max-580:space-y-0 max-360:flex-col max-360:space-x-0 max-360:space-y-4">
-                                <div className="flex space-x-4">
-                                    <a href="https://example.com" target='_blank' className="flex-center justify-center rounded-lg w-12 h-12 bg-secondary-whatsapp">
-                                        <img width={32} height={32} src={whatsapp} alt="whatsapp logo" className="" />
-                                    </a>
-                                    <a href="https://example.com" target='_blank' className="flex-center justify-center rounded-lg w-12 h-12 bg-secondary-vk">
-                                        <img width={26} height={17} src={vk} alt="vk app logo" className="" />
-                                    </a>
-                                </div>
-                                <a href="https://example.com" target='_blank' className="red-btn py-3.5 px-6 text-regular-16">Telegram</a>
+                            <div className="flex-start gap-4 flex-wrap">
+                                <a href="https://example.com" target='_blank' className="flex-center justify-center rounded-lg w-12 h-12 bg-secondary-whatsapp">
+                                    <img width={32} height={32} src={whatsapp} alt="whatsapp logo" />
+                                </a>
+                                <a href="https://example.com" target='_blank' className="flex-center justify-center rounded-lg w-12 h-12 bg-secondary-vk">
+                                    <img width={26} height={17} src={vk} alt="vk app logo" />
+                                </a>
+                                <button onClick={openQuestionModalFunction} className="red-btn py-3.5 px-6 text-regular-16">Savol yuborish</button>
                             </div>
                         </div>
                     </div>
