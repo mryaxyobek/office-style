@@ -62,6 +62,7 @@ const ProductDetails = () => {
                                                 })
                                             }
                                         </ul>
+                                        
                                     </li>
                                     <li className="flex py-3 gap-5">
                                         <span className="text-primary-gray-70 w-1/2">Ishlab chiqarilgan davlat</span>
