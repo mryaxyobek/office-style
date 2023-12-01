@@ -48,7 +48,8 @@ const Products = () => {
     const [materialDSP, setMaterialDSP] = useState(false);
     const [materialMDF, setMaterialMDF] = useState(false);
     const [materialMelamin, setMaterialMelamin] = useState(false);
-    const [materialMetall, setMaterialMetall] = useState(false);
+    const [materialMetal, setMaterialMetal] = useState(false);
+    const [materialMetalFrame, setMaterialMetalFrame] = useState(false);
     // country 
     const [countryRussia, setCountryRussia] = useState(false);
     const [countryChina, setCountryChina] = useState(false);
@@ -56,15 +57,18 @@ const Products = () => {
     const [countryBelarus, setCountryBelarus] = useState(false);
     const [countryUkraine, setCountryUkraine] = useState(false);
     // size
-    const [size180x97, setSize180x97] = useState(false);
-    const [size180x90, setSize180x90] = useState(false);
-    const [size160x26, setSize160x26] = useState(false);
-    const [size120x26, setSize120x26] = useState(false);
-    const [size100x80, setSize100x80] = useState(false);
-    const [size72x36, setSize72x36] = useState(false);
-    const [size65x80, setSize65x80] = useState(false);
+    const [size40, setSize40] = useState(false);
+    const [size38, setSize38] = useState(false);
+    const [size36, setSize36] = useState(false);
+    const [size32, setSize32] = useState(false);
+    const [size26, setSize26] = useState(false);
+    const [size25, setSize25] = useState(false);
+    const [size24, setSize24] = useState(false);
+    const [size22, setSize22] = useState(false);
+    const [size18, setSize18] = useState(false);
+    const [size17, setSize17] = useState(false);
 
-    // sort button 
+    // sort
     const [openSortButton, setOpenSortButton] = useState(false);
 
     const [priceIncrease, setPriceIncrease] = useState(false);
@@ -103,7 +107,8 @@ const Products = () => {
                     (materialMDF && materialName.name.toLowerCase() === 'mdf') ||
                     (materialDSP && materialName.name.toLowerCase() === 'dsp') ||
                     (materialMelamin && materialName.name.toLowerCase() === 'melamin') ||
-                    (materialMetall && materialName.name.toLowerCase() === 'metall');
+                    (materialMetal && materialName.name.toLowerCase() === 'metall') ||
+                    (materialMetalFrame && materialName.name.toLowerCase() === 'metall ramka');
             });
 
             const filterWithCountryName =
@@ -113,18 +118,59 @@ const Products = () => {
                 (countryUkraine && product.details.country.toLowerCase() === 'ukraina') ||
                 (countryBelarus && product.details.country.toLowerCase() === 'belarussiya');
 
+            const filterWithSize =
+                (size40 && product.details.thickness.toLowerCase() === '4.0') ||
+                (size38 && product.details.thickness.toLowerCase() === '3.8') ||
+                (size36 && product.details.thickness.toLowerCase() === '3.6') ||
+                (size32 && product.details.thickness.toLowerCase() === '3.2') ||
+                (size26 && product.details.thickness.toLowerCase() === '2.6') ||
+                (size25 && product.details.thickness.toLowerCase() === '2.5') ||
+                (size24 && product.details.thickness.toLowerCase() === '2.4') ||
+                (size22 && product.details.thickness.toLowerCase() === '2.2') ||
+                (size18 && product.details.thickness.toLowerCase() === '1.8') ||
+                (size17 && product.details.thickness.toLowerCase() === '1.7');
+
             return (
                 product.parts[0].currentPrice > slideValue[0] &&
                 product.parts[0].currentPrice < slideValue[1] &&
-                (materialLDSP || materialMDF || materialDSP || materialMelamin || materialMetall ? filterWithMaterialName : true) &&
-                (countryRussia || countryChina || countryTurkey || countryUkraine || countryBelarus ? filterWithCountryName : true)
+                (materialLDSP || materialMDF || materialDSP || materialMelamin || materialMetal ? filterWithMaterialName || materialMetalFrame : true) &&
+                (countryRussia || countryChina || countryTurkey || countryUkraine || countryBelarus ? filterWithCountryName : true) &&
+                (size38 || size36 || size32 || size26 || size25 || size24 || size22 || size18 || size17 || size40 ? filterWithSize : true)
             );
         });
 
-        setProducts(filteredProducts);
+        if (priceIncrease) {
+            const sortedProducts = filteredProducts.sort((a, b) => a.parts[0].currentPrice - b.parts[0].currentPrice);
+            setProducts(sortedProducts);
+        }
+
+        // sort products 
+        if (priceReduction) {
+            const sortedProducts = filteredProducts.sort((a, b) => a.parts[0].currentPrice - b.parts[0].currentPrice).reverse();
+            setProducts(sortedProducts);
+        }
+
+        if (!priceIncrease && !priceReduction) {
+            setProducts(filteredProducts);
+        }
     };
 
-    // reset filter
+        // sort products 
+    useEffect(() => {
+        if (priceIncrease) {
+            const sortedProducts = products.sort((a, b) => a.parts[0].currentPrice - b.parts[0].currentPrice);
+            setProducts(sortedProducts);
+        }
+    }, [priceIncrease])
+
+    useEffect(() => {
+        if (priceReduction) {
+            const sortedProducts = products.sort((a, b) => a.parts[0].currentPrice - b.parts[0].currentPrice).reverse();
+            setProducts(sortedProducts);
+        }
+    }, [priceReduction])
+
+
     const resetFilter = () => {
         // reset products
         setProducts(foundProducts);
@@ -135,7 +181,7 @@ const Products = () => {
         setMaterialDSP(false);
         setMaterialMDF(false);
         setMaterialMelamin(false);
-        setMaterialMetall(false);
+        setMaterialMetal(false);
         // country 
         setCountryRussia(false);
         setCountryChina(false);
@@ -143,13 +189,16 @@ const Products = () => {
         setCountryBelarus(false);
         setCountryUkraine(false);
         // size 
-        setSize180x97(false);
-        setSize180x90(false);
-        setSize160x26(false);
-        setSize120x26(false);
-        setSize100x80(false);
-        setSize72x36(false);
-        setSize65x80(false);
+        setSize40(false);
+        setSize38(false);
+        setSize36(false);
+        setSize32(false);
+        setSize26(false);
+        setSize25(false);
+        setSize24(false);
+        setSize22(false);
+        setSize18(false);
+        setSize17(false);
         // price increment and price reduction
         setPriceIncrease(false);
         setPriceReduction(false);
@@ -256,13 +305,23 @@ const Products = () => {
                                 </button>
                             </li>
                             <li>
-                                <button onClick={() => setMaterialMetall(!materialMetall)} className='flex-center gap-2'>
-                                    <div className={`${materialMetall ? 'border-primary-red-50 bg-primary-red-50' : 'border-primary-gray-20'} flex-center justify-center w-4 h-4 border  transition-colors-2`}>
-                                        <svg className={`${materialMetall ? 'block' : 'hidden'}`} xmlns="http://www.w3.org/2000/svg" width="10" height="7" viewBox="0 0 10 7" fill="none">
+                                <button onClick={() => setMaterialMetal(!materialMetal)} className='flex-center gap-2'>
+                                    <div className={`${materialMetal ? 'border-primary-red-50 bg-primary-red-50' : 'border-primary-gray-20'} flex-center justify-center w-4 h-4 border  transition-colors-2`}>
+                                        <svg className={`${materialMetal ? 'block' : 'hidden'}`} xmlns="http://www.w3.org/2000/svg" width="10" height="7" viewBox="0 0 10 7" fill="none">
                                             <path d="M1 3L3.82353 6L9 1" stroke="#fff" strokeLinecap="round" />
                                         </svg>
                                     </div>
                                     <span className='text-primary-gray-70 text-regular-14'>Metall</span>
+                                </button>
+                            </li>
+                            <li>
+                                <button onClick={() => setMaterialMetalFrame(!materialMetalFrame)} className='flex-center gap-2'>
+                                    <div className={`${materialMetalFrame ? 'border-primary-red-50 bg-primary-red-50' : 'border-primary-gray-20'} flex-center justify-center w-4 h-4 border  transition-colors-2`}>
+                                        <svg className={`${materialMetalFrame ? 'block' : 'hidden'}`} xmlns="http://www.w3.org/2000/svg" width="10" height="7" viewBox="0 0 10 7" fill="none">
+                                            <path d="M1 3L3.82353 6L9 1" stroke="#fff" strokeLinecap="round" />
+                                        </svg>
+                                    </div>
+                                    <span className='text-primary-gray-70 text-regular-14'>Metall ramka</span>
                                 </button>
                             </li>
                         </ul>
@@ -330,75 +389,108 @@ const Products = () => {
                         <h3 className="text-primary-gray-70 text-normal">O'lcham</h3>
                         <ul className="space-y-3">
                             <li>
-                                <button onClick={() => setSize180x97(!size180x97)} className='flex-center gap-2'>
-                                    <div className={`${size180x97 ? 'border-primary-red-50 bg-primary-red-50' : 'border-primary-gray-20'} flex-center justify-center w-4 h-4 border  transition-colors-2`}>
-                                        <svg className={`${size180x97 ? 'block' : 'hidden'}`} xmlns="http://www.w3.org/2000/svg" width="10" height="7" viewBox="0 0 10 7" fill="none">
+                                <button onClick={() => setSize40(!size40)} className='flex-center gap-2'>
+                                    <div className={`${size40 ? 'border-primary-red-50 bg-primary-red-50' : 'border-primary-gray-20'} flex-center justify-center w-4 h-4 border  transition-colors-2`}>
+                                        <svg className={`${size40 ? 'block' : 'hidden'}`} xmlns="http://www.w3.org/2000/svg" width="10" height="7" viewBox="0 0 10 7" fill="none">
                                             <path d="M1 3L3.82353 6L9 1" stroke="#fff" strokeLinecap="round" />
                                         </svg>
                                     </div>
-                                    <span className='text-primary-gray-70 text-regular-14'>180x97</span>
+                                    <span className='text-primary-gray-70 text-regular-14'>4.0</span>
+                                </button>
+                            </li>
+
+                            <li>
+                                <button onClick={() => setSize38(!size38)} className='flex-center gap-2'>
+                                    <div className={`${size38 ? 'border-primary-red-50 bg-primary-red-50' : 'border-primary-gray-20'} flex-center justify-center w-4 h-4 border  transition-colors-2`}>
+                                        <svg className={`${size38 ? 'block' : 'hidden'}`} xmlns="http://www.w3.org/2000/svg" width="10" height="7" viewBox="0 0 10 7" fill="none">
+                                            <path d="M1 3L3.82353 6L9 1" stroke="#fff" strokeLinecap="round" />
+                                        </svg>
+                                    </div>
+                                    <span className='text-primary-gray-70 text-regular-14'>3.8</span>
+                                </button>
+                            </li>
+
+                            <li>
+                                <button onClick={() => setSize36(!size36)} className='flex-center gap-2'>
+                                    <div className={`${size36 ? 'border-primary-red-50 bg-primary-red-50' : 'border-primary-gray-20'} flex-center justify-center w-4 h-4 border  transition-colors-2`}>
+                                        <svg className={`${size36 ? 'block' : 'hidden'}`} xmlns="http://www.w3.org/2000/svg" width="10" height="7" viewBox="0 0 10 7" fill="none">
+                                            <path d="M1 3L3.82353 6L9 1" stroke="#fff" strokeLinecap="round" />
+                                        </svg>
+                                    </div>
+                                    <span className='text-primary-gray-70 text-regular-14'>3.6</span>
                                 </button>
                             </li>
                             <li>
-                                <button onClick={() => setSize180x90(!size180x90)} className='flex-center gap-2'>
-                                    <div className={`${size180x90 ? 'border-primary-red-50 bg-primary-red-50' : 'border-primary-gray-20'} flex-center justify-center w-4 h-4 border  transition-colors-2`}>
-                                        <svg className={`${size180x90 ? 'block' : 'hidden'}`} xmlns="http://www.w3.org/2000/svg" width="10" height="7" viewBox="0 0 10 7" fill="none">
+                                <button onClick={() => setSize32(!size32)} className='flex-center gap-2'>
+                                    <div className={`${size32 ? 'border-primary-red-50 bg-primary-red-50' : 'border-primary-gray-20'} flex-center justify-center w-4 h-4 border  transition-colors-2`}>
+                                        <svg className={`${size32 ? 'block' : 'hidden'}`} xmlns="http://www.w3.org/2000/svg" width="10" height="7" viewBox="0 0 10 7" fill="none">
                                             <path d="M1 3L3.82353 6L9 1" stroke="#fff" strokeLinecap="round" />
                                         </svg>
                                     </div>
-                                    <span className='text-primary-gray-70 text-regular-14'>180x90</span>
+                                    <span className='text-primary-gray-70 text-regular-14'>3.2</span>
                                 </button>
                             </li>
                             <li>
-                                <button onClick={() => setSize160x26(!size160x26)} className='flex-center gap-2'>
-                                    <div className={`${size160x26 ? 'border-primary-red-50 bg-primary-red-50' : 'border-primary-gray-20'} flex-center justify-center w-4 h-4 border  transition-colors-2`}>
-                                        <svg className={`${size160x26 ? 'block' : 'hidden'}`} xmlns="http://www.w3.org/2000/svg" width="10" height="7" viewBox="0 0 10 7" fill="none">
+                                <button onClick={() => setSize26(!size26)} className='flex-center gap-2'>
+                                    <div className={`${size26 ? 'border-primary-red-50 bg-primary-red-50' : 'border-primary-gray-20'} flex-center justify-center w-4 h-4 border  transition-colors-2`}>
+                                        <svg className={`${size26 ? 'block' : 'hidden'}`} xmlns="http://www.w3.org/2000/svg" width="10" height="7" viewBox="0 0 10 7" fill="none">
                                             <path d="M1 3L3.82353 6L9 1" stroke="#fff" strokeLinecap="round" />
                                         </svg>
                                     </div>
-                                    <span className='text-primary-gray-70 text-regular-14'>160x26</span>
+                                    <span className='text-primary-gray-70 text-regular-14'>2.6</span>
                                 </button>
                             </li>
                             <li>
-                                <button onClick={() => setSize120x26(!size120x26)} className='flex-center gap-2'>
-                                    <div className={`${size120x26 ? 'border-primary-red-50 bg-primary-red-50' : 'border-primary-gray-20'} flex-center justify-center w-4 h-4 border  transition-colors-2`}>
-                                        <svg className={`${size120x26 ? 'block' : 'hidden'}`} xmlns="http://www.w3.org/2000/svg" width="10" height="7" viewBox="0 0 10 7" fill="none">
+                                <button onClick={() => setSize25(!size25)} className='flex-center gap-2'>
+                                    <div className={`${size25 ? 'border-primary-red-50 bg-primary-red-50' : 'border-primary-gray-20'} flex-center justify-center w-4 h-4 border  transition-colors-2`}>
+                                        <svg className={`${size25 ? 'block' : 'hidden'}`} xmlns="http://www.w3.org/2000/svg" width="10" height="7" viewBox="0 0 10 7" fill="none">
                                             <path d="M1 3L3.82353 6L9 1" stroke="#fff" strokeLinecap="round" />
                                         </svg>
                                     </div>
-                                    <span className='text-primary-gray-70 text-regular-14'>120x26</span>
+                                    <span className='text-primary-gray-70 text-regular-14'>2.5</span>
                                 </button>
                             </li>
                             <li>
-                                <button onClick={() => setSize100x80(!size100x80)} className='flex-center gap-2'>
-                                    <div className={`${size100x80 ? 'border-primary-red-50 bg-primary-red-50' : 'border-primary-gray-20'} flex-center justify-center w-4 h-4 border  transition-colors-2`}>
-                                        <svg className={`${size100x80 ? 'block' : 'hidden'}`} xmlns="http://www.w3.org/2000/svg" width="10" height="7" viewBox="0 0 10 7" fill="none">
+                                <button onClick={() => setSize24(!size24)} className='flex-center gap-2'>
+                                    <div className={`${size24 ? 'border-primary-red-50 bg-primary-red-50' : 'border-primary-gray-20'} flex-center justify-center w-4 h-4 border  transition-colors-2`}>
+                                        <svg className={`${size24 ? 'block' : 'hidden'}`} xmlns="http://www.w3.org/2000/svg" width="10" height="7" viewBox="0 0 10 7" fill="none">
                                             <path d="M1 3L3.82353 6L9 1" stroke="#fff" strokeLinecap="round" />
                                         </svg>
                                     </div>
-                                    <span className='text-primary-gray-70 text-regular-14'>100x80</span>
+                                    <span className='text-primary-gray-70 text-regular-14'>2.4</span>
                                 </button>
                             </li>
                             <li>
-                                <button onClick={() => setSize72x36(!size72x36)} className='flex-center gap-2'>
-                                    <div className={`${size72x36 ? 'border-primary-red-50 bg-primary-red-50' : 'border-primary-gray-20'} flex-center justify-center w-4 h-4 border  transition-colors-2`}>
-                                        <svg className={`${size72x36 ? 'block' : 'hidden'}`} xmlns="http://www.w3.org/2000/svg" width="10" height="7" viewBox="0 0 10 7" fill="none">
+                                <button onClick={() => setSize22(!size22)} className='flex-center gap-2'>
+                                    <div className={`${size22 ? 'border-primary-red-50 bg-primary-red-50' : 'border-primary-gray-20'} flex-center justify-center w-4 h-4 border  transition-colors-2`}>
+                                        <svg className={`${size22 ? 'block' : 'hidden'}`} xmlns="http://www.w3.org/2000/svg" width="10" height="7" viewBox="0 0 10 7" fill="none">
                                             <path d="M1 3L3.82353 6L9 1" stroke="#fff" strokeLinecap="round" />
                                         </svg>
                                     </div>
-                                    <span className='text-primary-gray-70 text-regular-14'>72x36</span>
+                                    <span className='text-primary-gray-70 text-regular-14'>2.2</span>
                                 </button>
                             </li>
                             <li>
-                                <button onClick={() => setSize65x80(!size65x80)} className='flex-center gap-2'>
-                                    <div className={`${size65x80 ? 'border-primary-red-50 bg-primary-red-50' : 'border-primary-gray-20'} flex-center justify-center w-4 h-4 border  transition-colors-2`}>
-                                        <svg className={`${size65x80 ? 'block' : 'hidden'}`} xmlns="http://www.w3.org/2000/svg" width="10" height="7" viewBox="0 0 10 7" fill="none">
+                                <button onClick={() => setSize18(!size18)} className='flex-center gap-2'>
+                                    <div className={`${size18 ? 'border-primary-red-50 bg-primary-red-50' : 'border-primary-gray-20'} flex-center justify-center w-4 h-4 border  transition-colors-2`}>
+                                        <svg className={`${size18 ? 'block' : 'hidden'}`} xmlns="http://www.w3.org/2000/svg" width="10" height="7" viewBox="0 0 10 7" fill="none">
                                             <path d="M1 3L3.82353 6L9 1" stroke="#fff" strokeLinecap="round" />
                                         </svg>
                                     </div>
-                                    <span className='text-primary-gray-70 text-regular-14'>65x80</span>
+                                    <span className='text-primary-gray-70 text-regular-14'>1.8</span>
                                 </button>
                             </li>
+                            <li>
+                                <button onClick={() => setSize17(!size17)} className='flex-center gap-2'>
+                                    <div className={`${size17 ? 'border-primary-red-50 bg-primary-red-50' : 'border-primary-gray-20'} flex-center justify-center w-4 h-4 border  transition-colors-2`}>
+                                        <svg className={`${size17 ? 'block' : 'hidden'}`} xmlns="http://www.w3.org/2000/svg" width="10" height="7" viewBox="0 0 10 7" fill="none">
+                                            <path d="M1 3L3.82353 6L9 1" stroke="#fff" strokeLinecap="round" />
+                                        </svg>
+                                    </div>
+                                    <span className='text-primary-gray-70 text-regular-14'>1.7</span>
+                                </button>
+                            </li>
+
                         </ul>
                     </div>
 
@@ -588,8 +680,7 @@ const Products = () => {
                     <h3 className='text-center text-medium-28'>Afsuski bizda bunday mahsulot yo'q!</h3>
                     <p className="max-w-2xl text-center">Balki sizga boshqa mahsulotlarimiz yoqishi mumkindir. Mahsulotlarni qayta filtrlab ko'ring.
                     </p>
-                    <div className="flex gap-5">
-
+                    <div className="flex gap-5 flex-wrap justify-center">
                         {/* reset filter  */}
                         <button onClick={resetFilter} className="red-btn px-5 py-3.5">Mahsulotlarni asl holiga qaytarish</button>
                         <button onClick={() => setOpenFilter(true)} className="red-btn px-5 py-3.5">Mahsulotlarni qayta filtrlash</button>

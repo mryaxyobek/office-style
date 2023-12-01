@@ -940,7 +940,7 @@ export const cabinetProductsForManagers = [
                     name: 'LDSP',
                 }
             ],
-            thickness: '18',
+            thickness: '1.8',
             style: 'Zamonaviy',
             color: [
                 {
@@ -1215,7 +1215,7 @@ export const cabinetProductsForManagers = [
                     name: 'Melamin',
                 },
             ],
-            thickness: '3,8',
+            thickness: '3.8',
             style: 'Zamonaviy',
             color: [
                 {
@@ -1508,7 +1508,7 @@ export const cabinetProductsForManagers = [
                     name: 'MDF',
                 },
             ],
-            thickness: '6,7',
+            thickness: '6.7',
             style: 'Klassik',
             color: [
                 {
@@ -1834,7 +1834,7 @@ export const cabinetProductsForManagers = [
                     name: 'Melamin',
                 },
             ],
-            thickness: '3,8',
+            thickness: '3.8',
             style: 'Zamonaviy',
             color: [
                 {
@@ -2615,7 +2615,7 @@ export const cabinetProductsForManagers = [
                     name: 'Melamin',
                 },
             ],
-            thickness: '3,9',
+            thickness: '3.9',
             style: 'Zamonaviy',
             color: [
                 {
@@ -2943,7 +2943,7 @@ export const cabinetProductsForManagers = [
                     name: 'MDF',
                 },
             ],
-            thickness: '5,6',
+            thickness: '5.6',
             style: 'Klassik',
             color: [
                 {
@@ -3223,7 +3223,7 @@ export const furnitureForStaff = [
                     name: 'LDSP',
                 },
             ],
-            thickness: '1,8',
+            thickness: '1.8',
             color: [
                 {
                     id: 1,
@@ -3385,7 +3385,7 @@ export const furnitureForStaff = [
                     name: 'LDSP',
                 },
             ],
-            thickness: '2,2',
+            thickness: '2.2',
             color: [
                 {
                     id: 1,
@@ -3562,7 +3562,7 @@ export const furnitureForStaff = [
                     name: 'Metall ramka',
                 },
             ],
-            thickness: '1,8',
+            thickness: '1.8',
             color: [
                 {
                     id: 1,
@@ -3787,7 +3787,7 @@ export const furnitureForStaff = [
                     name: 'metall ramka',
                 },
             ],
-            thickness: '2,5',
+            thickness: '2.5',
             color: [
                 {
                     id: 1,
@@ -3983,7 +3983,7 @@ export const furnitureForStaff = [
                     name: 'metall ramka',
                 },
             ],
-            thickness: '2,5',
+            thickness: '2.5',
             color: [
                 {
                     id: 1,
@@ -4141,14 +4141,14 @@ export const furnitureForStaff = [
             {
                 id: 5,
                 type: "Laminatlangan LDSP bo'limi ekrani",
-                size: '140x1,8x38,6 sm',
+                size: '140x1.8x38,6 sm',
                 currentPrice: 431000,
                 oldprice: false,
             },
             {
                 id: 6,
                 type: "Ko'taruvchi kabel kanali",
-                size: '72,5 sm',
+                size: '72.5 sm',
                 currentPrice: 350800,
                 oldprice: false,
             }
@@ -4176,7 +4176,7 @@ export const furnitureForStaff = [
                     name: 'material ramka',
                 },
             ],
-            thickness: '2,5',
+            thickness: '2.5',
             color: [
                 {
                     id: 1,
@@ -4257,7 +4257,7 @@ export const furnitureForStaff = [
             {
                 id: 2,
                 type: 'Lyukli tekis stol usti',
-                size: '140x70x2,5 sm',
+                size: '140x70x2.5 sm',
                 currentPrice: 612800,
                 oldprice: 2200000,
             },
@@ -4271,14 +4271,14 @@ export const furnitureForStaff = [
             {
                 id: 4,
                 type: "Ko'tarish kabel kanali H",
-                size: '72,5 sm',
+                size: '72.5 sm',
                 currentPrice: 2170000,
                 oldprice: false,
             },
             {
                 id: 5,
                 type: 'Stol ustiga mahkamlangan mato ekrani',
-                size: '130x2,6x45 sm',
+                size: '130x2.6x45 sm',
                 currentPrice: 663000,
                 oldprice: false,
             }
@@ -4306,7 +4306,7 @@ export const furnitureForStaff = [
                     name: 'metall ramka',
                 },
             ],
-            thickness: '1,8',
+            thickness: '1.8',
             color: [
                 {
                     id: 1,
@@ -4489,7 +4489,7 @@ export const furnitureForStaff = [
                     name: 'metal ramka',
                 },
             ],
-            thickness: '2,5',
+            thickness: '2.5',
             color: [
                 {
                     id: 1,
@@ -4624,7 +4624,7 @@ export const furnitureForStaff = [
                     name: 'metall ramka',
                 },
             ],
-            thickness: '2,5',
+            thickness: '2.5',
             color: [
                 {
                     id: 1,
@@ -4759,7 +4759,7 @@ export const furnitureForStaff = [
                     name: 'LDSP',
                 }
             ],
-            thickness: '2,5',
+            thickness: '2.5',
             color: [
                 {
                     id: 1,
@@ -4905,7 +4905,7 @@ export const furnitureForStaff = [
                     name: 'material ramka',
                 },
             ],
-            thickness: '2,4',
+            thickness: '2.4',
             color: [
                 {
                     id: 1,
@@ -4986,7 +4986,7 @@ export const furnitureForStaff = [
             {
                 id: 2,
                 type: 'Lyukli tekis stol usti',
-                size: '140x70x2,5 sm',
+                size: '140x70x2.5 sm',
                 currentPrice: 612800,
                 oldprice: 2200000,
             },
@@ -5000,14 +5000,14 @@ export const furnitureForStaff = [
             {
                 id: 4,
                 type: "Ko'tarish kabel kanali H",
-                size: '72,5 sm',
+                size: '72.5 sm',
                 currentPrice: 2170000,
                 oldprice: false,
             },
             {
                 id: 5,
                 type: 'Stol ustiga mahkamlangan mato ekrani',
-                size: '130x2,6x45 sm',
+                size: '130x2.6x45 sm',
                 currentPrice: 663000,
                 oldprice: false,
             }
@@ -5039,7 +5039,7 @@ export const furnitureForStaff = [
                     name: 'metall ramka',
                 },
             ],
-            thickness: '2,5',
+            thickness: '2.5',
             color: [
                 {
                     id: 1,
@@ -5219,7 +5219,7 @@ export const furnitureForStaff = [
                     name: 'LDSP',
                 },
             ],
-            thickness: '1,8',
+            thickness: '1.8',
             color: [
                 {
                     id: 1,
@@ -5377,7 +5377,7 @@ export const furnitureForStaff = [
                     name: 'metall ramka',
                 },
             ],
-            thickness: '2,6',
+            thickness: '2.6',
             color: [
                 {
                     id: 1,
@@ -5491,7 +5491,7 @@ export const furnitureForStaff = [
                     name: 'melamin',
                 },
             ],
-            thickness: '2,5',
+            thickness: '2.5',
             color: [
                 {
                     id: 1,
@@ -5594,7 +5594,7 @@ export const furnitureForStaff = [
             {
                 id: 2,
                 type: 'Jadval ekrani',
-                size: '132x1,8x37 sm',
+                size: '132x1.8x37 sm',
                 currentPrice: 496070,
                 oldprice: false,
             },
@@ -5636,7 +5636,7 @@ export const furnitureForStaff = [
                     name: 'Metall ramka',
                 },
             ],
-            thickness: '1,8',
+            thickness: '1.8',
             color: [
                 {
                     id: 1,

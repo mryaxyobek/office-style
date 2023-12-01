@@ -156,3 +156,11 @@
 .price-slider .ant-slider-rail {
     background: #EDEDED;
 }
+
+@media only screen and (max-width: 470px) {
+    .completed-projects-swiper :is(.swiper-button-prev, .swiper-button-next) {
+        width: 28px;
+        height: 28px;
+        border-radius: 4px;
+    }
+}
