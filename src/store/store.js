@@ -7,5 +7,6 @@ export const store = configureStore({
         card: cardSlice,
         callModalValue: modalSlice,
         sketchModalValue: modalSlice,
+        questionModalValue: modalSlice,
     },
 });
