@@ -139,3 +139,20 @@
         bottom: 33px;
     }
 }
+
+/* for ant d slider */
+.price-slider .ant-slider-handle {
+    transform: scale(1.5) !important;
+}
+
+.price-slider .ant-slider-handle::after {
+    box-shadow: 0 0 0 2px #AE0712 !important;
+}
+
+.price-slider .ant-slider-track {
+    background-color: #AE0712 !important;
+}
+
+.price-slider .ant-slider-rail {
+    background: #EDEDED;
+}
