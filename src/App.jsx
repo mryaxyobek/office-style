@@ -23,6 +23,7 @@ import Article from './pages/Article';
 import Portfolio from './pages/Portfolio';
 import Basket from './pages/Basket';
 import AkciyaPage from './pages/AkciyaPage';
+import AkciyaDetails from './pages/AkciyaDetails';
 
 const App = () => {
   const router = createBrowserRouter(
@@ -54,9 +55,11 @@ const App = () => {
           <Route path='article-name' element={<Article />} />
         </Route>
 
-        {/* akciya */}
+        {/* akciya */}  
         <Route path='/akciya' element={<AkciyaRoot />}>
           <Route index element={<AkciyaPage />} />
+          <Route index path='/akciya' element={<AkciyaPage />} />
+          <Route path=':akciyaName' element={<AkciyaDetails />} />
         </Route>
 
         <Route path='/about-company' element={<AboutCompanyPage />} />

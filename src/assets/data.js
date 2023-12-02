@@ -433,6 +433,7 @@ export const akciyaProducts = [
     {
         id: 1,
         date: '22 iyun 2023',
+        type: 'Mebelni chegima bilan sotib olishga shoshiling',
         description: 'Onix Direct kabinetini chegirma bilan sotib olishga shoshiling',
         img: akciyaProductImage,
         body: `Tabiiy quyosh nuri kayfiyatingizni yaxshilaydi, mahsuldorlikni va konsentratsiyani oshiradi va ko'zingizni charchatmaydi. Shuning uchun bolaning ish joyi imkon qadar derazaga yaqin joylashgan bo'lishi kerak. Dizaynerlar ko'pincha uni deraza bo'ylab loyihalashadi. Yaxshi yoritishga qo'shimcha ravishda, bu yechim bolalar xonasining maydonidan muvaffaqiyatli foydalanish va uzun stol usti bilan stol o'rnatish imkonini beradi.
@@ -441,6 +442,7 @@ export const akciyaProducts = [
     {
         id: 2,
         date: '20 avgust 2023',
+        type: 'Mebelni chegima bilan sotib olishga shoshiling',
         description: 'Bosh menejer uchun Tour Wood dan kabinetini chegirma bilan sotib olishga shoshiling',
         img: akciyaProductImage2,
         body: `Zamonaviy Tour Wood kolleksiyasi jozibali ko'rinishning benuqson pardozlash sifati bilan o'ziga xos kombinatsiyasidir. Ishlab chiqishda so'nggi dizayn ishlanmalaridan foydalanish ish joylarini ergonomika va qulaylik bilan ta'minlaydi. To'plam assortimenti foydalanishda o'zini isbotlagan turli xil narsalarni birlashtirish uchun turli xil variantlarni o'z ichiga oladi.`
@@ -448,6 +450,7 @@ export const akciyaProducts = [
     {
         id: 3,
         date: '16 noyabr 2023',
+        type: 'Ofisdan bepul yetkazib berish',
         description: 'Ofisdan bepul yetkazib berish',
         img: akciyaProductImage3,
         body: '16 - noyabrdan 16 - fevralgacha bepul yetkazib berish xizmati'
