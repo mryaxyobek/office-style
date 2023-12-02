@@ -3,6 +3,7 @@ import Hero from '../components/HomePageHero';
 import LeadingProducts from '../components/LeadingProducts';
 import AboutOfficeFurniture from '../components/AboutOfficeFurniture';
 import HomePageNewProducts from '../components/HomePageNewProducts';
+import HomePageAkciyaProducts from '../components/HomePageAkciyaProducts';
 import Akciya from '../components/Akciya';
 import AboutFurnitureSize from '../components/AboutFurnitureSize';
 import RedCta from '../components/RedCta';
@@ -20,6 +21,7 @@ const Home = () => {
             <LeadingProducts />
             <AboutOfficeFurniture />
             <HomePageNewProducts />
+            <HomePageAkciyaProducts />
             <Akciya />
             <AboutFurnitureSize />
             <RedCta />

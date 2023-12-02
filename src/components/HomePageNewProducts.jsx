@@ -35,13 +35,16 @@ const HomePageNewProducts = () => {
         setButtonId(e.target.id);
     };
     // all products
-    const allProducts = [...cabinetProductsForManagers, ...furnitureForStaff].filter((product) => product.akciya == true);
+    const allProducts = [...cabinetProductsForManagers, ...furnitureForStaff].filter((product) => product.new == true);
     const randomProducts = [];
 
 
     for (let i = 0; i < 8; i++) {
         const randomIndex = Math.floor(Math.random() * allProducts.length);
-        randomProducts.push(allProducts[randomIndex]);
+        const randomProduct = allProducts[randomIndex];
+        if (!randomProducts.some((product) => product.productId === randomProduct.productId)) {
+            randomProducts.push(randomProduct);
+        }
     };
 
 

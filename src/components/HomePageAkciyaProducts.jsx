@@ -18,7 +18,7 @@ import { cabinetProductsForManagers, furnitureForStaff, tabButtonsGroup } from '
 import { addCard } from '../store/slices/productBasketslice';
 import { useDispatch } from 'react-redux';
 
-const HomePageNewProducts = () => {
+const HomePageAkciyaProducts = () => {
     const [Position, setPosition] = useState(4);
     const [Width, setWidth] = useState(89);
     const [buttonId, setButtonId] = useState(1);
@@ -35,8 +35,9 @@ const HomePageNewProducts = () => {
         setButtonId(e.target.id);
     };
     // all products
-    const allProducts = [...cabinetProductsForManagers, ...furnitureForStaff];
+    const allProducts = [...cabinetProductsForManagers, ...furnitureForStaff].filter((product) => product.akciya == true);
     const randomProducts = [];
+
 
     for (let i = 0; i < 8; i++) {
         const randomIndex = Math.floor(Math.random() * allProducts.length);
@@ -44,6 +45,7 @@ const HomePageNewProducts = () => {
         if (!randomProducts.some((product) => product.productId === randomProduct.productId)) {
             randomProducts.push(randomProduct);
         }
+
     };
 
 
@@ -59,7 +61,7 @@ const HomePageNewProducts = () => {
         <section className='py-60r'>
             <div className="container">
                 {/* title  */}
-                <h2 className="text-center mb-60r">Eng yaxshi mahsulotlar</h2>
+                <h2 className="text-center mb-60r">Aksiydagai mahsulotlar</h2>
 
                 {/* tab */}
                 <div className="flex w-full overflow-x-auto hidden-scroll mb-8">
@@ -201,4 +203,4 @@ const HomePageNewProducts = () => {
     )
 }
 
-export default HomePageNewProducts;
+export default HomePageAkciyaProducts;
