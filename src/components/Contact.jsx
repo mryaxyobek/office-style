@@ -3,7 +3,16 @@ import React from 'react';
 // images 
 import whatsapp from '../assets/images/svg/whatsapp-logo.svg';
 import vk from '../assets/images/svg/vk-logo.svg';
+
+// redux
+import { useDispatch } from 'react-redux';
+import { openQuestionModal } from '../store/slices/modalSlice';
+
 const Contact = () => {
+    const dispatch = useDispatch();
+    const openQuestionModalFunction = () => {
+        dispatch(openQuestionModal());
+    };
     return (
         <div className='flex justify-between gap-5 max-1050:flex-col'>
             {/* informations  */}
@@ -51,13 +60,13 @@ const Contact = () => {
                 <div className="flex-start space-x-4 max-360:flex-col max-360:space-x-0 max-360:space-y-4">
                     <div className="flex-center space-x-4">
                         <a href="https://example.com" target='_blank' className="flex-center justify-center rounded-lg w-12 h-12 bg-secondary-whatsapp">
-                            <img width={32} height={32} src={whatsapp} alt="" className="" />
+                            <img width={32} height={32} src={whatsapp} alt="this is whatsapp logo image" />
                         </a>
                         <a href="https://example.com" target='_blank' className="flex-center justify-center rounded-lg w-12 h-12 bg-secondary-vk">
-                            <img width={26} height={17} src={vk} alt="" className="" />
+                            <img width={26} height={17} src={vk} alt="this is vk logo image" />
                         </a>
                     </div>
-                    <a href="https://t.me/mryaxyobek" target='_blank' className="red-btn py-3.5 px-6 text-regular-16">Telegram</a>
+                    <button onClick={openQuestionModalFunction} className="red-btn py-3.5 px-6 text-regular-16">Savol yuborish</button>
                 </div>
             </div>
 
