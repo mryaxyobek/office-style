@@ -13,20 +13,20 @@ const CategoryHero = () => {
                 <li>
                     <span className='max-540:text-primary-gray-10'>
                         {
-                            categoryName == 'cabinet-for-managers' &&
-                            <>Boshqaruvchilar uchun kabinet</>
+                            categoryName == 'boshqaruvchilar-uchun' &&
+                            <>Boshqaruvchilar uchun</>
                         }
                         {
-                            categoryName == 'furniture-for-staff' &&
-                            <>Xodimlar uchun mebel</>
+                            categoryName == 'xodimlar-uchun' &&
+                            <>Xodimlar uchun</>
                         }
                         {
                             categoryName == 'office-chairs' &&
-                            <>Ofis kreslolari</>
+                            <>Ofis uchun kreslolar</>
                         }
                         {
                             categoryName == 'office-sofas' &&
-                            <>Ofis divanlari</>
+                            <>Ofis uchun divanlar</>
                         }
                         {
                             categoryName == 'reception-desks' &&
@@ -34,11 +34,11 @@ const CategoryHero = () => {
                         }
                         {
                             categoryName == 'meeting-tables' &&
-                            <>Uchrashuvlar stollari</>
+                            <>Uchrashuvlar uchun stollar</>
                         }
                         {
                             categoryName == 'office-partitions' &&
-                            <>Ofis bo'limlari</>
+                            <>Offis bo'limlari</>
                         }
                         {
                             categoryName == 'multi-person-sections' &&
@@ -46,17 +46,17 @@ const CategoryHero = () => {
                         }
                         {
                             categoryName == 'office-desks' &&
-                            <>Ofis stollari</>
+                            <>Ofis uchun stollar</>
                         }
                         {
                             categoryName == 'office-cabinets' &&
-                            <>Ofis shkaflari</>
+                            <>Ofis uchun shkaflar</>
                         }
 
                         {/* other  */}
                         {
-                            categoryName != 'cabinet-for-managers' &&
-                            categoryName != 'furniture-for-staff' &&
+                            categoryName != 'boshqaruvchilar-uchun' &&
+                            categoryName != 'xodimlar-uchun' &&
                             categoryName != 'office-chairs' &&
                             categoryName != 'office-sofas' &&
                             categoryName != 'reception-desks' &&
@@ -65,7 +65,7 @@ const CategoryHero = () => {
                             categoryName != 'multi-person-sections' &&
                             categoryName != 'office-desks' &&
                             categoryName != 'office-cabinets' &&
-                            <span>Sahifa topilmadi</span>
+                            <span>Xato</span>
                         }
                     </span>
                 </li>
@@ -78,12 +78,12 @@ const CategoryHero = () => {
                     <div>
                         <h1 className="h1-bold text-white mb-8 max-1200:text-center max-540:text-left max-670:mb-7  max-540:mb-5 max-440:mb-4">
                             {
-                                categoryName == 'cabinet-for-managers' &&
+                                categoryName == 'boshqaruvchilar-uchun' &&
                                 <>Boshqaruvchilar uchun kabinet</>
                             }
                             {
-                                categoryName == 'furniture-for-staff' &&
-                                <>Xodimlar uchun mebel</>
+                                categoryName == 'xodimlar-uchun' &&
+                                <>Xodimlar uchun kabinet</>
                             }
                             {
                                 categoryName == 'office-chairs' &&
@@ -120,8 +120,8 @@ const CategoryHero = () => {
 
                             {/* other  */}
                             {
-                                categoryName != 'cabinet-for-managers' &&
-                                categoryName != 'furniture-for-staff' &&
+                                categoryName != 'boshqaruvchilar-uchun' &&
+                                categoryName != 'xodimlar-uchun' &&
                                 categoryName != 'office-chairs' &&
                                 categoryName != 'office-sofas' &&
                                 categoryName != 'reception-desks' &&

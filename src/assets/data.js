@@ -3208,7 +3208,7 @@ export const furnitureForStaff = [
     {
         id: 1,
         productId: 209738,
-        type: 'Xodimlarlar uchun',
+        type: 'Xodimlar uchun',
         productTitle: 'Xodimlar uchun mebel Work',
         order: false,
         new: false,
@@ -3370,7 +3370,7 @@ export const furnitureForStaff = [
     {
         id: 2,
         productId: 209739,
-        type: 'Xodimlarlar uchun',
+        type: 'Xodimlar uchun',
         productTitle: 'Xodimlar uchun mebel Agat',
         order: false,
         new: false,
@@ -3543,7 +3543,7 @@ export const furnitureForStaff = [
     {
         id: 3,
         productId: 209740,
-        type: 'Xodimlarlar uchun',
+        type: 'Xodimlar uchun',
         productTitle: 'Xodimlar uchun mebel Gamma',
         order: false,
         new: false,
@@ -3768,7 +3768,7 @@ export const furnitureForStaff = [
     {
         id: 4,
         productId: 209741,
-        type: 'Xodimlarlar uchun',
+        type: 'Xodimlar uchun',
         productTitle: 'Xodimlar uchun mebel Rio base',
         order: false,
         new: false,
@@ -3964,7 +3964,7 @@ export const furnitureForStaff = [
     {
         id: 5,
         productId: 209742,
-        type: 'Xodimlarlar uchun',
+        type: 'Xodimlar uchun',
         productTitle: 'Xodimlar uchun mebel Rio project',
         order: false,
         new: false,
@@ -4157,7 +4157,7 @@ export const furnitureForStaff = [
     {
         id: 6,
         productId: 209743,
-        type: 'Xodimlarlar uchun',
+        type: 'Xodimlar uchun',
         productTitle: 'Xodimlar uchun mebel Drive',
         order: false,
         new: false,
@@ -4287,7 +4287,7 @@ export const furnitureForStaff = [
     {
         id: 7,
         productId: 209744,
-        type: 'Xodimlarlar uchun',
+        type: 'Xodimlar uchun',
         productTitle: 'Xodimlar uchun mebel Work Metall',
         order: false,
         new: false,
@@ -4469,7 +4469,7 @@ export const furnitureForStaff = [
     {
         id: 8,
         productId: 209745,
-        type: 'Xodimlarlar uchun',
+        type: 'Xodimlar uchun',
         productTitle: 'Xodimlar uchun mebel Genesis',
         order: false,
         new: true,
@@ -4601,7 +4601,7 @@ export const furnitureForStaff = [
     {
         id: 9,
         productId: 209746,
-        type: 'Xodimlarlar uchun',
+        type: 'Xodimlar uchun',
         productTitle: 'Xodimlar uchun mebel Target',
         order: false,
         new: false,
@@ -4744,7 +4744,7 @@ export const furnitureForStaff = [
     {
         id: 10,
         productId: 209747,
-        type: 'Xodimlarlar uchun',
+        type: 'Xodimlar uchun',
         productTitle: 'Xodimlar uchun mebel Cliford',
         order: false,
         new: false,
@@ -4886,7 +4886,7 @@ export const furnitureForStaff = [
     {
         id: 11,
         productId: 209748,
-        type: 'Xodimlarlar uchun',
+        type: 'Xodimlar uchun',
         productTitle: 'Xodimlar uchun mebel Drive plus',
         order: false,
         new: true,
@@ -5016,7 +5016,7 @@ export const furnitureForStaff = [
     {
         id: 12,
         productId: 209749,
-        type: 'Xodimlarlar uchun',
+        type: 'Xodimlar uchun',
         productTitle: 'Xodimlar uchun mebel Flex',
         order: false,
         new: false,
@@ -5204,7 +5204,7 @@ export const furnitureForStaff = [
     {
         id: 13,
         productId: 209750,
-        type: 'Xodimlarlar uchun',
+        type: 'Xodimlar uchun',
         productTitle: 'Xodimlar uchun mebel Work plus',
         order: false,
         new: true,
@@ -5354,7 +5354,7 @@ export const furnitureForStaff = [
     {
         id: 14,
         productId: 209751,
-        type: 'Xodimlarlar uchun',
+        type: 'Xodimlar uchun',
         productTitle: 'Xodimlar uchun mebel New Target',
         order: true,
         new: true,
@@ -5472,7 +5472,7 @@ export const furnitureForStaff = [
     {
         id: 15,
         productId: 209752,
-        type: 'Xodimlarlar uchun',
+        type: 'Xodimlar uchun',
         productTitle: 'Xodimlar uchun mebel Tour Wood',
         order: true,
         new: false,
@@ -5617,7 +5617,7 @@ export const furnitureForStaff = [
     {
         id: 16,
         productId: 209753,
-        type: 'Xodimlarlar uchun',
+        type: 'Xodimlar uchun',
         productTitle: 'Xodimlar uchun mebel Gamma direct',
         order: false,
         new: false,

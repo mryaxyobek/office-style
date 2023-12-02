@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import { Link, useParams } from 'react-router-dom';
 
 // data 
 import { cabinetProductsForManagers, furnitureForStaff } from '../assets/data';
@@ -14,11 +15,9 @@ import 'swiper/css/pagination';
 import '../css/styles.css';
 // modules
 import { EffectFade, Navigation, Pagination } from 'swiper/modules';
-import { Link, useParams } from 'react-router-dom';
 
 
 // redux 
-import { useDispatch, useSelector } from 'react-redux';
 import { addCard } from '../store/slices/productBasketslice';
 
 // ant design
@@ -86,12 +85,13 @@ const Products = () => {
     // product
     let foundProducts = [];
 
-
-    if (categoryName === 'cabinet-for-managers') {
+    if (categoryName === 'boshqaruvchilar-uchun') {
+        console.log(1);
         foundProducts = cabinetProductsForManagers;
     };
 
-    if (categoryName === 'furniture-for-staff') {
+    if (categoryName === 'xodimlar-uchun') {
+        console.log(2);
         foundProducts = furnitureForStaff;
     };
 
