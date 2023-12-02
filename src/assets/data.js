@@ -7,6 +7,8 @@ import messayOffice from '../assets/images/other/messy-office.jpg';
 
 // for reviews
 import furnitureImgForReviews from '../assets/images/other/furniture-img-for-reviews-page.jpg';
+import furnitureImgForReviews2 from '../assets/images/other/gray-furnitures.jpg';
+import furnitureImgForReviews3 from '../assets/images/other/furniture-img-for-reviews-page3.png';
 
 // cabinet Products For  Managers 
 import cabinetProductsForManagersImg1 from '../assets/images/other/dark-jig-colored-desk-chair-for-office.jpg';
@@ -667,31 +669,31 @@ export const akciyaProducts = [
 export const reviewsData = [
     {
         id: 1,
-        userName: 'Мацко Диана Сергеевна',
-        comment: 'Выражаю свою благодарность сотрудникам компании "Территория Офиса" за помощь в выборе качественней мебели.Спасибо за оперативную доставку кабинета руководителя "Time.S", я очень довольна качеством мебели и сервиса. Желаю дальнейшего процветания и успешного развития компании!!!',
+        userName: 'Adhambek Soliyev',
+        comment: "Men ushbu kompaniya xodimlariga yuqori sifatli mebel tanlashda yordam bergani uchun o'z minnatdorchiligimni bildiraman.Time.S menejerining ofisini tez yetkazib berganingiz uchun rahmat, men mebel va xizmat sifatidan juda mamnunman. Sizga kompaniyaning yanada gullab-yashnashi va muvaffaqiyatli rivojlanishini tilayman!!!",
         productImg: furnitureImgForReviews,
         rating: 5,
     },
     {
         id: 2,
-        userName: 'Мацко Диана Сергеевна',
-        comment: 'Выражаю свою благодарность сотрудникам компании "Территория Офиса" за помощь в выборе качественней мебели.Спасибо за оперативную доставку кабинета руководителя "Time.S", я очень довольна качеством мебели и сервиса. Желаю дальнейшего процветания и успешного развития компании!!!',
-        productImg: furnitureImgForReviews,
+        userName: 'Azizaxon',
+        comment: "Menga keltirilgan mebellar juda ham yoqdi ayrim muammolarni hisobga olmaganda albatta. Barachangizga tashakkurlar aytib qolaman.",
+        productImg: furnitureImgForReviews2,
         rating: 4,
     },
     {
         id: 3,
-        userName: 'Мацко Диана Сергеевна',
-        comment: 'Выражаю свою благодарность сотрудникам компании "Территория Офиса" за помощь в выборе качественней мебели.Спасибо за оперативную доставку кабинета руководителя "Time.S", я очень довольна качеством мебели и сервиса. Желаю дальнейшего процветания и успешного развития компании!!!',
-        productImg: furnitureImgForReviews,
+        userName: 'Anvarjon Otaxanov',
+        comment: "Men ushbu kompaniyadan mebel buyurtma qilgan edim 2 soat ichida mebel olib kelib o'rnatib ketishdi va menga yana mebel sifatlari, rangiga gap yo'q. Endi men faqat shu kompaniyadan mahsulot sotib olaman. Barchangizga chin dildan rahmat aytib qolaman",
+        productImg: furnitureImgForReviews3,
         rating: 5,
     },
     {
-        id: 4,
-        userName: 'Мацко Диана Сергеевна',
-        comment: 'Выражаю свою благодарность сотрудникам компании "Территория Офиса" за помощь в выборе качественней мебели.Спасибо за оперативную доставку кабинета руководителя "Time.S", я очень довольна качеством мебели и сервиса. Желаю дальнейшего процветания и успешного развития компании!!!',
+        id: 3,
+        userName: 'Yaxyobek',
+        comment: "To'g'risini aytsam o'zimning didimdagidek mebelni topa olmadim lekin mebel sifati juda ham yoqdi!",
         productImg: furnitureImgForReviews,
-        rating: 2,
+        rating: 3,
     },
 ];
 
