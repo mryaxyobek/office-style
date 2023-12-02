@@ -7,6 +7,7 @@ import MainRoot from './layouts/MainRoot';
 import CatalogRoot from './layouts/CatalogRoot';
 import CategoryRoot from './layouts/CategoryRoot';
 import ArticleRoot from './layouts/ArticleRoot';
+import AkciyaRoot from './layouts/AkciyaRoot';
 
 // pages 
 import Home from './pages/Home';
@@ -21,6 +22,7 @@ import ArticlesPage from './pages/ArticlesPage';
 import Article from './pages/Article';
 import Portfolio from './pages/Portfolio';
 import Basket from './pages/Basket';
+import AkciyaPage from './pages/AkciyaPage';
 
 const App = () => {
   const router = createBrowserRouter(
@@ -52,6 +54,10 @@ const App = () => {
           <Route path='article-name' element={<Article />} />
         </Route>
 
+        {/* akciya */}
+        <Route path='/akciya' element={<AkciyaRoot />}>
+          <Route index element={<AkciyaPage />} />
+        </Route>
 
         <Route path='/about-company' element={<AboutCompanyPage />} />
         <Route path='/portfolio' element={<Portfolio />} />

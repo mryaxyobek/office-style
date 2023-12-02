@@ -434,29 +434,32 @@ export const akciyaProducts = [
         id: 1,
         date: '22 iyun 2023',
         description: 'Onix Direct kabinetini chegirma bilan sotib olishga shoshiling',
-        idName: '#exampleid1',
         img: akciyaProductImage,
+        body: `Tabiiy quyosh nuri kayfiyatingizni yaxshilaydi, mahsuldorlikni va konsentratsiyani oshiradi va ko'zingizni charchatmaydi. Shuning uchun bolaning ish joyi imkon qadar derazaga yaqin joylashgan bo'lishi kerak. Dizaynerlar ko'pincha uni deraza bo'ylab loyihalashadi. Yaxshi yoritishga qo'shimcha ravishda, bu yechim bolalar xonasining maydonidan muvaffaqiyatli foydalanish va uzun stol usti bilan stol o'rnatish imkonini beradi.
+        Maslahat: stol yonida, bola darsliklar, ish yuritish buyumlari va boshqa narsalarni qo'yadigan shkaf yoki javonni taqdim eting. Saqlash tizimi ish joyidan qo'l masofasida joylashgan bo'lsa, qulayroqdir. Joylashtirishda bolaga e'tibor qarating: o'ng qo'l odamlar uchun u o'ng tomonda bo'lishi kerak, chap qo'l uchun chap tomonda bo'lishi kerak.`
     },
     {
         id: 2,
         date: '20 avgust 2023',
         description: 'Bosh menejer uchun Tour Wood dan kabinetini chegirma bilan sotib olishga shoshiling',
-        idName: '#exampleid2',
         img: akciyaProductImage2,
+        body: `Zamonaviy Tour Wood kolleksiyasi jozibali ko'rinishning benuqson pardozlash sifati bilan o'ziga xos kombinatsiyasidir. Ishlab chiqishda so'nggi dizayn ishlanmalaridan foydalanish ish joylarini ergonomika va qulaylik bilan ta'minlaydi. To'plam assortimenti foydalanishda o'zini isbotlagan turli xil narsalarni birlashtirish uchun turli xil variantlarni o'z ichiga oladi.`
     },
     {
         id: 3,
         date: '16 noyabr 2023',
-        description: 'Ofisga bepul yetkazib berish',
-        idName: '#exampleid3',
+        description: 'Ofisdan bepul yetkazib berish',
         img: akciyaProductImage3,
+        body: '16 - noyabrdan 16 - fevralgacha bepul yetkazib berish xizmati'
     },
     {
         id: 4,
         date: '22 iyun 2023',
         description: '0-0-24 hammasi uchun',
-        idName: '#',
         img: paymentPlanImg,
+        body: `"OFIS TARZI" mebel saytida siz butun assortiment uchun lahzali to'lov rejalarini tashkil qilishingiz mumkin.
+        Hozir oling, keyinroq to'lang!
+        Fikrlar do‘konlari tarmog‘ining barcha filiallarida maishiy texnika va elektronika mahsulotlarini 6, 12, 18, 24 yoki 30 oy muddatga oldindan to‘lovsiz va Toshkent shahri bo‘ylab bepul yetkazib berish bilan bo‘lib-bo‘lib xarid qilishingiz mumkin.`
     },
 ];
 
