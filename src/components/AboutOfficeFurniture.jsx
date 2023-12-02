@@ -16,7 +16,7 @@ const AboutOfficeFurniture = () => {
                 {/* top  */}
                 <div className="flex-c-b mb-60px max-800:mb-12 max-360:mb-8">
                     <h2>5000 dan ortiq ofis mebellari bir joyda</h2>
-                    <Link to='/category' className='py-3.5 px-6 rounded-lg border border-primary-gray-50 min-w-max max-670:hidden'>Katalog</Link>
+                    <Link to='/catalog' className='py-3.5 px-6 rounded-lg border border-primary-gray-50 min-w-max max-670:hidden'>Katalog</Link>
                 </div>
                 {/* main  */}
                 <ul className="grid grid-cols-16 gap-8 max-1150:gap-5 max-1050:grid-cols-4 max-1050:gap-8 max-470:grid-cols-1 max-360:gap-4 max-670:mb-8">
