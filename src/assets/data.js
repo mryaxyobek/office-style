@@ -1,6 +1,9 @@
 // images 
 // akciya(stock) products
 import paymentPlanImg from '../assets/images/other/payment-plan.jpg';
+import akciyaProductImage from '../assets/images/other/cabinet-products-for-managers.jpg';
+import akciyaProductImage2 from '../assets/images/other/yellow-furnitures.png';
+import akciyaProductImage3 from '../assets/images/other/akciyaProductIMage.png';
 
 // for articles 
 import messayOffice from '../assets/images/other/messy-office.jpg';
@@ -360,33 +363,33 @@ export const products = [
 
 
 
-// akciya (stock) products
+// akciya (stock)
 export const akciyaProducts = [
     {
         id: 1,
-        date: '22 июня 2023',
-        description: 'Успейте приобрести кабинет для руководителя Onix Direct со скидкой',
+        date: '22 iyun 2023',
+        description: 'Onix Direct kabinetini chegirma bilan sotib olishga shoshiling',
         idName: '#exampleid1',
-        img: '',
+        img: akciyaProductImage,
     },
     {
         id: 2,
-        date: '16 июля 2023',
-        description: 'Успейте приобрести кабинет для руководителя Onix Direct со скидкой',
+        date: '20 avgust 2023',
+        description: 'Bosh menejer uchun Tour Wood dan kabinetini chegirma bilan sotib olishga shoshiling',
         idName: '#exampleid2',
-        img: '',
+        img: akciyaProductImage2,
     },
     {
         id: 3,
-        date: '20 августа 2023',
-        description: 'Бесплатная доставка до офиса',
+        date: '16 noyabr 2023',
+        description: 'Ofisga bepul yetkazib berish',
         idName: '#exampleid3',
-        img: '',
+        img: akciyaProductImage3,
     },
     {
         id: 4,
-        date: '22 июня 2023',
-        description: '0-0-24 на всё',
+        date: '22 iyun 2023',
+        description: '0-0-24 hammasi uchun',
         idName: '#',
         img: paymentPlanImg,
     },
