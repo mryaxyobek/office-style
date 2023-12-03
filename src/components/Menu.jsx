@@ -13,16 +13,8 @@ const Menu = ({ setOpenCatalog }) => {
         setOpenCatalog(false)
     }, [currentPage]);
 
-    const mainLinksWrapper = useRef(null);
-
-    useEffect(() => {
-        if (openCatalogLinks && mainLinksWrapper.current) {
-            mainLinksWrapper.current.scrollTo(0, 0);
-        }
-    }, [openCatalogLinks]);
-
     return (
-        <div className='bg-white h-full relative p-9 max-440:w-full max-440:px-5'>
+        <div className='bg-white h-full relative p-9 max-440:w-full max-440:px-5 overflow-y-auto red-scroll'>
             {/* header */}
             <div className="flex-center justify-between mb-9 max-580:mb-6 max-800:hidde">
                 <Link to='/' className='text-primary-gray-90 text-2xl leading-25px textblack'>
@@ -54,24 +46,53 @@ const Menu = ({ setOpenCatalog }) => {
                 </div>
             </div>
 
-            {/*  main links */}
-            <nav ref={mainLinksWrapper} className={`${openCatalogLinks ? 'overflow-y-hidden' : 'overflow-y-auto'}  red-scroll h-full pb-12`}>
-                <ul className="space-y-6">
-                    <li className="w-full">
-                        <button onClick={() => setOpenCatalogLinks(!openCatalogLinks)} className={`${openCatalogLinks ? 'is-active' : ''} flex-center gap-3 is-hovered hover:hover-folder-icon w-full`}>
-                            {/* icon */}
-                            <div className="flex-center justify-center w-7 h-7">
-                                <svg className='block w-7 h-7' width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path className={`${openCatalogLinks ? '!translate-y-0' : ''} hovered-line text-primary-red-60 translate-y-2 transition-transform`} stroke='currentColor' d="M7.00009 4.5002L21 4.50003" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                    <path className={`${openCatalogLinks ? '!translate-y-0' : ''} hovered-line text-primary-red-60 translate-y-2 transition-transform-2`} stroke='currentColor' d="M5.5 6.5H22.5" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" />
-                                    <path className='active-stroke active-fill-bg !fill-white' d="M22.5 23.9238H5.5C4.39543 23.9238 3.5 23.0284 3.5 21.9238V9.92383C3.5 9.37154 3.94772 8.92383 4.5 8.92383H23.5865C24.091 8.92383 24.5 9.33281 24.5 9.83732V21.9238C24.5 23.0284 23.6046 23.9238 22.5 23.9238Z" strokeWidth="2" />
-                                </svg>
-                            </div>
-                            {/* link */}
-                            <span className='text-medium-20 w-full active-text text-start'>Mebellar katalogi</span>
-                        </button>
-                    </li>
+            {/*  catalog link button */}
+            <button onClick={() => setOpenCatalogLinks(!openCatalogLinks)} className={`${openCatalogLinks ? 'is-active' : ''} flex-center gap-3 is-hovered hover:hover-folder-icon w-full mb-6`}>
+                {/* icon */}
+                <div className="flex-center justify-center w-7 h-7">
+                    <svg className='block w-7 h-7' width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path className={`${openCatalogLinks ? '!translate-y-0' : ''} hovered-line text-primary-red-60 translate-y-2 transition-transform`} stroke='currentColor' d="M7.00009 4.5002L21 4.50003" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                        <path className={`${openCatalogLinks ? '!translate-y-0' : ''} hovered-line text-primary-red-60 translate-y-2 transition-transform-2`} stroke='currentColor' d="M5.5 6.5H22.5" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" />
+                        <path className='active-stroke active-fill-bg !fill-white' d="M22.5 23.9238H5.5C4.39543 23.9238 3.5 23.0284 3.5 21.9238V9.92383C3.5 9.37154 3.94772 8.92383 4.5 8.92383H23.5865C24.091 8.92383 24.5 9.33281 24.5 9.83732V21.9238C24.5 23.0284 23.6046 23.9238 22.5 23.9238Z" strokeWidth="2" />
+                    </svg>
+                </div>
+                {/* link */}
+                <span className='text-medium-20 w-full active-text text-start'>Mebellar katalogi</span>
+            </button>
 
+            {/* catalog links */}
+            <nav className={`${openCatalogLinks ? 'pb-6 h-[384px]' : 'h-0'} overflow-hidden transition-all`}>
+                <ul className='space-y-6'>
+                    <li className="flex-center gap-2 before:content-[''] before:block before:rounded-full before:bg-primary-gray-50 before:w-1 before:h-1 text-primary-gray-50 hover:text-primary-red-60 hover:before:bg-primary-red-60">
+                        <Link to='/catalog' className='text-medium-18 transition-colors-2 w-full'>Katalog sahifasi</Link>
+                    </li>
+                    <li className="flex-center gap-2 before:content-[''] before:block before:rounded-full before:bg-primary-gray-50 before:w-1 before:h-1 text-primary-gray-50 hover:text-primary-red-60 hover:before:bg-primary-red-60">
+                        <Link to='/catalog/boshqaruvchilar-uchun' className='text-medium-18 transition-colors-2 w-full'>Boshqaruvchi kabineti</Link>
+                    </li>
+                    <li className="flex-center gap-2 before:content-[''] before:block before:rounded-full before:bg-primary-gray-50 before:w-1 before:h-1 text-primary-gray-50 hover:text-primary-red-60 hover:before:bg-primary-red-60">
+                        <Link to='/catalog/xodimlar-uchun' className='text-medium-18 transition-colors-2 w-full'>Xodimlar uchun mebel</Link>
+                    </li>
+                    <li className="flex-center gap-2 before:content-[''] before:block before:rounded-full before:bg-primary-gray-50 before:w-1 before:h-1 text-primary-gray-50 hover:text-primary-red-60 hover:before:bg-primary-red-60">
+                        <Link to='/catalog/' className='text-medium-18 transition-colors-2 w-full'>Ofis kreslolari</Link>
+                    </li>
+                    <li className="flex-center gap-2 before:content-[''] before:block before:rounded-full before:bg-primary-gray-50 before:w-1 before:h-1 text-primary-gray-50 hover:text-primary-red-60 hover:before:bg-primary-red-60">
+                        <Link to='/catalog/' className='text-medium-18 transition-colors-2 w-full'>Qabul qilish stollari</Link>
+                    </li>
+                    <li className="flex-center gap-2 before:content-[''] before:block before:rounded-full before:bg-primary-gray-50 before:w-1 before:h-1 text-primary-gray-50 hover:text-primary-red-60 hover:before:bg-primary-red-60">
+                        <Link to='/catalog/' className='text-medium-18 transition-colors-2 w-full'>Uchrashuv stollari</Link>
+                    </li>
+                    <li className="flex-center gap-2 before:content-[''] before:block before:rounded-full before:bg-primary-gray-50 before:w-1 before:h-1 text-primary-gray-50 hover:text-primary-red-60 hover:before:bg-primary-red-60">
+                        <Link to='/catalog/' className='text-medium-18 transition-colors-2 w-full'>Ofis shkaflari</Link>
+                    </li>
+                    <li className="flex-center gap-2 before:content-[''] before:block before:rounded-full before:bg-primary-gray-50 before:w-1 before:h-1 text-primary-gray-50 hover:text-primary-red-60 hover:before:bg-primary-red-60">
+                        <Link to='/catalog/' className='text-medium-18 transition-colors-2 w-full'>Ofis divanlari</Link>
+                    </li>
+                </ul>
+            </nav>
+
+            {/* main links  */}
+            <nav>
+                <ul className="space-y-6">
                     {/* home */}
                     <li className="flex-center gap-3 w-full">
                         <Link to='/' className={`${currentPageName === '' ? 'is-active' : ''} flex-center gap-3 w-full hover:is-hovered`}>
@@ -183,38 +204,6 @@ const Menu = ({ setOpenCatalog }) => {
                     </li>
                 </ul>
             </nav>
-
-            {/* catalog links */}
-            <div style={{ transform: openCatalogLinks ? 'translateX(0)' : 'translateX(-100%)' }} className="catalog-links-wrapper transition-transform-2">
-                <nav className='h-full red-scroll overflow-y-auto'>
-                    <ul className='space-y-6'>
-                        <li>
-                            <Link to='/catalog' className='text-medium-18 text-primary-gray-50 hover:text-primary-red-60 transition-colors-2'>Katalog sahifasi</Link>
-                        </li>
-                        <li>
-                            <Link to='/catalog/boshqaruvchilar-uchun' className='text-medium-18 text-primary-gray-50 hover:text-primary-red-60 transition-colors-2'>Boshqaruvchi kabineti</Link>
-                        </li>
-                        <li>
-                            <Link to='/catalog/xodimlar-uchun' className='text-medium-18 text-primary-gray-50 hover:text-primary-red-60 transition-colors-2'>Xodimlar uchun mebel</Link>
-                        </li>
-                        <li>
-                            <Link to='/catalog/' className='text-medium-18 text-primary-gray-50 hover:text-primary-red-60 transition-colors-2'>Ofis kreslolari</Link>
-                        </li>
-                        <li>
-                            <Link to='/catalog/' className='text-medium-18 text-primary-gray-50 hover:text-primary-red-60 transition-colors-2'>Qabul qilish stollari</Link>
-                        </li>
-                        <li>
-                            <Link to='/catalog/' className='text-medium-18 text-primary-gray-50 hover:text-primary-red-60 transition-colors-2'>Uchrashuv stollari</Link>
-                        </li>
-                        <li>
-                            <Link to='/catalog/' className='text-medium-18 text-primary-gray-50 hover:text-primary-red-60 transition-colors-2'>Ofis shkaflari</Link>
-                        </li>
-                        <li>
-                            <Link to='/catalog/' className='text-medium-18 text-primary-gray-50 hover:text-primary-red-60 transition-colors-2'>Ofis divanlari</Link>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
         </div >
     )
 };

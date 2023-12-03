@@ -620,13 +620,13 @@ label {
 }
 
 .catalog-links-wrapper {
-  position: absolute;
+  /* position: absolute;
   height: calc(100vh - 224px);
   top: 224px;
   left: 0px;
   width: 100%;
   background: #fff;
-  padding: 0 36px 24px;
+  padding: 0 36px 24px; */
 }
 
 
@@ -698,8 +698,8 @@ label {
   }
 
   .catalog-links-wrapper {
-    height: calc(100vh - 156px);
-    top: 88px;
+    height: calc(100vh - 213px);
+    top: 213px;
   }
 }
 
