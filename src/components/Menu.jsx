@@ -14,10 +14,10 @@ const Menu = ({ setOpenCatalog }) => {
     }, [currentPage]);
 
     return (
-        <div className='bg-white h-full relative p-9 max-440:w-full max-440:px-5 overflow-y-auto red-scroll'>
+        <div className='bg-white h-full relative p-9 max-440:w-full max-440:px-5 overflow-y-auto red-scroll max-800:pt-6'>
             {/* header */}
             <div className="flex-center justify-between mb-9 max-580:mb-6 max-800:hidde">
-                <Link to='/' className='text-primary-gray-90 text-2xl leading-25px textblack'>
+                <Link to='/' className='text-primary-gray-90 text-2xl leading-25px textblack max-800:text-xl max-800:leading-5 max-540:text-lg max-540:leading-17.5px'>
                     OFIS <span className='text-primary-red-50'>TARZI</span>
                 </Link>
                 {/* cross btn */}

@@ -33,6 +33,7 @@ const Header = () => {
     const [openCatalog, setOpenCatalog] = useState(false);
     const openCatalogFunc = () => {
         setOpenCatalog(!openCatalog);
+        window.scrollTo(0, 0);
     };
 
     // toggle search button 
@@ -50,22 +51,12 @@ const Header = () => {
     const preventdefault = (e) => {
         e.preventDefault();
     };
-
-    // for header animation (body overlfow hiddens)
-    useEffect(() => {
-        if (openCatalog) {
-            document.body.classList.add('overflow-hidden');
-            window.scrollTo(0, 0);
-        } else {
-            document.body.classList.remove('overflow-hidden');
-        }
-    }, [openCatalog])
     return (
         <header className={`py-4 bg-primary-gray-04 relative`}>
             <div className="flex-c-b container">
 
                 {/* logo  */}
-                <Link to='/' className='text-primary-gray-90 text-2xl leading-25px textblack max-800:text-xl max-800:leading-5 max-540:text-lg max-540:leading-17.5px max-440:text-base max-440:leading-4'>
+                <Link to='/' className='text-primary-gray-90 text-2xl leading-25px textblack max-800:text-xl max-800:leading-5 max-540:text-lg max-540:leading-17.5px'>
                     OFIS <span className='text-primary-red-50'>TARZI</span>
                 </Link>
 
@@ -133,7 +124,7 @@ const Header = () => {
                         </Link>
 
                         {/* (catalog) btn  */}
-                        <button onClick={openCatalogFunc} className="flex-center red-btn justify-center w-9 h-9 z-40">
+                        <button onClick={openCatalogFunc} className={`${openCatalog ? 'fixed top-4 right-5' : ''} flex-center red-btn justify-center w-9 h-9 z-40`}>
                             {/* cross  */}
                             <span className={`${openCatalog ? '-rotate-45' : 'rotate-0'} flex-center transition-transform-2 justify-between w-4 h-4 relative`}>
                                 <span className={`${openCatalog ? 'translate-y-0 w-4 rotate-90' : '-translate-y-5px w-3.5'} inline-block absolute transition-sizing-and-transfrom bg-white h-0.5`}></span>
