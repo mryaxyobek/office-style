@@ -99,14 +99,6 @@
     height: 16px;
 }
 
-@media only screen and (max-width:1800px) {
-    .homepage-swiper .swiper-pagination {
-        display: flex;
-        align-items: start;
-        padding: 0 20px;
-    }
-}
-
 /* completed projects & swiper */
 .completed-projects-swiper :is(.swiper-button-prev, .swiper-button-next) {
     width: 36px;
@@ -128,6 +120,14 @@
 .completed-projects-swiper :is(.swiper-button-prev, .swiper-button-next)::after {
     display: none;
     content: '';
+}
+
+@media only screen and (max-width:1800px) {
+    .homepage-swiper .swiper-pagination {
+        display: flex;
+        align-items: start;
+        padding: 0 20px;
+    }
 }
 
 @media only screen and (max-width:640px) {

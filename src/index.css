@@ -679,6 +679,15 @@ label {
   animation: count-animation 5s linear;
 }
 
+.catalog-links-wrapper {
+  position: absolute;
+  height: calc(100vh - 224px);
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  background: #fff;
+  padding: 0 36px 24px;
+}
 
 
 /* responsive  */
@@ -746,6 +755,11 @@ label {
 
   .reviews-page-reviews-list>li blockquote {
     margin-bottom: 24px;
+  }
+
+  .catalog-links-wrapper {
+    height: calc(100vh - 156px);
+    padding: 0 20px 24px;
   }
 }
 

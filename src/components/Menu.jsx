@@ -22,10 +22,10 @@ const Menu = ({ setOpenCatalog }) => {
     }, [openCatalogLinks]);
 
     return (
-        <div className='bg-white h-full relative p-9'>
+        <div className='bg-white h-full relative p-9 max-440:w-full max-800:flex max-800:flex-col-reverse max-440:px-5'>
             {/* header */}
-            <div className="flex-center justify-between mb-9">
-                <Link to='/' className='text-primary-gray-90 text-2xl leading-25px textblack max-800:text-xl max-800:leading-5 max-540:text-lg max-540:leading-17.5px max-440:text-base max-440:leading-4'>
+            <div className="flex-center justify-between mb-9 max-800:hidden">
+                <Link to='/' className='text-primary-gray-90 text-2xl leading-25px textblack'>
                     OFIS <span className='text-primary-red-50'>TARZI</span>
                 </Link>
                 {/* cross btn */}
@@ -36,7 +36,9 @@ const Menu = ({ setOpenCatalog }) => {
                     </span>
                 </button>
             </div>
-            <div className="flex-center justify-between mb-9">
+
+            {/* page < > */}
+            <div className="flex-center justify-between mb-9 max-800:mb-0 max-800:mt-2">
                 <div className="grow w-full h-0.5 rounded-full bg-primary-gray-30 mr-2"></div>
                 <div className="flex-center gap-2">
                     <Link to={-1} className='flex-center justify-center w-7 h-7 text-primary-gray-50 hover:text-primary-red-60'>
@@ -51,6 +53,7 @@ const Menu = ({ setOpenCatalog }) => {
                     </Link>
                 </div>
             </div>
+
             {/*  main links */}
             <nav ref={mainLinksWrapper} className={`${openCatalogLinks ? 'overflow-y-hidden' : 'overflow-y-auto'}  red-scroll h-full pb-12`}>
                 <ul className="space-y-6">
@@ -182,11 +185,11 @@ const Menu = ({ setOpenCatalog }) => {
             </nav>
 
             {/* catalog links */}
-            <div style={{ height: 'calc(100vh - 160px)', transform: openCatalogLinks ? 'translateX(0)' : 'translateX(-100%)' }} className="absolute bottom-0 left-0 w-full bg-white px-9 pb-6 transition-transform-2">
+            <div style={{ transform: openCatalogLinks ? 'translateX(0)' : 'translateX(-100%)' }} className="catalog-links-wrapper transition-transform-2">
                 <nav className='h-full red-scroll overflow-y-auto'>
                     <ul className='space-y-6'>
                         <li>
-                            <Link to='/catalog' className='text-medium-20 text-primary-gray-50 hover:text-primary-red-60 transition-colors-2'>Katalog sahifasi</Link>
+                            <Link to='/catalog' className='text-medium-18 text-primary-gray-50 hover:text-primary-red-60 transition-colors-2'>Katalog sahifasi</Link>
                         </li>
                         <li>
                             <Link to='/catalog/boshqaruvchilar-uchun' className='text-medium-18 text-primary-gray-50 hover:text-primary-red-60 transition-colors-2'>Boshqaruvchi kabineti</Link>
