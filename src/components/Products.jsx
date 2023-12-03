@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
 
 // data 
 import { cabinetProductsForManagers, furnitureForStaff } from '../assets/data';
@@ -27,7 +28,8 @@ const Products = () => {
 
     // product
     const { categoryName } = useParams();
-
+    // ADD PRODUCT
+    const dispatch = useDispatch();
     const addToCard = (product) => {
         dispatch(addCard(product));
     };
@@ -86,12 +88,10 @@ const Products = () => {
     let foundProducts = [];
 
     if (categoryName === 'boshqaruvchilar-uchun') {
-        console.log(1);
         foundProducts = cabinetProductsForManagers;
     };
 
     if (categoryName === 'xodimlar-uchun') {
-        console.log(2);
         foundProducts = furnitureForStaff;
     };
 
@@ -219,7 +219,7 @@ const Products = () => {
         <div className="container">
 
             {/* overlay  */}
-            <div onClick={() => { setOpenFilter(false); setOpenSortButton(false); }} className={`${openFilter || openSortButton ? 'block' : 'hidden'} fixed bg-black bg-opacity-75 w-full min-h-screen top-0 right-0 z-4`}></div>
+            <div onClick={() => { setOpenFilter(false); }} className={`${openFilter ? 'block' : 'hidden'} fixed bg-black bg-opacity-75 w-full min-h-screen top-0 right-0 z-4`}></div>
 
             {/* filter place */}
             <div className={`${openFilter ? 'translate-x-0' : 'translate-x-full'} transition-transform-2 fixed top-0 right-0 w-96 h-screen z-5 bg-white pr-6 p-12 pt-16 max-440:p-6 max-440:pt-14 max-440:w-80 max-360:w-full`}>

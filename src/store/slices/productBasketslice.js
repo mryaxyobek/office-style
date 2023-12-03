@@ -10,8 +10,8 @@ export const cardSlice = createSlice({
         addCard: (state, action) => {
             const found = state.card.find(product => product.productId === action.payload.productId);
             if (!found) {
-                let product = { ...action.payload }
-                state.card.push(product)
+                let product = { ...action.payload };
+                state.card.push(product);
             } else {
                 alert("Bu mahsulot allaqachon savatga qo'shilgan")
             };

@@ -399,6 +399,70 @@ html {
   .mb-60r {
     @apply mb-60px max-900:mb-12 max-440:mb-8;
   }
+
+  /* links hover active (curent page active) */
+  .is-hovered:hover .active-text {
+    color: #AE0712;
+  }
+
+  .is-hovered:hover .active-stroke {
+    stroke: #AE0712;
+  }
+
+  .is-hovered:hover .active-fill {
+    fill: #AE0712;
+  }
+
+  /* active */
+  .is-active .active-text {
+    color: #AE0712 !important;
+  }
+
+  .is-active .active-stroke {
+    stroke: #AE0712;
+  }
+
+  .is-active .active-fill {
+    fill: #AE0712;
+  }
+
+  .is-active .active-stroke-important {
+    stroke: #fff !important;
+  }
+
+  .is-active .active-fill-important {
+    fill: #fff !important;
+  }
+
+  .is-active .active-fill-bg {
+    fill: #AE0712 !important;
+  }
+
+  /* value  */
+  .active-text {
+    color: #808080;
+  }
+
+  .active-stroke {
+    stroke: #808080;
+  }
+
+  .active-fill {
+    fill: #808080;
+  }
+
+  .active-fill-bg {
+    fill: transparent;
+  }
+
+  :is(.active-text, .active-stroke, .active-fill) {
+    @apply transition-colors-2;
+  }
+
+  /* hover folder icon animation */
+  .hover-folder-icon .hovered-line {
+    transform: translateY(0px);
+  }
 }
 
 /* form elements */
@@ -424,7 +488,7 @@ label {
 
 /* transition  */
 .transition-colors-2 {
-  transition: background-color 0.3s linear, color 0.3s linear, border-color 0.3s linear, text-decoration-color 0.3s linear, fill 0.3s linear;
+  transition: background-color 0.3s linear, color 0.3s linear, border-color 0.3s linear, text-decoration-color 0.3s linear, fill 0.3s linear, stroke 0.3s linear;
 }
 
 .transition-transform-2 {
@@ -647,6 +711,7 @@ label {
   }
 
 }
+
 
 @media only screen and (max-width:900px) {
 

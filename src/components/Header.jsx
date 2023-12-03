@@ -205,8 +205,9 @@ const Header = () => {
                 </div>
             </div>
 
-            <div style={{ transform: openCatalog ? `translateX(0vw)` : `translateX(-100vw)`, top: '155px' }} className='absolute -top-1 z-30 max-h-max w-full bg-slate-400 transition-transform-2 max-1050:!top-36 max-900:!top-68px'>
-                <Menu />
+            {/* menu */}
+            <div className={`${openCatalog ? 'translate-x-0' : '-translate-x-full'} fixed w-96 h-screen z-20 top-0 left-0 bottom-0 transition-transform-2`}>
+                <Menu setOpenCatalog={setOpenCatalog} />
             </div>
         </header>
     )

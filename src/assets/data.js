@@ -1014,7 +1014,7 @@ export const reviewsData = [
         rating: 5,
     },
     {
-        id: 3,
+        id: 4,
         userName: 'Yaxyobek',
         comment: "To'g'risini aytsam o'zimning didimdagidek mebelni topa olmadim lekin mebel sifati juda ham yoqdi!",
         productImg: furnitureImgForReviews,
