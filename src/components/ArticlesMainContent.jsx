@@ -9,14 +9,14 @@ const ArticlesMainContent = () => {
         <div className='pt-36r pb-60r'>
             <div className="container space-y-14 max-900:space-y-10 max-440:space-y-8">
                 {/* title  */}
-                <h1>Статьи</h1>
+                <h1>Maqolalar</h1>
 
                 {/* filter  */}
                 <div className="flex flex-wrap gap-5">
-                    <button className="py-2 px-5 rounded-full bg-primary-red-60 text-white">Все</button>
-                    <button className="py-2 px-5 rounded-full bg-primary-gray-10 text-primary-gray-70">Идеи</button>
-                    <button className="py-2 px-5 rounded-full bg-primary-gray-10 text-primary-gray-70">Тренды</button>
-                    <button className="py-2 px-5 rounded-full bg-primary-gray-10 text-primary-gray-70">Новинки</button>
+                    <button className="py-2 px-5 rounded-full bg-primary-red-60 text-white">Barchasi</button>
+                    <button className="py-2 px-5 rounded-full bg-primary-gray-10 text-primary-gray-70">Ideya</button>
+                    <button className="py-2 px-5 rounded-full bg-primary-gray-10 text-primary-gray-70">Mashxur</button>
+                    <button className="py-2 px-5 rounded-full bg-primary-gray-10 text-primary-gray-70">Yangi</button>
                 </div>
 
                 {/* article  */}

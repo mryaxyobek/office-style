@@ -22,14 +22,14 @@ const Menu = ({ setOpenCatalog }) => {
     }, [openCatalogLinks]);
 
     return (
-        <div className='bg-white h-full relative p-9 max-440:w-full max-800:flex max-800:flex-col-reverse max-440:px-5'>
+        <div className='bg-white h-full relative p-9 max-440:w-full max-440:px-5'>
             {/* header */}
-            <div className="flex-center justify-between mb-9 max-800:hidden">
+            <div className="flex-center justify-between mb-9 max-580:mb-6 max-800:hidde">
                 <Link to='/' className='text-primary-gray-90 text-2xl leading-25px textblack'>
                     OFIS <span className='text-primary-red-50'>TARZI</span>
                 </Link>
                 {/* cross btn */}
-                <button onClick={() => setOpenCatalog(false)} className="flex-center red-btn justify-center w-9 h-9">
+                <button onClick={() => setOpenCatalog(false)} className="flex-center red-btn justify-center w-9 h-9 max-800:hidden">
                     <span className={`rotate-45 flex-center justify-between w-4 h-4 relative`}>
                         <span className={`translate-y-0 w-4 rotate-90 inline-block absolute bg-white h-0.5`}></span>
                         <span className={`translate-y-0 w-4 inline-block absolute bg-white h-0.5`}></span>
@@ -38,7 +38,7 @@ const Menu = ({ setOpenCatalog }) => {
             </div>
 
             {/* page < > */}
-            <div className="flex-center justify-between mb-9 max-800:mb-0 max-800:mt-2">
+            <div className="flex-center justify-between mb-9 max-580:mb-6">
                 <div className="grow w-full h-0.5 rounded-full bg-primary-gray-30 mr-2"></div>
                 <div className="flex-center gap-2">
                     <Link to={-1} className='flex-center justify-center w-7 h-7 text-primary-gray-50 hover:text-primary-red-60'>

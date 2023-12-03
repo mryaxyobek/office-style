@@ -133,7 +133,7 @@ const Header = () => {
                         </Link>
 
                         {/* (catalog) btn  */}
-                        <button onClick={openCatalogFunc} className="flex-center red-btn justify-center w-9 h-9">
+                        <button onClick={openCatalogFunc} className="flex-center red-btn justify-center w-9 h-9 z-40">
                             {/* cross  */}
                             <span className={`${openCatalog ? '-rotate-45' : 'rotate-0'} flex-center transition-transform-2 justify-between w-4 h-4 relative`}>
                                 <span className={`${openCatalog ? 'translate-y-0 w-4 rotate-90' : '-translate-y-5px w-3.5'} inline-block absolute transition-sizing-and-transfrom bg-white h-0.5`}></span>
@@ -220,12 +220,20 @@ const Header = () => {
             </div>
 
             {/* menu */}
-            <div className={`${openCatalog ? 'translate-x-0' : '-translate-x-full'} max-w-sm w-full fixed h-screen z-40 top-0 left-0 transition-transform-2 max-800:h-[calc(100vh-68px)] max-800:!bottom-0 max-800:top-auto max-440:max-w-none`}>
+            <div className={`${openCatalog ? 'translate-x-0' : '-translate-x-full'} max-w-sm w-full fixed h-screen z-30 top-0 left-0 transition-transform-2 max-440:max-w-none`}>
                 <Menu setOpenCatalog={setOpenCatalog} />
+
+                {/* close catalog links */}
+                <button onClick={() => setOpenCatalog(false)} className="flex-center red-btn justify-center w-9 h-9">
+                    <span className={`rotate-45 flex-center justify-between w-4 h-4 relative`}>
+                        <span className={`translate-y-0 w-4 rotate-90 inline-block absolute bg-white h-0.5`}></span>
+                        <span className={`translate-y-0 w-4 inline-block absolute bg-white h-0.5`}></span>
+                    </span>
+                </button>
             </div>
 
             {/* overlay  */}
-            <div onClick={() => setOpenCatalog(false)} className={`${openCatalog ? 'block' : 'hidden'} fixed w-full h-screen top-0 right-0 bg-black z-30 bg-opacity-75 max-800:hidden`}></div>
+            <div onClick={() => setOpenCatalog(false)} className={`${openCatalog ? 'block' : 'hidden'} fixed w-full h-screen top-0 right-0 bg-black z-20 bg-opacity-75`}></div>
         </header >
     )
 };

@@ -12,7 +12,7 @@ const Articles = () => {
                             if (e.id <= 4) {
                                 return (
                                     <li key={e.id} className='min-w-416px max-470:min-w-300px'>
-                                        <img width={416} height={260} src={e.img} alt={e.imgName} className="w-416px h-260px object-cover object-center mb-6 rounded-2.5xl max-470:w-300px max-470:h-52 max-360:h-175px" />
+                                        <img width={416} height={260} src={e.img} alt={e.imgName} className="w-416px h-260px object-cover object-center mb-6 rounded-2.5xl max-470:w-300px max-470:h-52 max-360:h-175px bg-primary-gray-30" />
                                         <div className="space-y-3">
                                             <span className="text-regular-14 text-primary-gray-70">{e.date}</span>
                                             <p className="text-regular-20 text-primary-gray-90 max-470:text-medium-20">{e.description}</p>

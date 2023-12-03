@@ -17,7 +17,7 @@ const AboutFurnitureSize = () => {
 
                     {/* img parent  */}
                     <div className="furniture-imgs col-span-11 relative max-1350:col-span-1">
-                        <img width={1200} height={596} src={furniture} alt="office furniture image" className="rounded-2.5xl max-1350:w-full max-360:h-40 object-cover" />
+                        <img width={1200} height={596} src={furniture} alt="office furniture image" className="rounded-2.5xl max-1350:w-full max-360:h-40 object-cover bg-primary-gray-30" />
                         {/* buttons  */}
                         <div className="absolute left-153px bottom-198px max-1500:left-24 max-1500:bottom-36 max-1050:hidden">
                             <div className="flex-center flex-col relative">

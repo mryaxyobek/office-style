@@ -103,7 +103,7 @@ const HomePageNewProducts = () => {
                                             return (
                                                 img.id <= 3 &&
                                                 <SwiperSlide key={img.id} className="flex items-center justify-center relative">
-                                                    <img className='absolute brightness-95 img w-full min-h-full object-cover object-center transition-transform-2' width={416} height={310} src={img.img} alt="furniture image" />
+                                                    <img className='absolute brightness-95 img w-full min-h-full object-cover object-center transition-transform-2 bg-primary-gray-30' width={416} height={310} src={img.img} alt="furniture image" />
                                                     <div className="absolute tabs-wrapper top-5 right-5 transition-opacity-2">
                                                         <div className="flex-center space-x-3 ml-auto">
                                                             {

@@ -107,7 +107,7 @@ const CallModal = () => {
                     </form>
 
                     {/* image */}
-                    <img src={addReview} width={600} height={640} alt='add review image' className="absolute z-1 right-0 rounded-r-2.5xl top-0 h-full w-52% object-cover object-right-top max-730:hidden" />
+                    <img src={addReview} width={600} height={640} alt='add review image' className="absolute z-1 right-0 rounded-r-2.5xl top-0 h-full w-52% object-cover object-right-top max-730:hidden bg-primary-gray-30" />
                 </div >
             </div >
         </>

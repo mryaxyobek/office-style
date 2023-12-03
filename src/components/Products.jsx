@@ -222,7 +222,7 @@ const Products = () => {
             <div onClick={() => { setOpenFilter(false); }} className={`${openFilter ? 'block' : 'hidden'} fixed bg-black bg-opacity-75 w-full min-h-screen top-0 right-0 z-4`}></div>
 
             {/* filter place */}
-            <div className={`${openFilter ? 'translate-x-0' : 'translate-x-full'} transition-transform-2 fixed top-0 right-0 w-96 h-screen z-5 bg-white pr-6 p-12 pt-16 max-440:p-6 max-440:pt-14 max-440:w-80 max-360:w-full`}>
+            <div className={`${openFilter ? 'translate-x-0' : 'translate-x-full'} transition-transform-2 fixed top-0 right-0 w-96 h-screen z-50 bg-white pr-6 p-12 pt-16 max-440:p-6 max-440:pt-14 max-440:w-80 max-360:w-full`}>
                 {/* close and reset filter button  */}
                 <div className="flex-start justify-between absolute top-5 right-0 w-full pl-12 pr-6 max-440:pl-6">
                     <button onClick={resetFilter} className="flex-center text-primary-red-60 gap-2.5">

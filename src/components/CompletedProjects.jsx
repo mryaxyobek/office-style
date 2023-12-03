@@ -91,7 +91,7 @@ const CompletedProjects = () => {
                                                 product.images.map((img) => {
                                                     return (
                                                         <SwiperSlide key={img.id} className="flex items-center justify-center relative">
-                                                            <img src={img.img} alt="furniture image" className="w-full h-full object-cover object-center" />
+                                                            <img src={img.img} alt="furniture image" className="w-full h-full object-cover object-center bg-primary-gray-30" />
                                                         </SwiperSlide>
                                                     )
                                                 })

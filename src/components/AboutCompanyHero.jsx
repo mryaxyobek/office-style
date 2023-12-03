@@ -18,12 +18,12 @@ const AboutCompanyHero = () => {
                         </div>
                     </div>
                     {/* img  */}
-                    <img src={furnitures} alt="office furnitures" width={783} height={470} className="rounded-2.5xl object-cover max-1300:w-556px max-1050:w-full" />
+                    <img src={furnitures} alt="office furnitures" width={783} height={470} className="rounded-2.5xl object-cover max-1300:w-556px max-1050:w-full bg-primary-gray-30" />
                 </div>
 
                 <div className="flex justify-between gap-5 max-1050:flex-col-reverse">
                     {/* img  */}
-                    <img src={blackFurnitures} alt="office furnitures" width={752} height={503} className="rounded-2.5xl max-1300:w-556px max-1050:w-full" />
+                    <img src={blackFurnitures} alt="office furnitures" width={752} height={503} className="rounded-2.5xl max-1300:w-556px max-1050:w-full bg-primary-gray-20" />
                     {/* text  */}
                     <div className='max-w-935px text-primary-gray-70 space-y-4'>
                         <p className='max-440:text-regular-16'>Office furnitures mahsulotlarini O'zbekistonning 300 dan ortiq shaharlarida sotib olish mumkin. Kompaniyaning brend ko'rgazma zallarida keng assortimentdagi (50 000 dan ortiq turdagi) ofis mebellari taklif etiladi: xodimlar uchun mebellar, ofis stullari, kreslolar va stollar, boshqaruv idoralari, seyflar, metall shkaflar va javonlar.</p>

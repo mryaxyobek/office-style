@@ -34,10 +34,10 @@ const Footer = () => {
                         {/* list  */}
                         <ul className="space-y-2 text-regular-14 text-primary-gray-20">
                             <li>
-                                <Link to='/catalog/cabinet-for-managers'>Boshqaruvchi kabineti</Link>
+                                <Link to='/catalog/boshqaruvchilar-uchun'>Boshqaruvchi kabineti</Link>
                             </li>
                             <li>
-                                <Link to='/catalog/furniture-for-staff'>Xodimlar uchun mebel</Link>
+                                <Link to='/catalog/xodimlar-uchun'>Xodimlar uchun mebel</Link>
                             </li>
                             <li>
                                 <Link to='/'>Ofis kreslolari</Link>
@@ -76,7 +76,7 @@ const Footer = () => {
                                 <Link to='/about-company'>Kompaniya haqida</Link>
                             </li>
                             <li>
-                                <Link to='/portfolio'>Loyihaxlar</Link>
+                                <Link to='/portfolio'>Loyihalar</Link>
                             </li>
                             <li>
                                 <Link to='/reviews'>Sharxlar</Link>
