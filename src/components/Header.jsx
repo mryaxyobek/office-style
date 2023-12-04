@@ -33,6 +33,8 @@ const Header = () => {
         } else {
             setChangeText(false);
         };
+
+        setOpenSearchInput(false);
     }, [currentPage]);
 
     // toggle catalog button 
@@ -80,9 +82,7 @@ const Header = () => {
     useEffect(() => {
         if (openSearchInput) {
             window.scrollTo(0, 0);
-            document.body.classList.add('overflow-hidden');
         } else {
-            document.body.classList.remove('overflow-hidden');
             setProducts([]);
         };
 
@@ -222,14 +222,14 @@ const Header = () => {
                         <div className="flex-center space-x-3.5">
 
                             {/* search */}
-                            <div style={{ borderRadius: products.length > 0 ? '8px 8px 0px 0px' : '8px' }} className={`${openSearchInput ? 'border-secondary-blue-50 w-96' : 'border-black'} relative border transition-colors-2 z-2`}>
+                            <div style={{ borderRadius: products.length > 0 ? '9px 9px 0px 0px' : '9px' }} className={`${openSearchInput ? 'w-96' : (changeText ? 'border-white' : 'border-black')} relative border transition-colors-2 z-2`}>
 
-                                <div style={{ borderRadius: products.length > 0 ? '8px 8px 0px 0px' : '8px' }} className='flex overflow-hidden rounded-md h-full bg-white'>
+                                <div style={{ borderRadius: products.length > 0 ? '8px 8px 0px 0px' : '8px' }} className={`${openSearchInput ? 'bg-white' : 'bg-transparent'} flex overflow-hidden h-full`}>
                                     {/* search input  */}
                                     <input placeholder='Nimani qidiramiz?' onKeyDown={filteredProducts} type="text" className={`${openSearchInput ? 'block' : 'hidden'} border-none w-full h-10 rounded-none`} />
 
                                     {/* search btn */}
-                                    <button type='button' onClick={openSearchInputFunc} className={`${openSearchInput ? 'bg-white rounded-none' : 'bg-transparent'} shrink flex-center justify-center rounded-lg w-full min-w-[40px] max-w-[40px] h-10`}>
+                                    <button type='button' onClick={openSearchInputFunc} className={`shrink flex-center justify-center rounded-lg w-full min-w-[40px] max-w-[40px] h-10`}>
                                         <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
                                             <path fillRule="evenodd" className={`${changeText ? (openSearchInput ? 'text-black' : 'text-white') : 'text-black'}  transition-colors-2`} clipRule="evenodd" d="M15.5355 16.7363L11.6926 12.8863C8.69326 15.2551 4.36773 14.8755 1.82676 12.0205C-0.71421 9.16545 -0.590064 4.8244 2.10978 2.11923C4.80975 -0.585937 9.1498 -0.71775 12.0089 1.81858C14.868 4.3549 15.2552 8.68042 12.8922 11.6844L16.7351 15.5344C16.9591 15.7468 17.0502 16.0639 16.973 16.3628C16.8959 16.6616 16.6629 16.8951 16.3642 16.9727C16.0655 17.0503 15.7483 16.9598 15.5357 16.7363L15.5355 16.7363ZM1.71634 7.21456C1.7109 9.43369 3.03684 11.4397 5.08058 12.3041C7.12419 13.1685 9.48685 12.7226 11.0752 11.1729C11.0915 11.1537 11.1085 11.1353 11.1263 11.1176C11.1443 11.0995 11.1624 11.0826 11.1815 11.0666C12.9256 9.28543 13.2599 6.55614 11.9971 4.40655C10.7344 2.25695 8.18785 1.2205 5.78321 1.87734C3.37857 2.53419 1.71232 4.72137 1.71737 7.21453L1.71634 7.21456Z" fill='currentColor' />
                                         </svg>
@@ -243,7 +243,7 @@ const Header = () => {
                                             products.map((product, index) => {
                                                 return (
                                                     <li key={index} >
-                                                        <Link className='flex-center gap-5' to={`/catalog/${product.type.toLowerCase().replace(/\s+/g, '-')}/${product.productTitle.toLowerCase().replace(/\s+/g, '-')}`} >
+                                                        <Link onClick={() => setOpenSearchInput(false)} className='flex-center gap-5' to={`/catalog/${product.type.toLowerCase().replace(/\s+/g, '-')}/${product.productTitle.toLowerCase().replace(/\s+/g, '-')}`} >
                                                             <img src={product.images[0].img} alt={product.images[0].alt} className="w-11 h-9 bg-primary-gray-20 rounded" />
                                                             <h3 className="text-medium-18">{product.productTitle}</h3>
                                                         </Link>
@@ -321,7 +321,7 @@ const Header = () => {
                                     products.map((product, index) => {
                                         return (
                                             <li key={index} className='w-full'>
-                                                <Link className='flex-center gap-5 w-full' to={`/catalog/${product.type.toLowerCase().replace(/\s+/g, '-')}/${product.productTitle.toLowerCase().replace(/\s+/g, '-')}`} >
+                                                <Link onClick={() => setOpenSearchInput(false)} className='flex-center gap-5 w-full' to={`/catalog/${product.type.toLowerCase().replace(/\s+/g, '-')}/${product.productTitle.toLowerCase().replace(/\s+/g, '-')}`} >
                                                     <img src={product.images[0].img} alt={product.images[0].alt} className="w-14 h-12 object-cover bg-primary-gray-20 rounded max-440:w-11 max-440:h-9" />
                                                     <h3 className="text-medium-18 max-440:text-regular-16">{product.productTitle}</h3>
                                                     <img src={rightArrow} alt="right solid arrow iocn" className="ml-auto mr-2 max-470:hidden" />
