@@ -1155,7 +1155,7 @@ export const cabinetProductsForManagers = [
             },
             {
                 id: 4,
-                type: 'Boshqaruvchi stoli',
+                type: 'Boshqaruvchi stuli',
                 size: '180x97x75 sm',
                 currentPrice: 2170000,
                 oldprice: false,
@@ -3307,6 +3307,7 @@ export const cabinetProductsForManagers = [
     },
 ];
 
+// furniture for staff
 export const furnitureForStaff = [
     {
         id: 1,
@@ -5173,7 +5174,7 @@ export const furnitureForStaff = [
             {
                 id: 4,
                 alt: 'furniture image',
-                img: '	https://territory-office.ru/assets/thumbnails/ba/bab28218a6f2d0a25c08671efa6ad046.jpg',
+                img: 'https://territory-office.ru/assets/thumbnails/ba/bab28218a6f2d0a25c08671efa6ad046.jpg',
             },
             {
                 id: 5,
@@ -5200,7 +5201,7 @@ export const furnitureForStaff = [
             {
                 id: 3,
                 alt: 'furniture image',
-                img: '	https://territory-office.ru/assets/thumbnails/12/1210f9aac56906564f7c4fdc31c83c94.jpg',
+                img: 'https://territory-office.ru/assets/thumbnails/12/1210f9aac56906564f7c4fdc31c83c94.jpg',
             },
             {
                 id: 4,
@@ -5620,7 +5621,7 @@ export const furnitureForStaff = [
             {
                 id: 3,
                 alt: 'furniture image',
-                img: '	https://territory-office.ru/assets/thumbnails/cc/cc3bb0f3642c44391000b0a17de184a0.jpg',
+                img: 'https://territory-office.ru/assets/thumbnails/cc/cc3bb0f3642c44391000b0a17de184a0.jpg',
             },
             {
                 id: 4,
@@ -5944,6 +5945,7 @@ export const furnitureForStaff = [
     },
 ];
 
+// officce sofas
 export const officeSofas = [
     {
         id: 1,
@@ -5998,7 +6000,7 @@ export const officeSofas = [
             {
                 id: 1,
                 alt: 'picture of office sofa',
-                img: '	https://territory-office.ru/assets/thumbnails/cb/cbe984cc6379de165eb8667d9beffe20.jpg',
+                img: 'https://territory-office.ru/assets/thumbnails/cb/cbe984cc6379de165eb8667d9beffe20.jpg',
             },
             {
                 id: 2,
@@ -6008,12 +6010,12 @@ export const officeSofas = [
             {
                 id: 3,
                 alt: 'picture of office sofa',
-                img: '	https://territory-office.ru/assets/thumbnails/cd/cd15eb54e1684694864f0f014bdd351b.jpg',
+                img: 'https://territory-office.ru/assets/thumbnails/cd/cd15eb54e1684694864f0f014bdd351b.jpg',
             },
             {
                 id: 4,
                 alt: 'picture of office sofa',
-                img: '	https://territory-office.ru/assets/thumbnails/1f/1f230baae9acfa8c14b130ed2e6144e8.jpg',
+                img: 'https://territory-office.ru/assets/thumbnails/1f/1f230baae9acfa8c14b130ed2e6144e8.jpg',
             },
             {
                 id: 5,
@@ -6129,7 +6131,7 @@ export const officeSofas = [
             {
                 id: 2,
                 alt: 'picture of office sofa',
-                img: '	https://territory-office.ru/assets/thumbnails/b6/b60e24bc8237858d128158e42ef25cf0.jpg',
+                img: 'https://territory-office.ru/assets/thumbnails/b6/b60e24bc8237858d128158e42ef25cf0.jpg',
             },
             {
                 id: 3,
@@ -6139,7 +6141,7 @@ export const officeSofas = [
             {
                 id: 4,
                 alt: 'picture of office sofa',
-                img: '	https://territory-office.ru/assets/thumbnails/c0/c0fcb43633813f241858a1719f9f7b40.jpeg',
+                img: 'https://territory-office.ru/assets/thumbnails/c0/c0fcb43633813f241858a1719f9f7b40.jpeg',
             }
         ],
         completedProjects: [
@@ -6258,12 +6260,12 @@ export const officeSofas = [
             {
                 id: 1,
                 alt: 'picture of office sofa',
-                img: '	https://territory-office.ru/assets/thumbnails/dd/ddc88d0ec4372e7c058a62fc205a19af.jpg',
+                img: 'https://territory-office.ru/assets/thumbnails/dd/ddc88d0ec4372e7c058a62fc205a19af.jpg',
             },
             {
                 id: 2,
                 alt: 'picture of office sofa',
-                img: '	https://territory-office.ru/assets/thumbnails/60/60e4d2430517963848002a6b5f644d3c.jpg',
+                img: 'https://territory-office.ru/assets/thumbnails/60/60e4d2430517963848002a6b5f644d3c.jpg',
             },
             {
                 id: 3,
@@ -6278,7 +6280,7 @@ export const officeSofas = [
             {
                 id: 5,
                 alt: 'picture of office sofa',
-                img: '	https://territory-office.ru/assets/thumbnails/ae/aee70083e78498ca85b00706ce7b1fa1.jpg',
+                img: 'https://territory-office.ru/assets/thumbnails/ae/aee70083e78498ca85b00706ce7b1fa1.jpg',
             },
             {
                 id: 6,
@@ -6300,7 +6302,7 @@ export const officeSofas = [
             {
                 id: 2,
                 alt: 'picture of office sofa',
-                img: '	https://territory-office.ru/assets/thumbnails/ad/ad8c54e0f4adff373a8576078392a9dc.jpg',
+                img: 'https://territory-office.ru/assets/thumbnails/ad/ad8c54e0f4adff373a8576078392a9dc.jpg',
             },
             {
                 id: 3,
@@ -6385,7 +6387,7 @@ export const officeSofas = [
             {
                 id: 1,
                 alt: 'picture of office sofa',
-                img: '	https://territory-office.ru/assets/thumbnails/38/383e5a49ef4171cf3498a6f0d1b420c7.jpg',
+                img: 'https://territory-office.ru/assets/thumbnails/38/383e5a49ef4171cf3498a6f0d1b420c7.jpg',
             },
             {
                 id: 2,
@@ -6523,7 +6525,7 @@ export const officeSofas = [
             {
                 id: 3,
                 alt: 'picture of office sofa',
-                img: '	https://territory-office.ru/assets/thumbnails/e2/e265979c92857d570a5b3ff90c696c7e.jpg',
+                img: 'https://territory-office.ru/assets/thumbnails/e2/e265979c92857d570a5b3ff90c696c7e.jpg',
             },
             {
                 id: 4,
@@ -6700,7 +6702,7 @@ export const officeSofas = [
             {
                 id: 5,
                 alt: 'picture of office sofa',
-                img: '	https://territory-office.ru/assets/thumbnails/62/62a21d673a83eff1439aefa6129aa20f.jpg',
+                img: 'https://territory-office.ru/assets/thumbnails/62/62a21d673a83eff1439aefa6129aa20f.jpg',
             }
         ],
         completedProjects: [
@@ -6826,7 +6828,7 @@ export const officeSofas = [
             {
                 id: 2,
                 alt: 'picture of office sofa',
-                img: '	https://territory-office.ru/assets/thumbnails/96/96e58c530353e53c3af30a60e086b65b.jpg',
+                img: 'https://territory-office.ru/assets/thumbnails/96/96e58c530353e53c3af30a60e086b65b.jpg',
             },
             {
                 id: 3,
@@ -6858,7 +6860,7 @@ export const officeSofas = [
             {
                 id: 3,
                 alt: 'picture of office sofa',
-                img: '	https://territory-office.ru/assets/thumbnails/17/17af02df9cac19e9ba73758e0d7499ea.jpg',
+                img: 'https://territory-office.ru/assets/thumbnails/17/17af02df9cac19e9ba73758e0d7499ea.jpg',
             }
         ],
         reviews: [
@@ -7043,7 +7045,7 @@ export const officeSofas = [
             {
                 id: 2,
                 alt: 'picture of office sofa',
-                img: '	https://territory-office.ru/assets/thumbnails/71/71cdf17115d7e1b3e31f31dc0708a323.jpg',
+                img: 'https://territory-office.ru/assets/thumbnails/71/71cdf17115d7e1b3e31f31dc0708a323.jpg',
             },
             {
                 id: 3,
@@ -7131,7 +7133,7 @@ export const officeSofas = [
             {
                 id: 1,
                 alt: 'picture of office sofa',
-                img: '	https://territory-office.ru/assets/thumbnails/7d/7d98dfddec4e322c1458d83dec94f8c1.jpeg',
+                img: 'https://territory-office.ru/assets/thumbnails/7d/7d98dfddec4e322c1458d83dec94f8c1.jpeg',
             },
             {
                 id: 2,
@@ -7141,7 +7143,7 @@ export const officeSofas = [
             {
                 id: 3,
                 alt: 'picture of office sofa',
-                img: '	https://territory-office.ru/assets/thumbnails/e2/e265979c92857d570a5b3ff90c696c7e.jpg',
+                img: 'https://territory-office.ru/assets/thumbnails/e2/e265979c92857d570a5b3ff90c696c7e.jpg',
             },
             {
                 id: 4,
@@ -7151,7 +7153,7 @@ export const officeSofas = [
             {
                 id: 5,
                 alt: 'picture of office sofa',
-                img: '	https://territory-office.ru/assets/thumbnails/e0/e0ca3683fe9e57f7a80cfa21dba94897.jpg',
+                img: 'https://territory-office.ru/assets/thumbnails/e0/e0ca3683fe9e57f7a80cfa21dba94897.jpg',
             }
         ],
         completedProjects: [
@@ -7216,12 +7218,12 @@ export const officeSofas = [
             {
                 id: 1,
                 alt: 'picture of office sofa',
-                img: '	https://territory-office.ru/assets/thumbnails/32/323ad0d87521f0e722db7310c07883d8.jpg',
+                img: 'https://territory-office.ru/assets/thumbnails/32/323ad0d87521f0e722db7310c07883d8.jpg',
             },
             {
                 id: 2,
                 alt: 'picture of office sofa',
-                img: '	https://territory-office.ru/assets/thumbnails/fd/fd8fc2f57b4ba0d5bf857069a2109b92.jpg',
+                img: 'https://territory-office.ru/assets/thumbnails/fd/fd8fc2f57b4ba0d5bf857069a2109b92.jpg',
             },
             {
                 id: 3,
@@ -7450,7 +7452,7 @@ export const officeSofas = [
             {
                 id: 4,
                 alt: 'picture of office sofa',
-                img: '	https://territory-office.ru/assets/thumbnails/1f/1f230baae9acfa8c14b130ed2e6144e8.jpg',
+                img: 'https://territory-office.ru/assets/thumbnails/1f/1f230baae9acfa8c14b130ed2e6144e8.jpg',
             },
             {
                 id: 5,
@@ -7566,7 +7568,7 @@ export const officeSofas = [
             {
                 id: 2,
                 alt: 'picture of office sofa',
-                img: '	https://territory-office.ru/assets/thumbnails/cf/cfd4c7205fdf9649bb12192a22fabd77.jpg',
+                img: 'https://territory-office.ru/assets/thumbnails/cf/cfd4c7205fdf9649bb12192a22fabd77.jpg',
             },
             {
                 id: 3,
@@ -7576,14 +7578,14 @@ export const officeSofas = [
             {
                 id: 4,
                 alt: 'picture of office sofa',
-                img: '	https://territory-office.ru/assets/thumbnails/c0/c0fcb43633813f241858a1719f9f7b40.jpeg',
+                img: 'https://territory-office.ru/assets/thumbnails/c0/c0fcb43633813f241858a1719f9f7b40.jpeg',
             }
         ],
         completedProjects: [
             {
                 id: 1,
                 alt: 'picture of office sofa',
-                img: '	https://territory-office.ru/assets/thumbnails/f6/f6248ad02a12e089b269a4ce71e97251.jpg',
+                img: 'https://territory-office.ru/assets/thumbnails/f6/f6248ad02a12e089b269a4ce71e97251.jpg',
             }
         ],
         reviews: [
@@ -7715,7 +7717,7 @@ export const officeSofas = [
             {
                 id: 5,
                 alt: 'picture of office sofa',
-                img: '	https://territory-office.ru/assets/thumbnails/ae/aee70083e78498ca85b00706ce7b1fa1.jpg',
+                img: 'https://territory-office.ru/assets/thumbnails/ae/aee70083e78498ca85b00706ce7b1fa1.jpg',
             },
             {
                 id: 6,
@@ -7804,3 +7806,1149 @@ export const officeSofas = [
         ]
     },
 ];
+
+export const ManagersChair = [
+    {
+        id: 1,
+        productId: 209770,
+        type: 'Boshqaruvchi stuli',
+        productTitle: 'Samuray S-3.041 boshqaruvchi stuli',
+        order: true,
+        new: false,
+        akciya: false,
+        available: true,
+        description: `Innovatsion ergonomik stul. Qoplama materiali*: to'r. Qoplama materiali: to'r. Maksimal yuk: 120 kg gacha. Mebel rangi: qora. Kreslo mexanizmi turi: silliq harakat va bir nechta pozitsiyalarda mahkamlash bilan "multiblok" tebranish. Orqa to'r: ha. Krossovka (besh nurli)*: metall, xromlangan metall. Xoch (besh qo'l): metall / xromlangan metall. Qo'l dayamalari*: prokladkali xrom. Qo'l dayamalari: 3D sozlanishi. Minimal stul balandligi: 1280 mm. Kresloning maksimal balandligi: 1380 mm. Kreslo kengligi: 690 mm. O'rindiqning minimal balandligi: 470 mm. O'rindiqning maksimal balandligi: 570 mm. O'rindiq kengligi: 520 mm. O'rindiq chuqurligi: 450 mm. Orqa kengligi: 520 mm. Orqa balandligi: 620 mm. Seriya: SAMURAI.`,
+        details: {
+            material: [
+                {
+                    id: 1,
+                    name: 'xrom',
+                }
+            ],
+            country: "Xitoy",
+            endurance: '120 kg',
+            color: [
+                {
+                    id: 1,
+                    name: 'qora',
+                },
+                {
+                    id: 2,
+                    name: 'bej',
+                },
+                {
+                    id: 3,
+                    name: 'maroon',
+                },
+                {
+                    id: 4,
+                    name: 'oq',
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/fe/fe3e59564f42342c01c4ba2586ce4443.webp',
+            },
+            {
+                id: 2,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/1c/1c66a2953ca9457dede53f2649031a43.webp',
+            },
+            {
+                id: 3,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/cf/cf26f3f3afe0361ba1ffafa30b4b1d14.webp',
+            },
+            {
+                id: 4,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/d6/d65a6d3883ea76e2d2a7b6608b095a24.webp',
+            },
+            {
+                id: 5,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/40/40719bf0de3ae32d1e4af26427ab1bf8.webp',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Teshavoy Abdullayev',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Boltavoy Jabborov',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Qo'chqorbek",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            }
+        ],
+        parts: [
+            {
+                id: 1,
+                currentPrice: 3416000,
+                oldprice: false,
+            }
+        ]
+    },
+    {
+        id: 2,
+        productId: 209771,
+        type: 'Boshqaruvchi stuli',
+        productTitle: 'Samuray KL-1.04 boshqaruvchi stuli',
+        order: true,
+        new: true,
+        akciya: false,
+        available: true,
+        description: `SAMURAI KL-1.04 innovatsion ofis kreslosi zamonaviy ergonomikaning cho'qqisidir. Bu stul siz ko'rishni va his qilishni xohlagan tarzda bo'ladi. Betakror qulaylik, futuristik dizayn va qulay shaxsiy sozlamalar.
+        Qoplama butunlay teshilgan haqiqiy charmdan qilingan.
+        Qattiqlikni ikki zonali sozlash bilan qulay o'rindiq sizga eng qulay o'tirishga erishishga, shuningdek, kerak bo'lganda o'rindiqning burchagini sozlash imkonini beradi.`,
+        details: {
+            material: [
+                {
+                    id: 1,
+                    name: 'ekologik teri',
+                },
+                {
+                    id: 2,
+                    name: 'xrom',
+                }
+            ],
+            country: "Rossiya",
+            endurance: '120 kg',
+            color: [
+                {
+                    id: 1,
+                    name: 'qora',
+                },
+                {
+                    id: 2,
+                    name: "To'q jigarrang",
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/82/8227ae4c963542179d52069ae9df3212.webp',
+            },
+            {
+                id: 2,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/20/20454df251fe9681d5c9c2cadfc4a9e3.webp',
+            },
+            {
+                id: 3,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/5b/5bdd6d1a3a7a63a02ebcc06e14cb9093.webp',
+            },
+            {
+                id: 4,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/34/34cc7b33fe5946d885873e33d33441db.webp',
+            },
+            {
+                id: 5,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/bb/bbb6bca72f39452e6df87744bc167a46.webp',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Teshavoy Abdullayev',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Boltavoy Jabborov',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            }
+        ],
+        parts: [
+            {
+                id: 1,
+                currentPrice: 3672000,
+                oldprice: false,
+            }
+        ]
+    },
+    {
+        id: 3,
+        productId: 209774,
+        type: 'Boshqaruvchi stuli',
+        productTitle: 'Samurai SL-1.04 boshqaruvchi stuli',
+        order: false,
+        new: false,
+        akciya: false,
+        available: true,
+        description: `Metta Samurai SL-1.04 ofis kreslosining dizayni maxsus tutqichni o'z ichiga oladi, u orqali o'rindiqning chuqurligi va balandligi, shuningdek, orqa tomonning egilishi sozlanadi. Kresloni siljitishda zamin qoplamasini tirnashning oldini olish uchun uning tagida kauchuk roliklar paydo bo'ldi. Yumshoq bosh suyanchig'i va qo'l dayamalari shiddatli o'yin janglarida yoki ishda band bo'lgan kunlarda eng qulay pozitsiyani egallashga imkon beradi.`,
+        details: {
+            material: [
+                {
+                    id: 1,
+                    name: 'ekologik teri',
+                },
+                {
+                    id: 2,
+                    name: 'xrom',
+                }
+            ],
+            country: "Ukraina",
+            endurance: '120 kg',
+            color: [
+                {
+                    id: 1,
+                    name: 'qora',
+                },
+                {
+                    id: 2,
+                    name: "to'q jigarrang",
+                },
+                {
+                    id: 3,
+                    name: 'bej',
+                },
+                {
+                    id: 4,
+                    name: 'oq qush',
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/74/741b582efb68b662d082b3ba5da6d860.webp',
+            },
+            {
+                id: 2,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/7e/7e7a849eeba2e0e397d8c22893f4c5a5.webp',
+            },
+            {
+                id: 3,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/8f/8fd9023283a2ef1c0110ef9dc7c49e4f.webp',
+            },
+            {
+                id: 4,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/f8/f8b2d17753495d89b3556ec9492edc8a.webp',
+            },
+            {
+                id: 5,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/46/46668280eb3651738ac3764da2e2ee20.webp',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Teshavoy Abdullayev',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Boltavoy Jabborov',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Qo'chqorbek",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 4,
+                userName: "Madina",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+        ],
+        parts: [
+            {
+                id: 1,
+                currentPrice: 2963000,
+                oldprice: false,
+            }
+        ]
+    },
+    {
+        id: 4,
+        productId: 209775,
+        type: 'Boshqaruvchi stuli',
+        productTitle: "Boshqaruvchi Metta to'plami 4 stoli",
+        order: false,
+        new: false,
+        akciya: true,
+        available: true,
+        description: `METTA Set 4 ergonomik stul – “S” seriyali ofis kreslolarining modulli liniyasining asosiy modeli bo‘lib, u kerakli sozlamalarni, insonning anatomik shakliga mos keladigan ergonomik shaklni, zamonaviy dizaynni va arzon narxda maksimal qulaylikni o‘zida mujassam etgan.`,
+        details: {
+            material: [
+                {
+                    id: 1,
+                    name: "to'r",
+                },
+                {
+                    id: 2,
+                    name: 'xrom',
+                }
+            ],
+            country: "Rossiya",
+            endurance: '120 kg',
+            color: [
+                {
+                    id: 1,
+                    name: 'o1',
+                },
+                {
+                    id: 2,
+                    name: 'qora',
+                },
+                {
+                    id: 3,
+                    name: 'qzizl',
+                },
+                {
+                    id: 4,
+                    name: "makkajo'xori rang",
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/f4/f41280c36ecaf3643fd60aa30e29a553.webp',
+            },
+            {
+                id: 2,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/4a/4aa694a8a4fa1485374c66562d120cd7.webp',
+            },
+            {
+                id: 3,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/bb/bb00476faa1007938b7c08c7124b357a.webp',
+            },
+            {
+                id: 4,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/ae/aed908290c753504552d214baeda67a2.webp',
+            },
+            {
+                id: 5,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/94/9466909650fa1d58af3ab1f83cfb0730.webp',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Teshavoy Abdullayev',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Boltavoy Jabborov',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Qo'chqorbek",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 4,
+                userName: "Madina",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+        ],
+        parts: [
+            {
+                id: 1,
+                currentPrice: 1786000,
+                oldprice: 2108000,
+            }
+        ]
+    },
+    {
+        id: 5,
+        productId: 209776,
+        type: 'Boshqaruvchi stuli',
+        productTitle: 'Monarx boshqaruvchi stuli',
+        order: false,
+        new: false,
+        akciya: false,
+        available: true,
+        description: `Monarx - klassik ingliz an'analaridagi kafedra. Bu rahbarning qiyofasini qo'llab-quvvatlaydigan hurmatli fonni yaratadi. Kreslo ko'plab o'zgarishlar tufayli o'tirgan odamga moslashadi. Kresloning dizayni qat'iy bo'lsa-da, keraksiz ambitsiyalarsiz, bu premium toifadagi stul ekanligi darhol ayon bo'ladi.
+        Qoplama: qora teri, rangli teri, eko-charm, mato.`,
+        details: {
+            material: [
+                {
+                    id: 1,
+                    name: 'haqiqiy teri',
+                },
+                {
+                    id: 2,
+                    name: "yog'osh",
+                }
+            ],
+            country: "Belarussiya",
+            endurance: '150 kg',
+            color: [
+                {
+                    id: 1,
+                    name: 'oq, qora',
+                },
+                {
+                    id: 2,
+                    name: 'jigarrang',
+                },
+                {
+                    id: 3,
+                    name: 'kulrang',
+                },
+                {
+                    id: 4,
+                    name: 'bej',
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/3a/3a386943cfad982a1ae4f7c93f99472e.webp',
+            },
+            {
+                id: 2,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/98/988f94ab36f406086381dab9e2ce8db0.webp',
+            },
+            {
+                id: 3,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/42/4267fd41b17d736e1fb54f58f9b14bf7.webp',
+            },
+            {
+                id: 4,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/39/39e829f1ffca013315fa01fab1307148.webp',
+            },
+            {
+                id: 5,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/14/145d7b11260b057fd770398712522962.webp',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Teshavoy Abdullayev',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Boltavoy Jabborov',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            }
+        ],
+        parts: [
+            {
+                id: 1,
+                currentPrice: 10451000,
+                oldprice: false,
+            }
+        ]
+    },
+    {
+        id: 6,
+        productId: 209777,
+        type: 'Boshqaruvchi stuli',
+        productTitle: 'Helmut boshqaruvchi stuli',
+        order: false,
+        new: true,
+        akciya: false,
+        available: true,
+        description: `Agar siz uyda ofis yoki ish joyingizni yanada zamonaviy va hurmatli qilishni istasangiz, Helmut kreslosi, ehtimol, eng yaxshi tanlovdir.
+        U yuqori quvvatli, elastik, nafas oluvchi to‘r, olinadigan to‘r yostiqlari bilan xrom qoplangan metall qo‘l dayamalari va sayqallangan alyuminiydan ishonchli krossovka bilan ajralib turadi.`,
+        details: {
+            material: [
+                {
+                    id: 1,
+                    name: "to'r",
+                },
+                {
+                    id: 2,
+                    name: 'xrom',
+                }
+            ],
+            country: "Rossiya",
+            endurance: '120 kg',
+            color: [
+                {
+                    id: 1,
+                    name: 'oq',
+                },
+                {
+                    id: 2,
+                    name: 'qora',
+                },
+                {
+                    id: 3,
+                    name: 'bronza',
+                },
+                {
+                    id: 4,
+                    name: 'kulrang',
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/59/59fe73fb59fc3b4bb375a4216299a431.webp',
+            },
+            {
+                id: 2,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/83/83849e097618e6f9fbbf3b1dccf9719b.webp',
+            },
+            {
+                id: 3,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/83/83849e097618e6f9fbbf3b1dccf9719b.webp',
+            },
+            {
+                id: 4,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/a7/a74d680066d64872086da730bbd97c65.webp',
+            },
+            {
+                id: 5,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/f9/f974c770bead1b6d2384f311f69e4d18.webp',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Teshavoy Abdullayev',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Boltavoy Jabborov',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Qo'chqorbek",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            }
+        ],
+        parts: [
+            {
+                id: 1,
+                currentPrice: 1973000,
+                oldprice: false,
+            }
+        ]
+    },
+    {
+        id: 7,
+        productId: 209778,
+        type: 'Boshqaruvchi stuli',
+        productTitle: 'Yostiqchalar bilan Botticelli boshqaruv stuli',
+        order: false,
+        new: true,
+        akciya: false,
+        available: true,
+        description: `Botticelli DB-13 kreslosi - charm yostiqchalardan yasalgan qo'l dayamalari bilan - qisqa vaqt ichida xaridorlarning mashhurligi va mehrini qozongan mashhur klassik modelimizning keyingi rivojlanishi.
+        Yostiqchalar qo'l dayamalarini stolning chetiga ta'sir qilishdan himoya qiladi, bu stul egasi qiyin boshqaruv qarorlarini qabul qilganda paydo bo'lishi mumkin.`,
+        details: {
+            material: [
+                {
+                    id: 1,
+                    name: 'kombinatsiyalangan',
+                },
+                {
+                    id: 2,
+                    name: 'teri',
+                },
+                {
+                    id: 3,
+                    name: 'eko-charm',
+                }
+            ],
+            country: "Turkiya",
+            endurance: '120 kg',
+            color: [
+                {
+                    id: 1,
+                    name: 'oq',
+                },
+                {
+                    id: 2,
+                    name: 'qora',
+                },
+                {
+                    id: 3,
+                    name: 'zaytun',
+                },
+                {
+                    id: 4,
+                    name: 'yashil',
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/dd/dd685a8f7d77e01d913dc6ee303b5371.webp',
+            },
+            {
+                id: 2,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/83/830d23813600cce846fd9b992b62af7e.webp',
+            },
+            {
+                id: 3,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/6d/6d2873a395f652129fea1c994ec4558c.webp',
+            },
+            {
+                id: 4,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/20/2068ec68cfb04faa79826dfde67f0df4.webp',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Teshavoy Abdullayev',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Boltavoy Jabborov',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Qo'chqorbek",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 4,
+                userName: "Madina",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+        ],
+        parts: [
+            {
+                id: 1,
+                currentPrice: 5696000,
+                oldprice: false,
+            }
+        ]
+    },
+    {
+        id: 8,
+        productId: 209779,
+        type: 'Boshqaruvchi stuli',
+        productTitle: 'Lautrec boshqaruvchi stuli',
+        order: true,
+        new: false,
+        akciya: true,
+        available: true,
+        description: `Directoria brendi Lautrec nomli ajoyib yumshoq ofis kreslosini ishlab chiqdi. Ushbu model amaliy va qulay bo'lishi bilan birga juda vakili ko'rinadi. Aniq konturlar va qulay dizayn, albatta, mehnatkash va mas'uliyatli menejerga yoqadi.
+        `,
+        details: {
+            material: [
+                {
+                    id: 1,
+                    name: 'kombinatsiyalangan',
+                },
+                {
+                    id: 2,
+                    name: 'teri',
+                },
+                {
+                    id: 3,
+                    name: 'eko-charm',
+                }
+            ],
+            country: "Turkiya",
+            endurance: '130 kg',
+            color: [
+                {
+                    id: 1,
+                    name: 'oq',
+                },
+                {
+                    id: 2,
+                    name: 'yashil',
+                },
+                {
+                    id: 3,
+                    name: 'bej',
+                },
+                {
+                    id: 4,
+                    name: 'bordo, zaytun',
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/9e/9ef75fa4f5b769d8490a23384e39c5b6.webp',
+            },
+            {
+                id: 2,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/5a/5ad6cfd3dc5493e55f8fe6dbb50c02ef.webp',
+            },
+            {
+                id: 3,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/5a/5ad6cfd3dc5493e55f8fe6dbb50c02ef.webp',
+            },
+            {
+                id: 4,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/5f/5f070cf18c4e43180f3b96373bd1af6f.webp',
+            },
+            {
+                id: 5,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/f7/f725dc4a69f8624420b253e49dce68cc.webp',
+            }
+        ],
+        reviews: [],
+        parts: [
+            {
+                id: 1,
+                currentPrice: 6436000,
+                oldprice: 7295000,
+            }
+        ]
+    },
+    {
+        id: 9,
+        productId: 209780,
+        type: 'Boshqaruvchi stuli',
+        productTitle: "Boshqaruvchi Metta to'plamidan S+ stoli",
+        order: true,
+        new: false,
+        akciya: true,
+        available: true,
+        description: `METTA Set S+ ergonomik stul – “S” seriyali ofis kreslolarining modulli liniyasining asosiy modeli bo‘lib, u kerakli sozlamalarni, insonning anatomik shakliga mos keladigan ergonomik shaklni, zamonaviy dizaynni va arzon narxda maksimal qulaylikni o‘zida mujassam etgan.`,
+        details: {
+            material: [
+                {
+                    id: 1,
+                    name: "to'r",
+                },
+                {
+                    id: 2,
+                    name: 'xrom',
+                }
+            ],
+            country: "Rossiya",
+            endurance: '120 kg',
+            color: [
+                {
+                    id: 1,
+                    name: 'o1',
+                },
+                {
+                    id: 2,
+                    name: 'qora',
+                },
+                {
+                    id: 3,
+                    name: 'qzizl',
+                },
+                {
+                    id: 4,
+                    name: "makkajo'xori rangi",
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/c4/c4d66dd4ced1001ce22c0833144e8eb0.webp',
+            },
+            {
+                id: 2,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/94/9466909650fa1d58af3ab1f83cfb0730.webp',
+            },
+            {
+                id: 3,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/83/831b5cf16c2204bdf325e844fb8c5d43.webp',
+            },
+            {
+                id: 4,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/ae/aed908290c753504552d214baeda67a2.webp',
+            },
+            {
+                id: 5,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/4a/4aa694a8a4fa1485374c66562d120cd7.webp',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Teshavoy Abdullayev',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Boltavoy Jabborov',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Qo'chqorbek",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 4,
+                userName: "Madina",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+        ],
+        parts: [
+            {
+                id: 1,
+                currentPrice: 1786000,
+                oldprice: 2108000,
+            }
+        ]
+    },
+    {
+        id: 10,
+        productId: 209781,
+        type: 'Boshqaruvchi stuli',
+        productTitle: 'Monarx.Make boshqaruvchi stuli',
+        order: false,
+        new: false,
+        akciya: false,
+        available: true,
+        description: `Monarx - klassik ingliz an'analaridagi kafedra. Bu rahbarning qiyofasini qo'llab-quvvatlaydigan hurmatli fonni yaratadi. Kreslo ko'plab o'zgarishlar tufayli o'tirgan odamga moslashadi. Kresloning dizayni qat'iy bo'lsa-da, keraksiz ambitsiyalarsiz, bu premium toifadagi stul ekanligi darhol ayon bo'ladi.
+        Qoplama: qora teri, rangli teri, eko-charm, mato.`,
+        details: {
+            material: [
+                {
+                    id: 1,
+                    name: 'haqiqiy teri',
+                },
+                {
+                    id: 2,
+                    name: "yog'osh",
+                }
+            ],
+            country: "Belarussiya",
+            endurance: '150 kg',
+            color: [
+                {
+                    id: 1,
+                    name: 'oq, qora',
+                },
+                {
+                    id: 2,
+                    name: 'jigarrang',
+                },
+                {
+                    id: 3,
+                    name: 'kulrang',
+                },
+                {
+                    id: 4,
+                    name: 'bej',
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/11/11e50a68d159cc83cf84d239578a3bee.webp',
+            },
+            {
+                id: 2,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/14/145d7b11260b057fd770398712522962.webp',
+            },
+            {
+                id: 3,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/2e/2e4306a8bdc204faa2bfae20cbacef87.webp',
+            },
+            {
+                id: 4,
+                alt: "Picture of the manager's chair",
+                img: '	https://territory-office.ru/assets/thumbnails/f9/f94bd619ae99efa62f34f5f987714bd5.webp',
+            },
+            {
+                id: 5,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/98/988f94ab36f406086381dab9e2ce8db0.webp',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Teshavoy Abdullayev',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Boltavoy Jabborov',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            }
+        ],
+        parts: [
+            {
+                id: 1,
+                currentPrice: 12474000,
+                oldprice: false,
+            }
+        ]
+    },
+    {
+        id: 11,
+        productId: 209782,
+        type: 'Boshqaruvchi stuli',
+        productTitle: 'Samuray KL-1.041 boshqaruvchi stuli',
+        order: true,
+        new: true,
+        akciya: false,
+        available: true,
+        description: `SAMURAI KL-1.041 innovatsion ofis kreslosi zamonaviy ergonomikaning cho'qqisidir. Bu stul siz ko'rishni va his qilishni xohlagan tarzda bo'ladi. Betakror qulaylik, futuristik dizayn va qulay shaxsiy sozlamalar.
+        Qoplama butunlay teshilgan haqiqiy charmdan qilingan.
+        Qattiqlikni ikki zonali sozlash bilan qulay o'rindiq sizga eng qulay o'tirishga erishishga, shuningdek, kerak bo'lganda o'rindiqning burchagini sozlash imkonini beradi.`,
+        details: {
+            material: [
+                {
+                    id: 1,
+                    name: 'ekologik teri',
+                },
+                {
+                    id: 2,
+                    name: 'xrom',
+                }
+            ],
+            country: "Rossiya",
+            endurance: '120 kg',
+            color: [
+                {
+                    id: 1,
+                    name: 'qora',
+                },
+                {
+                    id: 2,
+                    name: "To'q jigarrang",
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/ce/cef95ee2220fe40c43db2c9b0fb7dff0.webp',
+            },
+            {
+                id: 2,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/bb/bbb6bca72f39452e6df87744bc167a46.webp',
+            },
+            {
+                id: 3,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/7a/7af48f540bf0e2cfe42d944253fabc7c.webp',
+            },
+            {
+                id: 4,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/34/34cc7b33fe5946d885873e33d33441db.webp',
+            },
+            {
+                id: 5,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/20/20454df251fe9681d5c9c2cadfc4a9e3.webp',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Teshavoy Abdullayev',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Boltavoy Jabborov',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            }
+        ],
+        parts: [
+            {
+                id: 1,
+                currentPrice: 3835000,
+                oldprice: false,
+            }
+        ]
+    },
+    {
+        id: 12,
+        productId: 209783,
+        type: 'Boshqaruvchi stuli',
+        productTitle: 'Samurai SL-1.041 boshqaruvchi stuli',
+        order: false,
+        new: false,
+        akciya: false,
+        available: true,
+        description: `Metta Samurai SL-1.041 ofis kreslosining dizayni maxsus tutqichni o'z ichiga oladi, u orqali o'rindiqning chuqurligi va balandligi, shuningdek, orqa tomonning egilishi sozlanadi. Kresloni siljitishda zamin qoplamasini tirnashning oldini olish uchun uning tagida kauchuk roliklar paydo bo'ldi. Yumshoq bosh suyanchig'i va qo'l dayamalari shiddatli o'yin janglarida yoki ishda band bo'lgan kunlarda eng qulay pozitsiyani egallashga imkon beradi.`,
+        details: {
+            material: [
+                {
+                    id: 1,
+                    name: 'ekologik teri',
+                },
+                {
+                    id: 2,
+                    name: 'xrom',
+                }
+            ],
+            country: "Ukraina + Belarussiya",
+            endurance: '120 kg',
+            color: [
+                {
+                    id: 1,
+                    name: 'qora',
+                },
+                {
+                    id: 2,
+                    name: "to'q jigarrang",
+                },
+                {
+                    id: 3,
+                    name: 'bej',
+                },
+                {
+                    id: 4,
+                    name: 'oq qush',
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/8d/8d8605171475594c026159bf63cd2f27.webp',
+            },
+            {
+                id: 2,
+                alt: "Picture of the manager's chair",
+                img: '	https://territory-office.ru/assets/thumbnails/0c/0c678ea61d5927cbbaa2996ca3a3444c.webp',
+            },
+            {
+                id: 3,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/46/46668280eb3651738ac3764da2e2ee20.webp',
+            },
+            {
+                id: 4,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/41/411584951902f03de899bbb0bcbaa588.webp',
+            },
+            {
+                id: 5,
+                alt: "Picture of the manager's chair",
+                img: 'https://territory-office.ru/assets/thumbnails/8f/8fd9023283a2ef1c0110ef9dc7c49e4f.webp',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Teshavoy Abdullayev',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Boltavoy Jabborov',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Qo'chqorbek",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 4,
+                userName: "Madina",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+        ],
+        parts: [
+            {
+                id: 1,
+                currentPrice: 4537000,
+                oldprice: false,
+            }
+        ]
+    },
+]; 
