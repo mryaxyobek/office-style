@@ -5943,3 +5943,1864 @@ export const furnitureForStaff = [
         ]
     },
 ];
+
+export const officeSofas = [
+    {
+        id: 1,
+        productId: 209754,
+        type: 'Ofis divan',
+        productTitle: 'Cosmo ofis divani',
+        order: true,
+        new: false,
+        akciya: false,
+        available: true,
+        description: `Klassik uslubdagi yumshoq mebel eng g'alaba qozonish variantidir. Bunday narsalar har doim qulay, har qanday muhit bilan yaxshi ketadi va hatto ajratilgan joyda ham ular kichik qulay orolni yaratishi mumkin. Kosmo yumshoq mebellari afzalliklarining to'liq ro'yxatiga ega, asosiylari zamonaviy ko'rinish va qulaylikdir. Mebel qismlari anatomik dizaynga ega bo'lib, Cosmo divanlari yordamida teng qulaylik bilan ishlash va dam olish imkoniyatini beradi. Modulli tizim eng zamonaviy moda tendentsiyalariga muvofiq yaratilgan.`,
+        details: {
+            material: [
+                {
+                    id: 1,
+                    name: 'Teri',
+                },
+                {
+                    id: 2,
+                    name: 'eco-charm',
+                },
+                {
+                    id: 3,
+                    name: 'charm + eko-charm',
+                }
+            ],
+            country: "O'zbekiston",
+            color: [
+                {
+                    id: 1,
+                    name: 'Qizil',
+                },
+                {
+                    id: 2,
+                    name: 'qora',
+                },
+                {
+                    id: 3,
+                    name: 'oq',
+                },
+                {
+                    id: 4,
+                    name: 'jigarrang',
+                },
+                {
+                    id: 5,
+                    name: 'kulrang',
+                },
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'picture of office sofa',
+                img: '	https://territory-office.ru/assets/thumbnails/cb/cbe984cc6379de165eb8667d9beffe20.jpg',
+            },
+            {
+                id: 2,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/d0/d0edd36f359946d6a02a983954de89e8.jpg',
+            },
+            {
+                id: 3,
+                alt: 'picture of office sofa',
+                img: '	https://territory-office.ru/assets/thumbnails/cd/cd15eb54e1684694864f0f014bdd351b.jpg',
+            },
+            {
+                id: 4,
+                alt: 'picture of office sofa',
+                img: '	https://territory-office.ru/assets/thumbnails/1f/1f230baae9acfa8c14b130ed2e6144e8.jpg',
+            },
+            {
+                id: 5,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/5c/5cd7a709dcf504fd637a35ea449db489.jpg',
+            }
+        ],
+        completedProjects: [
+            {
+                id: 1,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/93/9306bb6fe6126a6dd8846f9994582feb.jpg',
+            },
+            {
+                id: 2,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/11/114dc6decc385db8d370283e024ecbe3.jpg',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Teshavoy Abdullayev',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Boltavoy Jabborov',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Qo'chqorbek",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 4,
+                userName: "Madina",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+        ],
+        parts: [
+            {
+                id: 1,
+                type: "Divan 3 o'rinli",
+                size: '192x87x82 sm',
+                currentPrice: 7546000,
+                oldprice: false,
+            },
+            {
+                id: 2,
+                type: '2 kishilik divan',
+                size: '160x87x82 sm',
+                currentPrice: 6342000,
+                oldprice: false,
+            },
+            {
+                id: 3,
+                type: "Divan 1 o'rinli",
+                size: '95x87x82 sm',
+                currentPrice: 4969000,
+                oldprice: false,
+            }
+        ]
+    },
+    {
+        id: 2,
+        productId: 209755,
+        type: 'Ofis divan',
+        productTitle: 'Roden ofis divani',
+        order: false,
+        new: false,
+        akciya: false,
+        available: true,
+        description: `Ko'pincha zamonaviy kompaniyalarning ofis maydoni ortiqcha yuklanadi - ham jismoniy, ham vizual. Va bu ajablanarli emas, chunki ko'pincha kichkina xonada ko'p narsalarni joylashtirish kerak: xodimlarning ish joylari, hujjatlar va ofis jihozlarini saqlash joylari va tashrif buyuruvchilarni qabul qilish joylari. Xonada juda ko'p bo'sh joy bo'lmasa, yumshoq mebellarni tanlashda minimalizm uslubida tayyorlangan modellarni tanlash yaxshidir. Bu ikki kishini sig'dira olmaydigan miniatyura divanlariga ustunlik berish kerak degani emas. Siz juda keng divan sotib olishingiz mumkin, lekin uning dizaynini diqqat bilan tanlang. Misol uchun, Xitoy ishlab chiqaruvchisi liniyasini davom ettiruvchi Rodin divaniga ustunlik bering, uning mahsulotlari eng buyuk rassomlar nomi bilan atalgan. Xitoylik dizaynerlarning bunday o'ziga bo'lgan ishonchi unchalik dadil ko'rinmaydi: axir, ushbu seriyadagi har bir model o'ziga xos tarzda noyobdir va zamonaviy mebel tafakkurining haqiqiy durdonasini ifodalaydi.`,
+        details: {
+            material: [
+                {
+                    id: 1,
+                    name: 'Teri',
+                },
+                {
+                    id: 2,
+                    name: 'eko-charm',
+                }
+            ],
+            country: 'Rossiya',
+            color: [
+                {
+                    id: 1,
+                    name: 'oq',
+                },
+                {
+                    id: 2,
+                    name: 'qora',
+                },
+                {
+                    id: 3,
+                    name: 'yashil',
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/17/17f1b278f2b89b5fc26bcc367ad7d59c.jpg',
+            },
+            {
+                id: 2,
+                alt: 'picture of office sofa',
+                img: '	https://territory-office.ru/assets/thumbnails/b6/b60e24bc8237858d128158e42ef25cf0.jpg',
+            },
+            {
+                id: 3,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/02/02d1b2a6c8506d0b6249ae0060e3bd1d.jpeg',
+            },
+            {
+                id: 4,
+                alt: 'picture of office sofa',
+                img: '	https://territory-office.ru/assets/thumbnails/c0/c0fcb43633813f241858a1719f9f7b40.jpeg',
+            }
+        ],
+        completedProjects: [
+            {
+                id: 1,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/99/997485d89b2e858de2f8230c9a623cc2.jpg',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Teshavoy Abdullayev',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Boltavoy Jabborov',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Qo'chqorbek",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 4,
+                userName: "Madina",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 5,
+                userName: "Shaxolo",
+                rating: 1,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+        ],
+        parts: [
+            {
+                id: 1,
+                type: "Divan 3 o'rinli",
+                size: '211x81x68 sm',
+                currentPrice: 11450000,
+                oldprice: false,
+            },
+            {
+                id: 2,
+                type: "Divan 2 o'rinli",
+                size: '159x81x68 sm',
+                currentPrice: 8905000,
+                oldprice: false,
+            },
+            {
+                id: 3,
+                type: "Divan 1 o'rinli",
+                size: '106x81x68 sm',
+                currentPrice: 5396000,
+                oldprice: false,
+            }
+        ]
+    },
+    {
+        id: 3,
+        productId: 209756,
+        type: 'Ofis divan',
+        productTitle: 'Flagman ofis divani',
+        order: false,
+        new: false,
+        akciya: false,
+        available: true,
+        description: `Ofis divanlari nafaqat interyerning qulay komponenti. Ushbu element sozlama uslubini namoyish qilishi, tashkilot maqomini ta'kidlashi va tashrif buyuruvchilarga maksimal qulaylikni kafolatlashi mumkin. Flagman yumshoq mebellari bu barcha xususiyatlarga ega.`,
+        details: {
+            material: [
+                {
+                    id: 1,
+                    name: 'eko',
+                },
+                {
+                    id: 2,
+                    name: "qo'qima material",
+                },
+                {
+                    id: 3,
+                    name: 'alyuminiy tayanchlar',
+                }
+            ],
+            country: 'Turkiya',
+            color: [
+                {
+                    id: 1,
+                    name: 'bej',
+                },
+                {
+                    id: 2,
+                    name: "ko'k",
+                },
+                {
+                    id: 3,
+                    name: 'qizil',
+                },
+                {
+                    id: 4,
+                    name: 'oq',
+                },
+                {
+                    id: 5,
+                    name: 'barcha ranglar mavjud',
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'picture of office sofa',
+                img: '	https://territory-office.ru/assets/thumbnails/dd/ddc88d0ec4372e7c058a62fc205a19af.jpg',
+            },
+            {
+                id: 2,
+                alt: 'picture of office sofa',
+                img: '	https://territory-office.ru/assets/thumbnails/60/60e4d2430517963848002a6b5f644d3c.jpg',
+            },
+            {
+                id: 3,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/56/561c8ea39b24570a7637064306598634.jpg',
+            },
+            {
+                id: 4,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/10/1014a49db39bea1c8ae1437abaec3a85.jpg',
+            },
+            {
+                id: 5,
+                alt: 'picture of office sofa',
+                img: '	https://territory-office.ru/assets/thumbnails/ae/aee70083e78498ca85b00706ce7b1fa1.jpg',
+            },
+            {
+                id: 6,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/72/7278eaeec49675035b096955edef0ea5.jpg',
+            },
+            {
+                id: 7,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/bd/bdc4b1d2a733925c2e874e8e6ad130e2.jpg',
+            }
+        ],
+        completedProjects: [
+            {
+                id: 1,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/57/574674a9091249d4a5ad737349f43034.jpg',
+            },
+            {
+                id: 2,
+                alt: 'picture of office sofa',
+                img: '	https://territory-office.ru/assets/thumbnails/ad/ad8c54e0f4adff373a8576078392a9dc.jpg',
+            },
+            {
+                id: 3,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/2f/2f27057582ca39f34ec6c3a6756e2f59.jpg',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Miss Madinaxon',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Boltavoy Jabborov',
+                rating: 2,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Furqatbek Tojiboyev",
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            }
+        ],
+        parts: [
+            {
+                id: 1,
+                type: "Divan 3 o'rinli",
+                size: '202x77x73.5 sm',
+                currentPrice: 4795000,
+                oldprice: false,
+            },
+            {
+                id: 2,
+                type: "Divan 2 o'rinli",
+                size: '154x77x73.5 sm',
+                currentPrice: 3676000,
+                oldprice: false,
+            },
+            {
+                id: 3,
+                type: "Divan 1 o'rinli",
+                size: '102x77x73,5 sm',
+                currentPrice: 2546000,
+                oldprice: false,
+            }
+        ]
+    },
+    {
+        id: 4,
+        productId: 209757,
+        type: 'Ofis divan',
+        productTitle: 'Case ofis divani',
+        order: false,
+        new: false,
+        akciya: true,
+        available: true,
+        description: `Case divanlari va kreslolarining ixcham o'lchamlari go'zallik salonlari va boshqa kichik ofis xonalari uchun juda mos keladi. Qo'l dayamalari va orqa o'rindiqlari bir xil darajada. Orqa o'rindiqning burchagi yumshoq orqa tayanchni ta'minlaydi. Qo'l dayamalarining teng balandligi bilan birgalikda divan va stullarda o'tirish juda qulay. Zamonaviy yuqori elastik ko'pikli kauchuk markasi HL4060 ishlatiladi, bu uning shaklini saqlab qoladi va modellarni qo'shimcha qulaylik bilan ta'minlaydi.`,
+        details: {
+            material: [
+                {
+                    id: 1,
+                    name: 'eko-teri',
+                },
+                {
+                    id: 2,
+                    name: 'metall tayanchlar',
+                }
+            ],
+            country: 'Xitoy',
+            color: [
+                {
+                    id: 1,
+                    name: 'barcha ranglar mavjud',
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'picture of office sofa',
+                img: '	https://territory-office.ru/assets/thumbnails/38/383e5a49ef4171cf3498a6f0d1b420c7.jpg',
+            },
+            {
+                id: 2,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/8d/8de12c28159ea58ec5080a17806037bf.jpg',
+            },
+            {
+                id: 3,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/b9/b928234622328a88cde741264a06f6d7.jpg',
+            },
+            {
+                id: 4,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/b9/b95732e620bf755be2b8e44ba0f83734.jpg',
+            },
+            {
+                id: 5,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/4d/4d2d974735d0e9667a884603887dc30b.jpg',
+            }
+        ],
+        completedProjects: [
+            {
+                id: 1,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/7c/7c0bdaf0c9bf5eb5231f91315153b4cb.jpg',
+            },
+            {
+                id: 2,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/93/932b8ff694cae263d7a11a2251a3a3c0.jpg',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Abdulla A',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Boltabek Ketmonov',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Qo'chqorbek",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 4,
+                userName: "Sarimsoqoyim",
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 5,
+                userName: "Indila",
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+        ],
+        parts: [
+            {
+                id: 1,
+                type: "Divan 3 o'rinli",
+                size: '175x75x67 sm',
+                currentPrice: 3654000,
+                oldprice: 4267000,
+            },
+            {
+                id: 2,
+                type: "Divan 2 o'rinli",
+                size: '125x75x67 sm',
+                currentPrice: 2898000,
+                oldprice: false,
+            },
+            {
+                id: 3,
+                type: "Divan 1 o'rinli",
+                size: '75x75x67 sm',
+                currentPrice: 2564000,
+                oldprice: false,
+            }
+        ]
+    },
+    {
+        id: 5,
+        productId: 209758,
+        type: 'Ofis divan',
+        productTitle: 'Napaleon ofis divani',
+        order: true,
+        new: true,
+        akciya: false,
+        available: true,
+        description: ``,
+        details: {
+            material: [
+                {
+                    id: 1,
+                    name: 'teri',
+                },
+                {
+                    id: 2,
+                    name: 'charm',
+                },
+                {
+                    id: 3,
+                    name: 'eko-charm',
+                }
+            ],
+            country: 'Ukraina',
+            color: [
+                {
+                    id: 1,
+                    name: 'Barcha ranglar mavjud',
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/1c/1ca7891b3dae3eb77712d354347ffa55.jpg',
+            },
+            {
+                id: 2,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/09/095260f94733a3cca71d9cfc46ee0ff8.jpg',
+            },
+            {
+                id: 3,
+                alt: 'picture of office sofa',
+                img: '	https://territory-office.ru/assets/thumbnails/e2/e265979c92857d570a5b3ff90c696c7e.jpg',
+            },
+            {
+                id: 4,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/62/627c265ae954db6998fc64e41469b60f.jpg',
+            },
+            {
+                id: 5,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/68/68a1559ec0e46fe671e30fb932b119ec.jpg',
+            }
+        ],
+        completedProjects: [
+            {
+                id: 1,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/87/87253244d2ea976fd5495be2fc9570dd.jpg',
+            }
+        ],
+        reviews: [],
+        parts: [
+            {
+                id: 1,
+                type: "Divan 3 o'rinli",
+                size: '202x84x74 sm',
+                currentPrice: 5643000,
+                oldprice: false,
+            },
+            {
+                id: 2,
+                type: "Divan 2 o'rinli",
+                size: '162x84x74 sm',
+                currentPrice: 4754000,
+                oldprice: false,
+            },
+            {
+                id: 3,
+                type: "Divan 1 o'rinli",
+                size: '100x84x74 sm',
+                currentPrice: 3786000,
+                oldprice: false,
+            }
+        ]
+    },
+    {
+        id: 6,
+        productId: 209759,
+        type: 'Ofis divan',
+        productTitle: 'Bella 1 kishilik ofis divani',
+        order: true,
+        new: false,
+        akciya: false,
+        available: true,
+        description: `“BELLA” yumshoq kreslosi – uning nafis va nafis uslubi kompaniya xodimlari, mijozlari va hamkorlariga yoqadi.`,
+        details: {
+            material: [
+                {
+                    id: 1,
+                    name: 'teri',
+                },
+                {
+                    id: 2,
+                    name: 'eko-charm',
+                },
+                {
+                    id: 3,
+                    name: 'charm+eko-charm',
+                }
+            ],
+            country: 'Turkiya',
+            color: [
+                {
+                    id: 1,
+                    name: 'Barcha ranglar mavjud',
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/4b/4b214b5e5e6fee70dcaad6af8566d9b9.jpg',
+            },
+            {
+                id: 2,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/e2/e2954620e621f7d0ee36a2c0fc18be2e.jpg',
+            },
+            {
+                id: 3,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/6b/6b09639581d4a9a0a7fac3ff5638fc04.jpg',
+            }
+        ],
+        completedProjects: [
+            {
+                id: 1,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/56/5604353fa93bf4690f9d86936f890859.jpg',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Azizbek Solihov',
+                rating: 3,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+        ],
+        parts: [
+            {
+                id: 1,
+                type: "Divan 1 o'rinli",
+                size: '63x66x85 sm',
+                currentPrice: 2869000,
+                oldprice: false,
+            }
+        ]
+    },
+    {
+        id: 7,
+        productId: 209760,
+        type: 'Ofis divan',
+        productTitle: "Miks ko'p o'rinli ofis divani",
+        order: false,
+        new: false,
+        akciya: true,
+        available: true,
+        description: `Kutish yoki dam olish joylari har qanday zamonaviy ofisning ajralmas qismidir. To'g'ridan-to'g'ri maksimal qulaylikni ta'minlash vazifasiga qo'shimcha ravishda, ofis mebellari qandaydir tarzda kompaniyani ifodalashi kerak. Aralash yumshoq mebellar bu maqsadlar uchun juda mos keladi.`,
+        details: {
+            material: [
+                {
+                    id: 1,
+                    name: 'eko-teri',
+                },
+                {
+                    id: 2,
+                    name: "to'qimachilik material",
+                },
+                {
+                    id: 3,
+                    name: 'metall tayanchlar',
+                }
+            ],
+            country: 'Xitoy',
+            color: [
+                {
+                    id: 1,
+                    name: 'Barcha ranglar mavjud',
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/d0/d030548ba22147982829b9f036f4a995.jpg',
+            },
+            {
+                id: 2,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/50/500534dce11380fe202102fb260c7282.jpg',
+            },
+            {
+                id: 3,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/64/64165bcc7bcf276040194bf03f2b13f6.jpg',
+            },
+            {
+                id: 4,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/dd/dd56a91e544a6745b9a2e61368e33587.jpg',
+            },
+            {
+                id: 5,
+                alt: 'picture of office sofa',
+                img: '	https://territory-office.ru/assets/thumbnails/62/62a21d673a83eff1439aefa6129aa20f.jpg',
+            }
+        ],
+        completedProjects: [
+            {
+                id: 1,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/01/01d3e6b4b79b14f9c2f2fd793630a1bc.jpg',
+            },
+            {
+                id: 2,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/02/027620336f5b5684e8ed26c92bee7c32.jpg',
+            },
+            {
+                id: 3,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/52/52c588f5ac2de77f18fea97b4418d7ad.jpg',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Xoldorbek',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Jamshid Ali',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            }
+        ],
+        parts: [
+            {
+                id: 1,
+                type: "2 o'rinli bo'lim",
+                size: '107x75x80 sm',
+                currentPrice: 2169000,
+                oldprice: 31010000,
+            },
+            {
+                id: 2,
+                type: "Burchak qismi 90*",
+                size: '75x75x80 sm',
+                currentPrice: 2134000,
+                oldprice: false,
+            },
+            {
+                id: 3,
+                type: "1 o'rinli bo'lim",
+                size: '54,5x75x80 sm',
+                currentPrice: 1724000,
+                oldprice: false,
+            },
+            {
+                id: 4,
+                type: "Burchak qismi 45*",
+                size: '93x75x80 sm',
+                currentPrice: 1724000,
+                oldprice: false,
+            },
+            {
+                id: 5,
+                type: "Tashqi burchak qismi",
+                size: '75x75x80 sm',
+                currentPrice: 1784000,
+                oldprice: false,
+            }
+        ]
+    },
+    {
+        id: 8,
+        productId: 209761,
+        type: 'Ofis divan',
+        productTitle: 'Giotto ofis divani',
+        order: false,
+        new: false,
+        akciya: false,
+        available: false,
+        description: `Biz tomonidan oqlangan dizayni va aniq kvadrat qo'l dayamalari bo'lgan Giotto divanlari to'plami "Ratsionallik jozibasi" shiori ostida targ'ib qilinadi. Pastki yumshoq orqa va to'rtburchak ko'rpali qulay o'rindiq ifodali va o'ziga xos ko'rinadi. Divan jamoat va xususiy joylar uchun juda mos keladi, menejer ofisining ichki qismiga mos keladi va ijobiy kayfiyatni yaratadi, dam olish va dam olishga yordam beradi. To'plamga ikki va uch o'rindiqli divanlar va kreslolar kiradi. Giotto modelini yaratishga bizni yumshoq mebel dizayni sohasida jahon trendsetterining divanlari ilhomlantirdi.`,
+        details: {
+            material: [
+                {
+                    id: 1,
+                    name: 'teri',
+                },
+                {
+                    id: 2,
+                    name: 'eko-charm',
+                },
+                {
+                    id: 3,
+                    name: 'charm+eko-charm',
+                }
+            ],
+            country: "O'zbekiston",
+            color: [
+                {
+                    id: 1,
+                    name: 'oq',
+                },
+                {
+                    id: 2,
+                    name: 'qora',
+                },
+                {
+                    id: 3,
+                    name: 'zaytun',
+                },
+                {
+                    id: 4,
+                    name: 'kulrang',
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/45/45fb5a8aff5cae38456e8028a4a50007.jpg',
+            },
+            {
+                id: 2,
+                alt: 'picture of office sofa',
+                img: '	https://territory-office.ru/assets/thumbnails/96/96e58c530353e53c3af30a60e086b65b.jpg',
+            },
+            {
+                id: 3,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/de/deb254db94731674a8c22501ceda2a42.jpg',
+            },
+            {
+                id: 4,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/21/21f27ef6d09a1cd3b97b7261be38f3ec.jpg',
+            },
+            {
+                id: 5,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/71/71d90f6c0c79700c940bc0a1afb3ede5.jpg',
+            }
+        ],
+        completedProjects: [
+            {
+                id: 1,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/75/757dffee8c4bfdd9ac7b13663dd5eebc.jpg',
+            },
+            {
+                id: 2,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/6d/6d4dddf19d60373e044ef9521d7acb79.jpg',
+            },
+            {
+                id: 3,
+                alt: 'picture of office sofa',
+                img: '	https://territory-office.ru/assets/thumbnails/17/17af02df9cac19e9ba73758e0d7499ea.jpg',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Teshavoy Abdullayev',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Boltavoy Jabborov',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Qo'chqorbek",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 4,
+                userName: "Madina",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+        ],
+        parts: [
+            {
+                id: 1,
+                type: "Divan 3 o'rinli",
+                size: '250x93x74 sm',
+                currentPrice: 9879000,
+                oldprice: false,
+            },
+            {
+                id: 2,
+                type: "Divan 2 o'rinli",
+                size: '208x93x74 sm',
+                currentPrice: 9561000,
+                oldprice: false,
+            },
+            {
+                id: 3,
+                type: "Divan 1 o'rinli",
+                size: '145x93x74 sm',
+                currentPrice: 7124000,
+                oldprice: false,
+            }
+        ]
+    },
+    {
+        id: 9,
+        productId: 209762,
+        type: 'Ofis divan',
+        productTitle: 'Dao Light ofis divani',
+        order: false,
+        new: true,
+        akciya: false,
+        available: true,
+        description: `Teri divan DAO - bu faqat DAO rahbarining kabineti uchun mo'ljallangan model. Tushdagi dam olish ertalabki vaqt bosimidan kam bo'lmaganlar uchun.`,
+        details: {
+            material: [
+                {
+                    id: 1,
+                    name: 'teri',
+                },
+                {
+                    id: 2,
+                    name: 'charm+eko-charm',
+                },
+                {
+                    id: 3,
+                    name: "tabiiy yog'och",
+                }
+            ],
+            country: 'Belarussiya',
+            color: [
+                {
+                    id: 1,
+                    name: 'oq',
+                },
+                {
+                    id: 2,
+                    name: 'bordo',
+                },
+                {
+                    id: 3,
+                    name: 'bej',
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/0d/0d3660db61edd8b43521a7d1d3513108.jpg',
+            },
+            {
+                id: 2,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/1c/1c32bdc753dadd90205c15f1df7a05a8.jpg',
+            },
+            {
+                id: 3,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/1d/1db66ebec85f7e920cbbe2558aec3867.jpg',
+            },
+            {
+                id: 4,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/18/18c7614414cb3a51f073bfa5110a463c.jpg',
+            }
+        ],
+        completedProjects: [],
+        reviews: [],
+        parts: [
+            {
+                id: 1,
+                type: "Divan 2 o'rinli",
+                size: '208x76x74 sm',
+                currentPrice: 14971000,
+                oldprice: false,
+            },
+            {
+                id: 2,
+                type: "Divan 1 o'rinli",
+                size: '146,5x76x74 sm',
+                currentPrice: 13456000,
+                oldprice: false,
+            }
+        ]
+    },
+    {
+        id: 10,
+        productId: 209763,
+        type: 'Ofis divan',
+        productTitle: 'Frank divani',
+        order: true,
+        new: false,
+        akciya: false,
+        available: true,
+        description: `Frank - lobbi, kovorking xonalari va ochiq ofis xonalari uchun zamonaviy bir, ikki va uch o'rinli divanlar seriyasidir. Divanlar har xil turdagi qoplamalarda ajoyib ko'rinadi.`,
+        details: {
+            material: [
+                {
+                    id: 1,
+                    name: 'teri',
+                },
+                {
+                    id: 2,
+                    name: 'eko-charm',
+                },
+                {
+                    id: 3,
+                    name: 'metall tayanchlar',
+                }
+            ],
+            country: 'Rossiya',
+            color: [
+                {
+                    id: 1,
+                    name: 'zaytun',
+                },
+                {
+                    id: 2,
+                    name: 'musson',
+                },
+                {
+                    id: 3,
+                    name: 'bordo qora rang',
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/3f/3fc451969c35d0e4310d58c3f92ec1a5.jpg',
+            },
+            {
+                id: 2,
+                alt: 'picture of office sofa',
+                img: '	https://territory-office.ru/assets/thumbnails/71/71cdf17115d7e1b3e31f31dc0708a323.jpg',
+            },
+            {
+                id: 3,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/ec/ecbcd68199820bfa82662012f9866e81.jpg',
+            },
+            {
+                id: 4,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/c4/c47c9798eda59046aef50621273aa7b3.jpg',
+            },
+            {
+                id: 5,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/88/882c0f2bae67cb9339c9d462c5044c44.jpg',
+            }
+        ],
+        completedProjects: [],
+        reviews: [
+            {
+                id: 1,
+                userName: "To'lanboy",
+                rating: 5,
+                body: "Juda ham zo'r gap bo'lishi mumkin emas!",
+            }
+        ],
+        parts: [
+            {
+                id: 1,
+                type: "Divan 3 o'rinli",
+                size: '200x80x78 sm',
+                currentPrice: 8765000,
+                oldprice: false,
+            },
+            {
+                id: 2,
+                type: "Divan 2 o'rinli",
+                size: '160x80x78 sm',
+                currentPrice: 7372000,
+                oldprice: false,
+            },
+            {
+                id: 3,
+                type: "Divan 1 o'rinli",
+                size: '112x80x78 sm',
+                currentPrice: 6938000,
+                oldprice: false,
+            }
+        ]
+    },
+    {
+        id: 11,
+        productId: 209764,
+        type: 'Ofis divan',
+        productTitle: '1,2 kishilik Napaleon ofis divani',
+        order: false,
+        new: true,
+        akciya: true,
+        available: true,
+        description: ``,
+        details: {
+            material: [
+                {
+                    id: 1,
+                    name: 'teri',
+                },
+                {
+                    id: 2,
+                    name: 'charm+ekocharm',
+                },
+                {
+                    id: 3,
+                    name: 'eko-charm',
+                }
+            ],
+            country: 'Ukraina',
+            color: [
+                {
+                    id: 1,
+                    name: 'Barcha ranglar mavjud',
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'picture of office sofa',
+                img: '	https://territory-office.ru/assets/thumbnails/7d/7d98dfddec4e322c1458d83dec94f8c1.jpeg',
+            },
+            {
+                id: 2,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/c8/c8710d59d4c0cc6b886b2734d3da703d.jpeg',
+            },
+            {
+                id: 3,
+                alt: 'picture of office sofa',
+                img: '	https://territory-office.ru/assets/thumbnails/e2/e265979c92857d570a5b3ff90c696c7e.jpg',
+            },
+            {
+                id: 4,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/62/627c265ae954db6998fc64e41469b60f.jpg',
+            },
+            {
+                id: 5,
+                alt: 'picture of office sofa',
+                img: '	https://territory-office.ru/assets/thumbnails/e0/e0ca3683fe9e57f7a80cfa21dba94897.jpg',
+            }
+        ],
+        completedProjects: [
+            {
+                id: 1,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/87/87253244d2ea976fd5495be2fc9570dd.jpg',
+            }
+        ],
+        reviews: [],
+        parts: [
+            {
+                id: 1,
+                type: "Divan 2 o'rinli",
+                size: '162x84x74 sm',
+                currentPrice: 3454000,
+                oldprice: false,
+            },
+            {
+                id: 2,
+                type: "Divan 1 o'rinli",
+                size: '100x84x74 sm',
+                currentPrice: 2656000,
+                oldprice: false,
+            }
+        ]
+    },
+    {
+        id: 12,
+        productId: 209765,
+        type: 'Ofis divan',
+        productTitle: 'Bella ofis divani',
+        order: false,
+        new: false,
+        akciya: true,
+        available: true,
+        description: `“BELLA” yumshoq kreslosi – uning nafis va nafis uslubi kompaniya xodimlari, mijozlari va hamkorlariga yoqadi.`,
+        details: {
+            material: [
+                {
+                    id: 1,
+                    name: 'teri',
+                },
+                {
+                    id: 2,
+                    name: 'eko-charm',
+                },
+                {
+                    id: 3,
+                    name: 'charm+eko-charm',
+                }
+            ],
+            country: 'Turkiya',
+            color: [
+                {
+                    id: 1,
+                    name: 'Barcha ranglar mavjud',
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'picture of office sofa',
+                img: '	https://territory-office.ru/assets/thumbnails/32/323ad0d87521f0e722db7310c07883d8.jpg',
+            },
+            {
+                id: 2,
+                alt: 'picture of office sofa',
+                img: '	https://territory-office.ru/assets/thumbnails/fd/fd8fc2f57b4ba0d5bf857069a2109b92.jpg',
+            },
+            {
+                id: 3,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/f3/f39659be0f260a75e0327b5d7be725a4.jpg',
+            }
+        ],
+        completedProjects: [],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Azizbek Solihov',
+                rating: 3,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+        ],
+        parts: [
+            {
+                id: 1,
+                type: "Divan 2 o'rinli",
+                size: '63x66x85 sm',
+                currentPrice: 6939000,
+                oldprice: 7256200,
+            }
+        ]
+    },
+    {
+        id: 13,
+        productId: 209766,
+        type: 'Ofis divan',
+        productTitle: 'Giotto Prime Plus ofis divani',
+        order: false,
+        new: true,
+        akciya: false,
+        available: false,
+        description: `Biz tomonidan oqlangan dizayni va aniq kvadrat qo'l dayamalari bo'lgan Giotto divanlari to'plami "Ratsionallik jozibasi" shiori ostida targ'ib qilinadi. Pastki yumshoq orqa va to'rtburchak ko'rpali qulay o'rindiq ifodali va o'ziga xos ko'rinadi. Divan jamoat va xususiy joylar uchun juda mos keladi, menejer ofisining ichki qismiga mos keladi va ijobiy kayfiyatni yaratadi, dam olish va dam olishga yordam beradi. To'plamga ikki va uch o'rindiqli divanlar va kreslolar kiradi. Giotto modelini yaratishga bizni yumshoq mebel dizayni sohasida jahon trendsetterining divanlari ilhomlantirdi.`,
+        details: {
+            material: [
+                {
+                    id: 1,
+                    name: 'teri',
+                },
+                {
+                    id: 2,
+                    name: 'eko-charm',
+                },
+                {
+                    id: 3,
+                    name: 'charm+eko-charm',
+                }
+            ],
+            country: "Ukraina + O'zbekiston",
+            color: [
+                {
+                    id: 1,
+                    name: 'oq',
+                },
+                {
+                    id: 2,
+                    name: 'qora',
+                },
+                {
+                    id: 3,
+                    name: 'zaytun',
+                },
+                {
+                    id: 4,
+                    name: 'kulrang',
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/92/920b2610637b029343a0fcd507f034e4.jpg',
+            },
+            {
+                id: 2,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/c0/c066053e687d742e3efbd0294943bdf7.jpg',
+            },
+            {
+                id: 3,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/f4/f4b1aceba93adccad7f3040f356ce675.jpg',
+            },
+            {
+                id: 4,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/21/21f27ef6d09a1cd3b97b7261be38f3ec.jpg',
+            },
+            {
+                id: 5,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/71/71d90f6c0c79700c940bc0a1afb3ede5.jpg',
+            }
+        ],
+        completedProjects: [
+            {
+                id: 1,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/75/757dffee8c4bfdd9ac7b13663dd5eebc.jpg',
+            },
+            {
+                id: 2,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/6d/6d4dddf19d60373e044ef9521d7acb79.jpg',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Teshavoy Abdullayev',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Boltavoy Jabborov',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Qo'chqorbek",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 4,
+                userName: "Madina",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+        ],
+        parts: [
+            {
+                id: 1,
+                type: "Divan 3 o'rinli",
+                size: '250x93x74 sm',
+                currentPrice: 9879000,
+                oldprice: false,
+            },
+            {
+                id: 2,
+                type: "Divan 2 o'rinli",
+                size: '208x93x74 sm',
+                currentPrice: 9561000,
+                oldprice: false,
+            },
+            {
+                id: 3,
+                type: "Divan 1 o'rinli",
+                size: '145x93x74 sm',
+                currentPrice: 7124000,
+                oldprice: false,
+            }
+        ]
+    },
+    {
+        id: 14,
+        productId: 209767,
+        type: 'Ofis divan',
+        productTitle: 'Cosmo Drive ofis divani',
+        order: true,
+        new: false,
+        akciya: false,
+        available: true,
+        description: `Klassik uslubdagi yumshoq mebel eng g'alaba qozonish variantidir. Bunday narsalar har doim qulay, har qanday muhit bilan yaxshi ketadi va hatto ajratilgan joyda ham ular kichik qulay orolni yaratishi mumkin. Kosmo yumshoq mebellari afzalliklarining to'liq ro'yxatiga ega, asosiylari zamonaviy ko'rinish va qulaylikdir. Mebel qismlari anatomik dizaynga ega bo'lib, Cosmo divanlari yordamida teng qulaylik bilan ishlash va dam olish imkoniyatini beradi. Modulli tizim eng zamonaviy moda tendentsiyalariga muvofiq yaratilgan.`,
+        details: {
+            material: [
+                {
+                    id: 1,
+                    name: 'Teri',
+                },
+                {
+                    id: 2,
+                    name: 'plastik tayanchlar',
+                },
+                {
+                    id: 3,
+                    name: 'charm + eko-charm',
+                }
+            ],
+            country: "O'zbekiston",
+            color: [
+                {
+                    id: 1,
+                    name: 'Qizil',
+                },
+                {
+                    id: 2,
+                    name: 'qora',
+                },
+                {
+                    id: 3,
+                    name: 'oq',
+                },
+                {
+                    id: 4,
+                    name: 'jigarrang',
+                },
+                {
+                    id: 5,
+                    name: 'kulrang',
+                },
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/f6/f69718985b9a5820afb7e833de68cf9f.jpg',
+            },
+            {
+                id: 2,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/0d/0ddb97667379db125aad551ba6d8dca0.jpg',
+            },
+            {
+                id: 3,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/65/65a19eed730a9bdd3254dbd6ffe93011.jpeg',
+            },
+            {
+                id: 4,
+                alt: 'picture of office sofa',
+                img: '	https://territory-office.ru/assets/thumbnails/1f/1f230baae9acfa8c14b130ed2e6144e8.jpg',
+            },
+            {
+                id: 5,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/c9/c9e76a236de7c597d3974c6ac8779bbc.jpg',
+            }
+        ],
+        completedProjects: [
+            {
+                id: 1,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/aa/aa9649656a52fd6dac3514dd708ce823.jpeg',
+            },
+            {
+                id: 2,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/11/114dc6decc385db8d370283e024ecbe3.jpg',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Teshavoy Abdullayev',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Boltavoy Jabborov',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Qo'chqorbek",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 4,
+                userName: "Madina",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+        ],
+        parts: [
+            {
+                id: 1,
+                type: "Divan 3 o'rinli",
+                size: '192x87x82 sm',
+                currentPrice: 7546000,
+                oldprice: false,
+            },
+            {
+                id: 2,
+                type: '2 kishilik divan',
+                size: '160x87x82 sm',
+                currentPrice: 6342000,
+                oldprice: false,
+            },
+            {
+                id: 3,
+                type: "Divan 1 o'rinli",
+                size: '95x87x82 sm',
+                currentPrice: 4969000,
+                oldprice: false,
+            }
+        ]
+    },
+    {
+        id: 15,
+        productId: 209768,
+        type: 'Ofis divan',
+        productTitle: 'Roden 2 ofis divani',
+        order: false,
+        new: false,
+        akciya: false,
+        available: true,
+        description: `Ko'pincha zamonaviy kompaniyalarning ofis maydoni ortiqcha yuklanadi - ham jismoniy, ham vizual. Va bu ajablanarli emas, chunki ko'pincha kichkina xonada ko'p narsalarni joylashtirish kerak: xodimlarning ish joylari, hujjatlar va ofis jihozlarini saqlash joylari va tashrif buyuruvchilarni qabul qilish joylari. Xonada juda ko'p bo'sh joy bo'lmasa, yumshoq mebellarni tanlashda minimalizm uslubida tayyorlangan modellarni tanlash yaxshidir. Bu ikki kishini sig'dira olmaydigan miniatyura divanlariga ustunlik berish kerak degani emas. Siz juda keng divan sotib olishingiz mumkin, lekin uning dizaynini diqqat bilan tanlang. Misol uchun, Xitoy ishlab chiqaruvchisi liniyasini davom ettiruvchi Rodin divaniga ustunlik bering, uning mahsulotlari eng buyuk rassomlar nomi bilan atalgan. Xitoylik dizaynerlarning bunday o'ziga bo'lgan ishonchi unchalik dadil ko'rinmaydi: axir, ushbu seriyadagi har bir model o'ziga xos tarzda noyobdir va zamonaviy mebel tafakkurining haqiqiy durdonasini ifodalaydi.`,
+        details: {
+            material: [
+                {
+                    id: 1,
+                    name: 'Teri',
+                },
+                {
+                    id: 2,
+                    name: 'eko-charm',
+                }
+            ],
+            country: 'Rossiya',
+            color: [
+                {
+                    id: 1,
+                    name: 'oq',
+                },
+                {
+                    id: 2,
+                    name: 'qora',
+                },
+                {
+                    id: 3,
+                    name: 'yashil',
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/75/75ac4559525157d1d9c516b689d7f3a4.jpg',
+            },
+            {
+                id: 2,
+                alt: 'picture of office sofa',
+                img: '	https://territory-office.ru/assets/thumbnails/cf/cfd4c7205fdf9649bb12192a22fabd77.jpg',
+            },
+            {
+                id: 3,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/02/02d1b2a6c8506d0b6249ae0060e3bd1d.jpeg',
+            },
+            {
+                id: 4,
+                alt: 'picture of office sofa',
+                img: '	https://territory-office.ru/assets/thumbnails/c0/c0fcb43633813f241858a1719f9f7b40.jpeg',
+            }
+        ],
+        completedProjects: [
+            {
+                id: 1,
+                alt: 'picture of office sofa',
+                img: '	https://territory-office.ru/assets/thumbnails/f6/f6248ad02a12e089b269a4ce71e97251.jpg',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Teshavoy Abdullayev',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Boltavoy Jabborov',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Qo'chqorbek",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 4,
+                userName: "Madina",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 5,
+                userName: "Shaxolo",
+                rating: 1,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+        ],
+        parts: [
+            {
+                id: 1,
+                type: "Divan 3 o'rinli",
+                size: '211x81x68 sm',
+                currentPrice: 11450000,
+                oldprice: false,
+            },
+            {
+                id: 2,
+                type: "Divan 2 o'rinli",
+                size: '159x81x68 sm',
+                currentPrice: 8905000,
+                oldprice: false,
+            },
+            {
+                id: 3,
+                type: "Divan 1 o'rinli",
+                size: '106x81x68 sm',
+                currentPrice: 5396000,
+                oldprice: false,
+            }
+        ]
+    },
+    {
+        id: 16,
+        productId: 209769,
+        type: 'Ofis divan',
+        productTitle: 'Flagman modulli divani',
+        order: false,
+        new: true,
+        akciya: false,
+        available: true,
+        description: `Ofis divanlari nafaqat interyerning qulay komponenti. Ushbu element sozlama uslubini namoyish qilishi, tashkilot maqomini ta'kidlashi va tashrif buyuruvchilarga maksimal qulaylikni kafolatlashi mumkin. Flagman yumshoq mebellari bu barcha xususiyatlarga ega.`,
+        details: {
+            material: [
+                {
+                    id: 1,
+                    name: 'eko',
+                },
+                {
+                    id: 2,
+                    name: "qo'qima material",
+                },
+                {
+                    id: 3,
+                    name: 'alyuminiy tayanchlar',
+                }
+            ],
+            country: 'Turkiya',
+            color: [
+                {
+                    id: 1,
+                    name: 'bej',
+                },
+                {
+                    id: 2,
+                    name: "ko'k",
+                },
+                {
+                    id: 3,
+                    name: 'qizil',
+                },
+                {
+                    id: 4,
+                    name: 'oq',
+                },
+                {
+                    id: 5,
+                    name: 'barcha ranglar mavjud',
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/23/23c64a04f56775e9322e4026c06d05a0.jpg',
+            },
+            {
+                id: 2,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/ee/eeb84681d357e50cf596739898e73851.jpg',
+            },
+            {
+                id: 3,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/56/561c8ea39b24570a7637064306598634.jpg',
+            },
+            {
+                id: 4,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/e9/e92f8a6145d9631c0d143ebd9431262f.jpg',
+            },
+            {
+                id: 5,
+                alt: 'picture of office sofa',
+                img: '	https://territory-office.ru/assets/thumbnails/ae/aee70083e78498ca85b00706ce7b1fa1.jpg',
+            },
+            {
+                id: 6,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/72/7278eaeec49675035b096955edef0ea5.jpg',
+            },
+            {
+                id: 7,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/29/290e0a730a19f7573a1fe1270dc05a4d.jpg',
+            }
+        ],
+        completedProjects: [
+            {
+                id: 1,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/1a/1a0c30c0c082915e7e06d72a4fb0bfa2.jpg',
+            },
+            {
+                id: 2,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/b1/b170197380fa3dd89bf6721f20a841a4.jpg',
+            },
+            {
+                id: 3,
+                alt: 'picture of office sofa',
+                img: 'https://territory-office.ru/assets/thumbnails/2f/2f27057582ca39f34ec6c3a6756e2f59.jpg',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Miss Madinaxon',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Boltavoy Jabborov',
+                rating: 2,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Furqatbek Tojiboyev",
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            }
+        ],
+        parts: [
+            {
+                id: 1,
+                type: "Bo'lim",
+                size: '202x77x73.5 sm',
+                currentPrice: 4795000,
+                oldprice: false,
+            },
+            {
+                id: 2,
+                type: "Bo'lim 45*",
+                size: '154x77x73.5 sm',
+                currentPrice: 3676000,
+                oldprice: false,
+            },
+            {
+                id: 3,
+                type: "Tashqi bo'lim 45*",
+                size: '102x77x73,5 sm',
+                currentPrice: 2546000,
+                oldprice: false,
+            },
+            {
+                id: 4,
+                type: "Puf",
+                size: '70x70x41 sm',
+                currentPrice: 1646000,
+                oldprice: false,
+            },
+            {
+                id: 5,
+                type: "Jadval",
+                size: '69x69x29.5 sm',
+                currentPrice: 1296000,
+                oldprice: false,
+            },
+        ]
+    },
+];
