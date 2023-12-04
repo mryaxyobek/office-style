@@ -56,6 +56,8 @@ export const tabButtonsGroup = [
 ];
 
 
+
+
 // product tabbuttons 
 export const productTabButtonsGroup = [
     {
@@ -87,6 +89,9 @@ export const productTabButtonsGroup = [
         text: 'Mahsulotni qaytarish',
     },
 ];
+
+
+
 
 
 // products
@@ -361,6 +366,9 @@ export const products = [
     },
 ];
 
+
+
+
 export const articles = [
     {
         id: 1,
@@ -428,6 +436,9 @@ export const articles = [
     },
 ];
 
+
+
+
 // akciya (stock)
 export const akciyaProducts = [
     {
@@ -465,6 +476,8 @@ export const akciyaProducts = [
         Fikrlar do‘konlari tarmog‘ining barcha filiallarida maishiy texnika va elektronika mahsulotlarini 6, 12, 18, 24 yoki 30 oy muddatga oldindan to‘lovsiz va Toshkent shahri bo‘ylab bepul yetkazib berish bilan bo‘lib-bo‘lib xarid qilishingiz mumkin.`
     },
 ];
+
+
 
 
 // completed projects
@@ -990,6 +1003,8 @@ export const completedProjects = [
     }
 ];
 
+
+
 // reviews
 export const reviewsData = [
     {
@@ -1021,6 +1036,7 @@ export const reviewsData = [
         rating: 3,
     },
 ];
+
 
 
 // cabinet for managers 
@@ -3306,6 +3322,9 @@ export const cabinetProductsForManagers = [
         ]
     },
 ];
+
+
+
 
 // furniture for staff
 export const furnitureForStaff = [
@@ -5945,6 +5964,8 @@ export const furnitureForStaff = [
     },
 ];
 
+
+
 // officce sofas
 export const officeSofas = [
     {
@@ -7807,7 +7828,10 @@ export const officeSofas = [
     },
 ];
 
-export const ManagersChair = [
+
+
+// manager's chair
+export const managersChair = [
     {
         id: 1,
         productId: 209770,
@@ -8951,4 +8975,1054 @@ export const ManagersChair = [
             }
         ]
     },
-]; 
+];
+
+
+
+// office chairs
+export const officeChair = [
+    {
+        id: 1,
+        productId: 209784,
+        type: 'Ofis stuli',
+        productTitle: 'RCH 8085 JE ofis stuli',
+        order: false,
+        new: false,
+        akciya: false,
+        available: true,
+        description: `RCH 8085 JE stul yumshoq va qulay. Ergonomik shakldagi g'ildiraklardagi kompyuter stulining orqa tomoni har bir foydalanuvchiga moslashtirilgan yumshoq o'rnatilgan bel tayanchi bilan to'ldiriladi. Bu maktab o'quvchisi uchun ish stoli, uy ofis uchun stul yoki to'liq huquqli ofis kreslosi. Plastik ramka to'r bilan qoplangan. Ofis kreslosi o'rindig'i qoliplangan ko'pikli poliuretandan tayyorlangan va qora to'r mato bilan qoplangan. Plastik qo'l dayamalari o'rindiq va orqaga mahkam o'rnatiladi, bu esa o'tirgan holatda ishlashni yanada qulay qiladi. Balandlikni sozlash 10 sm diapazonda gaz kartriji yordamida amalga oshiriladi.Ishchi kursi uzoq vaqt xizmat qiladi, xonada ko'p joy egallamaydi va har qanday interyerga yaxshi mos keladi. Kompyuter kursisi Top Gun tebranish mexanizmi bilan jihozlangan. Hajmi (WxDxH): 580x550x1010, O'rindiq kengligi (mm): 480, O'rindiq chuqurligi (mm): 470, Orqa balandligi (mm): 460, O'rindiq balandligi (mm): 450-550.`,
+        details: {
+            material: [
+                {
+                    id: 1,
+                    name: "to'r",
+                },
+                {
+                    id: 2,
+                    name: 'xrom',
+                },
+                {
+                    id: 3,
+                    name: 'plastmassa',
+                },
+            ],
+            country: "Rossiya",
+            endurance: '120 kg',
+            color: [
+                {
+                    id: 1,
+                    name: 'qora',
+                },
+                {
+                    id: 2,
+                    name: 'qizil',
+                },
+                {
+                    id: 3,
+                    name: "to'q sariq",
+                },
+                {
+                    id: 4,
+                    name: 'kulrang',
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: "Picture of the office chair",
+                img: 'https://territory-office.ru/assets/thumbnails/32/32458a89155e819e8b14d60223ed162c.webp',
+            },
+            {
+                id: 2,
+                alt: "Picture of the office chair",
+                img: 'https://territory-office.ru/assets/thumbnails/bb/bb496266ac33913f9476ec2876f06c46.webp',
+            },
+            {
+                id: 3,
+                alt: "Picture of the office chair",
+                img: 'https://territory-office.ru/assets/thumbnails/ac/acfce1ff2a72d0e8e1eae8fa40baa94f.webp',
+            },
+            {
+                id: 4,
+                alt: "Picture of the office chair",
+                img: 'https://territory-office.ru/assets/thumbnails/1a/1abfceee28acca370870f8242d46e5ef.webp',
+            },
+            {
+                id: 5,
+                alt: "Picture of the office chair",
+                img: 'https://territory-office.ru/assets/thumbnails/52/5287a7a08de122c0c4095929ad0d5449.webp',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Abdullajon A',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Jamila',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Oydinoy Axmedovna",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            }
+        ],
+        parts: [
+            {
+                id: 1,
+                currentPrice: 936000,
+                oldprice: false,
+            }
+        ]
+    },
+    {
+        id: 2,
+        productId: 209785,
+        type: 'Ofis stuli',
+        productTitle: "Metta ofis stuli (18/2D to'plami)",
+        order: false,
+        new: false,
+        akciya: false,
+        available: true,
+        description: `METTA Set 18/2D - bu “S” seriyali ofis kreslolarining modulli liniyasining asosiy modeli bo‘lib, u kerakli sozlamalarni, insonning anatomik shakliga mos keladigan ergonomik shaklni, zamonaviy dizaynni va arzon narxda maksimal qulaylikni o‘zida mujassam etgan.`,
+        details: {
+            material: [
+                {
+                    id: 1,
+                    name: "to'r",
+                },
+                {
+                    id: 2,
+                    name: 'xrom',
+                }
+            ],
+            country: "Ukraina",
+            endurance: '120 kg',
+            color: [
+                {
+                    id: 1,
+                    name: 'och kulrang',
+                },
+                {
+                    id: 2,
+                    name: "ko'k",
+                },
+                {
+                    id: 3,
+                    name: 'qizil',
+                },
+                {
+                    id: 4,
+                    name: 'quyuq kulrang',
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: "Picture of the office chair",
+                img: 'https://territory-office.ru/assets/thumbnails/7d/7dce66b2a8d6c91072e2374c2df51e7b.webp',
+            },
+            {
+                id: 2,
+                alt: "Picture of the office chair",
+                img: 'https://territory-office.ru/assets/thumbnails/bb/bb3e88bf03417be23b5646a69a2e8a97.webp',
+            },
+            {
+                id: 3,
+                alt: "Picture of the office chair",
+                img: 'https://territory-office.ru/assets/thumbnails/65/652872563fe034c465903c87c2a174fa.webp',
+            },
+            {
+                id: 4,
+                alt: "Picture of the office chair",
+                img: '	https://territory-office.ru/assets/thumbnails/c7/c7b2ab7b729596c498d7803008f7df3c.webp',
+            },
+            {
+                id: 5,
+                alt: "Picture of the office chair",
+                img: 'https://territory-office.ru/assets/thumbnails/31/31b2634ff0bf5c13045d22fe21caca91.webp',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Abdullajon A',
+                rating: 3,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Jamila',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            }
+        ],
+        parts: [
+            {
+                id: 1,
+                currentPrice: 1757000,
+                oldprice: false,
+            }
+        ]
+    },
+    {
+        id: 3,
+        productId: 209786,
+        type: 'Ofis stuli',
+        productTitle: "Metta ofis stuli (10/2D to'plami)",
+        order: true,
+        new: false,
+        akciya: false,
+        available: true,
+        description: `METTA Set 10/2D ergonomik kreslo - bu “S” seriyali ofis kreslolarining modulli liniyasining asosiy modeli bo‘lib, u kerakli sozlamalarni, insonning anatomik shakliga mos keladigan ergonomik shaklni, zamonaviy dizaynni va hamyonbop narxda maksimal qulaylikni o‘zida mujassam etgan. narx.`,
+        details: {
+            material: [
+                {
+                    id: 1,
+                    name: 'bardoshli yangi material',
+                },
+                {
+                    id: 2,
+                    name: 'xrom',
+                }
+            ],
+            country: "Rossiya",
+            endurance: '140 kg',
+            color: [
+                {
+                    id: 1,
+                    name: 'qora',
+                },
+                {
+                    id: 2,
+                    name: 'bej',
+                },
+                {
+                    id: 3,
+                    name: "to'q jigarrang",
+                },
+                {
+                    id: 4,
+                    name: 'kulrang',
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: "Picture of the office chair",
+                img: 'https://territory-office.ru/assets/thumbnails/30/30401b74b0f65c32c5cb3c6df436a54c.webp',
+            },
+            {
+                id: 2,
+                alt: "Picture of the office chair",
+                img: 'https://territory-office.ru/assets/thumbnails/39/392c823910ef4004f8616d0db74d6d86.webp',
+            },
+            {
+                id: 3,
+                alt: "Picture of the office chair",
+                img: 'https://territory-office.ru/assets/thumbnails/fd/fd6bd55b7aff49e1366d13e59acd4e79.webp',
+            },
+            {
+                id: 4,
+                alt: "Picture of the office chair",
+                img: 'https://territory-office.ru/assets/thumbnails/a6/a6e3d22aaad8284c28015e5be4e5abf0.webp',
+            },
+            {
+                id: 5,
+                alt: "Picture of the office chair",
+                img: 'https://territory-office.ru/assets/thumbnails/b3/b33388bd3167e0d9d1f75d896a31a09b.webp',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Abdullajon A',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Jamila',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Oydinoy Axmedovna",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 4,
+                userName: "Jasurbek",
+                rating: 2,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            }
+        ],
+        parts: [
+            {
+                id: 1,
+                currentPrice: 2456000,
+                oldprice: false,
+            }
+        ]
+    },
+    {
+        id: 4,
+        productId: 209787,
+        type: 'Ofis stuli',
+        productTitle: "Metta ofis stuli (15-to'plam)",
+        order: false,
+        new: true,
+        akciya: false,
+        available: true,
+        description: `Ergonomik stul METTA Set 15 - bu Metta kompaniyasining eng mashhur BK-8, BP-8 stullarining takomillashtirilgan modeli. Bu S seriyali ofis kreslolarining modulli liniyasining asosiy modeli bo'lib, u kerakli sozlamalarni, insonning anatomik shakliga mos keladigan ergonomik shaklni, zamonaviy dizaynni va arzon narxda maksimal qulaylikni o'zida mujassam etgan.`,
+        details: {
+            material: [
+                {
+                    id: 1,
+                    name: "to'r",
+                },
+                {
+                    id: 2,
+                    name: 'ekologik teri',
+                },
+                {
+                    id: 3,
+                    name: 'mato',
+                }
+            ],
+            country: "Turkiya",
+            endurance: '120 kg',
+            color: [
+                {
+                    id: 1,
+                    name: 'qora',
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: "Picture of the office chair",
+                img: 'https://territory-office.ru/assets/thumbnails/37/376be2882b267f0c5783cfea1c314dc6.webp',
+            },
+            {
+                id: 2,
+                alt: "Picture of the office chair",
+                img: 'https://territory-office.ru/assets/thumbnails/73/736502b065078747d836498b980e6fb0.webp',
+            },
+            {
+                id: 3,
+                alt: "Picture of the office chair",
+                img: 'https://territory-office.ru/assets/thumbnails/1a/1a137d00670c61170ca7741586d55f4b.webp',
+            },
+            {
+                id: 4,
+                alt: "Picture of the office chair",
+                img: 'https://territory-office.ru/assets/thumbnails/75/757384ed0d9c750d338ef4f66e10af0c.webp',
+            },
+            {
+                id: 5,
+                alt: "Picture of the office chair",
+                img: 'https://territory-office.ru/assets/thumbnails/ab/ab9b03b1703257c94f59fe8f977b7122.webp',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: "Turg'unoy",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            }
+        ],
+        parts: [
+            {
+                id: 1,
+                currentPrice: 1976000,
+                oldprice: false,
+            }
+        ]
+    },
+    {
+        id: 5,
+        productId: 209788,
+        type: 'Ofis stuli',
+        productTitle: 'Dali stuli DB-700LB HY-5',
+        order: false,
+        new: false,
+        akciya: true,
+        available: true,
+        description: `Tashrif buyuruvchilar uchun stul Dali DB-700 LB - ofis maydonlarini sifatli to'ldirish uchun klassik biznes uslubidagi model. Dali liniyasidagi boshqa modellar bilan bir xil uslubda ishlab chiqarilgan. Qulay o'rindiq va ergonomik orqa o'rindiq uzoq vaqt davomida qulay bo'lishingizga imkon beradi.`,
+        details: {
+            material: [
+                {
+                    id: 1,
+                    name: "yog'och",
+                },
+                {
+                    id: 2,
+                    name: 'teri+eko-charm',
+                }
+            ],
+            country: "Rossiya",
+            endurance: '120 kg',
+            color: [
+                {
+                    id: 1,
+                    name: 'oq',
+                },
+                {
+                    id: 2,
+                    name: 'qora',
+                },
+                {
+                    id: 3,
+                    name: 'yashil',
+                },
+                {
+                    id: 4,
+                    name: 'kulrang',
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: "Picture of the office chair",
+                img: '	https://territory-office.ru/assets/thumbnails/7b/7ba6fac4ce9f5abfa89ee458869cfc09.webp',
+            },
+            {
+                id: 2,
+                alt: "Picture of the office chair",
+                img: '	https://territory-office.ru/assets/thumbnails/a0/a066c800b1dce39afb8177bdee4d6b2f.webp',
+            },
+            {
+                id: 3,
+                alt: "Picture of the office chair",
+                img: 'https://territory-office.ru/assets/thumbnails/22/22d8a627d4d1099eb7a6a7b2ee41ca17.webp',
+            },
+            {
+                id: 4,
+                alt: "Picture of the office chair",
+                img: 'https://territory-office.ru/assets/thumbnails/93/93540037633995f31a9c4af9daeb8dd8.webp',
+            },
+            {
+                id: 5,
+                alt: "Picture of the office chair",
+                img: '	https://territory-office.ru/assets/thumbnails/95/95260d0775ef571d65eab1c9207801a4.webp',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Abdullajon A',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Jamila',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Oydinoy Axmedovna",
+                rating: 3,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            }
+        ],
+        parts: [
+            {
+                id: 1,
+                currentPrice: 3445000,
+                oldprice: 4165000,
+            }
+        ]
+    },
+    {
+        id: 6,
+        productId: 209789,
+        type: 'Ofis stuli',
+        productTitle: "Metta ofis kreslosi (18 to'plam)",
+        order: false,
+        new: false,
+        akciya: false,
+        available: true,
+        description: `Boshqaruv idorasi/ofisi va uy uchun METTA 18 ijrochi kafedrasi. Amaliy qoplama materiali aşınmaya bardoshli qora mato, orqa o'rindiq esa nafas oladigan to'r bilan qoplangan. Boshqaruvchi kreslo parket va laminat uchun xavfsiz bo'lgan krom qoplamali qo'l dayamalari va rezina g'ildiraklari bilan jihozlangan. Sun'iy teri bosh suyagi bilan baland suyanch, o'rindiq balandligini sozlash. 95 dan 135 gacha burilish ta'minlash, bel qo'llab-quvvatlash bilan ijro etuvchi kafedrasi, shuningdek, o'rnatilgan Top Gun tebranish mexanizmi, g'ildiraklar bilan kafedra balandligi ishonchli gaz lift bilan sozlanishi. Monolit ramka va krossovka bardoshli xrom qoplangan metalldan yasalgan va 120 kg gacha bo'lgan yuklarga bardosh bera oladi. O'rindiq chuqurligi sozlanishi mumkin.`,
+        details: {
+            material: [
+                {
+                    id: 1,
+                    name: "to'r",
+                },
+                {
+                    id: 2,
+                    name: 'xrom',
+                },
+                {
+                    id: 3,
+                    name: 'mato',
+                }
+            ],
+            country: "Belarussiya",
+            endurance: '120 kg',
+            color: [
+                {
+                    id: 1,
+                    name: "to'q kulrang",
+                },
+                {
+                    id: 2,
+                    name: 'qizil',
+                },
+                {
+                    id: 3,
+                    name: 'qora',
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: "Picture of the office chair",
+                img: 'https://territory-office.ru/assets/thumbnails/9c/9ce07b73bc678dd4316177bc10c10c08.webp',
+            },
+            {
+                id: 2,
+                alt: "Picture of the office chair",
+                img: '	https://territory-office.ru/assets/thumbnails/b1/b1ed7077ee1b73a5446fdfa695085c20.webp',
+            },
+            {
+                id: 3,
+                alt: "Picture of the office chair",
+                img: 'https://territory-office.ru/assets/thumbnails/0a/0aab762b51894a28c9605e5fd3a121dd.webp',
+            },
+            {
+                id: 4,
+                alt: "Picture of the office chair",
+                img: 'https://territory-office.ru/assets/thumbnails/2f/2fd7c4becc39f45f28bb82a05f75d22c.webp',
+            },
+            {
+                id: 5,
+                alt: "Picture of the office chair",
+                img: 'https://territory-office.ru/assets/thumbnails/39/3993fca11d5806542c89d5b53f103ff7.webp',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Abdullajon A',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Jamila',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Oydinoy Axmedovna",
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            }
+        ],
+        parts: [
+            {
+                id: 1,
+                currentPrice: 1652000,
+                oldprice: false,
+            }
+        ]
+    },
+    {
+        id: 7,
+        productId: 209790,
+        type: 'Ofis stuli',
+        productTitle: "Metta ofis stuli (17-to'plam)",
+        order: false,
+        new: true,
+        akciya: false,
+        available: true,
+        description: `Ijrochi kafedrasi METTA Set 17 - yuqori sifati, ishonchliligi va xavfsizligi tufayli foydalanuvchilar orasida talab qilinadigan model. U muhim xususiyatlarning to'liq ro'yxatiga ega: ergonomik o'rindiq, harakatlanuvchi taglik, individual sozlamalar va jozibali ko'rinish. Model qat'iy klassik, original zamonaviy interyerga ideal tarzda birlashtirilgan va qulay dam olish va ishlashni ta'minlaydi.`,
+        details: {
+            material: [
+                {
+                    id: 1,
+                    name: 'ekologik teri',
+                },
+                {
+                    id: 2,
+                    name: 'xrom',
+                }
+            ],
+            country: "Xitoy",
+            endurance: '120 kg',
+            color: [
+                {
+                    id: 1,
+                    name: 'qora',
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: "Picture of the office chair",
+                img: 'https://territory-office.ru/assets/thumbnails/3b/3bd3ed2ccd0b798a2ef50a9ab70f5ccc.webp',
+            },
+            {
+                id: 2,
+                alt: "Picture of the office chair",
+                img: '	https://territory-office.ru/assets/thumbnails/62/623ce722455d0a5c5e39d4f7b47cdb8c.webp',
+            },
+            {
+                id: 3,
+                alt: "Picture of the office chair",
+                img: '	https://territory-office.ru/assets/thumbnails/36/36e8a5968af87e3f75f597e8de594d08.webp',
+            },
+            {
+                id: 4,
+                alt: "Picture of the office chair",
+                img: 'https://territory-office.ru/assets/thumbnails/dd/dda274133035b44f0318cbd337243479.webp',
+            },
+            {
+                id: 5,
+                alt: "Picture of the office chair",
+                img: '	https://territory-office.ru/assets/thumbnails/3b/3b9e4ce2cd76006dace08b0f96c10f2c.webp',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Abdullajon A',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Jamila',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Oydinoy Axmedovna",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 4,
+                userName: "Oydinoy Axmedovna",
+                rating: 3,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 5,
+                userName: "Oydinoy Axmedovna",
+                rating: 2,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+        ],
+        parts: [
+            {
+                id: 1,
+                currentPrice: 1416000,
+                oldprice: false,
+            }
+        ]
+    },
+    {
+        id: 8,
+        productId: 209791,
+        type: 'Ofis stuli',
+        productTitle: "Metta ofis stuli (19-to'plam)",
+        order: true,
+        new: false,
+        akciya: false,
+        available: true,
+        description: `METTA to'plami 19 - bu "S" seriyali ofis kreslolarining modulli liniyasining asosiy modeli bo'lib, u kerakli sozlashlarni, yaxshilangan ergonomik shaklni, zamonaviy dizaynni va arzon narxlarda maksimal qulaylikni birlashtiradi.`,
+        details: {
+            material: [
+                {
+                    id: 1,
+                    name: "to'r mato",
+                },
+                {
+                    id: 2,
+                    name: 'xrom',
+                },
+                {
+                    id: 3,
+                    name: 'eko teri',
+                }
+            ],
+            country: "Xitoy",
+            endurance: '120 kg',
+            color: [
+                {
+                    id: 1,
+                    name: 'qizil',
+                },
+                {
+                    id: 2,
+                    name: "to'q kulrang",
+                },
+                {
+                    id: 3,
+                    name: 'och kulrang',
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: "Picture of the office chair",
+                img: 'https://territory-office.ru/assets/thumbnails/ad/ad50f5bda81f238321f57b8ebaa7dc42.webp',
+            },
+            {
+                id: 2,
+                alt: "Picture of the office chair",
+                img: 'https://territory-office.ru/assets/thumbnails/cb/cb554e6be7523373c2322093bc9c3793.webp',
+            },
+            {
+                id: 3,
+                alt: "Picture of the office chair",
+                img: 'https://territory-office.ru/assets/thumbnails/58/584ddc43662c26dd92cc8fed11525fd7.webp',
+            },
+            {
+                id: 4,
+                alt: "Picture of the office chair",
+                img: 'https://territory-office.ru/assets/thumbnails/a9/a9069b9383ea85d008631f0c453e73ac.webp',
+            },
+            {
+                id: 5,
+                alt: "Picture of the office chair",
+                img: '	https://territory-office.ru/assets/thumbnails/4e/4e19e14ed6e51003a3dd343dd54e9f4a.webp',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Abdullajon A',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Jamila',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Oydinoy Axmedovna",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            }
+        ],
+        parts: [
+            {
+                id: 1,
+                currentPrice: 1749000,
+                oldprice: false,
+            }
+        ]
+    },
+    {
+        id: 9,
+        productId: 209792,
+        type: 'Ofis stuli',
+        productTitle: 'Ofis stuli RCH D-918',
+        order: false,
+        new: true,
+        akciya: false,
+        available: true,
+        description: `Material: plastik
+        O'rindiq kengligi: 43 sm
+        O'rindiq chuqurligi: 47 sm
+        Orqa balandligi: 39 sm
+        Mahsulot o'lchamlari: 48x56x80 sm
+        Paket o'lchamlari: 57x57x49 sm
+        Og'irligi: 6,2 kg`,
+        details: {
+            material: [
+                {
+                    id: 1,
+                    name: 'plastmassa',
+                },
+                {
+                    id: 2,
+                    name: 'xrom',
+                },
+                {
+                    id: 3,
+                    name: 'mato',
+                },
+                {
+                    id: 4,
+                    name: "to'r",
+                },
+            ],
+            country: "Belarussiya",
+            endurance: '120 kg',
+            color: [
+                {
+                    id: 1,
+                    name: 'kulrang',
+                },
+                {
+                    id: 2,
+                    name: 'qora',
+                },
+                {
+                    id: 3,
+                    name: 'yashil',
+                },
+                {
+                    id: 4,
+                    name: "ko'k",
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: "Picture of the office chair",
+                img: 'https://territory-office.ru/assets/thumbnails/12/128ea739347e9b684c0b57f3e49b677a.webp',
+            },
+            {
+                id: 2,
+                alt: "Picture of the office chair",
+                img: 'https://territory-office.ru/assets/thumbnails/b3/b3187c20f119395f1560344eb5e0cbc6.webp',
+            },
+            {
+                id: 3,
+                alt: "Picture of the office chair",
+                img: 'https://territory-office.ru/assets/thumbnails/9f/9f546a76d597de4dd898cce184454bae.webp',
+            },
+            {
+                id: 4,
+                alt: "Picture of the office chair",
+                img: 'https://territory-office.ru/assets/thumbnails/6f/6f5c9f3b9b5a365de993205771f0821a.webp',
+            },
+            {
+                id: 5,
+                alt: "Picture of the office chair",
+                img: 'https://territory-office.ru/assets/thumbnails/d8/d854df638ca7033ec4c97405051000c4.webp',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Abdullajon A',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Jamila',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            }
+        ],
+        parts: [
+            {
+                id: 1,
+                currentPrice: 536000,
+                oldprice: false,
+            }
+        ]
+    },
+    {
+        id: 10,
+        productId: 20993,
+        type: 'Ofis stuli',
+        productTitle: "Metta ofis stuli (27 to'plami)",
+        order: true,
+        new: false,
+        akciya: false,
+        available: true,
+        description: `METTA Set 27 ergonomik kreslo - bu “S” seriyali ofis kreslolarining modulli liniyasining asosiy modeli bo‘lib, u kerakli sozlamalarni, insonning anatomik shakliga mos keladigan ergonomik shaklni, zamonaviy dizaynni va hamyonbop narxda maksimal qulaylikni o‘zida mujassam etgan. narx.`,
+        details: {
+            material: [
+                {
+                    id: 1,
+                    name: 'bardoshli yangi material',
+                },
+                {
+                    id: 2,
+                    name: 'xrom',
+                }
+            ],
+            country: "Rossiya",
+            endurance: '140 kg',
+            color: [
+                {
+                    id: 1,
+                    name: 'qora',
+                },
+                {
+                    id: 2,
+                    name: 'bej',
+                },
+                {
+                    id: 3,
+                    name: "to'q jigarrang",
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: "Picture of the office chair",
+                img: 'https://territory-office.ru/assets/thumbnails/2b/2bd21e39747e322a8acb42844e1600f3.webp',
+            },
+            {
+                id: 2,
+                alt: "Picture of the office chair",
+                img: 'https://territory-office.ru/assets/thumbnails/10/10dd0946b039defe0ab66b7b26466919.webp',
+            },
+            {
+                id: 3,
+                alt: "Picture of the office chair",
+                img: 'https://territory-office.ru/assets/thumbnails/b3/b33388bd3167e0d9d1f75d896a31a09b.webp',
+            },
+            {
+                id: 4,
+                alt: "Picture of the office chair",
+                img: 'https://territory-office.ru/assets/thumbnails/d3/d35fbb387bf4f3134b153de599eca03c.webp',
+            },
+            {
+                id: 5,
+                alt: "Picture of the office chair",
+                img: 'https://territory-office.ru/assets/thumbnails/fd/fd6bd55b7aff49e1366d13e59acd4e79.webp',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Abdullajon A',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Jamila',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Oydinoy Axmedovna",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 4,
+                userName: "Jasurbek",
+                rating: 2,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            }
+        ],
+        parts: [
+            {
+                id: 1,
+                currentPrice: 2656000,
+                oldprice: false,
+            }
+        ]
+    },
+    {
+        id: 11,
+        productId: 209794,
+        type: 'Ofis stuli',
+        productTitle: "Samuray KL-2.041 ofis stuli",
+        order: false,
+        new: true,
+        akciya: false,
+        available: true,
+        description: `Ergonomik stul Samuray KL-2.0415 - bu Metta kompaniyasining eng mashhur BK-8, BP-8 stullarining takomillashtirilgan modeli. Bu S seriyali ofis kreslolarining modulli liniyasining asosiy modeli bo'lib, u kerakli sozlamalarni, insonning anatomik shakliga mos keladigan ergonomik shaklni, zamonaviy dizaynni va arzon narxda maksimal qulaylikni o'zida mujassam etgan.`,
+        details: {
+            material: [
+                {
+                    id: 1,
+                    name: "to'r",
+                },
+                {
+                    id: 2,
+                    name: 'ekologik teri',
+                },
+                {
+                    id: 3,
+                    name: 'mato',
+                }
+            ],
+            country: "Turkiya",
+            endurance: '120 kg',
+            color: [
+                {
+                    id: 1,
+                    name: 'qora',
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: "Picture of the office chair",
+                img: 'https://territory-office.ru/assets/thumbnails/28/28e9c55445752855469a72b5b1d00304.webp',
+            },
+            {
+                id: 2,
+                alt: "Picture of the office chair",
+                img: 'https://territory-office.ru/assets/thumbnails/ab/ab9b03b1703257c94f59fe8f977b7122.webp',
+            },
+            {
+                id: 3,
+                alt: "Picture of the office chair",
+                img: '	https://territory-office.ru/assets/thumbnails/25/256a6bafbba522557c8fa84d7ad19ca2.webp',
+            },
+            {
+                id: 4,
+                alt: "Picture of the office chair",
+                img: 'https://territory-office.ru/assets/thumbnails/75/757384ed0d9c750d338ef4f66e10af0c.webp',
+            },
+            {
+                id: 5,
+                alt: "Picture of the office chair",
+                img: 'https://territory-office.ru/assets/thumbnails/73/736502b065078747d836498b980e6fb0.webp',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: "Turg'unoy",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            }
+        ],
+        parts: [
+            {
+                id: 1,
+                currentPrice: 3626000,
+                oldprice: false,
+            }
+        ]
+    }
+];
+
+
+

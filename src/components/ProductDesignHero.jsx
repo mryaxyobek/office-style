@@ -354,7 +354,7 @@ const ProductDesignHero = () => {
                         <form action="https://echo.htmlacademy.ru" className="flex flex-col overflow-y-auto bg-white z-2 py-8 px-12 w-1/2 rounded-2.5xl hidden-scroll max-800:px-8 max-800:py-6 max-730:w-full max-730:max-w-md max-580:max-w-full max-540:px-5 max-580:rounded-none max-580:h-full">
                             <div className="my-auto">
                                 {/* title  */}
-                                <h3 className="text-center max-w-md mx-auto text-medium-28 mb-3">Qo'ng'iroqqa buyurtma berish</h3>
+                                <h3 className="text-center max-w-md mx-auto text-medium-28 mb-3">Biz sizga qo'ng'iroq qilamiz</h3>
                                 <p className="text-center text-primary-gray-70 mb-8 max-440:text-regular-16">Bizning operatorlarimiz sizga 30 daqiqa ichida qo'ng'iroq qilishadi</p>
 
                                 {/* main  */}
