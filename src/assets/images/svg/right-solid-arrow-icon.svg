@@ -1,7 +1,5 @@
 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="Iconex/Light/Down 2">
-<g id="Down">
-<path id="Vector 140" d="M9.6665 19.8335L14.4971 14.1978C14.8823 13.7484 14.8823 13.0853 14.4971 12.6359L9.66651 7.00017" stroke="#AE0712" stroke-width="1.5" stroke-linecap="round"/>
-</g>
-</g>
+    <path id="Vector 140"
+        d="M9.6665 19.8335L14.4971 14.1978C14.8823 13.7484 14.8823 13.0853 14.4971 12.6359L9.66651 7.00017"
+        stroke="#AE0712" stroke-width="1.5" stroke-linecap="round" />
 </svg>

@@ -21,7 +21,7 @@ const Menu = ({ setOpenCatalog }) => {
                     OFIS <span className='text-primary-red-50'>TARZI</span>
                 </Link>
                 {/* cross btn */}
-                <button onClick={() => setOpenCatalog(false)} className="flex-center red-btn justify-center w-9 h-9 max-800:hidden">
+                <button onClick={() => setOpenCatalog(false)} className="flex-center red-btn justify-center w-9 h-9 max-900:hidden">
                     <span className={`rotate-45 flex-center justify-between w-4 h-4 relative`}>
                         <span className={`translate-y-0 w-4 rotate-90 inline-block absolute bg-white h-0.5`}></span>
                         <span className={`translate-y-0 w-4 inline-block absolute bg-white h-0.5`}></span>

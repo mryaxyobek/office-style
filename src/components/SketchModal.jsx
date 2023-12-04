@@ -20,7 +20,7 @@ const SketchModal = () => {
     return (
         <>
             {/* modal parent  */}
-            <div className="flex-center' flex-center fixed justify-center top-0 right-0 w-full h-screen z-10">
+            <div className="flex-center' flex-center fixed justify-center top-0 right-0 w-full h-screen z-50">
                 {/* overlay */}
                 <div onClick={closeSketchModalFunction} className={`justify-center fixed bg-black bg-opacity-75 w-full min-h-screen top-0 right-0 z-1`}></div>
 
