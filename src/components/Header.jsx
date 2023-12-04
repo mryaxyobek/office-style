@@ -5,7 +5,7 @@ import { Link, useLocation } from 'react-router-dom';
 import rightArrow from '../assets/images/svg/right-solid-arrow-icon.svg';
 
 // all products data
-import { cabinetProductsForManagers, furnitureForStaff } from '../assets/data';
+import { cabinetProductsForManagers, courtFurnitures, furnitureForCallCenter, furnitureForStaff, managersChair, officeChair, officeSofas, receptionDesks } from '../assets/data';
 
 // components 
 import Menu from './Menu';
@@ -50,8 +50,10 @@ const Header = () => {
         setOpenSearchInput(!openSearchInput);
     };
 
+
+
     // search
-    const allProducts = [...cabinetProductsForManagers, ...furnitureForStaff];
+    const allProducts = [...cabinetProductsForManagers, ...furnitureForStaff, ...officeSofas, ...managersChair, ...officeChair, ...receptionDesks, ...courtFurnitures, ...furnitureForCallCenter];
     const [products, setProducts] = useState([]);
 
     const filteredProducts = (event) => {
@@ -222,7 +224,7 @@ const Header = () => {
                         <div className="flex-center space-x-3.5">
 
                             {/* search */}
-                            <div style={{ borderRadius: products.length > 0 ? '9px 9px 0px 0px' : '9px' }} className={`${openSearchInput ? 'w-96' : (changeText ? 'border-white' : 'border-black')} relative border transition-colors-2 z-2`}>
+                            <div style={{ borderRadius: products.length > 0 ? '9px 9px 0px 0px' : '9px' }} className={`${openSearchInput ? 'w-394px' : (changeText ? 'border-white' : 'border-black')} relative border transition-colors-2 z-2`}>
 
                                 <div style={{ borderRadius: products.length > 0 ? '8px 8px 0px 0px' : '8px' }} className={`${openSearchInput ? 'bg-white' : 'bg-transparent'} flex overflow-hidden h-full`}>
                                     {/* search input  */}
@@ -237,15 +239,15 @@ const Header = () => {
                                 </div>
 
                                 {/* search results */}
-                                <div style={{ display: products.length > 0 ? 'block' : 'none' }} className="absolute bg-white border border-secondary-blue-50 w-96 overflow-y-auto max-h-[50vh] top-full border-t-0 rounded-b-lg red-scroll -left-[1px]">
+                                <div style={{ display: products.length > 0 ? 'block' : 'none' }} className="absolute bg-white border border-secondary-blue-50 w-394px overflow-y-auto max-h-[50vh] top-full border-t-0 rounded-b-lg red-scroll -left-[1px]">
                                     <ul className="flex flex-col gap-3 p-5">
                                         {
                                             products.map((product, index) => {
                                                 return (
                                                     <li key={index} >
                                                         <Link onClick={() => setOpenSearchInput(false)} className='flex-center gap-5' to={`/catalog/${product.type.toLowerCase().replace(/\s+/g, '-')}/${product.productTitle.toLowerCase().replace(/\s+/g, '-')}`} >
-                                                            <img src={product.images[0].img} alt={product.images[0].alt} className="w-11 h-9 bg-primary-gray-20 rounded" />
-                                                            <h3 className="text-medium-18">{product.productTitle}</h3>
+                                                            <img src={product.images[0].img} alt={product.images[0].alt} className="w-11 h-9 bg-primary-gray-20 rounded object-cover" />
+                                                            <h3 className="text-medium-18 line-clamp-2">{product.productTitle}</h3>
                                                         </Link>
                                                     </li>
                                                 )
@@ -323,7 +325,7 @@ const Header = () => {
                                             <li key={index} className='w-full'>
                                                 <Link onClick={() => setOpenSearchInput(false)} className='flex-center gap-5 w-full' to={`/catalog/${product.type.toLowerCase().replace(/\s+/g, '-')}/${product.productTitle.toLowerCase().replace(/\s+/g, '-')}`} >
                                                     <img src={product.images[0].img} alt={product.images[0].alt} className="w-14 h-12 object-cover bg-primary-gray-20 rounded max-440:w-11 max-440:h-9" />
-                                                    <h3 className="text-medium-18 max-440:text-regular-16">{product.productTitle}</h3>
+                                                    <h3 className="text-medium-18 max-440:text-regular-16 line-clamp-2">{product.productTitle}</h3>
                                                     <img src={rightArrow} alt="right solid arrow iocn" className="ml-auto mr-2 max-470:hidden" />
                                                 </Link>
                                             </li>
@@ -333,7 +335,7 @@ const Header = () => {
                             </ul>
                         </div>
                         :
-                        <h3 className='fixed w-full text-center bottom-12 left-0 px-8 text-primary-gray-70'>Qidirmoqchi bo'lgan mahsulotingiz nomini yozing</h3>
+                        <h3 className='fixed w-full text-center bottom-12 left-0 px-8 text-primary-gray-50'>Qidirmoqchi bo'lgan mahsulotingiz nomini yozing</h3>
                 }
             </div>
         </header >

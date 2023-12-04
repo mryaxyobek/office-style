@@ -41,11 +41,11 @@ const Contact = () => {
                 <ul className="space-y-3 mb-auto max-1050:mb-8">
                     <li className='flex flex-col'>
                         <span className="mb-0.5 text-regular-14 text-primary-gray-70">Manzil:</span>
-                        <address className='not-italic'>Toshkent, Olmaliq Ko'cha: No312. Mo'ljal Korzinka do'koni orqasida</address>
+                        <address className='not-italic'>Toshkent, Chirchiq Ko'cha: No182 Mo'ljal Navruz katta stadioni ro'parasida</address>
                     </li>
                     <li className='flex flex-col'>
                         <span className="mb-0.5 text-regular-14 text-primary-gray-70">Telefon raqam:</span>
-                        <a target='_blank' href='tel:+998999999999'>+998 (99) 999-99-99</a>
+                        <a target='_blank' href='tel:+998999999999'>+998 (93) 333-33-33</a>
                     </li>
                     <li className='flex flex-col'>
                         <span className="mb-0.5 text-regular-14 text-primary-gray-70">Elektron pochta:</span>
