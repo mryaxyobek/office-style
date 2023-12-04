@@ -2752,7 +2752,7 @@ export const cabinetProductsForManagers = [
             {
                 id: 1,
                 alt: 'furniture image',
-                img: '  https://territory-office.ru/assets/thumbnails/47/47844b0c544c384d8ffc4eac13175d5a.jpg',
+                img: 'https://territory-office.ru/assets/thumbnails/47/47844b0c544c384d8ffc4eac13175d5a.jpg',
             },
             {
                 id: 2,
@@ -2798,7 +2798,7 @@ export const cabinetProductsForManagers = [
             {
                 id: 1,
                 type: 'FERMO Wood Stol L160',
-                size: '160 160x90x75 sm',
+                size: '160x90x75 sm',
                 currentPrice: 2300000,
                 oldprice: false,
             },
@@ -5964,6 +5964,7 @@ export const furnitureForStaff = [
         ]
     },
 ];
+
 
 
 
@@ -10031,6 +10032,7 @@ export const officeChair = [
 
 
 
+
 // reception desks
 export const receptionDesks = [
     {
@@ -10157,14 +10159,14 @@ export const receptionDesks = [
             {
                 id: 4,
                 type: 'Rack end paneli (R/L)',
-                size: ' sm',
+                size: '120x60x62 sm',
                 currentPrice: 472000,
                 oldprice: false,
             },
             {
                 id: 5,
                 type: 'Yillik burchak paneli',
-                size: ' sm',
+                size: '123x53x62 sm',
                 currentPrice: 597200,
                 oldprice: false,
             },
@@ -10833,4 +10835,400 @@ export const receptionDesks = [
             }
         ]
     }
+];
+
+
+
+
+
+// court furnitures
+export const courtFurnitures = [
+    {
+        id: 1,
+        productId: 209802,
+        type: 'Sud mebellari',
+        productTitle: "R-17-T Sud mebellar to'plami",
+        order: false,
+        new: false,
+        akciya: false,
+        available: true,
+        description: `Sud mebellari neoklassik uslubda, sud zallarini jihozlash talablari va xususiyatlarini hisobga olgan holda yaratilgan. To'plamning qat'iy, ixcham shakllari va to'plangan stol usti "mustahkamlik" so'zini maksimal darajada aks ettiradi. Sud mebellari qonunning kuchi va hokimiyatini o'zida mujassam etgan mustahkamlik tuyg'usini yaratadi.`,
+        details: {
+            country: 'Rossiya',
+            material: [
+                {
+                    id: 1,
+                    name: 'laminatlangan sunta',
+                },
+            ],
+            thickness: '2.2',
+            color: [
+                {
+                    id: 1,
+                    name: 'paldao',
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'picture of court furniture',
+                img: 'https://territory-office.ru/assets/thumbnails/82/8292ce2709cf0ea2db6025f9f52aabed.jpg',
+            },
+            {
+                id: 2,
+                alt: 'picture of court furniture',
+                img: 'https://territory-office.ru/assets/thumbnails/ae/ae5214f25da326e582b783e97f8414ad.jpg',
+            },
+            {
+                id: 3,
+                alt: 'picture of court furniture',
+                img: 'https://territory-office.ru/assets/thumbnails/70/7084bf48973785f6af23d838a5dd0df3.jpg',
+            },
+            {
+                id: 4,
+                alt: 'picture of court furniture',
+                img: '	https://territory-office.ru/assets/thumbnails/e9/e909d438adb6d0d98c7097ef61b1ae81.png',
+            },
+            {
+                id: 5,
+                alt: 'picture of court furniture',
+                img: 'https://territory-office.ru/assets/thumbnails/f0/f0768cbb1f63cc6415983f5736c525ce.jpg',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Shohjahon Asqarov',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Yaxyobek X',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            }
+        ],
+        parts: [
+            {
+                id: 1,
+                type: "Baholovchilar stoli",
+                size: '240x85x85 sm',
+                currentPrice: 3451000,
+                oldprice: false,
+            },
+            {
+                id: 2,
+                type: 'Sudyalar stoli',
+                size: '180x85x85 sm',
+                currentPrice: 2456000,
+                oldprice: false,
+            },
+            {
+                id: 3,
+                type: 'Bayroq uchun',
+                size: '35x35x76 sm',
+                currentPrice: 436000,
+                oldprice: false,
+            },
+            {
+                id: 4,
+                type: "To'g'ri stol",
+                size: '100x60x76 sm',
+                currentPrice: 1472000,
+                oldprice: false,
+            },
+            {
+                id: 5,
+                type: 'Sudlanuvchining stendlari',
+                size: '67x50x117 sm',
+                currentPrice: 1423000,
+                oldprice: false,
+            },
+            {
+                id: 6,
+                type: "Sud to'siqlari",
+                size: '174x24x95 sm',
+                currentPrice: 1228000,
+                oldprice: false,
+            },
+        ]
+    },
+];
+
+
+
+
+
+// furniture for call centers
+export const furnitureForCallCenter = [
+    {
+        id: 1,
+        productId: 209803,
+        type: 'Call-markazlari uchun mebel',
+        productTitle: "Call-markazlari uchun mebel RIO SYSTEM",
+        order: false,
+        new: false,
+        akciya: false,
+        available: true,
+        description: `"Rio tizimi" liniyasi maxsus axborot qo'ng'iroq markazlari uchun mo'ljallangan bo'lib, ularning jihozlari shovqin va vizual shovqinlardan himoyalanishni, shuningdek, ofisda ko'p sonli ish stantsiyalarini joylashtirish imkoniyatini talab qiladi. "Rio tizimi" ning asosiy vazifasi minimal hududdagi eng funktsional shaxsiy makondir.
+        Ushbu seriya, shuningdek, butun "Rio" mebel liniyasi o'ylangan ergonomika va ratsionalizm bilan ajralib turadi. Ish joylari konfiguratsiyasidagi katta o'zgaruvchanlik sizga minimal maydonda bo'sh joyni optimal tarzda tashkil qilish imkonini beradi.
+        Yilni ish joyi juda funktsional: hamma narsa qo'lda.`,
+        details: {
+            country: 'Rossiya',
+            material: [
+                {
+                    id: 1,
+                    name: 'laminatlangan sunta',
+                },
+                {
+                    id: 2,
+                    name: 'alyuminiy profil',
+                },
+            ],
+            thickness: '2.5',
+            color: [
+                {
+                    id: 1,
+                    name: 'venge',
+                },
+                {
+                    id: 2,
+                    name: 'bej, verzaska eman',
+                },
+                {
+                    id: 3,
+                    name: 'bej shvetsariya emani',
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'picture of court furniture',
+                img: 'https://territory-office.ru/assets/thumbnails/b0/b074093c152150046bb6653f592a0086.jpg',
+            },
+            {
+                id: 2,
+                alt: 'picture of court furniture',
+                img: 'https://territory-office.ru/assets/thumbnails/e5/e560d2f6a24b5cd05f9c9ca0d6b69eeb.jpg',
+            },
+            {
+                id: 3,
+                alt: 'picture of court furniture',
+                img: 'https://territory-office.ru/assets/thumbnails/b0/b0d1193f49a9249a89df3e4068d65a66.jpg',
+            },
+            {
+                id: 4,
+                alt: 'picture of court furniture',
+                img: 'https://territory-office.ru/assets/thumbnails/68/68cab5afb64d2b04c6c8458ca964caac.jpg',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Shohjahon Asqarov',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Yaxyobek X',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            }
+        ],
+        parts: [
+            {
+                id: 1,
+                type: "Bo'lim",
+                size: '120,2x3x170 sm',
+                currentPrice: 1851000,
+                oldprice: false,
+            },
+            {
+                id: 2,
+                type: "bo'limlar uchun ulanish profili",
+                size: '2,8x2,8x170 sm',
+                currentPrice: 256000,
+                oldprice: false,
+            },
+            {
+                id: 3,
+                type: 'Lyukli tekis stol usti',
+                size: '140x70x2,5 sm',
+                currentPrice: 836000,
+                oldprice: false,
+            },
+            {
+                id: 4,
+                type: "Stol usti uchun shpal",
+                size: 'L=140  sm',
+                currentPrice: 561000,
+                oldprice: false,
+            },
+            {
+                id: 5,
+                type: "Bo'lim",
+                size: '140,2x3x85 sm',
+                currentPrice: 1121000,
+                oldprice: false,
+            },
+            {
+                id: 6,
+                type: "Bo'lim",
+                size: '70,2x3x85 sm',
+                currentPrice: 672000,
+                oldprice: false,
+            },
+            {
+                id: 7,
+                type: "qismlar uchun ulanish profili",
+                size: '2,8x2,8x85 sm',
+                currentPrice: 213000,
+                oldprice: false,
+            },
+            {
+                id: 8,
+                type: "Bo'limlar uchun akril ekran",
+                size: '0,4x120x25 sm',
+                currentPrice: 672000,
+                oldprice: false,
+            },
+            {
+                id: 9,
+                type: "Devor tokchasi",
+                size: '120x31.6x40 sm',
+                currentPrice: 654000,
+                oldprice: false,
+            }
+        ]
+    },
+    {
+        id: 2,
+        productId: 209804,
+        type: 'Call-markazlari uchun mebel',
+        productTitle: "Call-markazlari uchun mebel RIO SYSTEM Premium +",
+        order: false,
+        new: true,
+        akciya: false,
+        available: true,
+        description: `"Rio tizimi" liniyasi maxsus axborot qo'ng'iroq markazlari uchun mo'ljallangan bo'lib, ularning jihozlari shovqin va vizual shovqinlardan himoyalanishni, shuningdek, ofisda ko'p sonli ish stantsiyalarini joylashtirish imkoniyatini talab qiladi. "Rio tizimi" ning asosiy vazifasi minimal hududdagi eng funktsional shaxsiy makondir.
+        Ushbu seriya, shuningdek, butun "Rio" mebel liniyasi o'ylangan ergonomika va ratsionalizm bilan ajralib turadi. Ish joylari konfiguratsiyasidagi katta o'zgaruvchanlik sizga minimal maydonda bo'sh joyni optimal tarzda tashkil qilish imkonini beradi.
+        Yilni ish joyi juda funktsional: hamma narsa qo'lda.`,
+        details: {
+            country: 'Rossiya',
+            material: [
+                {
+                    id: 1,
+                    name: 'laminatlangan sunta',
+                },
+                {
+                    id: 2,
+                    name: 'alyuminiy profil',
+                },
+            ],
+            thickness: '2.5',
+            color: [
+                {
+                    id: 1,
+                    name: 'venge',
+                },
+                {
+                    id: 2,
+                    name: 'bej, verzaska eman',
+                },
+                {
+                    id: 3,
+                    name: 'bej shvetsariya emani',
+                },
+                {
+                    id: 4,
+                    name: 'shvetsariya emani',
+                },
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'picture of court furniture',
+                img: 'https://territory-office.ru/assets/thumbnails/20/20ebe55533df922e0f9c1feaa6e62af4.jpg',
+            },
+            {
+                id: 2,
+                alt: 'picture of court furniture',
+                img: 'https://territory-office.ru/assets/thumbnails/ca/cad43188536d2ce37277721383286dc4.jpg',
+            },
+            {
+                id: 3,
+                alt: 'picture of court furniture',
+                img: 'https://territory-office.ru/assets/thumbnails/e9/e9f7340812a07d2aaba745502705a9bf.jpg',
+            },
+            {
+                id: 4,
+                alt: 'picture of court furniture',
+                img: '	https://territory-office.ru/assets/thumbnails/06/06efe1faf5f1e33245ff374a5acee76d.jpg',
+            }
+        ],
+        reviews: [],
+        parts: [
+            {
+                id: 1,
+                type: "Bo'lim",
+                size: '120x3x160 sm',
+                currentPrice: 1451000,
+                oldprice: false,
+            },
+            {
+                id: 2,
+                type: "bo'limlar uchun ulanish profili",
+                size: '3x2,9x170 sm',
+                currentPrice: 534000,
+                oldprice: false,
+            },
+            {
+                id: 3,
+                type: 'Lyukli tekis stol usti',
+                size: '140x72x2,5 sm',
+                currentPrice: 887600,
+                oldprice: false,
+            },
+            {
+                id: 4,
+                type: "Stol usti uchun shpal",
+                size: 'L=150  sm',
+                currentPrice: 725000,
+                oldprice: false,
+            },
+            {
+                id: 5,
+                type: "Bo'lim",
+                size: '140,2x3x85 sm',
+                currentPrice: 3251000,
+                oldprice: false,
+            },
+            {
+                id: 6,
+                type: "qismlar uchun ulanish profili",
+                size: '3x2,8x85,5 sm',
+                currentPrice: 334000,
+                oldprice: false,
+            },
+            {
+                id: 7,
+                type: "Bo'limlar uchun akril ekran",
+                size: '1x120x24 sm',
+                currentPrice: 576000,
+                oldprice: false,
+            },
+            {
+                id: 8,
+                type: "Devor tokchasi",
+                size: '120x31x40 sm',
+                currentPrice: 635000,
+                oldprice: false,
+            }
+        ]
+    },
 ];
