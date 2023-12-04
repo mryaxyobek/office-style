@@ -93,7 +93,6 @@ export const productTabButtonsGroup = [
 
 
 
-
 // products
 export const products = [
     {
@@ -1005,6 +1004,7 @@ export const completedProjects = [
 
 
 
+
 // reviews
 export const reviewsData = [
     {
@@ -1036,6 +1036,7 @@ export const reviewsData = [
         rating: 3,
     },
 ];
+
 
 
 
@@ -7830,6 +7831,7 @@ export const officeSofas = [
 
 
 
+
 // manager's chair
 export const managersChair = [
     {
@@ -8979,6 +8981,8 @@ export const managersChair = [
 
 
 
+
+
 // office chairs
 export const officeChair = [
     {
@@ -10026,3 +10030,807 @@ export const officeChair = [
 
 
 
+
+// reception desks
+export const receptionDesks = [
+    {
+        id: 1,
+        productId: 209795,
+        type: 'Qabul qilish stoli',
+        productTitle: 'Rio qabul qilish stoli',
+        order: false,
+        new: false,
+        akciya: false,
+        available: true,
+        description: `RIO ziyofatining dizaynerlari oddiy shakllar yordamida o'zlarining original uslublariga erishishga muvaffaq bo'lishdi. Hammasi old panellardagi kontrastli qoplamalar tufayli. Aynan ular ranglar va hajmning uyg'unligi tufayli ushbu stendga ajoyib zamonaviy uslubni taqdim etadilar.`,
+        details: {
+            country: 'Rossiya',
+            material: [
+                {
+                    id: 1,
+                    name: 'laminatlangan sunta',
+                },
+            ],
+            thickness: '2.5',
+            color: [
+                {
+                    id: 1,
+                    name: 'wenge',
+                },
+                {
+                    id: 2,
+                    name: 'bej, verzaska eman',
+                },
+                {
+                    id: 3,
+                    name: 'shvetsariya eman',
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: '	https://territory-office.ru/assets/thumbnails/b0/b0cf28077f7abdae805206350efd9c27.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/ab/abcb1c41c9c689eb4e45a04576eb55a9.jpg',
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/d9/d9b5a3fe82ed05e45242e3f77b6c70dc.jpg',
+            },
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/46/464d701b4d57e7e756a68ec6a9a596b0.jpg',
+            },
+            {
+                id: 5,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/f9/f9c3a525f14c8ab0fd31244bf787c687.jpg',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Shohjahon Asqarov',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Yaxyobek X',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Qo'chqorbek",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 4,
+                userName: "Firdavs ",
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 5,
+                userName: "Sulotonov me",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 6,
+                userName: "Abdulaziz Akramjonov",
+                rating: 3,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+        ],
+        parts: [
+            {
+                id: 1,
+                type: "To'g'ri modul",
+                size: '140x68x108 sm',
+                currentPrice: 1325000,
+                oldprice: false,
+            },
+            {
+                id: 2,
+                type: 'dekorativ panel',
+                size: '100x30x43 sm',
+                currentPrice: 456000,
+                oldprice: false,
+            },
+            {
+                id: 3,
+                type: 'Burchak moduli',
+                size: '80x80x108 sm',
+                currentPrice: 1624000,
+                oldprice: false,
+            },
+            {
+                id: 4,
+                type: 'Rack end paneli (R/L)',
+                size: ' sm',
+                currentPrice: 472000,
+                oldprice: false,
+            },
+            {
+                id: 5,
+                type: 'Yillik burchak paneli',
+                size: ' sm',
+                currentPrice: 597200,
+                oldprice: false,
+            },
+            {
+                id: 6,
+                type: "Qo'llab-quvvatlash (modullarning birlashmasida o'rnatilgan)",
+                size: '50x72,5 sm',
+                currentPrice: 128000,
+                oldprice: false,
+            },
+        ]
+    },
+    {
+        id: 2,
+        productId: 209796,
+        type: 'Qabul qilish stoli',
+        productTitle: 'Agat qabul qilish stoli',
+        order: false,
+        new: false,
+        akciya: false,
+        available: true,
+        description: `Agat qabulxonalari yorqin zamonaviy dizayni tufayli muvaffaqiyatli va dinamik rivojlanayotgan kompaniya qiyofasini yaratadi. Mebelning turli xil rangdagi kompozitsiyani yaratish imkoniyati bilan to'rtburchaklar bloklarga dekorativ bo'linishi interyerni sezilarli darajada jonlantiradi va yorqin taassurot qoldiradi.`,
+        details: {
+            country: 'Turkiya',
+            material: [
+                {
+                    id: 1,
+                    name: 'Laminatsiyalangan sunta',
+                },
+                {
+                    id: 2,
+                    name: 'HDF',
+                },
+            ],
+            thickness: '2.2',
+            color: [
+                {
+                    id: 1,
+                    name: 'paldao',
+                },
+                {
+                    id: 2,
+                    name: 'shimo kul',
+                },
+                {
+                    id: 3,
+                    name: 'och kulrang',
+                },
+                {
+                    id: 4,
+                    name: 'metall kulrang',
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: '	https://territory-office.ru/assets/thumbnails/44/44a6f3f783abdf3cbabb4721199ec4b7.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/bc/bc12d05bce7d022b9ce053f3bdb01eb6.jpg',
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: '	https://territory-office.ru/assets/thumbnails/d4/d4df780e821720afeb40e3fbd6e166b7.jpg',
+            },
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/94/940e6ab1415b5e4492dd9a6b055298c1.jpg',
+            },
+            {
+                id: 5,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/93/93e8a4540b1cff3baac8d9d43c538f6c.jpg',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Shohjahon Asqarov',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Yaxyobek X',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Qo'chqorbek",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 4,
+                userName: "Firdavs ",
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            }
+        ],
+        parts: [
+            {
+                id: 1,
+                type: "To'g'ri stend moduli",
+                size: '140x75x120 sm',
+                currentPrice: 1253000,
+                oldprice: false,
+            },
+            {
+                id: 2,
+                type: 'Burchak stend moduli',
+                size: '90x90x120 sm',
+                currentPrice: 2043000,
+                oldprice: false,
+            },
+            {
+                id: 3,
+                type: "To'g'ri stend moduli",
+                size: '80x75x120 sm',
+                currentPrice: 935000,
+                oldprice: false,
+            },
+            {
+                id: 4,
+                type: 'Statsionar tayanch',
+                size: 'D5x71-74 sm',
+                currentPrice: 105000,
+                oldprice: false,
+            }
+        ]
+    },
+    {
+        id: 3,
+        productId: 209797,
+        type: 'Qabul qilish stoli',
+        productTitle: 'Riva qabul qilish stoli',
+        order: true,
+        new: false,
+        akciya: false,
+        available: true,
+        description: `RIVA qabulxonasi tufayli ofisingizni klassik uslubda hamyonbop narxda jihozlash mumkin bo'ldi. Asl yog'och rangiga mos keladigan laminatlangan sunta panellaridan minimal dekoratsiyaga ega qat'iy shakllar qat'iy, samarali tasvirni yaratadi va maksimal qulaylikni ta'minlaydi.`,
+        details: {
+            country: 'Rossiya',
+            material: [
+                {
+                    id: 1,
+                    name: 'laminatlangan sunta',
+                },
+            ],
+            thickness: '2.5',
+            color: [
+                {
+                    id: 1,
+                    name: "Guarneri yong'og'i",
+                },
+                {
+                    id: 2,
+                    name: 'chinor',
+                },
+                {
+                    id: 3,
+                    name: 'tsavo wenge',
+                },
+                {
+                    id: 4,
+                    name: 'kulrang',
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/d1/d158f3d023e4cac3fb9e999239e28339.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/53/536be590033c9e530fe486bd1fcd9e87.jpg',
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/30/3097461b7b51ff268f3508825e66d8f3.jpg',
+            },
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: '	https://territory-office.ru/assets/thumbnails/42/42c8ddbcaa8fab79754c6de9b91b8fdf.jpg',
+            },
+            {
+                id: 5,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/4d/4d99a5720c21f96ef8749707b8a1cd7e.jpg',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Shohjahon Asqarov',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Yaxyobek X',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Qo'chqorbek",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 4,
+                userName: "Firdavs ",
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 5,
+                userName: "Sulotonov me",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            }
+        ],
+        parts: [
+            {
+                id: 1,
+                type: "To'g'ri stend",
+                size: '144,4x50,6x115 sm',
+                currentPrice: 1624000,
+                oldprice: false,
+            },
+            {
+                id: 2,
+                type: "Burchak stend (radiusli rolikli ko'r element)",
+                size: '95x95x115 sm',
+                currentPrice: 3172000,
+                oldprice: false,
+            },
+            {
+                id: 3,
+                type: "To'g'ri stend",
+                size: '94,4x50,6x115 sm',
+                currentPrice: 862000,
+                oldprice: false,
+            },
+            {
+                id: 4,
+                type: 'Burchak stend uchun raf',
+                size: '81,5x81,5x2,2 sm',
+                currentPrice: 296000,
+                oldprice: false,
+            }
+        ]
+    },
+    {
+        id: 4,
+        productId: 209798,
+        type: 'Qabul qilish stoli',
+        productTitle: 'Onix qabul qilish stoli',
+        order: true,
+        new: true,
+        akciya: false,
+        available: true,
+        description: `Onix qabul qilish stoli ergonomik va zamonaviy uslubda yaratilgan. Asl geometrik modullar va bir nechta kontrastli dekorlarni birlashtirish qobiliyati stendga vizual engillik va uslubni beradi. Yog'och bezaklarining zamonaviy ranglari stol usti va ustki qismining oq rangi bilan birgalikda interyerni yangilaydi.`,
+        details: {
+            country: 'Ukraina',
+            material: [
+                {
+                    id: 1,
+                    name: 'laminatlangan sunta',
+                },
+            ],
+            thickness: '2.5',
+            color: [
+                {
+                    id: 1,
+                    name: 'Denver nuri',
+                },
+                {
+                    id: 2,
+                    name: 'Arizona eman',
+                },
+                {
+                    id: 3,
+                    name: 'Attic eman',
+                },
+                {
+                    id: 4,
+                    name: 'oq olmos',
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/83/83bf09cdc0b879d2fb73a52ff82162c5.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: '	https://territory-office.ru/assets/thumbnails/b6/b6ee099d5b5d125ff3910dabfebefeb6.jpg',
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/b6/b6ee099d5b5d125ff3910dabfebefeb6.jpg',
+            },
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: '	https://territory-office.ru/assets/thumbnails/01/01e6b7e7492ab01034840e13883dfad1.jpg',
+            },
+            {
+                id: 5,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/3d/3dab73798aadb4bd76f41d2def0dc38f.jpg',
+            }
+        ],
+        reviews: [],
+        parts: [
+            {
+                id: 1,
+                type: "To'g'ri baland modul",
+                size: '138x73.6x116 sm',
+                currentPrice: 1762000,
+                oldprice: false,
+            },
+            {
+                id: 2,
+                type: "To'g'ridan-to'g'ri baland qoplama",
+                size: '92x32,7x67,4 sm',
+                currentPrice: 597000,
+                oldprice: false,
+            },
+            {
+                id: 3,
+                type: 'Oxirgi stend (yon devor) balandligi, chap qismi',
+                size: '25x76.6x118.7 sm',
+                currentPrice: 516000,
+                oldprice: false,
+            },
+            {
+                id: 4,
+                type: "4 tortmali so'nggi shkaf",
+                size: '43,2x76,7x118,5 sm',
+                currentPrice: 2415000,
+                oldprice: false,
+            }
+        ]
+    },
+    {
+        id: 5,
+        productId: 209799,
+        type: 'Qabul qilish stoli',
+        productTitle: 'Style qabul qilish stoli',
+        order: false,
+        new: false,
+        akciya: true,
+        available: true,
+        description: `Style qabul qilish stoli o'zining asl rang sxemasi bilan boshqa shunga o'xshash ko'plab stollardan farq qiladi. Elm ofis mebellarida juda kamdan-kam qo'llaniladi, shuning uchun siz ofisingizni original va noyob qilish uchun ajoyib imkoniyatga egasiz.`,
+        details: {
+            country: 'Xitoy',
+            material: [
+                {
+                    id: 1,
+                    name: '	laminatlangan sunta',
+                },
+            ],
+            thickness: '2.2',
+            color: [
+                {
+                    id: 1,
+                    name: "oq qarag'ay",
+                },
+                {
+                    id: 2,
+                    name: 'wenge tsavo',
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/75/75b31c19a7028e269ac376ed9b7fdd01.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/4f/4f57032e26a2e2a6647e195cc4c4f967.jpg',
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: '	https://territory-office.ru/assets/thumbnails/e8/e825fef30718285dbb57f78a75ffae62.jpg',
+            },
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/d3/d3793548607b29d0a7fd468463070dd4.jpg',
+            },
+            {
+                id: 5,
+                alt: 'furniture image',
+                img: '	https://territory-office.ru/assets/thumbnails/64/64ba272ad5606f2c97f54a5bcdace054.jpg',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Shohjahon Asqarov',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Yaxyobek X',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Qo'chqorbek",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            }
+        ],
+        parts: [
+            {
+                id: 1,
+                type: "To'g'ri modul",
+                size: '120x73,6x115,6 sm',
+                currentPrice: 1236000,
+                oldprice: false,
+            },
+            {
+                id: 2,
+                type: 'Burchak moduli R/L',
+                size: '73,6x73,6x115,6 sm',
+                currentPrice: 1728000,
+                oldprice: false,
+            },
+            {
+                id: 3,
+                type: 'Yon devor R/L',
+                size: '74,1x2,2x115,9 sm',
+                currentPrice: 415000,
+                oldprice: false,
+            },
+            {
+                id: 4,
+                type: 'Tor yon devor R/L',
+                size: '30,5x2,2x115,9 sm',
+                currentPrice: 218400,
+                oldprice: false,
+            },
+            {
+                id: 5,
+                type: "Orqa yorug'lik bilan qoplama",
+                size: '76x32.1x53.6 sm',
+                currentPrice: 1197000,
+                oldprice: false,
+            },
+            {
+                id: 6,
+                type: 'Metall tayanch',
+                size: 'D=7,6; H=72,8 sm',
+                currentPrice: 375000,
+                oldprice: false,
+            },
+        ]
+    },
+    {
+        id: 6,
+        productId: 209800,
+        type: 'Qabul qilish stoli',
+        productTitle: 'Porto premium qabul qilish stoli',
+        order: false,
+        new: true,
+        akciya: true,
+        available: true,
+        description: `Kompaniyaning yuqori mavqeini ta'kidlash uchun uning qabul qilish joyini klassik ichki elementlar bilan bezashdan ko'ra yaxshiroq yo'l yo'q. Olijanob ranglardan foydalangan holda nafis va qattiq shakllarda ishlab chiqarilgan "Porto" qabulxonalari bu vazifani a'lo darajada bajara oladi.`,
+        details: {
+            country: 'Rossiya',
+            material: [
+                {
+                    id: 1,
+                    name: 'laminatlangan sunta',
+                },
+                {
+                    id: 1,
+                    name: 'MDF',
+                },
+            ],
+            thickness: '6',
+            color: [
+                {
+                    id: 1,
+                    name: 'eman',
+                },
+                {
+                    id: 2,
+                    name: "yong'oq klassik",
+                },
+                {
+                    id: 3,
+                    name: 'rover kafe',
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/08/08e603340a89c4c9816a9392dac6d2b5.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/58/58d6bff3e7bbe70758249f9233986d43.jpg',
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/c0/c0a9161b59605f9a72dc10dd1e9d9690.jpg',
+            },
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/ba/ba190f1842f95efb6225ee7f68b66d78.jpg',
+            },
+            {
+                id: 5,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/ba/ba190f1842f95efb6225ee7f68b66d78.jpg',
+            }
+        ],
+        reviews: [],
+        parts: [
+            {
+                id: 1,
+                type: 'osilgan shkaf bilan qabul qilish stoli',
+                size: '179x87.6x115 sm',
+                currentPrice: 13456000,
+                oldprice: 1456900,
+            }
+        ]
+    },
+    {
+        id: 7,
+        productId: 2098001,
+        type: 'Qabul qilish stoli',
+        productTitle: 'Kyu DM qabul qilish stoli',
+        order: false,
+        new: false,
+        akciya: false,
+        available: true,
+        description: `Ta'kidlangan italyan dizayni, assimetrik rang sxemalari va asosiy soyalarning tarkibiy elementlarini almashtirish qobiliyatiga ega zamonaviy Kyu Dm qabul qilish. Dizayn mot qora va yangi mavsumning Kendal emanini, oqlangan va tabiiy yog'och reproduksiyalari bilan uyg'unlashtiradi.`,
+        details: {
+            country: 'Belarussiya',
+            material: [
+                {
+                    id: 1,
+                    name: 'laminatlangan sunta',
+                },
+                {
+                    id: 2,
+                    name: 'MDF',
+                },
+            ],
+            thickness: '5',
+            color: [
+                {
+                    id: 1,
+                    name: 'akasiya',
+                },
+                {
+                    id: 2,
+                    name: 'oq porloq, kendal eman',
+                },
+                {
+                    id: 3,
+                    name: 'mat qora',
+                }
+            ],
+        },
+        images: [
+            {
+                id: 1,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/68/6877bea8823a66e975e2f1eebd913d02.jpg',
+            },
+            {
+                id: 2,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/d2/d2b6dec906a27d180a85562bfa2b660e.jpg',
+            },
+            {
+                id: 3,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/36/367f7bb8db682bd6a2cb96d3f510310d.jpg',
+            },
+            {
+                id: 4,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/36/367f7bb8db682bd6a2cb96d3f510310d.jpg',
+            },
+            {
+                id: 5,
+                alt: 'furniture image',
+                img: 'https://territory-office.ru/assets/thumbnails/dd/ddeff533fd7903b52f7e759afc96b1b6.jpg',
+            }
+        ],
+        reviews: [
+            {
+                id: 1,
+                userName: 'Shohjahon Asqarov',
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 2,
+                userName: 'Yaxyobek X',
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 3,
+                userName: "Qo'chqorbek",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 4,
+                userName: "Firdavs ",
+                rating: 4,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            },
+            {
+                id: 5,
+                userName: "Sulotonov me",
+                rating: 5,
+                body: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis unde quibusdam placeat. At laborum nihil dicta molestias quasi similique praesentium aliquam reprehenderit.',
+            }
+        ],
+        parts: [
+            {
+                id: 1,
+                type: 'Qabul qilish stoli',
+                size: '180x73x120 sm',
+                currentPrice: 9196000,
+                oldprice: false,
+            }
+        ]
+    }
+];
