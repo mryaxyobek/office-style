@@ -5973,7 +5973,7 @@ export const officeSofas = [
     {
         id: 1,
         productId: 209754,
-        type: 'Ofis divan',
+        type: 'Ofis divani',
         productTitle: 'Cosmo ofis divani',
         order: true,
         new: false,
@@ -6111,7 +6111,7 @@ export const officeSofas = [
     {
         id: 2,
         productId: 209755,
-        type: 'Ofis divan',
+        type: 'Ofis divani',
         productTitle: 'Roden ofis divani',
         order: false,
         new: false,
@@ -6233,7 +6233,7 @@ export const officeSofas = [
     {
         id: 3,
         productId: 209756,
-        type: 'Ofis divan',
+        type: 'Ofis divani',
         productTitle: 'Flagman ofis divani',
         order: false,
         new: false,
@@ -6380,7 +6380,7 @@ export const officeSofas = [
     {
         id: 4,
         productId: 209757,
-        type: 'Ofis divan',
+        type: 'Ofis divani',
         productTitle: 'Case ofis divani',
         order: false,
         new: false,
@@ -6504,7 +6504,7 @@ export const officeSofas = [
     {
         id: 5,
         productId: 209758,
-        type: 'Ofis divan',
+        type: 'Ofis divani',
         productTitle: 'Napaleon ofis divani',
         order: true,
         new: true,
@@ -6596,7 +6596,7 @@ export const officeSofas = [
     {
         id: 6,
         productId: 209759,
-        type: 'Ofis divan',
+        type: 'Ofis divani',
         productTitle: 'Bella 1 kishilik ofis divani',
         order: true,
         new: false,
@@ -6671,7 +6671,7 @@ export const officeSofas = [
     {
         id: 7,
         productId: 209760,
-        type: 'Ofis divan',
+        type: 'Ofis divani',
         productTitle: "Miks ko'p o'rinli ofis divani",
         order: false,
         new: false,
@@ -6800,7 +6800,7 @@ export const officeSofas = [
     {
         id: 8,
         productId: 209761,
-        type: 'Ofis divan',
+        type: 'Ofis divani',
         productTitle: 'Giotto ofis divani',
         order: false,
         new: false,
@@ -6939,7 +6939,7 @@ export const officeSofas = [
     {
         id: 9,
         productId: 209762,
-        type: 'Ofis divan',
+        type: 'Ofis divani',
         productTitle: 'Dao Light ofis divani',
         order: false,
         new: true,
@@ -7021,7 +7021,7 @@ export const officeSofas = [
     {
         id: 10,
         productId: 209763,
-        type: 'Ofis divan',
+        type: 'Ofis divani',
         productTitle: 'Frank divani',
         order: true,
         new: false,
@@ -7122,7 +7122,7 @@ export const officeSofas = [
     {
         id: 11,
         productId: 209764,
-        type: 'Ofis divan',
+        type: 'Ofis divani',
         productTitle: '1,2 kishilik Napaleon ofis divani',
         order: false,
         new: true,
@@ -7207,7 +7207,7 @@ export const officeSofas = [
     {
         id: 12,
         productId: 209765,
-        type: 'Ofis divan',
+        type: 'Ofis divani',
         productTitle: 'Bella ofis divani',
         order: false,
         new: false,
@@ -7276,7 +7276,7 @@ export const officeSofas = [
     {
         id: 13,
         productId: 209766,
-        type: 'Ofis divan',
+        type: 'Ofis divani',
         productTitle: 'Giotto Prime Plus ofis divani',
         order: false,
         new: true,
@@ -7410,7 +7410,7 @@ export const officeSofas = [
     {
         id: 14,
         productId: 209767,
-        type: 'Ofis divan',
+        type: 'Ofis divani',
         productTitle: 'Cosmo Drive ofis divani',
         order: true,
         new: false,
@@ -7548,7 +7548,7 @@ export const officeSofas = [
     {
         id: 15,
         productId: 209768,
-        type: 'Ofis divan',
+        type: 'Ofis divani',
         productTitle: 'Roden 2 ofis divani',
         order: false,
         new: false,
@@ -7670,7 +7670,7 @@ export const officeSofas = [
     {
         id: 16,
         productId: 209769,
-        type: 'Ofis divan',
+        type: 'Ofis divani',
         productTitle: 'Flagman modulli divani',
         order: false,
         new: true,
@@ -10966,8 +10966,8 @@ export const furnitureForCallCenter = [
     {
         id: 1,
         productId: 209803,
-        type: 'Call-markazlari uchun mebel',
-        productTitle: "Call-markazlari uchun mebel RIO SYSTEM",
+        type: 'Call markazlari uchun mebel',
+        productTitle: "Call markazlari uchun mebel RIO SYSTEM",
         order: false,
         new: false,
         akciya: false,
@@ -11108,8 +11108,8 @@ export const furnitureForCallCenter = [
     {
         id: 2,
         productId: 209804,
-        type: 'Call-markazlari uchun mebel',
-        productTitle: "Call-markazlari uchun mebel RIO SYSTEM Premium +",
+        type: 'Call markazlari uchun mebel',
+        productTitle: "Call markazlari uchun mebel RIO SYSTEM Premium +",
         order: false,
         new: true,
         akciya: false,
