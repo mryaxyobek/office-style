@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link, useLocation, useParams } from 'react-router-dom';
 
 // products data 
-import { cabinetProductsForManagers, furnitureForStaff } from '../assets/data';
+import { cabinetProductsForManagers, courtFurnitures, furnitureForCallCenter, furnitureForStaff, managersChair, officeChair, officeSofas, receptionDesks } from '../assets/data';
 
 // images 
 import truckImg from '../assets/images/svg/truck.svg';
@@ -33,7 +33,7 @@ const ProductDesignHero = () => {
 
     const { productName } = useParams();
 
-    const allProducts = [...cabinetProductsForManagers, ...furnitureForStaff];
+    const allProducts = [...cabinetProductsForManagers, ...furnitureForStaff, ...officeSofas, ...managersChair, ...officeChair, ...receptionDesks, ...courtFurnitures, ...furnitureForCallCenter];
 
     const product = allProducts.find((product) => productName === product.productTitle.toLowerCase().replace(/\s+/g, '-'));
 
