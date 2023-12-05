@@ -3,7 +3,7 @@ import { Link, useParams } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 
 // data 
-import { cabinetProductsForManagers, furnitureForStaff } from '../assets/data';
+import { cabinetProductsForManagers, courtFurnitures, furnitureForCallCenter, furnitureForStaff, managersChair, officeChair, officeSofas, receptionDesks } from '../assets/data';
 
 
 // swiper
@@ -22,7 +22,8 @@ import { EffectFade, Navigation, Pagination } from 'swiper/modules';
 import { addCard } from '../store/slices/productBasketslice';
 
 // ant design
-import { Slider } from 'antd';
+import { Skeleton, Slider } from 'antd';
+
 
 const Products = () => {
 
@@ -85,18 +86,34 @@ const Products = () => {
 
 
     // product
-    let foundProducts = [];
+    const [foundProducts, setFoundProducts] = useState([]);
+    const [products, setProducts] = useState([]);
+    const [loader, setLoader] = useState(true);
 
-    if (categoryName === 'boshqaruvchilar-uchun') {
-        foundProducts = cabinetProductsForManagers;
-    };
 
-    if (categoryName === 'xodimlar-uchun') {
-        foundProducts = furnitureForStaff;
-    };
+    useEffect(() => {
+        if (categoryName === 'boshqaruvchilar-uchun') {
+            setFoundProducts(cabinetProductsForManagers);
+        } else if (categoryName === 'xodimlar-uchun') {
+            setFoundProducts(furnitureForStaff);
+        } else if (categoryName === 'boshqaruvchi-stuli') {
+            setFoundProducts(managersChair);
+        } else if (categoryName === 'ofis-stuli') {
+            setFoundProducts(officeChair);
+        } else if (categoryName === 'ofis-divani') {
+            setFoundProducts(officeSofas);
+        } else if (categoryName === 'qabul-qilish-stoli') {
+            setFoundProducts(receptionDesks);
+        } else if (categoryName === 'call-markazlari-uchun-mebel') {
+            setFoundProducts(furnitureForCallCenter);
+        } else if (categoryName === 'sud-mebellari') {
+            setFoundProducts(courtFurnitures);
+        };
+    }, [categoryName]);
 
-    const [products, setProducts] = useState(foundProducts);
-
+    useEffect(() => {
+        setProducts(foundProducts);
+    }, [foundProducts]);
 
     // filter products 
     const filterProducts = () => {
@@ -215,6 +232,11 @@ const Products = () => {
         }
     }, [products]);
 
+
+
+
+    // skeleton animation array
+    const skeletonArr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
     return (
         <div className="container">
 
@@ -547,11 +569,34 @@ const Products = () => {
             </div>
 
 
+            {/* loader */}
+            {
+                loader &&
+                <ul className="grid grid-cols-4 gap-8 max-1400:grid-cols-3 max-1050:grid-cols-2 max-730:grid-cols-1">
+                    {
+                        skeletonArr.map((item, index) => {
+                            return (
+                                <li key={index} className=" flex flex-col w-full">
+                                    <Skeleton
+                                        avatar
+                                        title
+                                        paragraph={{
+                                            rows: 5,
+                                        }}
+                                        active
+                                        className='product-skeleton-animation' />
+                                </li>
+                            )
+                        })
+                    }
+                </ul>
+
+            }
             {/* products */}
-            <ul className="grid grid-cols-4 gap-8 max-1400:grid-cols-3 max-1050:grid-cols-2 max-730:grid-cols-1">
+            <ul onLoad={() => setLoader(false)} className={`${loader ? 'hidden' : 'grid'} grid-cols-4 gap-8 max-1400:grid-cols-3 max-1050:grid-cols-2 max-730:grid-cols-1`}>
                 {products.map((product) => {
                     return (
-                        <li key={product.id} className="w-full product hover:active-hover">
+                        <li key={product.id} className="flex flex-col w-full product hover:active-hover">
                             <Swiper className="product-img-swiper relative rounded-2.5xl w-full mb-4 max-730:h-96 h-310px max-470:h-64 max-360:h-223px"
                                 effect={'fade'}
                                 slidesPerView={1}
@@ -571,7 +616,7 @@ const Products = () => {
                                             <SwiperSlide key={img.id} className="flex items-center justify-center relative">
                                                 <img className='absolute brightness-95 img w-full min-h-full object-cover object-center transition-transform-2' width={416} height={310} src={img.img} alt="furniture image" />
                                                 <div className="absolute tabs-wrapper top-5 right-5 transition-opacity-2">
-                                                    <div className="flex-center space-x-3 ml-auto">
+                                                    <div className="flex-center justify-end gap-3 ml-auto flex-wrap">
                                                         {
                                                             product.akciya &&
                                                             <span className="red-tab">Aksiya</span>
@@ -603,17 +648,17 @@ const Products = () => {
                             </div>
 
                             {/* title  */}
-                            <h3 className="mb-4 text-regular-20">{product.productTitle}</h3>
+                            <h3 className="mb-auto text-regular-20">{product.productTitle}</h3>
 
                             {/* list  */}
-                            <ul className="text-regular-14 text-primary-gray-70 space-y-2.5 mb-4">
+                            <ul className="text-regular-14 text-primary-gray-70 space-y-2.5 my-4">
                                 <li className="flex items-end">
                                     <span>Davlati</span>
                                     <div className="grow border-t-2 mx-1 mb-0.5 border-primary-gray-70 border-dotted"></div>
                                     <span>{product.details.country}</span>
                                 </li>
                                 <li className="flex items-end">
-                                    <span>Ustki material</span>
+                                    <span>Material</span>
                                     <div className="grow border-t-2 mx-1 mb-0.5 border-primary-gray-70 border-dotted"></div>
                                     <ul className='flex-center gap-0.5'>
                                         {
@@ -627,11 +672,15 @@ const Products = () => {
                                         }
                                     </ul>
                                 </li>
-                                <li className="flex items-end">
-                                    <span>Ustki qalinlik</span>
-                                    <div className="grow border-t-2 mx-1 mb-0.5 border-primary-gray-70 border-dotted"></div>
-                                    <span>{product.details.thickness}</span>
-                                </li>
+
+                                {
+                                    product.details.thickness &&
+                                    <li className="flex items-end">
+                                        <span>Qalinlik</span>
+                                        <div className="grow border-t-2 mx-1 mb-0.5 border-primary-gray-70 border-dotted"></div>
+                                        <span>{product.details.thickness}</span>
+                                    </li>
+                                }
                             </ul>
 
                             {/* price */}
