@@ -154,7 +154,6 @@ export default {
         'catalog-img7': 'url(./assets/images/other/img-for-catalog7.jpg)',
         'catalog-img8': 'url(./assets/images/other/img-for-catalog8.jpg)',
         'catalog-img9': 'url(./assets/images/other/img-for-catalog9.jpg)',
-        'catalog-img10': 'url(./assets/images/other/img-for-catalog10.jpg)',
 
         // catalog category hero 
         'category-hero': 'url(./assets/images/other/gray-furnitures.jpg)',
