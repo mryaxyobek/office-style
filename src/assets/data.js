@@ -10670,7 +10670,7 @@ export const receptionDesks = [
                     name: 'laminatlangan sunta',
                 },
                 {
-                    id: 1,
+                    id: 2,
                     name: 'MDF',
                 },
             ],

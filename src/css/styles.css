@@ -140,7 +140,7 @@
     }
 }
 
-/* for ant d slider */
+/* for antd slider */
 .price-slider .ant-slider-handle {
     transform: scale(1.5) !important;
 }

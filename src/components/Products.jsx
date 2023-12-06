@@ -26,10 +26,12 @@ import { Slider } from 'antd';
 
 
 const Products = () => {
-
+    const [loader, setLoader] = useState(true);
 
     // add product in basket
     const { categoryName } = useParams();
+
+
     // ADD PRODUCT
     const dispatch = useDispatch();
 
@@ -70,12 +72,16 @@ const Products = () => {
 
 
 
+
     // slider
     const [slideValue, setSlideValue] = useState([0, 10000000]);
 
     const changeSlideValue = (event) => {
         setSlideValue(event);
     };
+
+
+
 
     // filter value
     const [openFilter, setOpenFilter] = useState(false);
@@ -104,6 +110,7 @@ const Products = () => {
     const [size22, setSize22] = useState(false);
     const [size18, setSize18] = useState(false);
     const [size17, setSize17] = useState(false);
+
 
 
 
@@ -165,6 +172,7 @@ const Products = () => {
 
 
 
+
     // sort products 
     const [openSortButton, setOpenSortButton] = useState(false);
     const [priceIncrease, setPriceIncrease] = useState(false);
@@ -182,6 +190,7 @@ const Products = () => {
             setProducts(sortedProducts);
         }
     }, [priceReduction]);
+
 
 
 
@@ -572,11 +581,22 @@ const Products = () => {
             </div>
 
 
+            {/* loader */}
+            {loader && (
+                <div className='dots-loader'>
+                    <div className="dots-container">
+                        <span className="dots"></span>
+                        <span className="dots"></span>
+                        <span className="dots"></span>
+                    </div>
+                </div>
+            )}
+
             {/* products */}
-            <ul className={`grid overflow-hidden grid-cols-4 gap-8 max-1400:grid-cols-3 max-1050:grid-cols-2 max-730:grid-cols-1`}>
-                {products.map((product) => {
+            <ul onLoad={() => setLoader(false)} className={`grid overflow-hidden grid-cols-4 gap-8 max-1400:grid-cols-3 max-1050:grid-cols-2 max-730:grid-cols-1`}>
+                {products.map((product, index) => {
                     return (
-                        <li key={product.id} className="flex flex-col w-full product hover:active-hover">
+                        <li key={index} className="flex flex-col w-full product hover:active-hover">
                             <Swiper className="product-img-swiper relative rounded-2.5xl w-full mb-4 max-730:h-96 h-310px max-470:h-64 max-360:h-223px"
                                 effect={'fade'}
                                 slidesPerView={1}
