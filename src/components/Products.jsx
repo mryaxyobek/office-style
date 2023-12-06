@@ -22,26 +22,62 @@ import { EffectFade, Navigation, Pagination } from 'swiper/modules';
 import { addCard } from '../store/slices/productBasketslice';
 
 // ant design
-import { Skeleton, Slider } from 'antd';
+import { Slider } from 'antd';
 
 
 const Products = () => {
 
-    // product
+
+    // add product in basket
     const { categoryName } = useParams();
     // ADD PRODUCT
     const dispatch = useDispatch();
+
     const addToCard = (product) => {
         dispatch(addCard(product));
     };
 
+
+
+    // product
+    const [foundProducts, setFoundProducts] = useState([]);
+    const [products, setProducts] = useState([]);
+
+
+    useEffect(() => {
+        if (categoryName === 'boshqaruvchilar-uchun') {
+            setFoundProducts(cabinetProductsForManagers);
+        } else if (categoryName === 'xodimlar-uchun') {
+            setFoundProducts(furnitureForStaff);
+        } else if (categoryName === 'boshqaruvchi-stuli') {
+            setFoundProducts(managersChair);
+        } else if (categoryName === 'ofis-stuli') {
+            setFoundProducts(officeChair);
+        } else if (categoryName === 'ofis-divani') {
+            setFoundProducts(officeSofas);
+        } else if (categoryName === 'qabul-qilish-stoli') {
+            setFoundProducts(receptionDesks);
+        } else if (categoryName === 'call-markazlari-uchun-mebel') {
+            setFoundProducts(furnitureForCallCenter);
+        } else if (categoryName === 'sud-mebellari') {
+            setFoundProducts(courtFurnitures);
+        };
+    }, [categoryName]);
+
+    useEffect(() => {
+        setProducts(foundProducts);
+    }, [foundProducts]);
+
+
+
+    // slider
     const [slideValue, setSlideValue] = useState([0, 10000000]);
 
     const changeSlideValue = (event) => {
         setSlideValue(event);
     };
 
-    // filter
+    // filter value
     const [openFilter, setOpenFilter] = useState(false);
 
     // material 
@@ -69,53 +105,9 @@ const Products = () => {
     const [size18, setSize18] = useState(false);
     const [size17, setSize17] = useState(false);
 
-    // sort
-    const [openSortButton, setOpenSortButton] = useState(false);
-
-    const [priceIncrease, setPriceIncrease] = useState(false);
-    const [priceReduction, setPriceReduction] = useState(false);
-
-    // key event
-    document.addEventListener('keydown', (e) => {
-        if (e.key === 'Escape') {
-            setOpenFilter(false);
-            setOpenSortButton(false);
-        };
-    });
 
 
-
-    // product
-    const [foundProducts, setFoundProducts] = useState([]);
-    const [products, setProducts] = useState([]);
-    const [loader, setLoader] = useState(true);
-
-
-    useEffect(() => {
-        if (categoryName === 'boshqaruvchilar-uchun') {
-            setFoundProducts(cabinetProductsForManagers);
-        } else if (categoryName === 'xodimlar-uchun') {
-            setFoundProducts(furnitureForStaff);
-        } else if (categoryName === 'boshqaruvchi-stuli') {
-            setFoundProducts(managersChair);
-        } else if (categoryName === 'ofis-stuli') {
-            setFoundProducts(officeChair);
-        } else if (categoryName === 'ofis-divani') {
-            setFoundProducts(officeSofas);
-        } else if (categoryName === 'qabul-qilish-stoli') {
-            setFoundProducts(receptionDesks);
-        } else if (categoryName === 'call-markazlari-uchun-mebel') {
-            setFoundProducts(furnitureForCallCenter);
-        } else if (categoryName === 'sud-mebellari') {
-            setFoundProducts(courtFurnitures);
-        };
-    }, [categoryName]);
-
-    useEffect(() => {
-        setProducts(foundProducts);
-    }, [foundProducts]);
-
-    // filter products 
+    // filtered products 
     const filterProducts = () => {
         const filteredProducts = foundProducts.filter((product) => {
             const filterWithMaterialName = product.details.material.some((materialName) => {
@@ -171,22 +163,29 @@ const Products = () => {
         }
     };
 
+
+
     // sort products 
+    const [openSortButton, setOpenSortButton] = useState(false);
+    const [priceIncrease, setPriceIncrease] = useState(false);
+    const [priceReduction, setPriceReduction] = useState(false);
     useEffect(() => {
         if (priceIncrease) {
             const sortedProducts = products.sort((a, b) => a.parts[0].currentPrice - b.parts[0].currentPrice);
             setProducts(sortedProducts);
         }
-    }, [priceIncrease])
+    }, [priceIncrease]);
 
     useEffect(() => {
         if (priceReduction) {
             const sortedProducts = products.sort((a, b) => a.parts[0].currentPrice - b.parts[0].currentPrice).reverse();
             setProducts(sortedProducts);
         }
-    }, [priceReduction])
+    }, [priceReduction]);
 
 
+
+    // reset filter
     const resetFilter = () => {
         // reset products
         setProducts(foundProducts);
@@ -221,6 +220,17 @@ const Products = () => {
     };
 
 
+
+    // key event
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+            setOpenFilter(false);
+            setOpenSortButton(false);
+        };
+    });
+
+
+
     // products not found
     const [productNotFound, setProductNotFound] = useState(false);
 
@@ -231,15 +241,8 @@ const Products = () => {
             setProductNotFound(false);
         }
     }, [products]);
-
-
-
-
-    // skeleton animation array
-    const skeletonArr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
     return (
         <div className="container">
-
             {/* overlay  */}
             <div onClick={() => { setOpenFilter(false); }} className={`${openFilter ? 'block' : 'hidden'} fixed bg-black bg-opacity-75 w-full min-h-screen top-0 right-0 z-4`}></div>
 
@@ -569,31 +572,8 @@ const Products = () => {
             </div>
 
 
-            {/* loader */}
-            {
-                loader &&
-                <ul className="grid grid-cols-4 gap-8 max-1400:grid-cols-3 max-1050:grid-cols-2 max-730:grid-cols-1">
-                    {
-                        skeletonArr.map((item, index) => {
-                            return (
-                                <li key={index} className=" flex flex-col w-full">
-                                    <Skeleton
-                                        avatar
-                                        title
-                                        paragraph={{
-                                            rows: 5,
-                                        }}
-                                        active
-                                        className='product-skeleton-animation' />
-                                </li>
-                            )
-                        })
-                    }
-                </ul>
-
-            }
             {/* products */}
-            <ul onLoad={() => setLoader(false)} className={`${loader ? 'hidden' : 'grid'} grid-cols-4 gap-8 max-1400:grid-cols-3 max-1050:grid-cols-2 max-730:grid-cols-1`}>
+            <ul className={`grid overflow-hidden grid-cols-4 gap-8 max-1400:grid-cols-3 max-1050:grid-cols-2 max-730:grid-cols-1`}>
                 {products.map((product) => {
                     return (
                         <li key={product.id} className="flex flex-col w-full product hover:active-hover">
