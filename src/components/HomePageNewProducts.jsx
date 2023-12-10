@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
 // swiper
@@ -14,7 +14,9 @@ import { EffectFade, Navigation, Pagination } from 'swiper/modules';
 
 
 // data  
-import { cabinetProductsForManagers, furnitureForStaff, tabButtonsGroup } from '../assets/data';
+import { cabinetProductsForManagers, courtFurnitures, furnitureForCallCenter, furnitureForStaff, managersChair, officeChair, officeSofas, receptionDesks, tabButtonsGroup } from '../assets/data';
+
+// redux
 import { addCard } from '../store/slices/productBasketslice';
 import { useDispatch } from 'react-redux';
 
@@ -35,11 +37,10 @@ const HomePageNewProducts = () => {
         setButtonId(e.target.id);
     };
     // all products
-    const allProducts = [...cabinetProductsForManagers, ...furnitureForStaff].filter((product) => product.new == true);
+    const allProducts = [...cabinetProductsForManagers, ...furnitureForStaff, ...officeSofas, ...managersChair, ...officeChair, ...receptionDesks, ...courtFurnitures, ...furnitureForCallCenter].filter((product) => product.new == true)
     const randomProducts = [];
 
-
-    for (let i = 0; i < 8; i++) {
+    for (let i = 0; i < 13; i++) {
         const randomIndex = Math.floor(Math.random() * allProducts.length);
         const randomProduct = allProducts[randomIndex];
         if (!randomProducts.some((product) => product.productId === randomProduct.productId)) {
@@ -47,15 +48,40 @@ const HomePageNewProducts = () => {
         }
     };
 
+    const [foundProducts, setFoundProducts] = useState(randomProducts);
+    const [products, setProducts] = useState(foundProducts);
 
-    const [products, setProducts] = useState(randomProducts);
-
+    useEffect(() => {
+        if (buttonId == 1) {
+            setProducts(foundProducts);
+        } else if (buttonId == 2) {
+            const filteredProducts = foundProducts.filter(product => product.type.toLowerCase().includes('boshqaruvchi'));
+            setProducts(filteredProducts);
+        } else if (buttonId == 3) {
+            const filteredProducts = foundProducts.filter(product => product.type.toLowerCase().includes('xodim'));
+            setProducts(filteredProducts);
+        } else if (buttonId == 4) {
+            const filteredProducts = foundProducts.filter(product => product.type.toLowerCase().includes('ofis divani'));
+            setProducts(filteredProducts);
+        } else if (buttonId == 5) {
+            const filteredProducts = foundProducts.filter(product => product.type.toLowerCase().includes('qabul qilish stoli'));
+            setProducts(filteredProducts);
+        } else if (buttonId == 6) {
+            const filteredProducts = foundProducts.filter((product) => {
+                return !(product.type.toLowerCase().includes('boshqaruvchi')) && !(product.type.toLowerCase().includes('xodim')) && !(product.type.toLowerCase().includes('ofis divani')) && !(product.type.toLowerCase().includes('qabul qilish stoli'));
+            });
+            setProducts(filteredProducts);
+        } else {
+            setButtonId(1);
+        };
+    }, [buttonId])
 
     // add basket
     const dispatch = useDispatch();
     const addToCard = (product) => {
         dispatch(addCard(product));
     };
+
     return (
         <section className='py-60r'>
             <div className="container">
@@ -81,11 +107,7 @@ const HomePageNewProducts = () => {
                 <ul className="flex gap-8 w-full overflow-x-auto pb-60px gray-scroll max-580:gap-6 max-440:gap-4">
                     {products.map((product, index) => {
                         return (
-                            <li key={index} className={`
-                            ${buttonId == 1 && 'block'}
-                             ${buttonId == 2 && (product.type.toLocaleLowerCase() == 'boshqaruvchilar uchun' ? 'block' : 'hidden')}
-                             ${buttonId == 3 && (product.type.toLocaleLowerCase() == 'xodimlar uchun' ? 'block' : 'hidden')}
-                                 product hover:active-hover w-416px max-440:w-full`}>
+                            <li key={index} className={`flex flex-col product hover:active-hover w-416px max-440:w-full`}>
                                 <Swiper className="product-img-swiper relative rounded-2.5xl w-full mb-4 max-730:h-96 h-310px max-470:h-64 max-360:h-223px"
                                     effect={'fade'}
                                     slidesPerView={1}
@@ -140,14 +162,14 @@ const HomePageNewProducts = () => {
                                 <h3 className="mb-4 text-regular-20">{product.productTitle}</h3>
 
                                 {/* list  */}
-                                <ul className="text-regular-14 text-primary-gray-70 space-y-2.5 mb-4">
+                                <ul className="text-regular-14 text-primary-gray-70 space-y-2.5 mt-4 mb-auto">
                                     <li className="flex items-end">
                                         <span>Davlati</span>
                                         <div className="grow border-t-2 mx-1 mb-0.5 border-primary-gray-70 border-dotted"></div>
                                         <span>{product.details.country}</span>
                                     </li>
                                     <li className="flex items-end">
-                                        <span>Ustki material</span>
+                                        <span>Material</span>
                                         <div className="grow border-t-2 mx-1 mb-0.5 border-primary-gray-70 border-dotted"></div>
                                         <ul className='flex-center gap-0.5'>
                                             {
@@ -161,15 +183,28 @@ const HomePageNewProducts = () => {
                                             }
                                         </ul>
                                     </li>
-                                    <li className="flex items-end">
-                                        <span>Ustki qalinlik</span>
-                                        <div className="grow border-t-2 mx-1 mb-0.5 border-primary-gray-70 border-dotted"></div>
-                                        <span>{product.details.thickness}</span>
-                                    </li>
+
+                                    {
+                                        product.details.thickness &&
+                                        <li className="flex items-end">
+                                            <span>Qalinlik</span>
+                                            <div className="grow border-t-2 mx-1 mb-0.5 border-primary-gray-70 border-dotted"></div>
+                                            <span>{product.details.thickness}</span>
+                                        </li>
+                                    }
+
+                                    {
+                                        product.details.endurance &&
+                                        <li className="flex items-end">
+                                            <span>Yuklama</span>
+                                            <div className="grow border-t-2 mx-1 mb-0.5 border-primary-gray-70 border-dotted"></div>
+                                            <span>{product.details.endurance}</span>
+                                        </li>
+                                    }
                                 </ul>
 
                                 {/* price */}
-                                <div className="flex-c-b max-440:flex-col max-440:items-start max-440:gap-6 mb-5">
+                                <div className="flex-c-b max-440:flex-col max-440:items-start max-440:gap-6 mt-4 mb-5">
                                     <div className="flex-end max-340:flex-col max-340:items-start gap-1">
                                         <span className="inline-block text-regular-16 text-primary-gray-70 mr-1" >Narx:</span>
                                         <p className="text-regular-20 mr-3">{product.parts[0].currentPrice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}so'm</p>
@@ -197,6 +232,12 @@ const HomePageNewProducts = () => {
                         )
                     })}
                 </ul>
+
+                {/* not found product */}
+                {
+                    products.length === 0 &&
+                    <h3 className='flex justify-center w-full'>Hech qanday mahsulot topilmadi</h3>
+                }
             </div>
         </section >
     )

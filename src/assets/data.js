@@ -27,7 +27,7 @@ export const tabButtonsGroup = [
     },
     {
         id: 2,
-        text: 'Boshqaruvchi uchun',
+        text: 'Boshqaruvchilar uchun',
     },
     {
         id: 3,
@@ -35,22 +35,14 @@ export const tabButtonsGroup = [
     },
     {
         id: 4,
-        text: 'Ofis kreslolari',
-    },
-    {
-        id: 5,
         text: 'Ofis divanlari',
     },
     {
-        id: 6,
+        id: 5,
         text: 'Qabul qilish stollari',
     },
     {
-        id: 7,
-        text: 'Uchrashuv stollari',
-    },
-    {
-        id: 8,
+        id: 6,
         text: 'Boshqa',
     }
 ];
