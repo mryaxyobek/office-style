@@ -1,8 +1,15 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 
 const CategoryHero = () => {
     const { categoryName } = useParams();
+    const [productsType, setProductsType] = useState('');
+    useEffect(() => {
+        let firstLetterToUpperCase = categoryName.replace(/(\b\w)/, function (match) {
+            return match.toUpperCase();
+        });
+        setProductsType(firstLetterToUpperCase.replace(/\-/g, ' '))
+    }, [categoryName])
     return (
         <div className='pt-20 pb-60r container max-900:pt-8 max-540:px-0 max-540:pt-0 relative'>
             {/* breadcrumb  */}
@@ -11,63 +18,7 @@ const CategoryHero = () => {
                     <Link className='max-540:text-primary-gray-10' to='/catalog'>Katalog</Link>
                 </li>
                 <li>
-                    <span className='max-540:text-primary-gray-10'>
-                        {
-                            categoryName == 'boshqaruvchilar-uchun' &&
-                            <>Boshqaruvchilar uchun</>
-                        }
-                        {
-                            categoryName == 'xodimlar-uchun' &&
-                            <>Xodimlar uchun</>
-                        }
-                        {
-                            categoryName == 'office-chairs' &&
-                            <>Ofis uchun kreslolar</>
-                        }
-                        {
-                            categoryName == 'office-sofas' &&
-                            <>Ofis uchun divanlar</>
-                        }
-                        {
-                            categoryName == 'reception-desks' &&
-                            <>Qabul qilish stollari</>
-                        }
-                        {
-                            categoryName == 'meeting-tables' &&
-                            <>Uchrashuvlar uchun stollar</>
-                        }
-                        {
-                            categoryName == 'office-partitions' &&
-                            <>Offis bo'limlari</>
-                        }
-                        {
-                            categoryName == 'multi-person-sections' &&
-                            <>Ko'p kishilik bo'limlar</>
-                        }
-                        {
-                            categoryName == 'office-desks' &&
-                            <>Ofis uchun stollar</>
-                        }
-                        {
-                            categoryName == 'office-cabinets' &&
-                            <>Ofis uchun shkaflar</>
-                        }
-
-                        {/* other  */}
-                        {
-                            categoryName != 'boshqaruvchilar-uchun' &&
-                            categoryName != 'xodimlar-uchun' &&
-                            categoryName != 'office-chairs' &&
-                            categoryName != 'office-sofas' &&
-                            categoryName != 'reception-desks' &&
-                            categoryName != 'meeting-tables' &&
-                            categoryName != 'office-partitions' &&
-                            categoryName != 'multi-person-sections' &&
-                            categoryName != 'office-desks' &&
-                            categoryName != 'office-cabinets' &&
-                            <span>Xato</span>
-                        }
-                    </span>
+                    <span className='max-540:text-primary-gray-10'>{productsType}</span>
                 </li>
             </ul>
 
@@ -77,64 +28,7 @@ const CategoryHero = () => {
                 <div className="flex flex-col max-w-687px z-1 place-content-between max-1200:mx-auto max-540:px-5">
                     <div>
                         <h1 className="h1-bold text-white mb-8 max-1200:text-center max-540:text-left max-670:mb-7  max-540:mb-5 max-440:mb-4">
-                            {
-                                categoryName == 'boshqaruvchilar-uchun' &&
-                                <>Boshqaruvchilar uchun kabinet</>
-                            }
-                            {
-                                categoryName == 'xodimlar-uchun' &&
-                                <>Xodimlar uchun kabinet</>
-                            }
-                            {
-                                categoryName == 'office-chairs' &&
-                                <>Ofis uchun kreslolar</>
-                            }
-                            {
-                                categoryName == 'office-sofas' &&
-                                <>Ofis uchun divanlar</>
-                            }
-                            {
-                                categoryName == 'reception-desks' &&
-                                <>Qabul qilish stollari</>
-                            }
-                            {
-                                categoryName == 'meeting-tables' &&
-                                <>Uchrashuvlar uchun stollar</>
-                            }
-                            {
-                                categoryName == 'office-partitions' &&
-                                <>Offis bo'limlari</>
-                            }
-                            {
-                                categoryName == 'multi-person-sections' &&
-                                <>Ko'p kishilik bo'limlar</>
-                            }
-                            {
-                                categoryName == 'office-desks' &&
-                                <>Ofis uchun stollar</>
-                            }
-                            {
-                                categoryName == 'office-cabinets' &&
-                                <>Ofis uchun shkaflar</>
-                            }
-
-                            {/* other  */}
-                            {
-                                categoryName != 'boshqaruvchilar-uchun' &&
-                                categoryName != 'xodimlar-uchun' &&
-                                categoryName != 'office-chairs' &&
-                                categoryName != 'office-sofas' &&
-                                categoryName != 'reception-desks' &&
-                                categoryName != 'meeting-tables' &&
-                                categoryName != 'office-partitions' &&
-                                categoryName != 'multi-person-sections' &&
-                                categoryName != 'office-desks' &&
-                                categoryName != 'office-cabinets' &&
-                                <span>
-                                    <span className='text-yellow-200'>Siz noto'g'ri bo'limga kirib qoldingiz :(</span> <br />
-                                    <Link to='/' className='text-medium-20'>Bosh sahifaga qaytish</Link>
-                                </span>
-                            }
+                            {productsType}
                         </h1>
                         <p className="text-regular-20 text-primary-gray-10 max-1200:text-center max-540:text-left max-730:text-regular-18 max-440:text-regular-16">So'rov qoldiring, biz nafaqat sizning o'lchamingiz va talablaringizga mos mebel tanlaymiz, balki kelajakdagi ofisingizning bepul dizayn eskizini ham yaratamiz.</p>
                     </div>

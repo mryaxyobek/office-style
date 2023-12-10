@@ -8238,7 +8238,7 @@ export const managersChair = [
                 },
                 {
                     id: 2,
-                    name: "yog'osh",
+                    name: "yog'och",
                 }
             ],
             country: "Belarussiya",
@@ -8717,7 +8717,7 @@ export const managersChair = [
                 },
                 {
                     id: 2,
-                    name: "yog'osh",
+                    name: "yog'och",
                 }
             ],
             country: "Belarussiya",
@@ -9091,7 +9091,7 @@ export const officeChair = [
         id: 2,
         productId: 209785,
         type: 'Ofis stuli',
-        productTitle: "Metta ofis stuli (18/2D to'plami)",
+        productTitle: "Metta ofis stuli (18_2D to'plami)",
         order: false,
         new: false,
         akciya: false,
@@ -9182,7 +9182,7 @@ export const officeChair = [
         id: 3,
         productId: 209786,
         type: 'Ofis stuli',
-        productTitle: "Metta ofis stuli (10/2D to'plami)",
+        productTitle: "Metta ofis stuli (10_2D to'plami)",
         order: true,
         new: false,
         akciya: false,

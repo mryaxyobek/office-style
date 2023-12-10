@@ -5,13 +5,7 @@ import { openAddReviewModal } from '../store/slices/modalSlice';
 import { useDispatch } from 'react-redux';
 
 
-const ProductDetails = () => {
-    // product 
-    const { productName } = useParams();
-    const allProducts = [...cabinetProductsForManagers, ...furnitureForStaff];
-    const product = allProducts.find((product) => productName === product.productTitle.toLowerCase().replace(/\s+/g, '-'));
-
-
+const ProductDetails = ({ product }) => {
     const [Position, setPosition] = useState(4);
     const [Width, setWidth] = useState(117);
     const [buttonId, setButtonId] = useState(1);
@@ -26,7 +20,7 @@ const ProductDetails = () => {
         setPosition(childPosition);
         setWidth(childWidth);
         setButtonId(e.target.id);
-    }
+    };
 
 
     // for modal
@@ -60,10 +54,10 @@ const ProductDetails = () => {
                         <>
                             {
                                 buttonId == 1 &&
-                                <ul className='max-w-5xl'>
+                                (<ul className='max-w-5xl'>
                                     <li className="flex py-3 gap-5">
                                         <span className="text-primary-gray-70 w-1/2">Material</span>
-                                        <ul className='flex-center gap-0.5 w-1/2'>
+                                        <ul className='flex-center gap-0.5 w-1/2 flex-wrap'>
                                             {
                                                 product.details.material.map(name => {
                                                     return <li key={name.id} className='after:ml-0.5 after:content-["/"] last:after:content-[""] after:text-primary-gray-70'>
@@ -78,10 +72,13 @@ const ProductDetails = () => {
                                         <span className="text-primary-gray-70 w-1/2">Ishlab chiqarilgan davlat</span>
                                         <span className='w-1/2'>{product.details.country}</span>
                                     </li>
-                                    <li className="flex py-3 gap-5">
-                                        <span className="text-primary-gray-70 w-1/2">Qalinlik</span>
-                                        <span className='w-1/2'>{product.details.thickness} (sm)</span>
-                                    </li>
+                                    {
+                                        product.details.thickness &&
+                                        <li className="flex py-3 gap-5">
+                                            <span className="text-primary-gray-70 w-1/2">Qalinlik</span>
+                                            <span className='w-1/2'>{product.details.thickness} (sm)</span>
+                                        </li>
+                                    }
                                     <li className="flex py-3 gap-5">
                                         <span className="text-primary-gray-70 w-1/2">Rangi</span>
                                         <ul className='flex-center gap-0.5 w-1/2 flex-wrap'>
@@ -101,29 +98,41 @@ const ProductDetails = () => {
                                             <span className='w-1/2'>{product.details.style}</span>
                                         </li>
                                     }
-                                </ul>
+                                    {
+                                        product.details.endurance &&
+                                        <li className="flex py-3 gap-5">
+                                            <span className="text-primary-gray-70 w-1/2">Yuklama</span>
+                                            <span className='w-1/2'>{product.details.endurance}</span>
+                                        </li>
+                                    }
+                                </ul>)
                             }
                             {
                                 buttonId == 2 &&
-                                <p className="max-w-5xl max-440:text-regular-16">
+                                (<p className="max-w-5xl max-440:text-regular-16">
                                     {product.description}
-                                </p>
+                                </p>)
                             }
                             {
-                                buttonId == 3 &&
-                                <div className="overflow-x-auto gray-scroll max-1800:pb-60r">
-                                    <ul className="flex gap-8 min-w-max">
-                                        {
-                                            product.completedProjects.map((img) => {
-                                                return (
-                                                    <li key={img.id}>
-                                                        <img width={416} height={340} src={img.img} alt="brown color furniture" className="w-416px h-340px rounded-2.5xl object-cover object-center max-540:w-300px max-540:h-300px" />
-                                                    </li>
-                                                )
-                                            })
-                                        }
-                                    </ul>
-                                </div>
+                                (buttonId == 3) &&
+                                (
+                                    (product.completedProjects && product.completedProjects.length > 0) ?
+                                        <div className="overflow-x-auto gray-scroll max-1800:pb-60r">
+                                            <ul className="flex gap-8 min-w-max">
+                                                {
+                                                    product.completedProjects.map((img) => {
+                                                        return (
+                                                            <li key={img.id}>
+                                                                <img width={416} height={340} src={img.img} alt="brown color furniture" className="w-416px h-340px rounded-2.5xl object-cover object-center max-540:w-300px max-540:h-300px" />
+                                                            </li>
+                                                        )
+                                                    })
+                                                }
+                                            </ul>
+                                        </div>
+                                        :
+                                        <>Hech qanday tugallangan loyiha mavjud emas!</>
+                                )
                             }
                             {
                                 buttonId == 4 &&
