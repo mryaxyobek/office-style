@@ -1,8 +1,19 @@
 import React, { useState } from 'react';
-import recaptchaImg from '../assets/images/other/recaptcha.png';
-
+import { useNavigate } from 'react-router-dom';
+import ReCAPTCHA from 'react-google-recaptcha';
 const AddComment = () => {
+    const navigate = useNavigate();
     const [ratingStarsValue, setRatingStarsValue] = useState(0);
+    const [notARobot, setNotARobot] = useState(false);
+    function onChange(value) {
+        if (value !== null) {
+            setNotARobot(true);
+        } else {
+            alert('Iltimos inson ekanligingizni tasdiqlang');
+            setNotARobot(false);
+        };
+    };
+
     return (
         <section className='pt-60r pb-120r'>
             <div className="flex flex-col container items-center max-440:px-0">
@@ -11,20 +22,11 @@ const AddComment = () => {
 
                 {/* form */}
                 <form
-                    action="https://echo.htmlacademy.ru"
+                    onSubmit={() => navigate('/notification/comment-submitted')}
                     className="flex flex-col items-center rounded-2.5xl space-y-6 bg-primary-gray-04 p-12 max-w-1088px w-full max-800:p-8 max-540:p-5"
-                    name="contact"
-                    method="POST"
-                    netlify-honeypot="bot-field"
-                    data-netlify="true"
                 >
                     {/* main content  */}
                     <div className="flex gap-8 mb-6 w-full max-730:flex-col">
-                        <p className="hidden">
-                            <label>
-                                Don’t fill this out if you’re human: <input name="bot-field" />
-                            </label>
-                        </p>
                         {/* 1 */}
                         <div className="space-y-5 w-full max-800:space-y-2 max-730:space-y-5">
                             {/* name  */}
@@ -82,7 +84,11 @@ const AddComment = () => {
                             </div>
 
                             {/* captcha  */}
-                            <div data-netlify-recaptcha="true" className='w-[335px] h-[89px]'></div>
+                            <ReCAPTCHA
+                                sitekey="6Lc0Pi0pAAAAAFuRiKfyvf8I7Vtjf88ssRWwnvGH"
+                                onChange={onChange}
+                                className='w-[300px] h-[75px] bg-primary-gray-20 rounded-md'
+                            />
                         </div>
                     </div>
 
@@ -91,7 +97,7 @@ const AddComment = () => {
                         *Saytga ma'lumot yuborish orqali siz <a className="text-primary-red-50">Shaxsiy ma'lumotlarni himoya qilish siyosati shartlarini qabul qilasiz</a>
                     </p>
 
-                    <button className='red-btn py-3.5 px-6 text-regular-16 mx-auto max-540:w-full'>Sharhni yuborish</button>
+                    <button type={notARobot ? 'submit' : 'button'} className='red-btn py-3.5 px-6 text-regular-16 mx-auto max-540:w-full'>Sharhni yuborish</button>
                 </form>
             </div>
         </section>
