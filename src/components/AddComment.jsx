@@ -10,9 +10,21 @@ const AddComment = () => {
                 <p className="mb-14 max-w-763px text-regular-24 text-primary-gray-70 mx-auto text-center max-440:px-5">Sizning elektron pochtangiz saytda chop etilmaydi. Majburiy maydonlar belgilangan</p>
 
                 {/* form */}
-                <form action="https://echo.htmlacademy.ru" className="flex flex-col items-center rounded-2.5xl space-y-6 bg-primary-gray-04 p-12 max-w-1088px w-full max-800:p-8 max-540:p-5">
+                <form
+                    action="https://echo.htmlacademy.ru"
+                    className="flex flex-col items-center rounded-2.5xl space-y-6 bg-primary-gray-04 p-12 max-w-1088px w-full max-800:p-8 max-540:p-5"
+                    name="contact"
+                    method="POST"
+                    netlify-honeypot="bot-field"
+                    data-netlify="true"
+                >
                     {/* main content  */}
                     <div className="flex gap-8 mb-6 w-full max-730:flex-col">
+                        <p className="hidden">
+                            <label>
+                                Don’t fill this out if you’re human: <input name="bot-field" />
+                            </label>
+                        </p>
                         {/* 1 */}
                         <div className="space-y-5 w-full max-800:space-y-2 max-730:space-y-5">
                             {/* name  */}
@@ -70,13 +82,13 @@ const AddComment = () => {
                             </div>
 
                             {/* captcha  */}
-                            <img width={335} height={90} src={recaptchaImg} alt="this is image recaptcha security" className="" />
+                            <div data-netlify-recaptcha="true" className='w-[335px] h-[89px]'></div>
                         </div>
                     </div>
 
                     {/* bottom */}
                     <p className="text-center text-regular-12 text-primary-gray-70">
-                    *Saytga ma'lumot yuborish orqali siz <a className="text-primary-red-50">Shaxsiy ma'lumotlarni himoya qilish siyosati shartlarini qabul qilasiz</a>
+                        *Saytga ma'lumot yuborish orqali siz <a className="text-primary-red-50">Shaxsiy ma'lumotlarni himoya qilish siyosati shartlarini qabul qilasiz</a>
                     </p>
 
                     <button className='red-btn py-3.5 px-6 text-regular-16 mx-auto max-540:w-full'>Sharhni yuborish</button>
