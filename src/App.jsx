@@ -24,6 +24,7 @@ import Portfolio from './pages/Portfolio';
 import Basket from './pages/Basket';
 import AkciyaPage from './pages/AkciyaPage';
 import AkciyaDetails from './pages/AkciyaDetails';
+import NotificationPage from './pages/NotificationPage';
 
 const App = () => {
   const router = createBrowserRouter(
@@ -37,11 +38,11 @@ const App = () => {
           <Route index element={<Catalog />} />
           <Route index path='/catalog' element={<Catalog />} />
 
-          {/* FurnitureForStaf */}
+          {/* products */}
           <Route path=':categoryName' element={<CategoryRoot />} >
             {/* index  */}
             <Route index element={<Category />} />
-            {/* order the product */}
+            {/* product */}
             <Route index path=':productName' element={<ProductPage />} />
           </Route >
 
@@ -55,7 +56,7 @@ const App = () => {
           <Route path='article-name' element={<Article />} />
         </Route>
 
-        {/* akciya */}  
+        {/* akciya */}
         <Route path='/akciya' element={<AkciyaRoot />}>
           <Route index element={<AkciyaPage />} />
           <Route index path='/akciya' element={<AkciyaPage />} />
@@ -69,6 +70,7 @@ const App = () => {
 
         <Route path='/about-payment' element={<AboutPayment />} />
         <Route path='/contact' element={<ContactPage />} />
+        <Route path='message/:message' element={<NotificationPage />} />
       </Route>
     )
   )

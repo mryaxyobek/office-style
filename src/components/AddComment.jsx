@@ -22,7 +22,7 @@ const AddComment = () => {
 
                 {/* form */}
                 <form
-                    onSubmit={() => navigate('/notification/comment-submitted')}
+                    onSubmit={() => navigate('/message/comment-submitted')}
                     className="flex flex-col items-center rounded-2.5xl space-y-6 bg-primary-gray-04 p-12 max-w-1088px w-full max-800:p-8 max-540:p-5"
                 >
                     {/* main content  */}
