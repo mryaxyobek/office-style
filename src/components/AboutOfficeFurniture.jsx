@@ -57,7 +57,7 @@ const AboutOfficeFurniture = () => {
                     </li>
                 </ul>
 
-                <Link to='/category' className='hidden w-full py-3.5 px-6 rounded-lg border border-primary-gray-50 min-w-max max-670:flex justify-center text-regular-16 max-360:text-regular-14'>Katalog</Link>
+                <Link to='/catalog' className='hidden w-full py-3.5 px-6 rounded-lg border border-primary-gray-50 min-w-max max-670:flex justify-center text-regular-16 max-360:text-regular-14'>Katalog</Link>
             </div>
         </section>
     )

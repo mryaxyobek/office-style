@@ -19,8 +19,8 @@ const Akciya = () => {
                     {akciyaProducts.map((e) => {
                         return (
                             <li key={e.id} className="min-w-416px product hover:active-hover max-470:min-w-300px">
-                                <Link rel='noopener' to={`/${e.idName}`}>
-                                    <img width={416} height={260} src={e.img} alt="furniture image" className="mb-6 rounded-2.5xl h-260px max-470:h-52 max-360:h-175px bg-primary-gray-30" />
+                                <Link rel='noopener' to={`/akciya/${e.description.toLowerCase().replace(/\s+/g, '-')}`}>
+                                    <img width={416} height={260} src={e.img} alt="furniture image" className="mb-6 rounded-2.5xl h-260px max-470:h-52 max-360:h-175px" />
 
                                     {/* date */}
                                     <span className="flex-c-b mb-3 text-regular-14 text-primary-gray-70">{e.date}</span>

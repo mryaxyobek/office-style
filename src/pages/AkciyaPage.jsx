@@ -1,8 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { akciyaProducts } from '../assets/data'
 
 const AkciyaPage = () => {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    },[]);
     return (
         <div className='pt-36r container'>
             <h1 className="mb-14">Aksiyalar</h1>
