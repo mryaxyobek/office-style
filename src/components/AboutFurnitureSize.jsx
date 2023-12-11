@@ -170,7 +170,7 @@ const AboutFurnitureSize = () => {
                             </li>
                         </ul>
                         {/* btn  */}
-                        <Link to='/about-company' className="red-btn py-3.5 px-6 text-regular-16 max-470:w-full">Kompaniya haqida batafsil</Link>
+                        <Link to='/about-company' className="red-btn py-3.5 px-6 text-regular-16 max-470:w-full max-470:text-center">Kompaniya haqida batafsil</Link>
                     </div>
                 </div>
             </div>

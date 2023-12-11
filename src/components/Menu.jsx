@@ -61,7 +61,7 @@ const Menu = ({ setOpenCatalog }) => {
             </button>
 
             {/* catalog links */}
-            <nav className={`${openCatalogLinks ? 'pb-6 h-[384px]' : 'h-0'} overflow-hidden transition-all`}>
+            <nav className={`${openCatalogLinks ? 'pb-6 h-[424px]' : 'h-0'} overflow-hidden transition-all`}>
                 <ul className='space-y-6'>
                     <li className="flex-center gap-2 before:content-[''] before:block before:rounded-full before:bg-primary-gray-50 before:w-1 before:h-1 text-primary-gray-50 hover:text-primary-red-60 hover:before:bg-primary-red-60">
                         <Link to='/catalog' className='text-medium-18 transition-colors-2 w-full'>Katalog sahifasi</Link>
@@ -73,19 +73,22 @@ const Menu = ({ setOpenCatalog }) => {
                         <Link to='/catalog/xodimlar-uchun' className='text-medium-18 transition-colors-2 w-full'>Xodimlar uchun mebel</Link>
                     </li>
                     <li className="flex-center gap-2 before:content-[''] before:block before:rounded-full before:bg-primary-gray-50 before:w-1 before:h-1 text-primary-gray-50 hover:text-primary-red-60 hover:before:bg-primary-red-60">
-                        <Link to='/catalog/' className='text-medium-18 transition-colors-2 w-full'>Ofis kreslolari</Link>
+                        <Link to='/catalog/boshqaruvchi-stuli' className='text-medium-18 transition-colors-2 w-full'>Boshqaruvchilar uchun stul</Link>
                     </li>
                     <li className="flex-center gap-2 before:content-[''] before:block before:rounded-full before:bg-primary-gray-50 before:w-1 before:h-1 text-primary-gray-50 hover:text-primary-red-60 hover:before:bg-primary-red-60">
-                        <Link to='/catalog/' className='text-medium-18 transition-colors-2 w-full'>Qabul qilish stollari</Link>
+                        <Link to='/catalog/ofis-stuli' className='text-medium-18 transition-colors-2 w-full'>Ofis stullari</Link>
                     </li>
                     <li className="flex-center gap-2 before:content-[''] before:block before:rounded-full before:bg-primary-gray-50 before:w-1 before:h-1 text-primary-gray-50 hover:text-primary-red-60 hover:before:bg-primary-red-60">
-                        <Link to='/catalog/' className='text-medium-18 transition-colors-2 w-full'>Uchrashuv stollari</Link>
+                        <Link to='/catalog/ofis-divani' className='text-medium-18 transition-colors-2 w-full'>Ofis divanlari</Link>
                     </li>
                     <li className="flex-center gap-2 before:content-[''] before:block before:rounded-full before:bg-primary-gray-50 before:w-1 before:h-1 text-primary-gray-50 hover:text-primary-red-60 hover:before:bg-primary-red-60">
-                        <Link to='/catalog/' className='text-medium-18 transition-colors-2 w-full'>Ofis shkaflari</Link>
+                        <Link to='/catalog/qabul-qilish-stuli' className='text-medium-18 transition-colors-2 w-full'>Qabul qilish stollari</Link>
                     </li>
                     <li className="flex-center gap-2 before:content-[''] before:block before:rounded-full before:bg-primary-gray-50 before:w-1 before:h-1 text-primary-gray-50 hover:text-primary-red-60 hover:before:bg-primary-red-60">
-                        <Link to='/catalog/' className='text-medium-18 transition-colors-2 w-full'>Ofis divanlari</Link>
+                        <Link to='/catalog/call-markazlari-uchun-mebel' className='text-medium-18 transition-colors-2 w-full'>Call markazlari uchun mebel</Link>
+                    </li>
+                    <li className="flex-center gap-2 before:content-[''] before:block before:rounded-full before:bg-primary-gray-50 before:w-1 before:h-1 text-primary-gray-50 hover:text-primary-red-60 hover:before:bg-primary-red-60">
+                        <Link to='/catalog/sud-mebellari' className='text-medium-18 transition-colors-2 w-full'>Sud uchun mebellar</Link>
                     </li>
                 </ul>
             </nav>

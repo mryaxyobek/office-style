@@ -4,6 +4,7 @@ import React, { useEffect } from 'react';
 import ProductDesignHero from '../components/ProductDesignHero';
 import QuestionAnswer from '../components/QuestionAnswer';
 import AboutCompany from '../components/AboutCompany';
+import RecommendProducts from '../components/RecommendProducts';
 
 const ProductPage = () => {
     useEffect(() => {
@@ -12,6 +13,7 @@ const ProductPage = () => {
     return (
         <>
             <ProductDesignHero />
+            <RecommendProducts />
             <QuestionAnswer />
             <AboutCompany />
         </>

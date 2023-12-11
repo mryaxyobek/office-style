@@ -202,19 +202,19 @@ const Header = () => {
                             <nav className={`${openSearchInput ? 'hidden' : 'block'} max-1350:hidden`}>
                                 <ul className={`${openCatalog ? 'black' : changeText ? 'text-white' : ''} flex-center space-x-10 text-regular-16`}>
                                     <li>
-                                        <Link to='/catalog/cabinet-for-managers'>Boshqaruvchi kabineti</Link>
+                                        <Link to='/catalog/boshqaruvchi-uchun'>Boshqaruvchi kabineti</Link>
                                     </li>
                                     <li>
-                                        <Link to='/catalog/furniture-for-staff'>Xodimlar uchun mebel</Link>
+                                        <Link to='/catalog/xodimlar-uchun'>Xodimlar uchun mebel</Link>
                                     </li>
                                     <li>
-                                        <Link to='/catalog/office-chairs'>Ofis kreslolari</Link>
+                                        <Link to='/catalog/ofis-stuli'>Ofis stullari</Link>
                                     </li>
                                     <li>
-                                        <Link to='/catalog/reception-desks'>Qabul qilish stollari</Link>
+                                        <Link to='/catalog/ofis-divani'>Ofis divani</Link>
                                     </li>
                                     <li>
-                                        <Link to='/catalog/meeting-tables'>Uchrashuv stollari</Link>
+                                        <Link to='/catalog/qabul-qilish-stoli'>Qabul qilish stollari</Link>
                                     </li>
                                 </ul>
                             </nav>
