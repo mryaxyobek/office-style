@@ -1,7 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 function QuestionAnswer() {
+    const navigate = useNavigate();
     const [showText, setShowText] = useState(false);
     const titleH = useRef(35);
     useEffect(() => {
@@ -189,7 +190,12 @@ function QuestionAnswer() {
                     </ul>
 
                     {/* form  */}
-                    <form action="https://echo.htmlacademy.ru" className="bg-primary-gray-10 rounded-2.5xl p-8 col-start-12 col-end-17 min-w-500px max-1150:col-start-1 max-1150:col-end-2 max-1150:min-w-0 max-470:px-5">
+                    <form
+                        onSubmit={(e) => {
+                            e.preventDefault();
+                            navigate('/message/question-sent');
+                        }}
+                        className="bg-primary-gray-10 rounded-2.5xl p-8 col-start-12 col-end-17 min-w-500px max-1150:col-start-1 max-1150:col-end-2 max-1150:min-w-0 max-470:px-5">
                         {/* title  */}
                         <h3 className="text-center max-w-md mx-auto text-medium-28 mb-3">Savollaringiz bormi?</h3>
                         <p className="text-center text-primary-gray-70 mb-8 max-440:text-regular-16">Biz sizga qayta qo'ng'iroq qilamiz, sizning vazifalaringiz va ehtiyojlaringizni diqqat bilan tinglaymiz, eng yaxshi variantlarni taklif qilamiz va kelajakdagi kabinetingiz yoki ofisingiz uchun bepul loyihasini ishlab chiqamiz.</p>

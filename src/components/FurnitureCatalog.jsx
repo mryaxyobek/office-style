@@ -1,7 +1,8 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const FurnitureCatalog = () => {
+    const navigate = useNavigate();
     return (
         <section className='py-60r'>
             <div className="container max-440:px-0">
@@ -16,7 +17,13 @@ const FurnitureCatalog = () => {
                     </div>
 
                     {/* form  */}
-                    <form action="https://echo.htmlacademy.ru" className="flex items-end gap-6 mb-5 max-w-620px max-730:flex-col max-440:mb-6">
+                    <form
+                        onSubmit={(e) => {
+                            e.preventDefault();
+                            navigate('/message/request-sent');
+                        }}
+                        className="flex items-end gap-6 mb-5 max-w-620px max-730:flex-col max-440:mb-6"
+                    >
                         <div className='grow max-730:w-full'>
                             <label htmlFor='catalogTelInput' className="inline-block mb-2 text-regular-14 text-primary-gray-70">Telefon raqam</label>
                             <input autoComplete='off' id='catalogTelInput' maxLength={13} name='phone number' placeholder='+998 (99) 999-99-99' required type="tel" className='leading-17.5px!' />

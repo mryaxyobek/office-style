@@ -3,8 +3,10 @@ import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { closeSketchModal } from '../store/slices/modalSlice';
 import furnitureDesign from '../assets/images/other/furniture-design.png';
+import { useNavigate } from 'react-router-dom';
 
 const SketchModal = () => {
+    const navigate = useNavigate();
     const dispatch = useDispatch();
 
     // close modal
@@ -34,7 +36,13 @@ const SketchModal = () => {
                     </button>
 
                     {/* form (main content, modal) */}
-                    <form action="https://echo.htmlacademy.ru" className="flex flex-col overflow-y-auto bg-white z-2 py-8 px-12 w-1/2 rounded-2.5xl hidden-scroll max-800:px-8 max-800:py-6 max-730:w-full max-730:max-w-md max-580:max-w-full max-540:px-5 max-580:rounded-none max-580:h-full">
+                    <form
+                        onSubmit={(e) => {
+                            e.preventDefault();
+                            navigate('/message/request-sent');
+                            closeSketchModalFunction();
+                        }}
+                        className="flex flex-col overflow-y-auto bg-white z-2 py-8 px-12 w-1/2 rounded-2.5xl hidden-scroll max-800:px-8 max-800:py-6 max-730:w-full max-730:max-w-md max-580:max-w-full max-540:px-5 max-580:rounded-none max-580:h-full">
                         <div className="my-auto">
                             {/* title  */}
                             <h3 className="text-center max-w-md mx-auto text-medium-28 mb-10 max-440:mb-8">Eskiz uchun buyurtma</h3>

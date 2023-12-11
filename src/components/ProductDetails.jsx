@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { productTabButtonsGroup, cabinetProductsForManagers, furnitureForStaff } from '../assets/data';
-import { useParams } from 'react-router-dom';
+import { productTabButtonsGroup } from '../assets/data';
 import { openAddReviewModal } from '../store/slices/modalSlice';
 import { useDispatch } from 'react-redux';
 

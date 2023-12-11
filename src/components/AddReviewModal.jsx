@@ -1,10 +1,22 @@
-import Link from 'antd/es/typography/Link';
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import ReCAPTCHA from 'react-google-recaptcha';
+import Link from 'antd/es/typography/Link';
 import { useDispatch } from 'react-redux';
 import { closeAddReviewModal } from '../store/slices/modalSlice';
 import addReview from '../assets/images/other/add-review.png';
 
 const CallModal = () => {
+    const navigate = useNavigate();
+    const [notARobot, setNotARobot] = useState(false);
+    function onChange(value) {
+        if (value !== null) {
+            setNotARobot(true);
+        } else {
+            alert('Iltimos inson ekanligingizni tasdiqlang');
+            setNotARobot(false);
+        };
+    };
     const dispatch = useDispatch();
 
     // close modal
@@ -17,7 +29,6 @@ const CallModal = () => {
             closeAddReviewModalFunction();
         };
     });
-
 
     // for rating
     const [ratingStarsValue, setRatingStarsValue] = useState(0);
@@ -38,7 +49,14 @@ const CallModal = () => {
                     </button>
 
                     {/* form (main content, modal) */}
-                    <form action="https://echo.htmlacademy.ru" className="flex flex-col overflow-y-auto bg-white z-2 py-8 px-12 w-1/2 rounded-2.5xl hidden-scroll max-800:px-8 max-800:py-6 max-730:w-full max-730:max-w-md max-580:max-w-full max-540:px-5 max-580:rounded-none max-580:h-full">
+                    <form
+                        onSubmit={(e) => {
+                            e.preventDefault();
+                            navigate('/message/comment-submitted');
+                            closeAddReviewModalFunction();
+                        }}
+                        className="flex flex-col overflow-y-auto bg-white z-2 py-8 px-12 w-1/2 rounded-2.5xl hidden-scroll max-800:px-8 max-800:py-6 max-730:w-full max-730:max-w-md max-580:max-w-full max-540:px-5 max-580:rounded-none max-580:h-full"
+                    >
                         <div className="my-auto">
                             {/* title  */}
                             <h3 className="text-center max-w-md mx-auto text-medium-28 mb-3">Sharx qoldirish</h3>
@@ -99,7 +117,14 @@ const CallModal = () => {
                                     <label htmlFor='addReviewModalTextarea' className="inline-block mb-2 text-regular-14 text-primary-gray-70">Xabar matni*</label>
                                     <textarea autoComplete='off' id='addReviewModalTextarea' name='comment text' required className='leading-17.5px! h-24 resize-none' ></textarea>
                                 </div>
-                                <button className="red-btn w-full text-regular-16 py-3.5">Buyurtma berish</button>
+
+                                {/* recaptcha */}
+                                <ReCAPTCHA
+                                    sitekey="6Lc0Pi0pAAAAAFuRiKfyvf8I7Vtjf88ssRWwnvGH"
+                                    onChange={onChange}
+                                    className='w-[300px] h-[75px] bg-primary-gray-20 rounded-md'
+                                />
+                                <button type={notARobot ? 'submit' : 'button'} className="red-btn w-full text-regular-16 py-3.5">Buyurtma berish</button>
                             </div>
 
                             <p className="text-regular-12 text-center">Saytga ma'lumot yuborish orqali siz <Link className='!text-primary-red-50' to='/processing-of-personal-data'>Shaxsiy ma'lumotlarni himoya qilish siyosati shartlarini qabul qilasiz</Link></p>

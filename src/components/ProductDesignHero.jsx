@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link, useLocation, useParams } from 'react-router-dom';
+import { Link, useLocation, useNavigate, useParams } from 'react-router-dom';
 
 // component
 import ProductDetails from '../components/ProductDetails';
@@ -29,6 +29,7 @@ import { useDispatch } from 'react-redux';
 import { openSketchModal } from '../store/slices/modalSlice';
 
 const ProductDesignHero = () => {
+    const navigate = useNavigate();
     const location = useLocation();
     const pathArr = location.pathname.split("/").filter((path) => path !== "");
 
@@ -376,7 +377,13 @@ const ProductDesignHero = () => {
                             </button>
 
                             {/* form (main content, modal) */}
-                            <form action="https://echo.htmlacademy.ru" className="flex flex-col overflow-y-auto bg-white z-2 py-8 px-12 w-1/2 rounded-2.5xl hidden-scroll max-800:px-8 max-800:py-6 max-730:w-full max-730:max-w-md max-580:max-w-full max-540:px-5 max-580:rounded-none max-580:h-full">
+                            <form
+                                onSubmit={(e) => {
+                                    e.preventDefault();
+                                    navigate('/message/request-sent');
+                                }}
+                                className="flex flex-col overflow-y-auto bg-white z-2 py-8 px-12 w-1/2 rounded-2.5xl hidden-scroll max-800:px-8 max-800:py-6 max-730:w-full max-730:max-w-md max-580:max-w-full max-540:px-5 max-580:rounded-none max-580:h-full"
+                            >
                                 <div className="my-auto">
                                     {/* title  */}
                                     <h3 className="text-center max-w-md mx-auto text-medium-28 mb-3">Biz sizga qo'ng'iroq qilamiz</h3>
@@ -402,7 +409,7 @@ const ProductDesignHero = () => {
                             </form>
 
                             {/* image */}
-                            <img src={product.images[0].img} width={600} height={640} alt={product.images[0].alt} className="absolute z-1 right-0 rounded-r-2.5xl top-0 h-full w-52% object-cover object-right-top max-730:hidden" />
+                            <img src={product.images[0].img} width={600} height={640} alt={product.images[0].alt} className="absolute z-1 right-0 rounded-r-2.5xl top-0 h-full w-52% object-cover max-730:hidden" />
                         </div >
                     </div >
                 </div >

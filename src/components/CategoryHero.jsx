@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { Link, useNavigate, useParams } from 'react-router-dom';
 
 const CategoryHero = () => {
+    const navigate = useNavigate();
     const { categoryName } = useParams();
     const [productsType, setProductsType] = useState('');
     useEffect(() => {
@@ -46,9 +47,15 @@ const CategoryHero = () => {
                 </div>
 
                 {/* form */}
-                <form action="https://echo.htmlacademy.ru" className="bg-white rounded-2.5xl py-10 px-9 max-w-528px z-1 w-full min-w-500px max-1200:mx-auto max-730:max-w-full max-730:min-w-0">
+                <form
+                    onSubmit={(e) => {
+                        e.preventDefault();
+                        navigate('/message/request-sent');
+                    }}
+                    className="bg-white rounded-2.5xl py-10 px-9 max-w-528px z-1 w-full min-w-500px max-1200:mx-auto max-730:max-w-full max-730:min-w-0"
+                >
                     {/* title  */}
-                    <h3 className="text-center max-w-md mx-auto text-regular-24 mb-8">So'rov qoldiring va biz sizga menejerning ofisiga qaysi mebel mos kelishini aytib beramiz</h3>
+                    <h3 className="text-center max-w-md mx-auto text-regular-24 mb-8">So'rov qoldiring va biz sizga qaysi mebel mos kelishini aytib beramiz</h3>
 
                     {/* main  */}
                     <div className="space-y-5">

@@ -1,7 +1,8 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const RedCta = () => {
-
+    const navigate = useNavigate();
     return (
         <section className="py-60r">
             <div className="container max-540:px-0">
@@ -13,7 +14,13 @@ const RedCta = () => {
                     </div>
 
                     {/* form  */}
-                    <form action="https://echo.htmlacademy.ru" className="flex flex-col p-8 space-y-6 bg-primary-gray-04 rounded-2.5xl max-1150:min-w-max max-540:min-w-full max-540:p-6">
+                    <form
+                        onSubmit={(e) => {
+                            e.preventDefault();
+                            navigate('/message/request-sent');
+                        }}
+                        className="flex flex-col p-8 space-y-6 bg-primary-gray-04 rounded-2.5xl max-1150:min-w-max max-540:min-w-full max-540:p-6"
+                    >
                         <div className='max-w-352px max-540:max-w-full'>
                             <label htmlFor='ctatelinput' className="inline-block mb-2 text-regular-14 text-primary-gray-70">Telefon raqamingiz*</label>
                             <input autoComplete='off' id='ctatelinput' maxLength={16} name='phone number' placeholder='+998 (99) 999-99-99' required type="tel" pattern="(\+998|8)[\- ]?\d{2}[\- ]?\d{3}[\- ]?\d{2}[\- ]?\d{2}" className='leading-17.5px!' />

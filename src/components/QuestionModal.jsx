@@ -1,10 +1,11 @@
-import Link from 'antd/es/typography/Link';
 import React from 'react';
+import { Link, useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { closeQuestionModal } from '../store/slices/modalSlice';
 import furniture from '../assets/images/other/office-furniture.png';
 
 const QuestionModal = () => {
+    const navigate = useNavigate();
     const dispatch = useDispatch();
 
     // close modal
@@ -34,7 +35,13 @@ const QuestionModal = () => {
                     </button>
 
                     {/* form (main content, modal) */}
-                    <form action="https://echo.htmlacademy.ru" className="flex flex-col overflow-y-auto bg-white z-2 py-8 px-12 w-1/2 rounded-2.5xl hidden-scroll max-800:px-8 max-800:py-6 max-730:w-full max-730:max-w-md max-580:max-w-full max-540:px-5 max-580:rounded-none max-580:h-full">
+                    <form
+                        onSubmit={(e) => {
+                            e.preventDefault();
+                            navigate('/message/question-sent');
+                            closeQuestionModalFunction();
+                        }}
+                        className="flex flex-col overflow-y-auto bg-white z-2 py-8 px-12 w-1/2 rounded-2.5xl hidden-scroll max-800:px-8 max-800:py-6 max-730:w-full max-730:max-w-md max-580:max-w-full max-540:px-5 max-580:rounded-none max-580:h-full">
                         <div className="my-auto">
                             {/* title  */}
                             <h3 className="text-center max-w-md mx-auto text-medium-28 mb-6 max-440:mb-4">Bizga yozing</h3>
