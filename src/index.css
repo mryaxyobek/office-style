@@ -231,6 +231,7 @@ html {
   .text-medium-22,
   .text-medium-20,
   .text-medium-18,
+  .text-medium-16,
   .text-medium-12,
   .h2-medium,
   h3 {
@@ -271,6 +272,11 @@ html {
   .text-medium-18 {
     font-size: 18px;
     line-height: 22.5px;
+  }
+
+  .text-medium-16 {
+    font-size: 16px;
+    line-height: 20px;
   }
 
   .text-medium-12 {

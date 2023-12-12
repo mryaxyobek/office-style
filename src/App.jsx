@@ -25,6 +25,7 @@ import Basket from './pages/Basket';
 import AkciyaPage from './pages/AkciyaPage';
 import AkciyaDetails from './pages/AkciyaDetails';
 import NotificationPage from './pages/NotificationPage';
+import Policy from './pages/Policy';
 
 const App = () => {
   const router = createBrowserRouter(
@@ -70,7 +71,8 @@ const App = () => {
 
         <Route path='/about-payment' element={<AboutPayment />} />
         <Route path='/contact' element={<ContactPage />} />
-        <Route path='message/:message' element={<NotificationPage />} />
+        <Route path='/message/:message' element={<NotificationPage />} />
+        <Route path='/policy' element={<Policy />} />
       </Route>
     )
   )
