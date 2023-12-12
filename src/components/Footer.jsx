@@ -21,7 +21,7 @@ const Footer = () => {
                 <div className="grid grid-cols-4 gap-8 pb-20 max-1150:grid-cols-2 max-580:grid-cols-1 max-730:pb-14 max-360:pb-8">
                     {/* logo  */}
                     <div className='space-y-8 max-580:hidden'>
-                        <Link to='/' className='text-white leading-8 text-29px textblack'>OFIS <span className="text-primary-red-50">TARZI</span></Link>
+                        <Link to='/' className='text-white leading-8 text-29px textblack uppercase'>OFIS <span className="text-primary-red-50">Mebellari</span></Link>
                         <p className="text-primary-gray-30 text-regular-14 max-w-336px">Saytdagi barcha ma'lumotlar faqat ma'lumot olish uchun mo'ljallangan.</p>
                     </div>
 
@@ -40,28 +40,22 @@ const Footer = () => {
                                 <Link to='/catalog/xodimlar-uchun'>Xodimlar uchun mebel</Link>
                             </li>
                             <li>
-                                <Link to='/'>Ofis kreslolari</Link>
+                                <Link to='/catalog/boshqaruvchi-stuli'>Boshqaruvchilar uchun stul</Link>
                             </li>
                             <li>
-                                <Link to='/'>Ofis divanlari</Link>
+                                <Link to='/catalog/ofis-stuli'>Ofis stullari</Link>
                             </li>
                             <li>
-                                <Link to='/'>Qabul qilish stollari</Link>
+                                <Link to='/catalog/ofis-divani'>Ofis divanlari</Link>
                             </li>
                             <li>
-                                <Link to='/'>Uchrashuv stollari</Link>
+                                <Link to='/catalog/qabul-qilish-stuli'>Qabul qilish stollari</Link>
                             </li>
                             <li>
-                                <Link to='/'>Ko'p kishilik bo'limlar</Link>
+                                <Link to='/catalog/call-markazlari-uchun-mebel'>Call markazlari uchun mebel</Link>
                             </li>
                             <li>
-                                <Link to='/'>Ofis stollari</Link>
-                            </li>
-                            <li>
-                                <Link to='/'>Ofis kabinetlari</Link>
-                            </li>
-                            <li>
-                                <Link to='/'>Ofis bo'limlari</Link>
+                                <Link to='/catalog/sud-mebellari'>Sud uchun mebellar</Link>
                             </li>
                         </ul>
                     </div>
@@ -132,8 +126,8 @@ const Footer = () => {
 
                 {/* bottom  */}
                 <div className="flex-c-b pt-8 text-primary-gray-30 border-t border-primary-gray-70 max-730:flex-col max-730:space-y-2.5 max-580:items-start">
-                    <p className='text-regular-16'>© «Office furnitures», 2023</p>
-                    <a href='#' className='text-regular-16'>Maxfiylik siyosati</a>
+                    <p className='text-regular-16'>© «Ofis Mebellari», 2023</p>
+                    <Link to='/policy' className='text-regular-16'>Maxfiylik siyosati</Link>
                     <a href='https://t.me/mryaxyobek' target='_blank' className='text-regular-16'>Ma'sul shaxs Yaxyobek</a>
                 </div>
             </div>

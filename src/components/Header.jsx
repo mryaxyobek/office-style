@@ -94,8 +94,8 @@ const Header = () => {
             <div className="flex-c-b container">
 
                 {/* logo  */}
-                <Link to='/' className='text-primary-gray-90 text-2xl leading-25px textblack max-800:text-xl max-800:leading-5 max-540:text-lg max-540:leading-17.5px'>
-                    OFIS <span className='text-primary-red-50'>TARZI</span>
+                <Link to='/' className='text-primary-gray-90 text-2xl leading-25px textblack max-800:text-xl max-800:leading-5 max-540:text-lg max-540:leading-17.5px uppercase'>
+                    OFIS <span className='text-primary-red-50'>MEBELLARI</span>
                 </Link>
 
                 {/* nav */}
@@ -202,7 +202,7 @@ const Header = () => {
                             <nav className={`${openSearchInput ? 'hidden' : 'block'} max-1350:hidden`}>
                                 <ul className={`${openCatalog ? 'black' : changeText ? 'text-white' : ''} flex-center space-x-10 text-regular-16`}>
                                     <li>
-                                        <Link to='/catalog/boshqaruvchi-uchun'>Boshqaruvchi kabineti</Link>
+                                        <Link to='/catalog/boshqaruvchilar-uchun'>Boshqaruvchi kabineti</Link>
                                     </li>
                                     <li>
                                         <Link to='/catalog/xodimlar-uchun'>Xodimlar uchun mebel</Link>

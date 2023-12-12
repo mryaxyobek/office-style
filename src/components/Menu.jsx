@@ -18,7 +18,7 @@ const Menu = ({ setOpenCatalog }) => {
             {/* header */}
             <div className="flex-center justify-between mb-9 max-580:mb-6 max-800:hidde">
                 <Link to='/' className='text-primary-gray-90 text-2xl leading-25px textblack max-800:text-xl max-800:leading-5 max-540:text-lg max-540:leading-17.5px'>
-                    OFIS <span className='text-primary-red-50'>TARZI</span>
+                    OFIS <span className='text-primary-red-50'>MEBELLARI</span>
                 </Link>
                 {/* cross btn */}
                 <button onClick={() => setOpenCatalog(false)} className="flex-center red-btn justify-center w-9 h-9 max-900:hidden">

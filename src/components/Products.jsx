@@ -271,7 +271,7 @@ const Products = () => {
             <div onClick={() => { setOpenFilter(false); }} className={`${openFilter ? 'block' : 'hidden'} fixed bg-black bg-opacity-75 w-full min-h-screen top-0 right-0 z-4`}></div>
 
             {/* filter place */}
-            <div className={`${openFilter ? 'translate-x-0' : 'translate-x-full'} transition-transform-2 fixed top-0 right-0 w-96 h-screen z-50 bg-white pr-6 p-12 pt-16 max-440:p-6 max-440:pt-14 max-440:w-80 max-360:w-full`}>
+            <div className={`${openFilter ? 'translate-x-0' : 'translate-x-full'} transition-transform-2 fixed top-0 right-0 w-96 h-screen z-50 bg-white pr-6 p-12 pt-16 max-440:p-6 max-440:pt-14 max-440:w-full`}>
                 {/* close and reset filter button  */}
                 <div className="flex-start justify-between absolute top-5 right-0 w-full pl-12 pr-6 max-440:pl-6">
                     <button onClick={resetFilter} className="flex-center text-primary-red-60 gap-2.5">
@@ -294,8 +294,14 @@ const Products = () => {
                 {/* main content */}
                 <div className='relative h-full red-scroll overflow-y-auto space-y-6 pr-6 pb-40'>
                     {/* price  */}
-                    <div className="flex flex-col gap-3 max-w-264px ml-1">
+                    <div className="flex flex-col gap-3 max-w-264px ml-1 max-440:max-w-full">
                         <h3 className="text-primary-gray-70 text-normal">Narx</h3>
+                        <div className="flex-c-b">
+                            <span className='text-primary-gray-70 text-regular-16'>{slideValue[0].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}</span>
+                            <span className='border w-1/3 border-primary-gray-20'></span>
+                            <span className='text-primary-gray-70 text-regular-16'>{slideValue[1].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}</span>
+                        </div>
+
                         <Slider
                             className='w-full price-slider'
                             range={{ draggableTrack: true }}
@@ -307,10 +313,6 @@ const Products = () => {
                             onChange={changeSlideValue}
                         />
 
-                        <div className="flex-c-b">
-                            <span className='text-primary-gray-70 text-regular-16'>dan {slideValue[0].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}</span>
-                            <span className='text-primary-gray-70 text-regular-16'>{slideValue[1].toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")} gacha</span>
-                        </div>
                     </div>
 
                     {/* material  */}
@@ -629,7 +631,7 @@ const Products = () => {
                                         setPriceReduction(false);
                                     } else {
                                         setPriceIncrease(false);
-                                    }
+                                    };
                                 }}
                                 className={`${priceIncrease ? 'bg-primary-gray-10' : 'bg-transparent'} text-start transition-colors text-primary-gray-70 py-2 rounded-lg px-4 w-full`}>Narxlar o'sish tartibida</button>
                         </li>
