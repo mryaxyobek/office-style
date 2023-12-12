@@ -94,7 +94,7 @@ const AddComment = () => {
 
                     {/* bottom */}
                     <p className="text-center text-regular-12 text-primary-gray-70">
-                        *Saytga ma'lumot yuborish orqali siz <a className="text-primary-red-50">Shaxsiy ma'lumotlarni himoya qilish siyosati shartlarini qabul qilasiz</a>
+                        *Saytga ma'lumot yuborish orqali siz <Link to='/policy' className='text-primary-red-60'>Shaxsiy ma'lumotlarni himoya qilish siyosati shartlarini qabul qilasiz</Link>
                     </p>
 
                     <button type={notARobot ? 'submit' : 'button'} className='red-btn py-3.5 px-6 text-regular-16 mx-auto max-540:w-full'>Sharhni yuborish</button>

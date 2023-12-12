@@ -1,5 +1,5 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 const RedCta = () => {
     const navigate = useNavigate();
@@ -27,7 +27,7 @@ const RedCta = () => {
                         </div>
                         <button className="red-btn py-3.5 px-6">Bepul buyurtma berish</button>
 
-                        <span className="text-center max-w-352px text-regular-12 text-primary-gray-70 leading-15px! max-540:mx-auto">*Saytga ma'lumot yuborish orqali siz Shaxsiy ma'lumotlarni himoya qilish siyosati shartlarini qabul qilasiz</span>
+                        <span className="text-center max-w-352px text-regular-12 text-primary-gray-70 leading-15px! max-540:mx-auto">*Saytga ma'lumot yuborish orqali siz <Link to='/policy' className='text-primary-red-60'>Shaxsiy ma'lumotlarni himoya qilish siyosati shartlarini qabul qilasiz</Link></span>
                     </form>
                 </div>
             </div>

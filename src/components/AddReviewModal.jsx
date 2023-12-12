@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import ReCAPTCHA from 'react-google-recaptcha';
-import Link from 'antd/es/typography/Link';
 import { useDispatch } from 'react-redux';
 import { closeAddReviewModal } from '../store/slices/modalSlice';
 import addReview from '../assets/images/other/add-review.png';
@@ -127,7 +126,7 @@ const CallModal = () => {
                                 <button type={notARobot ? 'submit' : 'button'} className="red-btn w-full text-regular-16 py-3.5">Buyurtma berish</button>
                             </div>
 
-                            <p className="text-regular-12 text-center">Saytga ma'lumot yuborish orqali siz <Link className='!text-primary-red-50' to='/processing-of-personal-data'>Shaxsiy ma'lumotlarni himoya qilish siyosati shartlarini qabul qilasiz</Link></p>
+                            <p className="text-regular-12 text-center">Saytga ma'lumot yuborish orqali siz <Link  onClick={() => closeAddReviewModalFunction()} to='/policy' className='text-primary-red-50'>Shaxsiy ma'lumotlarni himoya qilish siyosati shartlarini qabul qilasiz</Link></p>
                         </div>
                     </form>
 

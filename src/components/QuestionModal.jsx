@@ -70,7 +70,7 @@ const QuestionModal = () => {
                                 <button className="red-btn w-full text-regular-16 py-3.5">Savolni yuborish</button>
                             </div>
 
-                            <p className="text-regular-12 text-center">Saytga ma'lumot yuborish orqali siz <Link className='!text-primary-red-50' to='/processing-of-personal-data'>Shaxsiy ma'lumotlarni himoya qilish siyosati shartlarini qabul qilasiz</Link></p>
+                            <p className="text-regular-12 text-center">*Saytga ma'lumot yuborish orqali siz <Link onClick={() => closeQuestionModalFunction()} to='/policy' className='text-primary-red-50'>Shaxsiy ma'lumotlarni himoya qilish siyosati shartlarini qabul qilasiz</Link></p>
                         </div>
                     </form>
 

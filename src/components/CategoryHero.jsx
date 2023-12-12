@@ -68,7 +68,7 @@ const CategoryHero = () => {
                             <input autoComplete='off' id='categoryTelInput' maxLength={13} name='phone number' placeholder='+998 (99) 999-99-99' required type="text" className='leading-17.5px!' />
                         </div>
                         <button className="red-btn w-full text-regular-16 py-3.5">Maslahat olish</button>
-                        <p className="text-regular-12 text-primary-gray-70 text-center">*Saytga ma'lumot yuborish orqali siz <Link className="text-primary-red-50">Shaxsiy ma'lumotlarni himoya qilish siyosati shartlarini qabul qilasiz</Link></p>
+                        <p className="text-regular-12 text-primary-gray-70 text-center">*Saytga ma'lumot yuborish orqali siz <Link to='/policy' className='text-primary-red-50'>Shaxsiy ma'lumotlarni himoya qilish siyosati shartlarini qabul qilasiz</Link></p>
                     </div>
                 </form>
 

@@ -31,7 +31,7 @@ const FurnitureCatalog = () => {
                         <button className="red-btn py-3.5 px-6 text-regular-16 max-730:w-full">To'liq mebel katalogini olish</button>
                     </form>
 
-                    <p className="text-regular-12 max-730:text-center">Saytga ma'lumot yuborish orqali siz <Link className='text-primary-red-50'>Shaxsiy ma'lumotlarni himoya qilish siyosati shartlarini qabul qilasiz</Link></p>
+                    <p className="text-regular-12 max-730:text-center">Saytga ma'lumot yuborish orqali siz <Link to='/policy' className='text-primary-red-50'>Shaxsiy ma'lumotlarni himoya qilish siyosati shartlarini qabul qilasiz</Link></p>
                 </div>
             </div>
         </section>

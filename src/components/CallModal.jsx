@@ -1,9 +1,8 @@
-import Link from 'antd/es/typography/Link';
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import { closeCallModal } from '../store/slices/modalSlice';
 import operator from '../assets/images/other/operator.png';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 
 const CallModal = () => {
     const navigate = useNavigate();
@@ -63,7 +62,7 @@ const CallModal = () => {
                                 <button className="red-btn w-full text-regular-16 py-3.5">Buyurtma berish</button>
                             </div>
 
-                            <p className="text-regular-12 text-center">*Saytga ma'lumot yuborish orqali siz <Link className='!text-primary-red-50' to='/processing-of-personal-data'>Shaxsiy ma'lumotlarni himoya qilish siyosati shartlarini qabul qilasiz</Link></p>
+                            <p className="text-regular-12 text-center">*Saytga ma'lumot yuborish orqali siz <Link onClick={() => closeCallModalFunction()} to='/policy' className='text-primary-red-50'>Shaxsiy ma'lumotlarni himoya qilish siyosati shartlarini qabul qilasiz</Link></p>
                         </div>
                     </form>
 

@@ -1,9 +1,8 @@
-import Link from 'antd/es/typography/Link';
 import React from 'react';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { closeSketchModal } from '../store/slices/modalSlice';
 import furnitureDesign from '../assets/images/other/furniture-design.png';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 
 const SketchModal = () => {
     const navigate = useNavigate();
@@ -62,7 +61,7 @@ const SketchModal = () => {
                                 <button className="red-btn w-full text-regular-16 py-3.5">Buyurtma berish</button>
                             </div>
 
-                            <p className="text-regular-12 text-center">Saytga ma'lumot yuborish orqali siz <Link className='!text-primary-red-50' to='/processing-of-personal-data'>Shaxsiy ma'lumotlarni himoya qilish siyosati shartlarini qabul qilasiz</Link></p>
+                            <p className="text-regular-12 text-center">Saytga ma'lumot yuborish orqali siz <Link onClick={() => closeSketchModalFunction()} className='!text-primary-red-50' to='/privacy'>Shaxsiy ma'lumotlarni himoya qilish siyosati shartlarini qabul qilasiz</Link></p>
                         </div>
                     </form>
 
