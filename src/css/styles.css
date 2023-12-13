@@ -157,6 +157,27 @@
     background: #EDEDED;
 }
 
+/* toastify notification */
+.Toastify__toast-container {
+    width: 450px !important;
+}
+
+.Toastify__toast {
+    border-radius: 8px !important;
+    font-family: 'formular-regular' !important;
+    backdrop-filter: blur(10px) !important;
+    background: #edededcc !important;
+    color: #000 !important;
+}
+
+.Toastify__toast .Toastify__progress-bar {
+    background: #ae0712b3 !important;
+    height: 3px;
+}
+
+
+@media only screen and (max-width: 480px) {}
+
 @media only screen and (max-width: 470px) {
     .completed-projects-swiper :is(.swiper-button-prev, .swiper-button-next) {
         width: 28px;
