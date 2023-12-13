@@ -26,6 +26,7 @@ import AkciyaPage from './pages/AkciyaPage';
 import AkciyaDetails from './pages/AkciyaDetails';
 import NotificationPage from './pages/NotificationPage';
 import Policy from './pages/Policy';
+import PageNotFound from './pages/PageNotFound';
 
 const App = () => {
   const router = createBrowserRouter(
@@ -73,6 +74,9 @@ const App = () => {
         <Route path='/contact' element={<ContactPage />} />
         <Route path='/message/:message' element={<NotificationPage />} />
         <Route path='/policy' element={<Policy />} />
+
+        {/* 404 not found page */}
+        <Route path='*' element={<PageNotFound />} />
       </Route>
     )
   )

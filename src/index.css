@@ -627,6 +627,22 @@ label {
 
 
 
+@keyframes infinityrotate {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* infinity rotate */
+.infinity-rotate {
+  display: inline-block;
+  animation: infinityrotate 3s infinite linear;
+}
+
 
 
 /* product skeleton style */
