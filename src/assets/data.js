@@ -477,7 +477,7 @@ export const articles = [
         id: 3,
         date: '10 noyabr 2023',
         title: "Avval ergonomika, keyin rang",
-        hashtags: ['ideya', 'mashxur'],
+        hashtags: ['mashxur'],
         images: {
             imgLarge: {
                 img: officeFurnitureImageForArticle_Large_2,
@@ -631,7 +631,7 @@ export const articles = [
         id: 6,
         date: '1 sentabr 2023',
         title: "Kelajakga sarmoya kiritish siri ofis mebelida yashiringan",
-        hashtags: ['ideya', 'mashxur'],
+        hashtags: ['mashxur'],
         images: {
             imgLarge: {
                 img: officeFurnitureImageForArticle_Large_5,
