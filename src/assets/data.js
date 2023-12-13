@@ -1,12 +1,8 @@
-// images 
 // akciya(stock) products
 import paymentPlanImg from '../assets/images/other/payment-plan.jpg';
 import akciyaProductImage from '../assets/images/other/cabinet-products-for-managers.jpg';
 import akciyaProductImage2 from '../assets/images/other/yellow-furnitures.png';
 import akciyaProductImage3 from '../assets/images/other/akciyaProductIMage.png';
-
-// for articles 
-import messayOffice from '../assets/images/other/messy-office.jpg';
 
 // for reviews
 import furnitureImgForReviews from '../assets/images/other/furniture-img-for-reviews-page.jpg';
@@ -15,6 +11,22 @@ import furnitureImgForReviews3 from '../assets/images/other/furniture-img-for-re
 
 // cabinet Products For  Managers 
 import cabinetProductsForManagersImg1 from '../assets/images/other/dark-jig-colored-desk-chair-for-office.jpg';
+
+// article img (large)
+import officeFurnitureImageForArticle_Large from '../assets/images/other/image-for-article-(large).webp';
+import officeFurnitureImageForArticle_Large_1 from '../assets/images/other/image-for-article-(large)-1.jpg';
+import officeFurnitureImageForArticle_Large_2 from '../assets/images/other/image-for-article-(large)-2.jpg';
+import officeFurnitureImageForArticle_Large_3 from '../assets/images/other/image-for-article-(large)-3.webp';
+import officeFurnitureImageForArticle_Large_4 from '../assets/images/other/image-for-article-(large)-4.jpg';
+import officeFurnitureImageForArticle_Large_5 from '../assets/images/other/image-for-article-(large)-5.jpg';
+// article img (small)
+import officeFurnitureImageForArticle_Small from '../assets/images/other/image-for-article-(small).jpg';
+import officeFurnitureImageForArticle_Small_1 from '../assets/images/other/image-for-article-(small)-1.jpg';
+import officeFurnitureImageForArticle_Small_2 from '../assets/images/other/image-for-article-(small)-2.jpeg';
+import officeFurnitureImageForArticle_Small_3 from '../assets/images/other/image-for-article-(small)-3.jpg';
+import officeFurnitureImageForArticle_Small_4 from '../assets/images/other/image-for-article-(small)-4.avif';
+import officeFurnitureImageForArticle_Small_5 from '../assets/images/other/image-for-article-(small)-5.jpg';
+
 
 
 
@@ -359,73 +371,306 @@ export const products = [
 
 
 
-
+// articles
 export const articles = [
     {
         id: 1,
-        date: '18 декабря 2022',
-        description: `Как обустроить рабочее место: 6 практичныx идей`,
-        img: messayOffice,
-        hashtags: ['#Идеи', '#Тренды'],
-        imgName: 'Messay office room image',
+        date: '18 dekabr 2023',
+        title: "Ish joyini qanday tashkil qilish kerak: 6 ta amaliy g'oyalar",
+        hashtags: ['ideya', 'mashxur'],
+        images: {
+            imgLarge: {
+                img: officeFurnitureImageForArticle_Large,
+                alt: 'office furniture image',
+            },
+            imgMedium: {
+                img: officeFurnitureImageForArticle_Small,
+                alt: 'office furniture image',
+            },
+        },
+        description: [
+            {
+                id: 0,
+                body: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit minima quod ducimus ipsam, sed cum quo esse vel, est cumque, officiis dicta animi labore maiores quaerat nulla. Iusto magni sequi repudiandae earum ex beatae et ducimus? Nihil odio molestiae libero temporibus, voluptas, harum nobis omnis perferendis totam accusamus natus aliquam?",
+            },
+            {
+                id: 1,
+                body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. In ratione perspiciatis temporibus doloribus, nemo nulla rem explicabo dolore porro nam error ipsum ut. Necessitatibus velit voluptates quos sunt! Fuga atque, expedita in omnis fugit reprehenderit facilis delectus quasi culpa corrupti aliquid odio incidunt dolore autem tenetur cumque quas eius odit, porro modi accusantium, provident hic blanditiis! Sed voluptas explicabo tempora a, provident inventore, eligendi saepe natus sapiente, ab officia animi rerum possimus alias beatae! Cupiditate non ratione accusamus sit vero!",
+            },
+            {
+                id: 2,
+                body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, quam?',
+            },
+            {
+                id: 3,
+                body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel delectus et eos enim eaque? Sequi similique, magni omnis architecto ad debitis modi eveniet perferendis ab ducimus veritatis repudiandae culpa explicabo voluptate eaque reprehenderit unde hic tenetur inventore iusto consectetur quibusdam. Sapiente reprehenderit amet molestiae ad quam?',
+            },
+            {
+                id: 4,
+                body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. In ratione perspiciatis temporibus doloribus, nemo nulla rem explicabo dolore porro nam error ipsum ut. Necessitatibus velit voluptates quos sunt! Fuga atque, expedita in omnis fugit reprehenderit facilis delectus quasi culpa corrupti aliquid odio incidunt dolore autem tenetur cumque quas eius odit, porro modi accusantium, provident hic blanditiis! Sed voluptas explicabo tempora a, provident inventore, eligendi saepe natus sapiente, ab officia animi rerum possimus alias beatae! Cupiditate non ratione accusamus sit vero!',
+            },
+            {
+                id: 5,
+                body: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo quidem suscipit, veniam similique molestias quo dolorem a blanditiis dolores nesciunt minus? Saepe, optio temporibus. Sit temporibus adipisci molestias eum nulla illum ullam, delectus consectetur vitae. Ex corrupti consectetur vitae a. Asperiores tempora doloribus facilis animi nobis praesentium maiores enim quos sint, nisi nulla minus amet, repudiandae vel consectetur quam soluta a placeat consequuntur dolores, unde perspiciatis! Ducimus repellendus optio provident facilis nesciunt sunt.',
+            },
+            {
+                id: 5,
+                body: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque commodi quas magni pariatur iure quasi tempore unde dolor labore consectetur vel adipisci facere, saepe dolorem sunt sequi quia necessitatibus. Delectus, aspernatur corrupti.',
+            },
+            {
+                id: 6,
+                body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem rerum laudantium ipsa natus ipsum ea suscipit voluptatibus?',
+            },
+            {
+                id: 7,
+                body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem rerum laudantium ipsa natus ipsum ea suscipit voluptatibus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem rerum laudantium - ipsa natus ipsum ea suscipit voluptatibus?',
+            },
+        ],
     },
     {
         id: 2,
-        date: '18 декабря 2022',
-        description: `Как обустроить рабочее место: 6 практичныx идей`,
-        img: messayOffice,
-        hashtags: ['#Идеи', '#Тренды'],
-        imgName: 'Messay office room image',
+        date: '24 dekabr 2023',
+        title: "Hayotdan ilhom olamiz",
+        hashtags: ['ideya', 'Yangi'],
+        images: {
+            imgLarge: {
+                img: officeFurnitureImageForArticle_Large_1,
+                alt: 'office furniture image',
+            },
+            imgMedium: {
+                img: officeFurnitureImageForArticle_Small_1,
+                alt: 'office furniture image',
+            },
+        },
+        description: [
+            {
+                id: 0,
+                body: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit minima quod ducimus ipsam, sed cum quo esse vel, est cumque, officiis dicta animi labore maiores quaerat nulla. Iusto magni sequi repudiandae earum ex beatae et ducimus? Nihil odio molestiae libero temporibus, voluptas, harum nobis omnis perferendis totam accusamus natus aliquam?",
+            },
+            {
+                id: 1,
+                body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. In ratione perspiciatis temporibus doloribus, nemo nulla rem explicabo dolore porro nam error ipsum ut. Necessitatibus velit voluptates quos sunt! Fuga atque, expedita in omnis fugit reprehenderit facilis delectus quasi culpa corrupti aliquid odio incidunt dolore autem tenetur cumque quas eius odit, porro modi accusantium, provident hic blanditiis! Sed voluptas explicabo tempora a, provident inventore, eligendi saepe natus sapiente, ab officia animi rerum possimus alias beatae! Cupiditate non ratione accusamus sit vero!",
+            },
+            {
+                id: 2,
+                body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, quam?',
+            },
+            {
+                id: 3,
+                body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel delectus et eos enim eaque? Sequi similique, magni omnis architecto ad debitis modi eveniet perferendis ab ducimus veritatis repudiandae culpa explicabo voluptate eaque reprehenderit unde hic tenetur inventore iusto consectetur quibusdam. Sapiente reprehenderit amet molestiae ad quam?',
+            },
+            {
+                id: 4,
+                body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. In ratione perspiciatis temporibus doloribus, nemo nulla rem explicabo dolore porro nam error ipsum ut. Necessitatibus velit voluptates quos sunt! Fuga atque, expedita in omnis fugit reprehenderit facilis delectus quasi culpa corrupti aliquid odio incidunt dolore autem tenetur cumque quas eius odit, porro modi accusantium, provident hic blanditiis! Sed voluptas explicabo tempora a, provident inventore, eligendi saepe natus sapiente, ab officia animi rerum possimus alias beatae! Cupiditate non ratione accusamus sit vero!',
+            },
+            {
+                id: 5,
+                body: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque commodi quas magni pariatur iure quasi tempore unde dolor labore consectetur vel adipisci facere, saepe dolorem sunt sequi quia necessitatibus. Delectus, aspernatur corrupti.',
+            },
+            {
+                id: 6,
+                body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem rerum laudantium ipsa natus ipsum ea suscipit voluptatibus?',
+            },
+        ],
     },
     {
         id: 3,
-        date: '18 декабря 2022',
-        description: 'Бесплатная доставка до офиса',
-        img: messayOffice,
-        hashtags: ['#Идеи', '#Тренды'],
-        imgName: 'Messay office room image',
+        date: '10 noyabr 2023',
+        title: "Avval ergonomika, keyin rang",
+        hashtags: ['ideya', 'mashxur'],
+        images: {
+            imgLarge: {
+                img: officeFurnitureImageForArticle_Large_2,
+                alt: 'office furniture image',
+            },
+            imgMedium: {
+                img: officeFurnitureImageForArticle_Small_2,
+                alt: 'office furniture image',
+            },
+        },
+        description: [
+            {
+                id: 0,
+                body: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit minima quod ducimus ipsam, sed cum quo esse vel, est cumque, officiis dicta animi labore maiores quaerat nulla. Iusto magni sequi repudiandae earum ex beatae et ducimus? Nihil odio molestiae libero temporibus, voluptas, harum nobis omnis perferendis totam accusamus natus aliquam?",
+            },
+            {
+                id: 1,
+                body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. In ratione perspiciatis temporibus doloribus, nemo nulla rem explicabo dolore porro nam error ipsum ut. Necessitatibus velit voluptates quos sunt! Fuga atque, expedita in omnis fugit reprehenderit facilis delectus quasi culpa corrupti aliquid odio incidunt dolore autem tenetur cumque quas eius odit, porro modi accusantium, provident hic blanditiis! Sed voluptas explicabo tempora a, provident inventore, eligendi saepe natus sapiente, ab officia animi rerum possimus alias beatae! Cupiditate non ratione accusamus sit vero!",
+            },
+            {
+                id: 2,
+                body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, quam?',
+            },
+            {
+                id: 3,
+                body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel delectus et eos enim eaque? Sequi similique, magni omnis architecto ad debitis modi eveniet perferendis ab ducimus veritatis repudiandae culpa explicabo voluptate eaque reprehenderit unde hic tenetur inventore iusto consectetur quibusdam. Sapiente reprehenderit amet molestiae ad quam?',
+            },
+            {
+                id: 4,
+                body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. In ratione perspiciatis temporibus doloribus, nemo nulla rem explicabo dolore porro nam error ipsum ut. Necessitatibus velit voluptates quos sunt! Fuga atque, expedita in omnis fugit reprehenderit facilis delectus quasi culpa corrupti aliquid odio incidunt dolore autem tenetur cumque quas eius odit, porro modi accusantium, provident hic blanditiis! Sed voluptas explicabo tempora a, provident inventore, eligendi saepe natus sapiente, ab officia animi rerum possimus alias beatae! Cupiditate non ratione accusamus sit vero!',
+            },
+            {
+                id: 5,
+                body: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo quidem suscipit, veniam similique molestias quo dolorem a blanditiis dolores nesciunt minus? Saepe, optio temporibus. Sit temporibus adipisci molestias eum nulla illum ullam, delectus consectetur vitae. Ex corrupti consectetur vitae a. Asperiores tempora doloribus facilis animi nobis praesentium maiores enim quos sint, nisi nulla minus amet, repudiandae vel consectetur quam soluta a placeat consequuntur dolores, unde perspiciatis! Ducimus repellendus optio provident facilis nesciunt sunt.',
+            },
+            {
+                id: 5,
+                body: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque commodi quas magni pariatur iure quasi tempore unde dolor labore consectetur vel adipisci facere, saepe dolorem sunt sequi quia necessitatibus. Delectus, aspernatur corrupti.',
+            },
+            {
+                id: 6,
+                body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem rerum laudantium ipsa natus ipsum ea suscipit voluptatibus?',
+            },
+            {
+                id: 7,
+                body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem rerum laudantium ipsa natus ipsum ea suscipit voluptatibus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem rerum laudantium - ipsa natus ipsum ea suscipit voluptatibus?',
+            },
+        ],
     },
     {
         id: 4,
-        date: '18 декабря 2022',
-        description: '0-0-24 на всё',
-        img: messayOffice,
-        hashtags: ['#Идеи', '#Тренды'],
-        imgName: 'Messay office room image',
+        date: '12 iyun 2023',
+        title: "Ofisda uydagi qulaylikka erishing",
+        hashtags: ['ideya', 'mashxur'],
+        images: {
+            imgLarge: {
+                img: officeFurnitureImageForArticle_Large_3,
+                alt: 'office furniture image',
+            },
+            imgMedium: {
+                img: officeFurnitureImageForArticle_Small_3,
+                alt: 'office furniture image',
+            },
+        },
+        description: [
+            {
+                id: 0,
+                body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem rerum laudantium ipsa natus ipsum ea suscipit voluptatibus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem rerum laudantium - ipsa natus ipsum ea suscipit voluptatibus?',
+            },
+            {
+                id: 1,
+                body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. In ratione perspiciatis temporibus doloribus, nemo nulla rem explicabo dolore porro nam error ipsum ut. Necessitatibus velit voluptates quos sunt! Fuga atque, expedita in omnis fugit reprehenderit facilis delectus quasi culpa corrupti aliquid odio incidunt dolore autem tenetur cumque quas eius odit, porro modi accusantium, provident hic blanditiis! Sed voluptas explicabo tempora a, provident inventore, eligendi saepe natus sapiente, ab officia animi rerum possimus alias beatae! Cupiditate non ratione accusamus sit vero!",
+            },
+            {
+                id: 2,
+                body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem rerum laudantium ipsa natus ipsum ea suscipit voluptatibus?',
+            },
+            {
+                id: 3,
+                body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel delectus et eos enim eaque? Sequi similique, magni omnis architecto ad debitis modi eveniet perferendis ab ducimus veritatis repudiandae culpa explicabo voluptate eaque reprehenderit unde hic tenetur inventore iusto consectetur quibusdam. Sapiente reprehenderit amet molestiae ad quam?',
+            },
+            {
+                id: 4,
+                body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. In ratione perspiciatis temporibus doloribus, nemo nulla rem explicabo dolore porro nam error ipsum ut. Necessitatibus velit voluptates quos sunt! Fuga atque, expedita in omnis fugit reprehenderit facilis delectus quasi culpa corrupti aliquid odio incidunt dolore autem tenetur cumque quas eius odit, porro modi accusantium, provident hic blanditiis! Sed voluptas explicabo tempora a, provident inventore, eligendi saepe natus sapiente, ab officia animi rerum possimus alias beatae! Cupiditate non ratione accusamus sit vero!',
+            },
+            {
+                id: 5,
+                body: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque commodi quas magni pariatur iure quasi tempore unde dolor labore consectetur vel adipisci facere, saepe dolorem sunt sequi quia necessitatibus. Delectus, aspernatur corrupti.',
+            },
+            {
+                id: 6,
+                body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, quam?',
+            },
+            {
+                id: 7,
+                body: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit minima quod ducimus ipsam, sed cum quo esse vel, est cumque, officiis dicta animi labore maiores quaerat nulla. Iusto magni sequi repudiandae earum ex beatae et ducimus? Nihil odio molestiae libero temporibus, voluptas, harum nobis omnis perferendis totam accusamus natus aliquam?",
+            },
+        ],
     },
     {
         id: 5,
-        date: '18 декабря 2022',
-        description: `Как обустроить рабочее место: 6 практичныx идей`,
-        img: messayOffice,
-        hashtags: ['#Идеи', '#Тренды'],
-        imgName: 'Messay office room image',
+        date: '6 sentabr 2023',
+        title: "To'g'ri ofis mebellari qalbga taskin beradi",
+        hashtags: ['ideya'],
+        images: {
+            imgLarge: {
+                img: officeFurnitureImageForArticle_Large_4,
+                alt: 'office furniture image',
+            },
+            imgMedium: {
+                img: officeFurnitureImageForArticle_Small_4,
+                alt: 'office furniture image',
+            },
+        },
+        description: [
+            {
+                id: 0,
+                body: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit minima quod ducimus ipsam, sed cum quo esse vel, est cumque, officiis dicta animi labore maiores quaerat nulla. Iusto magni sequi repudiandae earum ex beatae et ducimus? Nihil odio molestiae libero temporibus, voluptas, harum nobis omnis perferendis totam accusamus natus aliquam?",
+            },
+            {
+                id: 1,
+                body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. In ratione perspiciatis temporibus doloribus, nemo nulla rem explicabo dolore porro nam error ipsum ut. Necessitatibus velit voluptates quos sunt! Fuga atque, expedita in omnis fugit reprehenderit facilis delectus quasi culpa corrupti aliquid odio incidunt dolore autem tenetur cumque quas eius odit, porro modi accusantium, provident hic blanditiis! Sed voluptas explicabo tempora a, provident inventore, eligendi saepe natus sapiente, ab officia animi rerum possimus alias beatae! Cupiditate non ratione accusamus sit vero!",
+            },
+            {
+                id: 2,
+                body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, quam?',
+            },
+            {
+                id: 3,
+                body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem rerum laudantium ipsa natus ipsum ea suscipit voluptatibus?',
+            },
+            {
+                id: 4,
+                body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. In ratione perspiciatis temporibus doloribus, nemo nulla rem explicabo dolore porro nam error ipsum ut. Necessitatibus velit voluptates quos sunt! Fuga atque, expedita in omnis fugit reprehenderit facilis delectus quasi culpa corrupti aliquid odio incidunt dolore autem tenetur cumque quas eius odit, porro modi accusantium, provident hic blanditiis! Sed voluptas explicabo tempora a, provident inventore, eligendi saepe natus sapiente, ab officia animi rerum possimus alias beatae! Cupiditate non ratione accusamus sit vero!',
+            },
+            {
+                id: 5,
+                body: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo quidem suscipit, veniam similique molestias quo dolorem a blanditiis dolores nesciunt minus? Saepe, optio temporibus. Sit temporibus adipisci molestias eum nulla illum ullam, delectus consectetur vitae. Ex corrupti consectetur vitae a. Asperiores tempora doloribus facilis animi nobis praesentium maiores enim quos sint, nisi nulla minus amet, repudiandae vel consectetur quam soluta a placeat consequuntur dolores, unde perspiciatis! Ducimus repellendus optio provident facilis nesciunt sunt.',
+            },
+            {
+                id: 6,
+                body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel delectus et eos enim eaque? Sequi similique, magni omnis architecto ad debitis modi eveniet perferendis ab ducimus veritatis repudiandae culpa explicabo voluptate eaque reprehenderit unde hic tenetur inventore iusto consectetur quibusdam. Sapiente reprehenderit amet molestiae ad quam?',
+            },
+            {
+                id: 7,
+                body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem rerum laudantium ipsa natus ipsum ea suscipit voluptatibus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem rerum laudantium - ipsa natus ipsum ea suscipit voluptatibus?',
+            },
+        ],
     },
     {
         id: 6,
-        date: '18 декабря 2022',
-        description: `Как обустроить рабочее место: 6 практичныx идей`,
-        img: 'https://s3-alpha-sig.figma.com/img/5159/e564/ce60913ae0419798422e7639c8247004?Expires=1698624000&Signature=gGxUetvZPI2lJkNEVDV5XDa7hFgREx-PkW7YSGCmS-deUwR~YK8p7io~2c2dVbxmtgGh-BAgcoVuiQP6SZkE-wIy16xCIblPfhCvc9gQVOmz7IKLowqTAyxLUdip7Ry2FXJIb9Cfk47gXPS868ydy0pyIuWVttHXm7qBSUwD6QYkjqSyYms7rj2fSqqp6Ol1Mjj~7WN3s1hiVwr1oOkTf5cmmeAjbNOarfJliECBXydSCXBEcIlxEHYit0nF08K6NNbqIYTxv7NOKiRa7F96JoOPLh6QdbxSFWUkKP6mNDisaMRbqaoMyGva4k~HGbcIpwXVlxW7K8-jWhfTu5opqw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4',
-        hashtags: ['#Идеи', '#Тренды'],
-        imgName: 'Messay office room image',
-    },
-    {
-        id: 7,
-        date: '18 декабря 2022',
-        description: 'Бесплатная доставка до офиса',
-        img: messayOffice,
-        hashtags: ['#Идеи', '#Тренды'],
-        imgName: 'Messay office room image',
-    },
-    {
-        id: 8,
-        date: '18 декабря 2022',
-        description: '0-0-24 на всё',
-        img: messayOffice,
-        hashtags: ['#Идеи', '#Тренды'],
-        imgName: 'Messay office room image',
+        date: '1 sentabr 2023',
+        title: "Kelajakga sarmoya kiritish siri ofis mebelida yashiringan",
+        hashtags: ['ideya', 'mashxur'],
+        images: {
+            imgLarge: {
+                img: officeFurnitureImageForArticle_Large_5,
+                alt: 'office furniture image',
+            },
+            imgMedium: {
+                img: officeFurnitureImageForArticle_Small_5,
+                alt: 'office furniture image',
+            },
+        },
+        description: [
+            {
+                id: 0,
+                body: "Lorem ipsum dolor sit amet consectetur adipisicing elit. In ratione perspiciatis temporibus doloribus, nemo nulla rem explicabo dolore porro nam error ipsum ut. Necessitatibus velit voluptates quos sunt! Fuga atque, expedita in omnis fugit reprehenderit facilis delectus quasi culpa corrupti aliquid odio incidunt dolore autem tenetur cumque quas eius odit, porro modi accusantium, provident hic blanditiis! Sed voluptas explicabo tempora a, provident inventore, eligendi saepe natus sapiente, ab officia animi rerum possimus alias beatae! Cupiditate non ratione accusamus sit vero!",
+            },
+            {
+                id: 1,
+                body: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit minima quod ducimus ipsam, sed cum quo esse vel, est cumque, officiis dicta animi labore maiores quaerat nulla. Iusto magni sequi repudiandae earum ex beatae et ducimus? Nihil odio molestiae libero temporibus, voluptas, harum nobis omnis perferendis totam accusamus natus aliquam?",
+            },
+            {
+                id: 2,
+                body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. In ratione perspiciatis temporibus doloribus, nemo nulla rem explicabo dolore porro nam error ipsum ut. Necessitatibus velit voluptates quos sunt! Fuga atque, expedita in omnis fugit reprehenderit facilis delectus quasi culpa corrupti aliquid odio incidunt dolore autem tenetur cumque quas eius odit, porro modi accusantium, provident hic blanditiis! Sed voluptas explicabo tempora a, provident inventore, eligendi saepe natus sapiente, ab officia animi rerum possimus alias beatae! Cupiditate non ratione accusamus sit vero!',
+            },
+            {
+                id: 3,
+                body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel delectus et eos enim eaque? Sequi similique, magni omnis architecto ad debitis modi eveniet perferendis ab ducimus veritatis repudiandae culpa explicabo voluptate eaque reprehenderit unde hic tenetur inventore iusto consectetur quibusdam. Sapiente reprehenderit amet molestiae ad quam?',
+            },
+            {
+                id: 4,
+                body: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, quam?',
+            },
+            {
+                id: 5,
+                body: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque commodi quas magni pariatur iure quasi tempore unde dolor labore consectetur vel adipisci facere, saepe dolorem sunt sequi quia necessitatibus. Delectus, aspernatur corrupti.',
+            }
+        ],
     },
 ];
+
 
 
 

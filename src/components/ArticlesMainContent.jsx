@@ -25,16 +25,16 @@ const ArticlesMainContent = () => {
                         articles.map((e) => {
                             return (
                                 <li key={e.id}>
-                                    <Link to='article-name' rel='noopener'>
-                                        <img width={416} height={260} src={e.img} alt={e.imgName} className="w-full h-260px object-cover object-center mb-6 rounded-2.5xl max-670:h-80 max-540:h-64 max-360:h-52" />
+                                    <Link to={`/articles/${e.title.toLowerCase().replace(/\s+/g, '-')}`} rel='noopener'>
+                                        <img width={416} height={260} src={e.images.imgMedium.img} alt={e.images.imgMedium.alt} className="w-full h-260px object-cover object-center mb-6 rounded-2.5xl max-670:h-80 max-540:h-64 max-360:h-52" />
                                         <div className="space-y-3">
                                             <span className="text-regular-14 text-primary-gray-70">{e.date}</span>
-                                            <p className="text-regular-20 text-primary-gray-90">{e.description}</p>
+                                            <h3 className="text-regular-20 text-primary-gray-90">{e.title}</h3>
                                             <div className="flex flex-wrap gap-3">
                                                 {
-                                                    e.hashtags.map((hashtag) => {
+                                                    e.hashtags.map((hashtag, index) => {
                                                         return (
-                                                            <span key={hashtag} className="text-regular-14 text-primary-gray-70">{hashtag}</span>
+                                                            <span key={index} className="text-regular-14 text-primary-gray-70">#{hashtag}</span>
                                                         )
                                                     })
                                                 }

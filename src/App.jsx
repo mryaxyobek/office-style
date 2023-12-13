@@ -54,7 +54,7 @@ const App = () => {
         <Route path='/articles' element={<ArticleRoot />} >
           <Route index element={<ArticlesPage />} />
           <Route index path='/articles' element={<ArticlesPage />} />
-          <Route path='article-name' element={<Article />} />
+          <Route path=':articleName' element={<Article />} />
         </Route>
 
         {/* akciya */}
