@@ -22,9 +22,9 @@ export const cardSlice = createSlice({
             };
         },
         deleteCard: (state, action) => {
+            productRemovalNotification();
             const { id } = action.payload;
             state.card = state.card.filter(product => product.id !== id);
-            productRemovalNotification()
         },
     },
 });

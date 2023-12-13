@@ -82,8 +82,9 @@ const HomePageNewProducts = () => {
         };
     }, [buttonId])
 
-    // add basket
+    // ADD PRODUCT
     const dispatch = useDispatch();
+
     const addToCard = (product) => {
         dispatch(addCard(product));
     };

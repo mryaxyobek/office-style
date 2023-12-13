@@ -159,7 +159,11 @@
 
 /* toastify notification */
 .Toastify__toast-container {
+    display: flex;
+    flex-direction: column-reverse;
     width: 450px !important;
+    top: auto;
+    bottom: 0;
 }
 
 .Toastify__toast {
@@ -176,7 +180,15 @@
 }
 
 
-@media only screen and (max-width: 480px) {}
+@media only screen and (max-width: 480px) {
+    .Toastify__toast-container {
+        padding-right: 10px !important;
+    }
+
+    .Toastify__toast {
+        border-radius: 2px !important;
+    }
+}
 
 @media only screen and (max-width: 470px) {
     .completed-projects-swiper :is(.swiper-button-prev, .swiper-button-next) {

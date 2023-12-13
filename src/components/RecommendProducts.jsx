@@ -17,8 +17,6 @@ import { EffectFade, Navigation, Pagination } from 'swiper/modules';
 import { useDispatch } from 'react-redux';
 import { addCard } from '../store/slices/productBasketslice';
 // 
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
 const RecommendProducts = () => {
     const location = useLocation();
     const pathArr = location.pathname.split("/").filter((path) => path !== "");
@@ -57,7 +55,6 @@ const RecommendProducts = () => {
             <div className="container">
                 <h2 className="mb-60r">Sizga yoqishi mumkin</h2>
                 {/* products */}
-                <ToastContainer />
                 <ul className={`grid overflow-hidden grid-cols-4 gap-8 max-1400:grid-cols-3 max-1050:grid-cols-2 max-730:grid-cols-1`}>
                     {products.map((product, index) => {
                         return (

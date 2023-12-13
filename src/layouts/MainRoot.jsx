@@ -14,6 +14,9 @@ import SketchModal from '../components/SketchModal';
 import QuestionModal from '../components/QuestionModal';
 import AddReviewModal from '../components/AddReviewModal';
 
+// toastify (notification)
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const MainRoot = () => {
     const { callModalValue } = useSelector((store) => store.callModalValue);
     const { sketchModalValue } = useSelector((store) => store.sketchModalValue);
@@ -25,6 +28,9 @@ const MainRoot = () => {
             <Header />
             <main className='grow'>
                 <Outlet />
+
+                <ToastContainer />
+                {/* modal */}
                 {
                     callModalValue && <CallModal />
                 }

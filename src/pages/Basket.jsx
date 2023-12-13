@@ -28,9 +28,9 @@ const Basket = () => {
                 {/* products  */}
                 <ul className="grid grid-cols-4 gap-8 max-1400:grid-cols-3 max-1050:grid-cols-2 max-730:grid-cols-1">
                     {
-                        card.length > 0 ? card.map((product) => {
+                        card.length > 0 ? card.map((product, index) => {
                             return (
-                                <li key={product.id} className="w-full product hover:active-hover">
+                                <li key={index} className="flex flex-col w-full product hover:active-hover">
                                     <Swiper className="product-img-swiper relative rounded-2.5xl w-full mb-4 max-730:h-96 h-310px max-470:h-64 max-360:h-223px"
                                         effect={'fade'}
                                         slidesPerView={1}
@@ -85,7 +85,7 @@ const Basket = () => {
                                     <h3 className="mb-4 text-regular-20">{product.productTitle}</h3>
 
                                     {/* list  */}
-                                    <ul className="text-regular-14 text-primary-gray-70 space-y-2.5 mb-4">
+                                    <ul className="text-regular-14 text-primary-gray-70 space-y-2.5 mb-auto">
                                         <li className="flex items-end">
                                             <span>Davlati</span>
                                             <div className="grow border-t-2 mx-1 mb-0.5 border-primary-gray-70 border-dotted"></div>
@@ -114,7 +114,7 @@ const Basket = () => {
                                     </ul>
 
                                     {/* price */}
-                                    <div className="flex-c-b max-440:flex-col max-440:items-start max-440:gap-6 mb-5">
+                                    <div className="flex-c-b max-440:flex-col max-440:items-start max-440:gap-6 mb-5 mt-4">
                                         <div className="flex-end max-340:flex-col max-340:items-start gap-1">
                                             <span className="inline-block text-regular-16 text-primary-gray-70 mr-1" >Narx:</span>
                                             <p className="text-regular-20 mr-3">{product.parts[0].currentPrice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")}so'm</p>

@@ -156,7 +156,7 @@ const Products = () => {
             return (
                 product.parts[0].currentPrice > slideValue[0] &&
                 product.parts[0].currentPrice < slideValue[1] &&
-                ((materialLDSP || materialMDF || materialDSP || materialMelamin || materialMetal || materialMetalFrame || materialChrome || materialCloth || materialLeather || materialWood || materialPlastic) ? filterWithMaterialName : true) &&
+                ((materialLDSP || materialMDF || materialDSP || materialMelamin || materialMetal || materialChrome || materialCloth || materialLeather || materialWood || materialPlastic) ? filterWithMaterialName : true) &&
                 (countryRussia || countryChina || countryTurkey || countryUkraine || countryBelarus ? filterWithCountryName : true) &&
                 (size38 || size36 || size32 || size26 || size25 || size24 || size22 || size18 || size17 || size40 ? filterWithSize : true)
             );
