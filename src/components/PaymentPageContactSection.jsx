@@ -1,5 +1,5 @@
-import React from 'react'
-import Contact from './Contact'
+import React from 'react';
+import Contact from './Contact';
 
 const PaymentPageContactSection = () => {
     return (
@@ -10,6 +10,6 @@ const PaymentPageContactSection = () => {
             </div>
         </section>
     )
-}
+};
 
-export default PaymentPageContactSection
+export default PaymentPageContactSection;
